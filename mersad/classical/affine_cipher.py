@@ -242,7 +242,8 @@ def _check_keys(key_a: int, key_b: int, sequence_length: int) -> None:
     # test for invalid key range
     if key_a <= 0:
         raise ValueError(
-            "The affine cipher's 'key a' must be greater than 0. " + "Change your key."
+            "The affine cipher's 'key a' must be greater than 0. "
+            + "Change your key."
         )
 
     if not (0 <= key_b < sequence_length - 1):
