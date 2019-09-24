@@ -58,10 +58,10 @@ class TestEncryption(unittest.TestCase):
     def setUp(self) -> None:
         self.ShiftCipher = ShiftCipher()
         self.base_path = os.path.dirname(__file__).replace("mersad/test/classical", "mersad/test/asset/texts")
-        self.plain_text = ReaderIO.reader(os.path.join(self.base_path, "Long License File.txt"), "text")
+        self.plain_text = ReaderIO.read(os.path.join(self.base_path, "Long License File.txt"), "text")
 
     def test_encrypt_without_shuffle(self):
-        expected_cipher_text = ReaderIO.reader(os.path.join(self.base_path, "ShiftCipher-LLF-k25-sh0-s0.txt"), "text")
+        expected_cipher_text = ReaderIO.read(os.path.join(self.base_path, "ShiftCipher-LLF-k25-sh0-s0.txt"), "text")
         self.ShiftCipher.config(key=25, shuffle=False, seed=0)
         self.assertEqual(expected_cipher_text, self.ShiftCipher.encrypt(self.plain_text))
 
