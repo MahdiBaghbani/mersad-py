@@ -3,7 +3,7 @@ checks:
   argument-count:
     enabled: true
     config:
-      threshold: 4
+      threshold: 5
   complex-logic:
     enabled: true
     config:
@@ -11,7 +11,7 @@ checks:
   file-lines:
     enabled: true
     config:
-      threshold: 85
+      threshold: 350
   method-complexity:
     enabled: true
     config:
@@ -23,11 +23,11 @@ checks:
   method-lines:
     enabled: true
     config:
-      threshold: 25
+      threshold: 30
   nested-control-flow:
     enabled: true
     config:
-      threshold: 4
+      threshold: 5
   return-statements:
     enabled: true
     config:
@@ -52,6 +52,8 @@ plugins:
     allow_strong_copyleft: true
  radon:
   enabled: true
+  config:
+   threshold: "C"
  sonar-python:
   enabled: true
   config:
