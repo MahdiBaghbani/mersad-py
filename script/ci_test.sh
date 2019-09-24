@@ -5,4 +5,5 @@
 # -x  Print commands and their arguments as they are executed.
 set -ex
 
-isort --apply --quiet
+script/test_style.sh
+script/test_unittest.sh
