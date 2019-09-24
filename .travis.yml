@@ -1,1 +1,14 @@
+language: python
+python:
+  - "3.6"
+# install dependencies
+install:
+  - pip install pipenv
+  - pipenv install --skip-lock
+  - pipenv install --dev --skip-lock
+
+# run tests
+script:
+  - pipenv shell
+  - script/ci_test.sh
 
