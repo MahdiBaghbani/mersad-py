@@ -16,10 +16,14 @@
   <a title="License: GPL v3" href="https://www.opensource.org/licenses/AGPL-3.0">
     <img src="https://img.shields.io/badge/License-AGPL%20v3-blue?style=flat-square&logo=gnu" alt="License: AGPL v3">
   </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fazadeh-afzar%2FMersad-Cryptography-Library?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fazadeh-afzar%2FMersad-Cryptography-Library.svg?type=shield"/></a>
   <br>
   <br>
 </p>
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fazadeh-afzar%2FMersad-Cryptography-Library.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fazadeh-afzar%2FMersad-Cryptography-Library?ref=badge_large)
 
 ### Enjoy a free open source emoji package
 
@@ -53,4 +57,3 @@ Visit the [Roadmap](ROADMAP.md) to keep track of which features we are currently
 Licensed under the [AGPL v3](LICENSE).
 
 ## Attribution
-
