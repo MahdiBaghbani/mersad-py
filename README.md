@@ -13,17 +13,39 @@
   <a title="Open Source" href="https://opensource.com/resources/what-open-source/">
     <img src="https://img.shields.io/badge/Open%20Source-Forever-brightgreen?style=flat-square" alt="Open Source">
   </a>
-  <a title="License: GPL v3" href="https://www.opensource.org/licenses/AGPL-3.0">
+  <a title="License: AGPL v3" href="https://www.opensource.org/licenses/AGPL-3.0">
     <img src="https://img.shields.io/badge/License-AGPL%20v3-blue?style=flat-square&logo=gnu" alt="License: AGPL v3">
   </a>
+  <a title="License: FOSSA Status" href="https://app.fossa.com/projects/git%2Bgithub.com%2Fazadeh-afzar%2FMersad-Cryptography-Library?ref=badge_shield">
+    <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fazadeh-afzar%2FMersad-Cryptography-Library.svg?type=shield" alt="FOSSA Status"/>
+  </a>
+  
+  <br>
+  
+  <a title="Code Quality: Codefactor.io" href="https://www.codefactor.io/repository/github/azadeh-afzar/mersad-cryptography-library">
+    <img src="https://www.codefactor.io/repository/github/azadeh-afzar/mersad-cryptography-library/badge?style=flat-square" alt="CodeFactor"/>
+  </a>
+  <a title="Code Quality: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/8563287fcf44d38e4077/maintainability" alt="CodeClimate"/>
+  </a>
+    <a title="Code Quality: Scrutinizer-ci.com" href="https://scrutinizer-ci.com/g/azadeh-afzar/Mersad-Cryptography-Library/?branch=master">
+    <img src="https://scrutinizer-ci.com/g/azadeh-afzar/Mersad-Cryptography-Library/badges/quality-score.png?b=master" alt="Scrutinizer-ci"/>
+  </a>
+  
   <br>
   <br>
+  <a title="Test Coverage: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library/test_coverage">
+    <img src="https://api.codeclimate.com/v1/badges/8563287fcf44d38e4077/test_coverage" alt="CodeClimate"/>
+  </a>
+  <a title="Test Coverage: Scrutinizer-ci.com" href="https://scrutinizer-ci.com/g/azadeh-afzar/Mersad-Cryptography-Library/?branch=master">
+    <img src="https://scrutinizer-ci.com/g/azadeh-afzar/Mersad-Cryptography-Library/badges/coverage.png?b=master" alt="Scrutinizer-ci"/>
+  </a>
 </p>
 
 
-### Enjoy a free open source emoji package
+### LOL what is CRYPTO?
 
-### Connect to any other emoji source
+### Edwarx snowden?
 
 ## Quick start
 
