@@ -80,7 +80,7 @@ class ShiftCipher(MersadClassicalBase):
 
     ==================================
 
-    AffineCipher takes keyword arguments when initializing new instance.
+    ShiftCipher takes keyword arguments when initializing new instance.
 
     Valid kwargs keys are listed in below:
         - key             : (optional) primary key.
