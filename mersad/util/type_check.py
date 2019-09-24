@@ -59,5 +59,5 @@ def type_guard(given_object: object, expected_type: type) -> None:
     :raise TypeError: if object isn't an instance
                       of the expected type
     """
-    if not isinstance(given_object, expected_type):
+    if type(given_object) != expected_type:
         raise TypeError
