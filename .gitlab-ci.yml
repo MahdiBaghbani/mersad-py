@@ -24,7 +24,7 @@ test:
   # run tests
   script:
     # open pipenv shell
-    - pipenve shell
+    - pipenv shell
     - script/ci_test.sh
   # send results to codeclimate
   after_script:
