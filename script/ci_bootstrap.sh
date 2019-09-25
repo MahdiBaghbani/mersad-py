@@ -11,9 +11,7 @@ set -ex
 
 # update apt
 apt-get update -y
-# install curl
-apt-get install -y curl
-curl --version
-command -v curl
+whereis python3
+python3 -V
 # install python 3.6
 apt-get install -y python3.6
