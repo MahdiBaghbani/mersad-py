@@ -11,4 +11,4 @@ test:
   stage: test
   script:
   - python3 -h
-  - command -v pip3
+  - command -v pip3.6
