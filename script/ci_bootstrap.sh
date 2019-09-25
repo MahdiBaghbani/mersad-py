@@ -21,4 +21,3 @@ whereis python3
 ln -sf /usr/bin/python3.6 /usr/bin/python3
 # verify python3 command works, and version of python is 3.6
 python3 -V
-command -v python3

@@ -1,5 +1,7 @@
 default:
   image: ubuntu:latest
+  before_script:
+    - script/ci_bootstrap.sh
 
 stages:
   - test
@@ -7,6 +9,4 @@ stages:
 
 test:
   stage: test
-  before_script:
-    - script/ci_bootstrap.sh
-  script: echo "boostrap succeed???"
+  script: python3 -h
