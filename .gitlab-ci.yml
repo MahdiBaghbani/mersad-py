@@ -11,6 +11,12 @@ stages:
 
 test:
   stage: test
+  # install codeclimate coverage reported
+  before_script:
+    - script/ci_install_curl.sh
+    - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+    - chmod +x ./cc-test-reporter
+    - ./cc-test-reporter before-build
   script:
   - python3 --version
   - pip3 --version
