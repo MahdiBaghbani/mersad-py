@@ -9,4 +9,6 @@ stages:
 
 test:
   stage: test
-  script: python3 -h
+  script:
+  - python3 -h
+  - command -v pip3
