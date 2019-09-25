@@ -20,5 +20,5 @@ whereis python3
 # -f, --force remove existing destination files
 ln -sf /usr/bin/python3.6 /usr/bin/python3
 # verify python3 command works, and version of python is 3.6
-python3.6 -V
-command -v curl
+python3 -V
+command -v python3
