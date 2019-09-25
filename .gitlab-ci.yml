@@ -7,11 +7,25 @@ stages:
   - deploy
 
 test:
+  # code climate token
   stage: test
-  # install codeclimate coverage reported
+  # install requirements
   before_script:
+    # install codeclimate coverage reported
     - script/ci_install_curl.sh
     - script/ci_install_codeclimate.sh
+    # run code climate test reporter agent
+    - ./cc-test-reporter before-build
+    # install pipenv
+    - pip3 install pipenv
+    # install pipfile
+    - pipenv install --skip-lock
+    - pipenv install --dev --skip-lock
+  # run tests
   script:
-  - python3 --version
-  - pip3 --version
+    # open pipenv shell
+    - pipenve shell
+    - script/ci_test.sh
+  # send results to codeclimate
+  after_script:
+    - ./cc-test-reporter after-build --coverage-input-type coverage.py
