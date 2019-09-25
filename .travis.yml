@@ -6,7 +6,16 @@ install:
   - pipenv install --skip-lock
   - pipenv install --dev --skip-lock
 
+# install codeclimate coverage reported
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
 # run tests
 script:
   - script/ci_test.sh
 
+# send results to codeclimate
+after_script:
+  - ./cc-test-reporter after-build --input-type coverage.py --exit-code $TRAVIS_TEST_RESULT
