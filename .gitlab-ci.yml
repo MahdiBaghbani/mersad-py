@@ -1,0 +1,12 @@
+default:
+  image: ubuntu:latest
+
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  before_script:
+    - script/ci_bootstrap.sh
+  script: echo "boostrap succeed???"
