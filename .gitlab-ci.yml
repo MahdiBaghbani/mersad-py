@@ -1,7 +1,9 @@
 default:
-  image: ubuntu:latest
-  before_script:
-    - script/ci_bootstrap.sh
+  image: python:3.6.8
+  cache:
+    paths:
+      - .apt/
+  # before_script:
 
 stages:
   - test
@@ -11,4 +13,4 @@ test:
   stage: test
   script:
   - python3 -h
-  - command -v pip3
+  - pip3 -h
