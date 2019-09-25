@@ -11,7 +11,9 @@ set -ex
 
 # update apt
 apt-get update -y
-whereis python3
-python3 -V
 # install python 3.6
 apt-get install -y python3.6
+# verify installation
+whereis python3
+python3 -V
+command -v curl
