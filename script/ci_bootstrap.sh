@@ -20,4 +20,12 @@ whereis python3
 # -f, --force remove existing destination files
 ln -sf /usr/bin/python3.6 /usr/bin/python3
 # verify python3 command works, and version of python is 3.6
-python3 -V
+python3 --version
+# install pip
+apt-get install -y python3-pip
+# verify pip version
+pip3 --version
+# upgrade pip
+pip install --upgrade pip
+# verify pip version
+pip3 --version
