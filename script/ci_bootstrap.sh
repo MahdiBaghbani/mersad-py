@@ -18,5 +18,5 @@ whereis python3
 # set alias for python3.6 > python3
 alias python3='/usr/bin/python3.6'
 # verify python3 command works, and version of python is 3.6
-python3 -V
+python3.6 -V
 command -v curl
