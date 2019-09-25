@@ -12,5 +12,5 @@ stages:
 test:
   stage: test
   script:
-  - python3 -h
-  - pip3 -h
+  - python3 --version
+  - pip3 --version
