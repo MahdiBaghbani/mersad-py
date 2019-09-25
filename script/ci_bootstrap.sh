@@ -15,8 +15,10 @@ apt-get update -y
 apt-get install -y python3.6
 # verify installation path
 whereis python3
-# set alias for python3.6 > python3
-alias python3='/usr/bin/python3.6'
+# create a symlink for python3.6 > python3
+# -s, --symbolic make symbolic links instead of hard links
+# -f, --force remove existing destination files
+ln -sf /usr/bin/python3.6 /usr/bin/python3
 # verify python3 command works, and version of python is 3.6
 python3.6 -V
 command -v curl
