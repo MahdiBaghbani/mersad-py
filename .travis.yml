@@ -18,4 +18,5 @@ script:
 
 # send results to codeclimate
 after_script:
-  - ./cc-test-reporter after-build --input-type coverage.py --exit-code $TRAVIS_TEST_RESULT
+  - echo $TRAVIS_TEST_RESULT
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
