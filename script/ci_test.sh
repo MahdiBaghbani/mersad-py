@@ -12,4 +12,4 @@ script/test_pylint.sh
 # run static type checks
 script/test_mypy.sh
 # test and test coverage
-script/test_uittest.sh
+script/test_unittest.sh
