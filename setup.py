@@ -2,6 +2,9 @@
 from setuptools import find_packages
 from setuptools import setup
 
+# read version
+exec(open("mersad/_version.py", "r").read())
+
 # general information about package
 name = "mersad"
 url = "https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library"
@@ -45,7 +48,7 @@ install_requires = ["ErfanIO"]
 
 setup(
         name=name,
-        version="0.0.7",
+        version=__version__,
         packages=packages,
         package_data=package_data,
         url=url,

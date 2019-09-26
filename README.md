@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">Mersad Cryptography Library</h1>
-<h3 align="center">A toy project by a lonely student who likes ciphers.</h3>
+<h3 align="center">A side project of a Telecommunication student who loves ciphers.</h3>
 <p align="center">
 
 <p align="center">
@@ -63,15 +63,34 @@
   </a>
 </p>
 
+> If you want to do serious jobs with this tool, prepare to be fired :fire:! 
 
-### LOL what is CRYPTO?
+## Why is Gamora?
+I just wanted to practice some simple Python Project with a little continues integration
+training and automated releasing to packaging sources like pypi and I loved ciphers,
+I don't know why did I end up here writing this for you! (even like if there is any 
+"you" out there looking on this little side project of mine.)
 
-### Edwarx snowden?
+So if you want to send unbreakable messages to your friends with ancient algorithms
+without using pen and paper, Mersad can help you. (but seriously, unbreakable? c'mon!)
+
 
 ## Quick start
+I'm sure you have worked with Python before and you are familiar with how to download
+a package via pip, so here is how to install this totally (not at all) secure package:
 
+```bash
+# 1. if are an uncivilised savage living in a hell of dependency conflicts who doesn't 
+# even heard of virtual environments and always install packages in sudo mode, here you go:
+sudo -H pip3 install mersad
+# or just use a little bit better non-sudo thing
+pip3 install --user mersad
 
-### Customizing
+# 2. if you are a man of culture, activate your virtual environment and do this:
+pip3 install mersad
+# pipenv is also a good thing to use
+pipenv install mersad
+```
 
 ## How it works
 
