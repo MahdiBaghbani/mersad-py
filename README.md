@@ -1,15 +1,15 @@
-<p style="text-align:center;">
+<p align="center">
   <br>
   <a href="#">
     <img src="logo.svg" height="100" width="100" alt="Mersad Cryptography Library"/>
   </a>
 </p>
 
-<h1 style="text-align:center;">Mersad Cryptography Library</h1>
-<h3 style="text-align:center;">A toy project by a lonely student who likes ciphers.</h3>
-<p style="text-align:center;">
+<h1 align="center">Mersad Cryptography Library</h1>
+<h3 align="center">A toy project by a lonely student who likes ciphers.</h3>
+<p align="center">
 
-<p style="text-align:center;">
+<p align="center">
   <a title="Open Source" href="https://opensource.com/resources/what-open-source" target="_blank">
     <img src="https://img.shields.io/badge/Open%20Source-Forever-brightgreen?logo=open-source-initiative&style=flat-square" alt="Open Source">
   </a>
@@ -22,16 +22,15 @@
   <a title="Top language" href="#" target="_blank">
     <img src="https://img.shields.io/github/languages/top/azadeh-afzar/Mersad-Cryptography-Library?logo=gitlab&style=flat-square" alt="Top language">
   </a>
-  <a title="PyPi: version support" href="https://pypi.org/project/mersad" target="_blank">
-    <img src="https://img.shields.io/pypi/pyversions/mersad?logo=pypi&style=flat-square" alt="Supported Python versions">
+  <a title="GitLab: pipeline status" href="https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/commits/master" target="_blank">
+    <img src="https://img.shields.io/gitlab/pipeline/Cryptography/Mersad-Cryptography-Library?gitlab_url=https%3A%2F%2Fgitlab.com%2FAzadeh-Afzar&logo=gitlab&style=flat-square"  alt="pipeline status" />
   </a>
-  <a title="PyPi: Mersad version" href="https://pypi.org/project/mersad" target="_blank">
-    <img src="https://img.shields.io/pypi/v/mersad?logo=pypi&style=flat-square" alt="PyPI version">
+  <a title="Travis CI: build status" href="https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/commits/master" target="_blank">
+    <img src="https://img.shields.io/travis/azadeh-afzar/Mersad-Cryptography-Library/master?logo=travis&style=flat-square"  alt="travis build status" />
   </a>
-  <a title="PyPi: Mersad downloads" href="https://pypi.org/project/mersad" target="_blank">
-    <img src="https://img.shields.io/pypi/dm/mersad?logo=pypi&style=flat-square" alt="PyPI downloads">
+  <a title="Test Coverage: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library" target="_blank">
+    <img src="https://img.shields.io/codeclimate/coverage/azadeh-afzar/Mersad-Cryptography-Library?logo=code-climate&style=flat-square" alt="CodeClimate"/>
   </a>
-
   
   <br>
   
@@ -52,16 +51,16 @@
   </a>
   
   <br>
-  <a title="GitLab: pipeline status" href="https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/commits/master" target="_blank">
-    <img src="https://img.shields.io/gitlab/pipeline/Cryptography/Mersad-Cryptography-Library?gitlab_url=https%3A%2F%2Fgitlab.com%2FAzadeh-Afzar&logo=gitlab&style=flat-square"  alt="pipeline status" />
-  </a>
-  <a title="Travis CI: build status" href="https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/commits/master" target="_blank">
-    <img src="https://img.shields.io/travis/azadeh-afzar/Mersad-Cryptography-Library/master?logo=travis&style=flat-square"  alt="travis build status" />
-  </a>
-  <a title="Test Coverage: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library" target="_blank">
-    <img src="https://img.shields.io/codeclimate/coverage/azadeh-afzar/Mersad-Cryptography-Library?logo=code-climate&style=flat-square" alt="CodeClimate"/>
-  </a>
   
+  <a title="PyPi: Mersad version" href="https://pypi.org/project/mersad" target="_blank">
+    <img src="https://img.shields.io/pypi/v/mersad?logo=pypi&style=flat-square" alt="PyPI version">
+  </a>
+  <a title="PyPi: Mersad downloads" href="https://pypi.org/project/mersad" target="_blank">
+    <img src="https://img.shields.io/pypi/dm/mersad?logo=pypi&style=flat-square" alt="PyPI downloads">
+  </a>
+  <a title="PyPi: version support" href="https://pypi.org/project/mersad" target="_blank">
+    <img src="https://img.shields.io/pypi/pyversions/mersad?logo=pypi&style=flat-square" alt="Supported Python versions">
+  </a>
 </p>
 
 
