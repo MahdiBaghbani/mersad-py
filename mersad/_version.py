@@ -53,5 +53,5 @@ of this package.
 # Python Standard Library
 from typing import Tuple
 
-__version_info: Tuple[int, int, int] = (0, 0, 2)
-__version__ : str = ".".join(map(str, __version_info))
+__version_info: Tuple[int, int, int] = (0, 0, 3)
+__version__: str = ".".join(map(str, __version_info))
