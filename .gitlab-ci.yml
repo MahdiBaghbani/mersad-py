@@ -65,4 +65,5 @@ pypi:
   # only run for new tag
   only:
     - tags
+  when: manual
 
