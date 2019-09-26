@@ -54,12 +54,13 @@ test_branches:
     - master
 
 # deploy package to pypi whenever a tag released.
-release_pypi:
+pypi:
   stage: release
   # install dependencies.
   before_script:
     - pip install twine
     - python3 setup.py sdist
+  script:
     - twine upload dist/*
   # only run for new tag
   only:
