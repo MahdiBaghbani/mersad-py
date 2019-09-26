@@ -12,7 +12,7 @@ pep8-naming = "*"
 flake8-docstrings = "*"
 mccabe = "*"
 pylint = "*"
-mypy = "*"
+mypy = "==0.720"
 isort = "*"
 coverage = "*"
 
