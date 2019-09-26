@@ -5,4 +5,4 @@
 # -x  Print commands and their arguments as they are executed.
 set -ex
 
-mypy --package mersad
+pipenv run mypy --package mersad
