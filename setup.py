@@ -1,21 +1,6 @@
-# Python Standard Library
-import re
-
 # 3rd Party Library
 from setuptools import find_packages
 from setuptools import setup
-
-# load version
-VERSION_FILE = "mersad/_version.py"
-VERSION_STRING = open(VERSION_FILE, "r").read()
-REGEX_PATTERN = r"^__version__: str =  ['\"]([^'\"]*)['\"]"
-
-re_search = re.search(REGEX_PATTERN, VERSION_STRING, re.M)
-
-if re_search:
-    version = re_search.group(1)
-else:
-    raise RuntimeError(f"Unable to find version string in {VERSION_FILE}.")
 
 # general information about package
 name = "mersad"
@@ -60,7 +45,7 @@ install_requires = ["ErfanIO"]
 
 setup(
         name=name,
-        version=version,
+        version="0.0.7",
         packages=packages,
         package_data=package_data,
         url=url,
