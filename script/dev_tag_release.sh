@@ -19,9 +19,9 @@ fi
 script/ci_test.sh
 
 # must be same as in
-version=0.0.3
+version=0.0.4
 
 # commit release and tag it mersad/_version.py
-git commit mersad/_version.py -m "mersad $version"
+git commit script/dev_tag_release.sh mersad/_version.py -m "mersad $version"
 git tag "v${version}"
 git push origin HEAD "v${version}"
