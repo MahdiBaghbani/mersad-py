@@ -50,8 +50,4 @@ of this package.
 
 """
 
-# Python Standard Library
-from typing import Tuple
-
-__version_info: Tuple[int, int, int] = (0, 0, 4)
-__version__: str = ".".join(map(str, __version_info))
+__version__: str = "0.0.5"
