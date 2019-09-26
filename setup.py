@@ -8,7 +8,7 @@ from setuptools import setup
 # load version
 VERSION_FILE = "mersad/_version.py"
 VERSION_STRING = open(VERSION_FILE, "r").read()
-REGEX_PATTERN = r"^__version__ = ['\"]([^'\"]*)['\"]"
+REGEX_PATTERN = r"^__version__: str =  ['\"]([^'\"]*)['\"]"
 
 re_search = re.search(REGEX_PATTERN, VERSION_STRING, re.M)
 
