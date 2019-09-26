@@ -4,28 +4,64 @@ default:
 
 stages:
   - test
-  - deploy
+  - release
 
-test:
-  # code climate token
+# job for testing package on master branch
+# and send tet coverage to codeclimate.
+test_master:
   stage: test
-  # install requirements
+  # install dependencies.
   before_script:
-    # install codeclimate coverage reported
+    # install codeclimate coverage reported.
     - script/ci_install_curl.sh
     - script/ci_install_codeclimate.sh
-    # run code climate test reporter agent
+    # run code climate test reporter agent.
     - ./cc-test-reporter before-build
-    # install pipenv
+    # install pipenv.
     - pip3 install pipenv
-    # install pipfile
+    # install pipfile.
     - pipenv install --skip-lock
     - pipenv install --dev --skip-lock
-  # run tests
+  # run tests.
   script:
-    # open pipenv shell
-    - pipenv shell
     - script/ci_test.sh
-  # send results to codeclimate
+  # send results to codeclimate.
   after_script:
     - ./cc-test-reporter after-build --coverage-input-type coverage.py
+  only:
+    - master
+
+# job for testing package on other branches
+# and merge requests.
+test_branches:
+  stage: test
+  # install dependencies.
+  before_script:
+    # install pipenv.
+    - pip3 install pipenv
+    # install pipfile.
+    - pipenv install --skip-lock
+    - pipenv install --dev --skip-lock
+  # run tests.
+  script:
+    - script/ci_test.sh
+  # run on branches and merge request.
+  only:
+    - branches
+    - merge_requests
+  # don't run on master.
+  except:
+    - master
+
+# deploy package to pypi whenever a tag released.
+release_pypi:
+  stage: release
+  # install dependencies.
+  before_script:
+    - pip install twine
+    - python3 setup.py sdist
+    - twine upload dist/*
+  # only run for new tag
+  only:
+    - tags
+
