@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Usage: script/dev_all.sh
+#
+# runs all dev jobs except tag release.
 
 # set flag for shell execution
 # -e  Exit immediately if a command exits with a non-zero status.
