@@ -63,16 +63,16 @@
   </a>
 </p>
 
-> If you want to do serious jobs with this tool, prepare to be fired :fire:! 
+> If you want to do any serious jobs :poop: with this tool, prepare yourself to get fired :fire:! 
 
 ## Why is Gamora?
-I just wanted to practice some simple Python Project with a little continues integration
-training and automated releasing to packaging sources like pypi and I loved ciphers,
-I don't know why did I end up here writing this for you! (even like if there is any 
-"you" out there looking on this little side project of mine.)
+I love codes and ciphers and in summer 2019 I had decided to practice Python and DevOps
+tasks like: continuous integration and automated releasing to packaging sources
+(pypi), I don't know how I ended up here writing this for you!
+(even like if there is any "you" out there looking at this little side project of mine.)
 
 So if you want to send unbreakable messages to your friends with ancient algorithms
-without using pen and paper, Mersad can help you. (but seriously, unbreakable? c'mon!)
+without using pen and paper, Mersad can help you. (but seriously, :joy: unbreakable? c'mon!)
 
 
 ## Quick start
@@ -80,23 +80,85 @@ I'm sure you have worked with Python before and you are familiar with how to dow
 a package via pip, so here is how to install this totally (not at all) secure package:
 
 ```bash
-# 1. if are an uncivilised savage living in a hell of dependency conflicts who doesn't 
+# 1. if you are an uncivilised savage living in a hell of dependency conflicts who doesn't 
 # even heard of virtual environments and always install packages in sudo mode, here you go:
 sudo -H pip3 install mersad
 # or just use a little bit better non-sudo thing
 pip3 install --user mersad
 
-# 2. if you are a man of culture, activate your virtual environment and do this:
+# 2. if you are a man of culture, activate your virtual environment and type this:
 pip3 install mersad
-# pipenv is also a good thing to use
+# pipenv is also a good thing to use (only heroes use it
 pipenv install mersad
 ```
 
-## How it works
+## Wait a second, What's Cryptography?
+Honestly? I don't know either ... :grimacing:. some smart guys gather together to
+invent a way for communicating with their lovers in secret and some other more smart
+guys find a way to break their code and read their love messages, but they are enough
+stupid to tell everyone about it, so the guys in the first group will try to invent
+new ways of encrypting for their messages. This never ending cycle continues until today.
 
+## How does this package work?
+Good question, it mostly doesn't. 
 
-### Notes
+But if someday you could successfully manage to make it work for you, here is some 
+explanation about the mess that is going on:
 
+Mersad is divided into two main sub-packages, `classical` and `modern`, I'm currently
+developing classical algorithms but in future I will start working on modern ones.
+
+Each cipher has a class and a translator function, you can use any of them or both of 
+them together.
+the translator function is has no memory and requires every mandatory argument in 
+each call but class have memory and can store key, alphabet and etc.
+
+###Example 
+It is a very simple example of using Shift cipher (aka Caesar cipher) :
+```python
+from mersad.classical.shift_cipher import ShiftCipher, shift_cipher_translator
+
+MESSAGE = "Hail Caesar!"
+ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+KEY = 4
+
+CIPHER = shift_cipher_translator(MESSAGE, key=KEY, letter_sequence=ALPHABET)
+print(CIPHER)
+# Out: Hemp Ceiwev!
+
+# with translator function you need to pass all arguments
+# in each call again and again.
+
+# now the  second way of using shift cipher is using the class instead of function.
+
+# create object without any keyword arguments so agent will use
+# default values for all the settings. defaults are predefined in class.
+agent = ShiftCipher()
+
+# override defaults.
+agent.config(key=3453, letter_sequence=ALPHABET)
+
+# also you can do it at the time yu creat object:
+# agent = ShiftCipher(key=3453, letter_sequence=ALPHABET)
+
+# config usage is to override any existing properties with 
+# new values at any time after creating the object.
+
+# encrypt a string.
+print(agent.encrypt("Hail Julius Caesar."))
+# Out:  'Hvdg Jpgdpn Cvznvm.'
+
+# with this object approach you don't need to pass every thing in each call to
+# encrypt or decrypt.
+# another one
+print(agent.encrypt("This method is not secure :0 but it is funny."))
+# Out: Tcdn hzocjy dn ijo nzxpmz :0 wpo do dn apiit.
+
+# for decryption simply call decrypt method on agent
+print(agent.decrypt("This method is not secure :0 but it is funny."))
+# Out: Tcdn hzocjy dn ijo nzxpmz :0 wpo do dn apiit.
+
+``` 
 
 ## Contribution
 
@@ -108,11 +170,17 @@ Visit the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Roadmap
 
-Visit the [Roadmap](ROADMAP.md) to keep track of which features we are currently working on.
+Visit the [Roadmap](ROADMAP.md) to keep track of which features we are currently 
+working on and which futures will come at future.
 
 ## License
 
 Licensed under the [AGPLv3](LICENSE).
 
 ## Attribution
-
+ 
+- Online resources: [Crypto Corner](https://crypto.interactive-maths.com)
+- Code ideas: [PyCryptodome](https://www.pycryptodome.org)
+- Books: [Cracking Codes with Python](https://inventwithpython.com/cracking) and 
+         [Understanding Cryptography](https://www.springer.com/gp/book/9783642041006)
+- Mersad Logo: [OpenMoji](https://openmoji.org/)
