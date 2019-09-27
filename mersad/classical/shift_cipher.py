@@ -55,7 +55,6 @@ fixed number of positions down the alphabet.
 """
 
 # Python Standard Library
-from typing import Any
 from typing import Dict
 from typing import Union
 
@@ -133,7 +132,7 @@ class ShiftCipher(MersadClassicalBase):
         return shift_cipher_translator(text, **kwargs)
 
 
-def shift_cipher_translator(text: str, **kwargs: Any) -> str:
+def shift_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     """
     Translate a string with Shift cipher algorithm.
 
@@ -156,19 +155,25 @@ def shift_cipher_translator(text: str, **kwargs: Any) -> str:
         key                                 : key for encrypt/decrypt.
         letter_sequence                     : the letter sequence which will be
                                               used for shifting letters.
-        shuffle (optional)                  : randomize letter sequence order.
+        shuffle (optional)(default = False) : randomize letter sequence order.
         seed (optional)(requires shuffle)   : specify a seed for randomizing,
                                               default seed is 0.
+        decrypt (optional)(default = False) : switch for encryption/decryption mode.
     :return                                 : translated text
     :rtype                                  : str
     """
     # for sake of readability and prettifying below code
-    # I will assign aliases for kwargs["letter_sequence"]
-    # and kwargs["key"], which is not necessary.
+    # I will assign aliases for key, values inside kwargs.
     sequence: str = kwargs["letter_sequence"]
     key: int = kwargs["key"]
     # length of sequence is needed for mathematical calculations.
     key_size: int = len(sequence)
+    # default shuffle to False if no shuffle is defined in kwargs.
+    shuffle: bool = kwargs["shuffle"] if "shuffle" in kwargs else False
+    # default seed to 0 if no seed is defined in kwargs.
+    seed: int = kwargs["seed"] if "seed" in kwargs else 0
+    # default decrypt to False if no decrypt is defined in kwargs.
+    decrypt: bool = kwargs["decrypt"] if "decrypt" in kwargs else False
 
     # type annotations
     translated_sequence: Dict[str, str]
@@ -176,14 +181,12 @@ def shift_cipher_translator(text: str, **kwargs: Any) -> str:
     translated: str = ""
 
     # shuffle letter sequence with respect to seed if shuffle is set to True.
-    if kwargs["shuffle"]:
-        # default seed to 0 if no seed is defined in kwargs.
-        seed: int = kwargs["seed"] if "seed" in kwargs else 0
+    if shuffle:
         # shuffle sequence.
         sequence = string_manipulation.shuffle_string(sequence, seed)
 
     # reverse key for decryption.
-    if kwargs["decrypt"]:
+    if decrypt:
         key *= -1
 
     # create a table mapping that maps every letter in sequence to

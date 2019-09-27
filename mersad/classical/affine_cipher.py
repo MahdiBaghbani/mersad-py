@@ -57,7 +57,6 @@ function, and converted back to a letter.
 # Python Standard Library
 from math import gcd
 from typing import Dict
-from typing import Tuple
 from typing import Union
 
 # Mersad Library
@@ -144,19 +143,18 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
 
     :param text                             : string to be translated.
     :param kwargs:
-        key_a                               : first key for encrypt/decrypt.
-        key_b                               : second key for encrypt/decrypt.
+        key                                 : key for encrypt/decrypt.
         letter_sequence                     : the letter sequence which will be
                                               used for shifting letters.
-        shuffle (optional)                  : randomize letter sequence order.
+        shuffle (optional)(default = False) : randomize letter sequence order.
         seed (optional)(requires shuffle)   : specify a seed for randomizing,
                                               default seed is 0.
+        decrypt (optional)(default = False) : switch for encryption/decryption mode.
     :return                                 : translated text
     :rtype                                  : str
     """
     # for sake of readability and prettifying below code
-    # I will assign aliases for kwargs["letter_sequence"],
-    # kwargs["key_b"], and kwargs["key_b"], which is not necessary.
+    # I will assign aliases for key, values inside kwargs.
     sequence: str = kwargs["letter_sequence"]
     # length of sequence is needed for mathematical calculations.
     sequence_length: int = len(sequence)
@@ -166,9 +164,15 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     key_a: int
     key_b: int
     # generate partial keys.
-    key_a, key_b = _get_key_parts(key, sequence_length)
+    key_a, key_b = divmod(key, sequence_length)
     # validate keys.
     _check_keys(key_a, key_b, sequence_length)
+    # default shuffle to False if no shuffle is defined in kwargs.
+    shuffle: bool = kwargs["shuffle"] if "shuffle" in kwargs else False
+    # default seed to 0 if no seed is defined in kwargs.
+    seed: int = kwargs["seed"] if "seed" in kwargs else 0
+    # default decrypt to False if no decrypt is defined in kwargs.
+    decrypt: bool = kwargs["decrypt"] if "decrypt" in kwargs else False
 
     # type annotations
     translated_sequence: Dict[str, str]
@@ -176,15 +180,13 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     translated: str = ""
 
     # shuffle letter sequence with respect to seed if shuffle is set to True.
-    if kwargs["shuffle"]:
-        # default seed to 0 if no seed is defined in kwargs
-        seed: int = kwargs["seed"] if "seed" in kwargs else 0
+    if shuffle:
         # shuffle sequence
         sequence = string_manipulation.shuffle_string(sequence, seed)
 
     # create a table mapping that maps every letter in sequence to
     # it's equivalent new letter with respect to the key and size of sequence.
-    if kwargs["decrypt"]:
+    if decrypt:
         # find mode inverse of key a.
         key_a_mode_inverse = crypto_math.mod_inverse(key_a, sequence_length)
         # generate decryption letter sequence map.
@@ -214,20 +216,6 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         translated += translated_letter
 
     return translated
-
-
-def _get_key_parts(key: int, sequence_length: int) -> Tuple[int, int]:
-    """
-    Calculate the partial keys (key_a and key_b).
-
-    :param key              : primary key.
-    :param sequence_length  : length of letter sequence.
-    :returns                : partial keys (key_a and key_b).
-    :rtype                  : Tuple[int, int]
-    """
-    key_a: int = key // sequence_length
-    key_b: int = key % sequence_length
-    return key_a, key_b
 
 
 def _check_keys(key_a: int, key_b: int, sequence_length: int) -> None:
