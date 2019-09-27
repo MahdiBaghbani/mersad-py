@@ -60,5 +60,6 @@ from typing import List
 __all__: List[str] = [
     "classical",
     "test",
-    "util"
+    "util",
+    "_version"
 ]
