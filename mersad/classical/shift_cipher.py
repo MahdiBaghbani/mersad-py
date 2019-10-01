@@ -60,7 +60,20 @@ from typing import Union
 
 # Mersad Library
 from mersad.util import string_manipulation
+from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
+
+
+def main() -> None:
+    """Execute program in terminal (cli application)."""
+    # module descriptions.
+    description: str = "Azadeh Afzar - Mersad Shift Cipher Program\n" \
+                       + "Encrypt/Decrypt texts with Shift (aka Caesar) algorithm"
+    epilog: str = "Oh you think it is a safe way to hide your secrets from NSA?"
+
+    # create a parser and parse command line arguments.
+    program = MainFunctionClassical()
+    program.start(ShiftCipher, description, epilog)
 
 
 class ShiftCipher(MersadClassicalBase):
@@ -75,7 +88,7 @@ class ShiftCipher(MersadClassicalBase):
     >>> agent = ShiftCipher(key=3453, letter_sequence="abcdefghijklmnopqrstuvwxyz")
     >>> # encrypt a string
     >>> agent.encrypt("Hail Julius Caesar.")
-    'Hvdg Jpgdpn Cvznvm.'
+    "Hvdg Jpgdpn Cvznvm."
 
     ==================================
 
@@ -114,10 +127,9 @@ class ShiftCipher(MersadClassicalBase):
     >>> agent.config(key=3453, letter_sequence="abcdefghijklmnopqrstuvwxyz")
     >>> # encrypt a string
     >>> agent.encrypt("Hail Julius Caesar.")
-    'Hvdg Jpgdpn Cvznvm.'
+    "Hvdg Jpgdpn Cvznvm."
 
     ==================================
-
     """
 
     @staticmethod
@@ -194,6 +206,9 @@ def shift_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     translated_sequence = {
         i: sequence[(sequence.index(i) + key) % key_size] for i in sequence
     }
+
+    # type annotations
+    translated_letter: str
 
     # select each letter in the text and only if it is also provided in sequence
     # from user and replace it with new letter selected by shift method.

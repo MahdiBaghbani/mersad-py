@@ -51,6 +51,7 @@ Mersad's cipher classes.
 """
 
 # Python Standard Library
+import argparse
 import string
 from typing import Any
 from typing import Dict
@@ -58,6 +59,7 @@ from typing import Optional
 from typing import Union
 
 # Mersad Library
+from mersad._version import __version__
 from mersad.util import type_check
 
 
@@ -269,7 +271,124 @@ class MersadClassicalBase(object):
         This method should be implemented in sub classes.
 
         :param text : string to be translated.
-        :return     : translated text
+        :return     : translated text.
         :rtype      : str
         """
         return "Not Implemented in this class!"
+
+
+class MainFunctionClassical(object):
+    """
+    A temporary class to manage program main functions.
+
+    This class is not stable and may change in future.
+    """
+
+    def start(self, class_name, description: str, epilog: str) -> None:
+        """
+        Start parsing command line arguments.
+
+        :param class_name: Name of cipher class.
+        :param description: Description of cipher module.
+        :param epilog: Last message in --help.
+        :return: Nothing.
+        :rtype: None
+        """
+        # create a parser with given arguments
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(
+                parents=[self._argparse_parent()],
+                description=description,
+                epilog=epilog,
+                formatter_class=argparse.RawDescriptionHelpFormatter
+        )
+
+        # parse args and create a dictionary like namespace object.
+        args: argparse.Namespace = parser.parse_args()
+
+        # load text_input from file or command line.
+        # type annotations.
+        text_input: str
+        if args.file:
+            text_input = args.file.read()
+        else:
+            text_input = args.text
+
+        # construct a shift cipher agent with parsed arguments.
+        agent = class_name(
+                key=args.key,
+                letter_sequence=args.letters,
+                shuffle=args.shuffle,
+                seed=args.seed
+        )
+        # type annotations.
+        text_output: str
+        if args.decrypt:
+            text_output = agent.decrypt(text_input)
+        else:
+            text_output = agent.encrypt(text_input)
+
+        # write output to a file or show on command line.
+        if args.output:
+            args.output.write(text_output)
+        else:
+            print(text_output)
+
+    @staticmethod
+    def _argparse_parent() -> argparse.ArgumentParser:
+        """
+        Create base parser object.
+
+        This function creates and returns a base parser
+        for all classical ciphers.
+
+        :return: parser
+        :rtype: argparse.ArgumentParser
+        """
+        # create the parent parser, the base parser for creating
+        # various other program specific parsers at the top of it.
+        parent_parser: argparse.ArgumentParser = argparse.ArgumentParser(
+                add_help=False
+        )
+
+        # display version
+        version: str = f"Azadeh Afzar - Mersad Cryptography Library v{__version__}"
+        parent_parser.add_argument("-V", "--version", action="version",
+                                   version=version)
+
+        help_key: str = "key for encryption/decryption"
+        parent_parser.add_argument("key", type=int, help=help_key)
+
+        # create an mutually exclusive group for parser, user should either
+        # provide a filename or a text for the process.
+        source_type = parent_parser.add_mutually_exclusive_group(required=True)
+
+        help_file: str = "read a file and process it"
+        source_type.add_argument("-f", "--file", help=help_file,
+                                 type=argparse.FileType("r", encoding="UTF-8"))
+
+        help_text: str = "read a text from command line and process it"
+        source_type.add_argument("-t", "--text", type=str, help=help_text)
+
+        help_output: str = "write out the result into a file"
+        parent_parser.add_argument("-o", "--output", help=help_output,
+                                   type=argparse.FileType("w+", encoding="UTF-8"))
+
+        help_decrypt: str = "decryption switch"
+        parent_parser.add_argument("-d", "--decrypt", action="store_true",
+                                   default=False, help=help_decrypt)
+
+        help_letters: str = "alphabet for encryption/decryption, only letters " \
+                            "which are also in this alphabet will be processed " \
+                            "by program"
+        parent_parser.add_argument("-l", "--letters", type=str,
+                                   default=string.printable, help=help_letters)
+
+        help_shuffle: str = "shuffle alphabet letters"
+        parent_parser.add_argument("-sh", "--shuffle", action="store_true",
+                                   default=False, help=help_shuffle)
+
+        help_seed: str = "specify random seed for shuffling the alphabet"
+        parent_parser.add_argument("-s", "--seed", type=int, default=0,
+                                   help=help_seed)
+
+        return parent_parser

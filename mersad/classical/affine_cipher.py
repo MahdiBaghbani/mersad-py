@@ -62,7 +62,20 @@ from typing import Union
 # Mersad Library
 from mersad.util import crypto_math
 from mersad.util import string_manipulation
+from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
+
+
+def main() -> None:
+    """Execute program in terminal (cli application)."""
+    # module descriptions.
+    description: str = "Azadeh Afzar - Mersad Affine Cipher Program\n" \
+                       + "Encrypt/Decrypt texts with Affine algorithm"
+    epilog: str = "CIA can still read your messages ..."
+
+    # create a parser and parse command line arguments.
+    program = MainFunctionClassical()
+    program.start(AffineCipher, description, epilog)
 
 
 class AffineCipher(MersadClassicalBase):
@@ -193,7 +206,7 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         translated_sequence = {
             i: sequence[
                 ((sequence.index(i) - key_b) * key_a_mode_inverse) % sequence_length
-            ]
+                ]
             for i in sequence
         }
     else:
@@ -230,19 +243,19 @@ def _check_keys(key_a: int, key_b: int, sequence_length: int) -> None:
     # test for invalid key range
     if key_a <= 0:
         raise ValueError(
-            "The affine cipher's 'key a' must be greater than 0. "
-            + "Change your key."
+                "The affine cipher's 'key a' must be greater than 0. "
+                + "Change your key."
         )
 
     if not (0 <= key_b < sequence_length - 1):
         raise ValueError(
-            "The affine cipher's 'key b' must be in this range: "
-            + "0 <= 'key b' < length of letter sequence. "
-            + "Change your key."
+                "The affine cipher's 'key b' must be in this range: "
+                + "0 <= 'key b' < length of letter sequence. "
+                + "Change your key."
         )
 
     if gcd(key_a, sequence_length) != 1:
         raise ValueError(
-            "The affine cipher's 'key a' and length of 'letter "
-            + "sequence' are not relatively prime. Change your key."
+                "The affine cipher's 'key a' and length of 'letter "
+                + "sequence' are not relatively prime. Change your key."
         )

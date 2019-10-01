@@ -8,6 +8,8 @@ from typing import Union
 # Mersad Library
 from mersad.util.base_class import MersadClassicalBase
 
+def main() -> None: ...
+
 class ShiftCipher(MersadClassicalBase):
     @staticmethod
     def _translator(text: str, **kwargs: Union[int, str, bool]) -> str: ...

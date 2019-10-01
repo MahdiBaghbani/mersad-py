@@ -104,11 +104,20 @@ package_data = {
 # dependencies
 install_requires = ["ErfanIO"]
 
+# command line programs
+entry_points = {
+    "console_scripts": [
+        "mclAffine = mersad.classical.affine_cipher:main",
+        "mclShift = mersad.classical.shift_cipher:main"
+    ]
+}
+
 setup(
         name=name,
         version=__version__,
         packages=packages,
         package_data=package_data,
+        entry_points = entry_points,
         url=url,
         license=license_name,
         author=author,
