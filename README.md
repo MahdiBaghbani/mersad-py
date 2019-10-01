@@ -66,6 +66,7 @@
 > If you want to do any serious jobs :poop: with this tool, prepare yourself to get fired :fire:! 
 
 ## Why is Gamora?
+
 I love codes and ciphers and in summer 2019 I had decided to practice Python and DevOps
 tasks like: continuous integration and automated releasing to packaging sources
 (pypi), I don't know how I ended up here writing this for you!
@@ -76,6 +77,7 @@ without using pen and paper, Mersad can help you. (but seriously, :joy: unbreaka
 
 
 ## Quick start
+
 I'm sure you have worked with Python before and you are familiar with how to download
 a package via pip, so here is how to install this totally (not at all) secure package:
 
@@ -93,27 +95,37 @@ pipenv install mersad
 ```
 
 ## Wait a second, What's Cryptography?
-Honestly? I don't know either ... :grimacing:. some smart guys gather together to
-invent a way for communicating with their lovers in secret and some other more smart
-guys find a way to break their code and read their love messages, but they are enough
-stupid to tell everyone about it, so the guys in the first group will try to invent
-new ways of encrypting for their messages. This never ending cycle continues until today.
+
+Honestly? I don't know either ... :grimacing:. smart guys gather together to invent
+a way for communicating with their lovers in secret and other (literally) more smart
+guys will try to find a way to break their code and read their love messages 
+(they succeed), but they are enough stupid to tell everyone about it, so first group 
+will try to find new encryption algorithms for their messages. This never ending 
+cycle continues until today.
+
+Apparently people are calling the work of first group (designing encryption algorithms)
+"Cryptography" and the work of second group (breaking those stupid ciphers) "Cryptanalysis".
 
 ## How does this package work?
-Good question, it mostly doesn't. 
 
-But if someday you could successfully manage to make it work for you, here is some 
+Good question, it doesn't. 
+
+But if you are so smart and managed to make it work for you, here is some 
 explanation about the mess that is going on:
 
 Mersad is divided into two main sub-packages, `classical` and `modern`, I'm currently
 developing classical algorithms but in future I will start working on modern ones.
 
+I'm also planning to add `cryptanalysis` module, this module will contains programs 
+to break ciphers.
+
 Each cipher has a class and a translator function, you can use any of them or both of 
 them together.
-the translator function is has no memory and requires every mandatory argument in 
+the translator function is no memory and requires every argument in 
 each call but class have memory and can store key, alphabet and etc.
 
-###Example 
+### Example
+
 It is a very simple example of using Shift cipher (aka Caesar cipher) :
 ```python
 from mersad.classical.shift_cipher import ShiftCipher, shift_cipher_translator
