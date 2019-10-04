@@ -130,7 +130,7 @@ class MersadClassicalBase(object):
         )
         # public configuration dictionary.
         self.configuration: Dict[str, Any] = dict()
-        # set everything to default (default_configuration).
+        # set self.configuration to default values (default_configuration).
         self.reset()
         # process kwargs and update self.configuration values.
         self.config(**kwargs)
