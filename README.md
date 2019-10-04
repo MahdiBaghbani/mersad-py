@@ -67,19 +67,22 @@
 
 ## Why is Gamora?
 
-I love codes and ciphers and in summer 2019 I had decided to practice Python and DevOps
-tasks like: continuous integration and automated releasing to packaging sources
-(pypi), I don't know how I ended up here writing this for you!
+In summer 2019 I had decided to practice Python and DevOps tasks like: continuous 
+integration and automated releasing software to packaging sources like pypi, I don't 
+know how I ended up here writing this for you!
 (even like if there is any "you" out there looking at this little side project of mine.)
 
 So if you want to send unbreakable messages to your friends with ancient algorithms
 without using pen and paper, Mersad can help you. (but seriously, :joy: unbreakable? c'mon!)
 
+Oh and I :heart: codes and ciphers!
+
 
 ## Quick start
 
 I'm sure you have worked with Python before and you are familiar with how to download
-a package via pip, so here is how to install this totally (not at all) secure package:
+and install packages using pip, so here is how to install this totally (not at all)
+secure package:
 
 ```bash
 # 1. if you are an uncivilised savage living in a hell of dependency conflicts who doesn't 
@@ -127,6 +130,7 @@ each call but class have memory and can store key, alphabet and etc.
 ### Example
 
 It is a very simple example of using Shift cipher (aka Caesar cipher) :
+
 ```python
 from mersad.classical.shift_cipher import ShiftCipher, shift_cipher_translator
 
@@ -172,6 +176,19 @@ print(agent.decrypt("This method is not secure :0 but it is funny."))
 
 ``` 
 
+for more examples look at
+[snippets](https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/snippets)
+
+
+## Can I use this package in terminal?
+
+Yes! :metal:
+
+Each cipher module have a corresponding cli program with name convention of:
+`mclModule`. For example to run Shift cipher module in terminal just type `mclShift`.
+To learn how to work with cli programs type `--help` after program name
+(e.g. `mclShift --help`).
+
 ## Contribution
 
 If you want to contribute to this project, please read [CONTRIBUTING](CONTRIBUTING.md).
@@ -191,8 +208,8 @@ Licensed under the [AGPLv3](LICENSE).
 
 ## Attribution
  
-- Online resources: [Crypto Corner](https://crypto.interactive-maths.com)
-- Code ideas: [PyCryptodome](https://www.pycryptodome.org)
 - Books: [Cracking Codes with Python](https://inventwithpython.com/cracking) and 
          [Understanding Cryptography](https://www.springer.com/gp/book/9783642041006)
-- Mersad Logo: [OpenMoji](https://openmoji.org/)
+- Code ideas: [PyCryptodome](https://www.pycryptodome.org)
+- Mersad Logo: Designed with [OpenMoji](https://openmoji.org/)
+- Online resources: [Crypto Corner](https://crypto.interactive-maths.com)
