@@ -54,7 +54,7 @@ test_branches:
     - master
 
 # deploy package to pypi whenever a tag released.
-pypi:
+release_pypi:
   stage: release
   # install dependencies.
   before_script:
