@@ -100,7 +100,7 @@ class MersadClassicalBase(object):
         for shuffle and seed.
 
         Default key is set to 0.
-        Default letter sequence is set to "string.printable" .
+        Default letter sequence is set to "string.printable" except \r character.
         Default shuffle is set to False.
         Default seed is set to 0.
 
@@ -125,7 +125,7 @@ class MersadClassicalBase(object):
         # private configuration dictionary that holds default values.
         # should not be changed by anyone!
         self._defaults: Dict[str, Any] = dict(
-                key=0, letter_sequence=string.printable,
+                key=0, letter_sequence=string.printable.replace("\r", ""),
                 shuffle=False, seed=0, decrypt=False
         )
         # public configuration dictionary.
