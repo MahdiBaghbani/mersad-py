@@ -84,8 +84,8 @@ def extended_gcd(a: int, b: int) -> Tuple[int, int, int]:
     x, last_x, y, last_y = 0, 1, 1, 0
 
     while remainder:
-        last_remainder, (quotient, remainder) = remainder, divmod(last_remainder,
-                                                                  remainder)
+        last_remainder = remainder
+        quotient, remainder = divmod(last_remainder, remainder)
         x, last_x = last_x - quotient * x, x
         y, last_y = last_y - quotient * y, y
 
