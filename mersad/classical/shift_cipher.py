@@ -55,6 +55,8 @@ fixed number of positions down the alphabet.
 """
 
 # Python Standard Library
+import sys
+
 from typing import Dict
 from typing import Union
 
@@ -72,8 +74,8 @@ def main() -> None:
     epilog: str = "Oh you think it is a safe way to hide your secrets from NSA?"
 
     # create a parser and parse command line arguments.
-    program = MainFunctionClassical()
-    program.start(ShiftCipher, description, epilog)
+    program = MainFunctionClassical(sys.argv[1:], ShiftCipher, description, epilog)
+    program.process()
 
 
 class ShiftCipher(MersadClassicalBase):

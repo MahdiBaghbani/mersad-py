@@ -55,6 +55,8 @@ function, and converted back to a letter.
 """
 
 # Python Standard Library
+import sys
+
 from math import gcd
 from typing import Dict
 from typing import Union
@@ -74,8 +76,8 @@ def main() -> None:
     epilog: str = "CIA can still read your messages ..."
 
     # create a parser and parse command line arguments.
-    program = MainFunctionClassical()
-    program.start(AffineCipher, description, epilog)
+    program = MainFunctionClassical(sys.argv[1:], AffineCipher, description, epilog)
+    program.process()
 
 
 class AffineCipher(MersadClassicalBase):

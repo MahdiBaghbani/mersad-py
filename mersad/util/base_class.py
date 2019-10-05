@@ -55,6 +55,7 @@ import argparse
 import string
 from typing import Any
 from typing import Dict
+from typing import List
 from typing import Optional
 from typing import Union
 
@@ -279,33 +280,24 @@ class MersadClassicalBase(object):
 
 class MainFunctionClassical(object):
     """
-    A temporary class to manage program main functions.
+    Manage classical cipher programs execution from terminal.
 
-    This class is not stable and may change in future.
+    This class has a parser and a process function that controls
+    all thw procedures needed for running classical ciphers from terminal.
     """
 
-    def start(self, class_name, description: str, epilog: str) -> None:
-        """
-        Start parsing command line arguments.
+    def __init__(self, args: List[Any], agent_class, description: str, epilog: str) \
+            -> None:
+        """ Initialize instance with needed data """
+        self.args: List[Any] = args
+        self.agent_class = agent_class
+        self.description: str = description
+        self.epilog: str = epilog
 
-        :param class_name: Name of cipher class.
-        :param description: Description of cipher module.
-        :param epilog: Last message in --help.
-        :return: Nothing.
-        :rtype: None
-        """
-        # create a parser with given arguments
-        parser: argparse.ArgumentParser = argparse.ArgumentParser(
-                parents=[self._argparse_parent()],
-                description=description,
-                epilog=epilog,
-                formatter_class=argparse.RawDescriptionHelpFormatter
-        )
-
-        # parse args and create a dictionary like namespace object.
-        args: argparse.Namespace = parser.parse_args()
-
-        # load text_input from file or command line.
+    def process(self) -> None:
+        """ Process program execution based on terminal arguments """
+        args: argparse.Namespace = self.parse_args()
+        # load text_input from file or terminal.
         # type annotations.
         text_input: str
         if args.file:
@@ -314,7 +306,7 @@ class MainFunctionClassical(object):
             text_input = args.text
 
         # construct a shift cipher agent with parsed arguments.
-        agent = class_name(
+        agent = self.agent_class(
                 key=args.key,
                 letter_sequence=args.letters,
                 shuffle=args.shuffle,
@@ -327,11 +319,29 @@ class MainFunctionClassical(object):
         else:
             text_output = agent.encrypt(text_input)
 
-        # write output to a file or show on command line.
+        # write output to a file or show on terminal.
         if args.output:
             args.output.write(text_output)
         else:
             print(text_output)
+
+    def parse_args(self) -> argparse.Namespace:
+        """
+        Start parsing terminal arguments.
+
+        :return: terminal argument namespace.
+        :rtype: argparse.Namespace
+        """
+        # create a parser with given arguments
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(
+                parents=[self._argparse_parent()],
+                description=self.description,
+                epilog=self.epilog,
+                formatter_class=argparse.RawDescriptionHelpFormatter
+        )
+
+        # parse args and create a dictionary like namespace object.
+        return parser.parse_args(args=self.args)
 
     @staticmethod
     def _argparse_parent() -> argparse.ArgumentParser:
@@ -366,7 +376,7 @@ class MainFunctionClassical(object):
         source_type.add_argument("-f", "--file", help=help_file,
                                  type=argparse.FileType("r", encoding="UTF-8"))
 
-        help_text: str = "read a text from command line and process it"
+        help_text: str = "read a text from terminal and process it"
         source_type.add_argument("-t", "--text", type=str, help=help_text)
 
         help_output: str = "write out the result into a file"
