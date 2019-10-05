@@ -56,7 +56,6 @@ fixed number of positions down the alphabet.
 
 # Python Standard Library
 import sys
-
 from typing import Dict
 from typing import Union
 

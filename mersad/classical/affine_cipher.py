@@ -56,7 +56,6 @@ function, and converted back to a letter.
 
 # Python Standard Library
 import sys
-
 from math import gcd
 from typing import Dict
 from typing import Union
