@@ -301,7 +301,8 @@ class MainFunctionClassical(object):
         # type annotations.
         text_input: str
         if args.file:
-            text_input = args.file.read()
+            with open(args.file, "r") as file:
+                text_input = file.read()
         else:
             text_input = args.text
 
@@ -321,7 +322,8 @@ class MainFunctionClassical(object):
 
         # write output to a file or show on terminal.
         if args.output:
-            args.output.write(text_output)
+            with open(args.output, "w+") as file:
+                file.write(text_output)
         else:
             print(text_output)
 
@@ -373,15 +375,13 @@ class MainFunctionClassical(object):
         source_type = parent_parser.add_mutually_exclusive_group(required=True)
 
         help_file: str = "read a file and process it"
-        source_type.add_argument("-f", "--file", help=help_file,
-                                 type=argparse.FileType("r", encoding="UTF-8"))
+        source_type.add_argument("-f", "--file", type=str, help=help_file)
 
         help_text: str = "read a text from terminal and process it"
         source_type.add_argument("-t", "--text", type=str, help=help_text)
 
         help_output: str = "write out the result into a file"
-        parent_parser.add_argument("-o", "--output", help=help_output,
-                                   type=argparse.FileType("w+", encoding="UTF-8"))
+        parent_parser.add_argument("-o", "--output", type=str, help=help_output)
 
         help_decrypt: str = "decryption switch"
         parent_parser.add_argument("-d", "--decrypt", action="store_true",
