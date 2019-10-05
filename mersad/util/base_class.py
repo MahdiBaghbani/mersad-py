@@ -77,7 +77,7 @@ class MersadClassicalBase(object):
     """
 
     def __init__(self, **kwargs: Union[int, str, bool]) -> None:
-        """
+        r"""
         Create an instance of the class.
 
         Example
@@ -288,14 +288,14 @@ class MainFunctionClassical(object):
 
     def __init__(self, args: List[Any], agent_class, description: str, epilog: str) \
             -> None:
-        """ Initialize instance with needed data """
+        """Initialize instance with needed data."""
         self.args: List[Any] = args
         self.agent_class = agent_class
         self.description: str = description
         self.epilog: str = epilog
 
     def process(self) -> None:
-        """ Process program execution based on terminal arguments """
+        """Process program execution based on terminal arguments."""
         args: argparse.Namespace = self.parse_args()
         # load text_input from file or terminal.
         # type annotations.
