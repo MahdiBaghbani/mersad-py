@@ -15,6 +15,7 @@ pylint = "*"
 mypy = "==0.720"
 isort = "*"
 coverage = "*"
+Cython = "*"
 
 [packages]
 ErfanIO = ">=0.0.7"
