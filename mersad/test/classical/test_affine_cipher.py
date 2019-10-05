@@ -1,4 +1,4 @@
-# mersad/test/classical/test_shift_cipher.py
+# mersad/test/classical/test_affine_cipher.py
 #
 # This file is a part of:
 # Azadeh Afzar - Mersad Cryptography Library in Python language (AA-MCLpy).
@@ -48,20 +48,22 @@ import unittest
 from ErfanIO import ReaderIO
 
 # Mersad Library
-from mersad.classical.shift_cipher import ShiftCipher
+from mersad.classical.affine_cipher import AffineCipher
 
 
 class TestShiftCipher(unittest.TestCase):
     def setUp(self) -> None:
-        self.agent = ShiftCipher()
+        self.agent = AffineCipher()
         self.base_path = os.path.dirname(__file__).replace("mersad/test/classical", "mersad/test/asset/texts")
         self.plain_text = ReaderIO.read(os.path.join(self.base_path, "Long License File.txt"), "text")
-        self.k25_sh0_s0 = ReaderIO.read(os.path.join(self.base_path, "ShiftCipher-LLF-k25-sh0-s0.txt"), "text")
-        self.k173_sh1_s0 = ReaderIO.read(os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text")
+        self.k125_sh0_s0 = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text")
+        self.k173_sh1_s0 = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-k173-sh1-s0.txt"), "text")
+        self.custom_alphabet = ReaderIO.read(
+            os.path.join(self.base_path, "AffineCipher-LLF-alphabet-ascii-lowercase-k396-sh0-s0.txt"), "text")
 
     def test_encrypt_without_shuffle(self):
-        self.agent.config(key=25, shuffle=False, seed=0)
-        self.assertEqual(self.k25_sh0_s0, self.agent.encrypt(self.plain_text))
+        self.agent.config(key=125, shuffle=False, seed=0)
+        self.assertEqual(self.k125_sh0_s0, self.agent.encrypt(self.plain_text))
 
     def test_encrypt_with_shuffle_without_seed(self):
         self.agent.config(key=173, shuffle=True, seed=0)
@@ -69,13 +71,12 @@ class TestShiftCipher(unittest.TestCase):
 
     def test_encrypt_with_custom_alphabet(self):
         alphabet = string.ascii_lowercase
-        self.agent.config(key=85, letter_sequence=alphabet, shuffle=False, seed=0)
-        with open(os.path.join(self.base_path, "ShiftCipher-LLF-alphabet-ascii-lowercase-k85-sh0-s0.txt"), "w+") as file:
-            file.write(self.agent.encrypt(self.plain_text))
+        self.agent.config(key=396, letter_sequence=alphabet, shuffle=False, seed=0)
+        self.assertEqual(self.custom_alphabet, self.agent.encrypt(self.plain_text))
 
     def test_decryption_without_shuffle(self):
-        self.agent.config(key=25, shuffle=False, seed=0)
-        self.assertEqual(self.plain_text, self.agent.decrypt(self.k25_sh0_s0))
+        self.agent.config(key=125, shuffle=False, seed=0)
+        self.assertEqual(self.plain_text, self.agent.decrypt(self.k125_sh0_s0))
 
     def test_decrypt_with_shuffle_without_seed(self):
         self.agent.config(key=173, shuffle=True, seed=0)
@@ -84,18 +85,32 @@ class TestShiftCipher(unittest.TestCase):
     def test_temporary_key(self):
         # key is 173 which is stored in self.configuration dictionary
         self.agent.config(key=173, shuffle=False, seed=0)
-        # use a temporary one time key (25) when encrypting/decrypting
-        self.assertEqual(self.plain_text, self.agent.decrypt(self.k25_sh0_s0, key=25))
+        # use a temporary one time key (125) when encrypting/decrypting
+        self.assertEqual(self.plain_text, self.agent.decrypt(self.k125_sh0_s0, key=125))
         # verify that key is still 173 in self.configuration dictionary
         self.assertEqual(173, self.agent.show_key())
 
     def test_temporary_key_to_permanent(self):
         # key is 173 which is stored in self.configuration dictionary
         self.agent.config(key=173, shuffle=False, seed=0)
-        # use a new key (25) when encrypting/decrypting and make it permanent
-        self.assertEqual(self.plain_text, self.agent.decrypt(self.k25_sh0_s0, key=25, replace_key=True))
-        # verify that key is changed to 25 in self.configuration dictionary
-        self.assertEqual(25, self.agent.show_key())
+        # use a new key (125) when encrypting/decrypting and make it permanent
+        self.assertEqual(self.plain_text, self.agent.decrypt(self.k125_sh0_s0, key=125, replace_key=True))
+        # verify that key is changed to 125 in self.configuration dictionary
+        self.assertEqual(125, self.agent.show_key())
+
+    def test_key_is_lower_than_alphabey_length(self):
+        alphabet = string.ascii_lowercase
+        self.agent.config(key=25, letter_sequence=alphabet, shuffle=False, seed=0)
+
+        with self.assertRaises(ValueError):
+            self.agent.encrypt(self.plain_text)
+
+    def test_key_and_letter_sequence_length_not_relatively_prime(self):
+        alphabet = string.ascii_lowercase
+        self.agent.config(key=3456, letter_sequence=alphabet, shuffle=False, seed=0)
+
+        with self.assertRaises(ValueError):
+            self.agent.encrypt(self.plain_text)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,661 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Vobqwit 3, 19 Nijoevob 2007
+
+ Cixcbwshf (C) 2007 Fboo Sidfygbo Fiutzgfwit, Itk. <hffx://dqd.ibs/>
+ Ejobcito wq xobewffoz fi kixc gtz zwqfbwvufo jobvgfwe kixwoq
+ id fhwq pwkotqo zikueotf, vuf khgtswts wf wq tif gppiyoz.
+
+                            Pbogevpo
+
+  Tho GNU Addobi Gotobgp Puvpwk Lwkotqo wq g dboo, kixcpodf pwkotqo dib
+qidfygbo gtz ifhob awtzq id yibaq, qxokwdwkgppc zoqwstoz fi otqubo
+kiixobgfwit ywfh fho kieeutwfc wt fho kgqo id tofyiba qobjob qidfygbo.
+
+  Tho pwkotqoq dib eiqf qidfygbo gtz ifhob xbgkfwkgp yibaq gbo zoqwstoz
+fi fgao gygc ciub dboozie fi qhgbo gtz khgtso fho yibaq.  Bc kitfbgqf,
+iub Gotobgp Puvpwk Lwkotqoq gbo wtfotzoz fi sugbgtfoo ciub dboozie fi
+qhgbo gtz khgtso gpp jobqwitq id g xbisbge--fi egao qubo wf boegwtq dboo
+qidfygbo dib gpp wfq uqobq.
+
+  Whot yo qxoga id dboo qidfygbo, yo gbo bodobbwts fi dboozie, tif
+xbwko.  Oub Gotobgp Puvpwk Lwkotqoq gbo zoqwstoz fi egao qubo fhgf ciu
+hgjo fho dboozie fi zwqfbwvufo kixwoq id dboo qidfygbo (gtz khgbso dib
+fhoe wd ciu ywqh), fhgf ciu bokowjo qiubko kizo ib kgt sof wf wd ciu
+ygtf wf, fhgf ciu kgt khgtso fho qidfygbo ib uqo xwokoq id wf wt toy
+dboo xbisbgeq, gtz fhgf ciu atiy ciu kgt zi fhoqo fhwtsq.
+
+  Dojopixobq fhgf uqo iub Gotobgp Puvpwk Lwkotqoq xbifokf ciub bwshfq
+ywfh fyi qfoxq: (1) gqqobf kixcbwshf it fho qidfygbo, gtz (2) iddob
+ciu fhwq Lwkotqo yhwkh swjoq ciu posgp xobewqqwit fi kixc, zwqfbwvufo
+gtz/ib eizwdc fho qidfygbo.
+
+  A qokitzgbc votodwf id zodotzwts gpp uqobq' dboozie wq fhgf
+wexbijoeotfq egzo wt gpfobtgfo jobqwitq id fho xbisbge, wd fhoc
+bokowjo ywzoqxbogz uqo, vokieo gjgwpgvpo dib ifhob zojopixobq fi
+wtkibxibgfo.  Mgtc zojopixobq id dboo qidfygbo gbo hogbfotoz gtz
+otkiubgsoz vc fho boqupfwts kiixobgfwit.  Hiyojob, wt fho kgqo id
+qidfygbo uqoz it tofyiba qobjobq, fhwq boqupf egc dgwp fi kieo gviuf.
+Tho GNU Gotobgp Puvpwk Lwkotqo xobewfq egawts g eizwdwoz jobqwit gtz
+poffwts fho xuvpwk gkkoqq wf it g qobjob ywfhiuf ojob bopogqwts wfq
+qiubko kizo fi fho xuvpwk.
+
+  Tho GNU Addobi Gotobgp Puvpwk Lwkotqo wq zoqwstoz qxokwdwkgppc fi
+otqubo fhgf, wt qukh kgqoq, fho eizwdwoz qiubko kizo vokieoq gjgwpgvpo
+fi fho kieeutwfc.  If bomuwboq fho ixobgfib id g tofyiba qobjob fi
+xbijwzo fho qiubko kizo id fho eizwdwoz jobqwit buttwts fhobo fi fho
+uqobq id fhgf qobjob.  Thobodibo, xuvpwk uqo id g eizwdwoz jobqwit, it
+g xuvpwkpc gkkoqqwvpo qobjob, swjoq fho xuvpwk gkkoqq fi fho qiubko
+kizo id fho eizwdwoz jobqwit.
+
+  At ipzob pwkotqo, kgppoz fho Addobi Gotobgp Puvpwk Lwkotqo gtz
+xuvpwqhoz vc Addobi, ygq zoqwstoz fi gkkiexpwqh qwewpgb sigpq.  Thwq wq
+g zwddobotf pwkotqo, tif g jobqwit id fho Addobi GPL, vuf Addobi hgq
+bopogqoz g toy jobqwit id fho Addobi GPL yhwkh xobewfq bopwkotqwts utzob
+fhwq pwkotqo.
+
+  Tho xbokwqo fobeq gtz kitzwfwitq dib kixcwts, zwqfbwvufwit gtz
+eizwdwkgfwit dippiy.
+
+                       TERMS AND CONDITIONS
+
+  0. Dodwtwfwitq.
+
+  "Thwq Lwkotqo" bodobq fi jobqwit 3 id fho GNU Addobi Gotobgp Puvpwk Lwkotqo.
+
+  "Cixcbwshf" gpqi eogtq kixcbwshf-pwao pgyq fhgf gxxpc fi ifhob awtzq id
+yibaq, qukh gq qoewkitzukfib egqaq.
+
+  "Tho Pbisbge" bodobq fi gtc kixcbwshfgvpo yiba pwkotqoz utzob fhwq
+Lwkotqo.  Egkh pwkotqoo wq gzzboqqoz gq "ciu".  "Lwkotqooq" gtz
+"bokwxwotfq" egc vo wtzwjwzugpq ib ibsgtwrgfwitq.
+
+  Ti "eizwdc" g yiba eogtq fi kixc dbie ib gzgxf gpp ib xgbf id fho yiba
+wt g dgqhwit bomuwbwts kixcbwshf xobewqqwit, ifhob fhgt fho egawts id gt
+ongkf kixc.  Tho boqupfwts yiba wq kgppoz g "eizwdwoz jobqwit" id fho
+ogbpwob yiba ib g yiba "vgqoz it" fho ogbpwob yiba.
+
+  A "kijoboz yiba" eogtq owfhob fho uteizwdwoz Pbisbge ib g yiba vgqoz
+it fho Pbisbge.
+
+  Ti "xbixgsgfo" g yiba eogtq fi zi gtcfhwts ywfh wf fhgf, ywfhiuf
+xobewqqwit, yiupz egao ciu zwbokfpc ib qokitzgbwpc pwgvpo dib
+wtdbwtsoeotf utzob gxxpwkgvpo kixcbwshf pgy, onkoxf onokufwts wf it g
+kiexufob ib eizwdcwts g xbwjgfo kixc.  Pbixgsgfwit wtkpuzoq kixcwts,
+zwqfbwvufwit (ywfh ib ywfhiuf eizwdwkgfwit), egawts gjgwpgvpo fi fho
+xuvpwk, gtz wt qieo kiutfbwoq ifhob gkfwjwfwoq gq yopp.
+
+  Ti "kitjoc" g yiba eogtq gtc awtz id xbixgsgfwit fhgf otgvpoq ifhob
+xgbfwoq fi egao ib bokowjo kixwoq.  Mobo wtfobgkfwit ywfh g uqob fhbiush
+g kiexufob tofyiba, ywfh ti fbgtqdob id g kixc, wq tif kitjocwts.
+
+  At wtfobgkfwjo uqob wtfobdgko zwqxpgcq "Axxbixbwgfo Losgp Nifwkoq"
+fi fho onfotf fhgf wf wtkpuzoq g kitjotwotf gtz xbiewtotfpc jwqwvpo
+dogfubo fhgf (1) zwqxpgcq gt gxxbixbwgfo kixcbwshf tifwko, gtz (2)
+foppq fho uqob fhgf fhobo wq ti ygbbgtfc dib fho yiba (onkoxf fi fho
+onfotf fhgf ygbbgtfwoq gbo xbijwzoz), fhgf pwkotqooq egc kitjoc fho
+yiba utzob fhwq Lwkotqo, gtz hiy fi jwoy g kixc id fhwq Lwkotqo.  Id
+fho wtfobdgko xboqotfq g pwqf id uqob kieegtzq ib ixfwitq, qukh gq g
+eotu, g xbiewtotf wfoe wt fho pwqf eoofq fhwq kbwfobwit.
+
+  1. Siubko Cizo.
+
+  Tho "qiubko kizo" dib g yiba eogtq fho xbodobboz dibe id fho yiba
+dib egawts eizwdwkgfwitq fi wf.  "Ovlokf kizo" eogtq gtc tit-qiubko
+dibe id g yiba.
+
+  A "Sfgtzgbz Itfobdgko" eogtq gt wtfobdgko fhgf owfhob wq gt iddwkwgp
+qfgtzgbz zodwtoz vc g bokistwroz qfgtzgbzq vizc, ib, wt fho kgqo id
+wtfobdgkoq qxokwdwoz dib g xgbfwkupgb xbisbgeewts pgtsugso, ito fhgf
+wq ywzopc uqoz geits zojopixobq yibawts wt fhgf pgtsugso.
+
+  Tho "Scqfoe Lwvbgbwoq" id gt onokufgvpo yiba wtkpuzo gtcfhwts, ifhob
+fhgt fho yiba gq g yhipo, fhgf (g) wq wtkpuzoz wt fho tibegp dibe id
+xgkagswts g Mglib Ciexitotf, vuf yhwkh wq tif xgbf id fhgf Mglib
+Ciexitotf, gtz (v) qobjoq itpc fi otgvpo uqo id fho yiba ywfh fhgf
+Mglib Ciexitotf, ib fi wexpoeotf g Sfgtzgbz Itfobdgko dib yhwkh gt
+wexpoeotfgfwit wq gjgwpgvpo fi fho xuvpwk wt qiubko kizo dibe.  A
+"Mglib Ciexitotf", wt fhwq kitfonf, eogtq g eglib oqqotfwgp kiexitotf
+(aobtop, ywtziy qcqfoe, gtz qi it) id fho qxokwdwk ixobgfwts qcqfoe
+(wd gtc) it yhwkh fho onokufgvpo yiba butq, ib g kiexwpob uqoz fi
+xbizuko fho yiba, ib gt ivlokf kizo wtfobxbofob uqoz fi but wf.
+
+  Tho "Cibboqxitzwts Siubko" dib g yiba wt ivlokf kizo dibe eogtq gpp
+fho qiubko kizo toozoz fi sotobgfo, wtqfgpp, gtz (dib gt onokufgvpo
+yiba) but fho ivlokf kizo gtz fi eizwdc fho yiba, wtkpuzwts qkbwxfq fi
+kitfbip fhiqo gkfwjwfwoq.  Hiyojob, wf zioq tif wtkpuzo fho yiba'q
+Scqfoe Lwvbgbwoq, ib sotobgp-xubxiqo fiipq ib sotobgppc gjgwpgvpo dboo
+xbisbgeq yhwkh gbo uqoz uteizwdwoz wt xobdibewts fhiqo gkfwjwfwoq vuf
+yhwkh gbo tif xgbf id fho yiba.  Fib ongexpo, Cibboqxitzwts Siubko
+wtkpuzoq wtfobdgko zodwtwfwit dwpoq gqqikwgfoz ywfh qiubko dwpoq dib
+fho yiba, gtz fho qiubko kizo dib qhgboz pwvbgbwoq gtz zctgewkgppc
+pwtaoz quvxbisbgeq fhgf fho yiba wq qxokwdwkgppc zoqwstoz fi bomuwbo,
+qukh gq vc wtfwegfo zgfg kieeutwkgfwit ib kitfbip dpiy vofyoot fhiqo
+quvxbisbgeq gtz ifhob xgbfq id fho yiba.
+
+  Tho Cibboqxitzwts Siubko tooz tif wtkpuzo gtcfhwts fhgf uqobq
+kgt bosotobgfo gufiegfwkgppc dbie ifhob xgbfq id fho Cibboqxitzwts
+Siubko.
+
+  Tho Cibboqxitzwts Siubko dib g yiba wt qiubko kizo dibe wq fhgf
+qgeo yiba.
+
+  2. Bgqwk Pobewqqwitq.
+
+  App bwshfq sbgtfoz utzob fhwq Lwkotqo gbo sbgtfoz dib fho fobe id
+kixcbwshf it fho Pbisbge, gtz gbo wbbojikgvpo xbijwzoz fho qfgfoz
+kitzwfwitq gbo eof.  Thwq Lwkotqo onxpwkwfpc gddwbeq ciub utpwewfoz
+xobewqqwit fi but fho uteizwdwoz Pbisbge.  Tho iufxuf dbie buttwts g
+kijoboz yiba wq kijoboz vc fhwq Lwkotqo itpc wd fho iufxuf, swjot wfq
+kitfotf, kitqfwfufoq g kijoboz yiba.  Thwq Lwkotqo gkatiypozsoq ciub
+bwshfq id dgwb uqo ib ifhob omuwjgpotf, gq xbijwzoz vc kixcbwshf pgy.
+
+  Yiu egc egao, but gtz xbixgsgfo kijoboz yibaq fhgf ciu zi tif
+kitjoc, ywfhiuf kitzwfwitq qi pits gq ciub pwkotqo ifhobywqo boegwtq
+wt dibko.  Yiu egc kitjoc kijoboz yibaq fi ifhobq dib fho qipo xubxiqo
+id hgjwts fhoe egao eizwdwkgfwitq onkpuqwjopc dib ciu, ib xbijwzo ciu
+ywfh dgkwpwfwoq dib buttwts fhiqo yibaq, xbijwzoz fhgf ciu kiexpc ywfh
+fho fobeq id fhwq Lwkotqo wt kitjocwts gpp egfobwgp dib yhwkh ciu zi
+tif kitfbip kixcbwshf.  Thiqo fhuq egawts ib buttwts fho kijoboz yibaq
+dib ciu euqf zi qi onkpuqwjopc it ciub vohgpd, utzob ciub zwbokfwit
+gtz kitfbip, it fobeq fhgf xbihwvwf fhoe dbie egawts gtc kixwoq id
+ciub kixcbwshfoz egfobwgp iufqwzo fhowb bopgfwitqhwx ywfh ciu.
+
+  Citjocwts utzob gtc ifhob kwbkueqfgtkoq wq xobewffoz qipopc utzob
+fho kitzwfwitq qfgfoz vopiy.  Suvpwkotqwts wq tif gppiyoz; qokfwit 10
+egaoq wf uttokoqqgbc.
+
+  3. Pbifokfwts Uqobq' Losgp Rwshfq Fbie Atfw-Cwbkuejotfwit Lgy.
+
+  Ni kijoboz yiba qhgpp vo zooeoz xgbf id gt oddokfwjo fokhtipiswkgp
+eogqubo utzob gtc gxxpwkgvpo pgy dupdwppwts ivpwsgfwitq utzob gbfwkpo
+11 id fho WIPO kixcbwshf fbogfc gzixfoz it 20 Dokoevob 1996, ib
+qwewpgb pgyq xbihwvwfwts ib boqfbwkfwts kwbkuejotfwit id qukh
+eogquboq.
+
+  Whot ciu kitjoc g kijoboz yiba, ciu ygwjo gtc posgp xiyob fi dibvwz
+kwbkuejotfwit id fokhtipiswkgp eogquboq fi fho onfotf qukh kwbkuejotfwit
+wq oddokfoz vc onobkwqwts bwshfq utzob fhwq Lwkotqo ywfh boqxokf fi
+fho kijoboz yiba, gtz ciu zwqkpgwe gtc wtfotfwit fi pwewf ixobgfwit ib
+eizwdwkgfwit id fho yiba gq g eogtq id otdibkwts, gsgwtqf fho yiba'q
+uqobq, ciub ib fhwbz xgbfwoq' posgp bwshfq fi dibvwz kwbkuejotfwit id
+fokhtipiswkgp eogquboq.
+
+  4. Citjocwts Vobvgfwe Cixwoq.
+
+  Yiu egc kitjoc jobvgfwe kixwoq id fho Pbisbge'q qiubko kizo gq ciu
+bokowjo wf, wt gtc eozwue, xbijwzoz fhgf ciu kitqxwkuiuqpc gtz
+gxxbixbwgfopc xuvpwqh it ogkh kixc gt gxxbixbwgfo kixcbwshf tifwko;
+aoox wtfgkf gpp tifwkoq qfgfwts fhgf fhwq Lwkotqo gtz gtc
+tit-xobewqqwjo fobeq gzzoz wt gkkibz ywfh qokfwit 7 gxxpc fi fho kizo;
+aoox wtfgkf gpp tifwkoq id fho gvqotko id gtc ygbbgtfc; gtz swjo gpp
+bokwxwotfq g kixc id fhwq Lwkotqo gpits ywfh fho Pbisbge.
+
+  Yiu egc khgbso gtc xbwko ib ti xbwko dib ogkh kixc fhgf ciu kitjoc,
+gtz ciu egc iddob quxxibf ib ygbbgtfc xbifokfwit dib g doo.
+
+  5. Citjocwts Mizwdwoz Siubko Vobqwitq.
+
+  Yiu egc kitjoc g yiba vgqoz it fho Pbisbge, ib fho eizwdwkgfwitq fi
+xbizuko wf dbie fho Pbisbge, wt fho dibe id qiubko kizo utzob fho
+fobeq id qokfwit 4, xbijwzoz fhgf ciu gpqi eoof gpp id fhoqo kitzwfwitq:
+
+    g) Tho yiba euqf kgbbc xbiewtotf tifwkoq qfgfwts fhgf ciu eizwdwoz
+    wf, gtz swjwts g bopojgtf zgfo.
+
+    v) Tho yiba euqf kgbbc xbiewtotf tifwkoq qfgfwts fhgf wf wq
+    bopogqoz utzob fhwq Lwkotqo gtz gtc kitzwfwitq gzzoz utzob qokfwit
+    7.  Thwq bomuwboeotf eizwdwoq fho bomuwboeotf wt qokfwit 4 fi
+    "aoox wtfgkf gpp tifwkoq".
+
+    k) Yiu euqf pwkotqo fho otfwbo yiba, gq g yhipo, utzob fhwq
+    Lwkotqo fi gtcito yhi kieoq wtfi xiqqoqqwit id g kixc.  Thwq
+    Lwkotqo ywpp fhobodibo gxxpc, gpits ywfh gtc gxxpwkgvpo qokfwit 7
+    gzzwfwitgp fobeq, fi fho yhipo id fho yiba, gtz gpp wfq xgbfq,
+    bosgbzpoqq id hiy fhoc gbo xgkagsoz.  Thwq Lwkotqo swjoq ti
+    xobewqqwit fi pwkotqo fho yiba wt gtc ifhob ygc, vuf wf zioq tif
+    wtjgpwzgfo qukh xobewqqwit wd ciu hgjo qoxgbgfopc bokowjoz wf.
+
+    z) Id fho yiba hgq wtfobgkfwjo uqob wtfobdgkoq, ogkh euqf zwqxpgc
+    Axxbixbwgfo Losgp Nifwkoq; hiyojob, wd fho Pbisbge hgq wtfobgkfwjo
+    wtfobdgkoq fhgf zi tif zwqxpgc Axxbixbwgfo Losgp Nifwkoq, ciub
+    yiba tooz tif egao fhoe zi qi.
+
+  A kiexwpgfwit id g kijoboz yiba ywfh ifhob qoxgbgfo gtz wtzoxotzotf
+yibaq, yhwkh gbo tif vc fhowb tgfubo onfotqwitq id fho kijoboz yiba,
+gtz yhwkh gbo tif kievwtoz ywfh wf qukh gq fi dibe g pgbsob xbisbge,
+wt ib it g jipueo id g qfibgso ib zwqfbwvufwit eozwue, wq kgppoz gt
+"gssbosgfo" wd fho kiexwpgfwit gtz wfq boqupfwts kixcbwshf gbo tif
+uqoz fi pwewf fho gkkoqq ib posgp bwshfq id fho kiexwpgfwit'q uqobq
+vocitz yhgf fho wtzwjwzugp yibaq xobewf.  Itkpuqwit id g kijoboz yiba
+wt gt gssbosgfo zioq tif kguqo fhwq Lwkotqo fi gxxpc fi fho ifhob
+xgbfq id fho gssbosgfo.
+
+  6. Citjocwts Nit-Siubko Fibeq.
+
+  Yiu egc kitjoc g kijoboz yiba wt ivlokf kizo dibe utzob fho fobeq
+id qokfwitq 4 gtz 5, xbijwzoz fhgf ciu gpqi kitjoc fho
+egkhwto-bogzgvpo Cibboqxitzwts Siubko utzob fho fobeq id fhwq Lwkotqo,
+wt ito id fhoqo ygcq:
+
+    g) Citjoc fho ivlokf kizo wt, ib oevizwoz wt, g xhcqwkgp xbizukf
+    (wtkpuzwts g xhcqwkgp zwqfbwvufwit eozwue), gkkiexgtwoz vc fho
+    Cibboqxitzwts Siubko dwnoz it g zubgvpo xhcqwkgp eozwue
+    kuqfiegbwpc uqoz dib qidfygbo wtfobkhgtso.
+
+    v) Citjoc fho ivlokf kizo wt, ib oevizwoz wt, g xhcqwkgp xbizukf
+    (wtkpuzwts g xhcqwkgp zwqfbwvufwit eozwue), gkkiexgtwoz vc g
+    ybwffot iddob, jgpwz dib gf pogqf fhboo cogbq gtz jgpwz dib gq
+    pits gq ciu iddob qxgbo xgbfq ib kuqfieob quxxibf dib fhgf xbizukf
+    eizop, fi swjo gtcito yhi xiqqoqqoq fho ivlokf kizo owfhob (1) g
+    kixc id fho Cibboqxitzwts Siubko dib gpp fho qidfygbo wt fho
+    xbizukf fhgf wq kijoboz vc fhwq Lwkotqo, it g zubgvpo xhcqwkgp
+    eozwue kuqfiegbwpc uqoz dib qidfygbo wtfobkhgtso, dib g xbwko ti
+    eibo fhgt ciub bogqitgvpo kiqf id xhcqwkgppc xobdibewts fhwq
+    kitjocwts id qiubko, ib (2) gkkoqq fi kixc fho
+    Cibboqxitzwts Siubko dbie g tofyiba qobjob gf ti khgbso.
+
+    k) Citjoc wtzwjwzugp kixwoq id fho ivlokf kizo ywfh g kixc id fho
+    ybwffot iddob fi xbijwzo fho Cibboqxitzwts Siubko.  Thwq
+    gpfobtgfwjo wq gppiyoz itpc ikkgqwitgppc gtz titkieeobkwgppc, gtz
+    itpc wd ciu bokowjoz fho ivlokf kizo ywfh qukh gt iddob, wt gkkibz
+    ywfh quvqokfwit 6v.
+
+    z) Citjoc fho ivlokf kizo vc iddobwts gkkoqq dbie g zoqwstgfoz
+    xpgko (sbgfwq ib dib g khgbso), gtz iddob omuwjgpotf gkkoqq fi fho
+    Cibboqxitzwts Siubko wt fho qgeo ygc fhbiush fho qgeo xpgko gf ti
+    dubfhob khgbso.  Yiu tooz tif bomuwbo bokwxwotfq fi kixc fho
+    Cibboqxitzwts Siubko gpits ywfh fho ivlokf kizo.  Id fho xpgko fi
+    kixc fho ivlokf kizo wq g tofyiba qobjob, fho Cibboqxitzwts Siubko
+    egc vo it g zwddobotf qobjob (ixobgfoz vc ciu ib g fhwbz xgbfc)
+    fhgf quxxibfq omuwjgpotf kixcwts dgkwpwfwoq, xbijwzoz ciu egwtfgwt
+    kpogb zwbokfwitq tonf fi fho ivlokf kizo qgcwts yhobo fi dwtz fho
+    Cibboqxitzwts Siubko.  Rosgbzpoqq id yhgf qobjob hiqfq fho
+    Cibboqxitzwts Siubko, ciu boegwt ivpwsgfoz fi otqubo fhgf wf wq
+    gjgwpgvpo dib gq pits gq toozoz fi qgfwqdc fhoqo bomuwboeotfq.
+
+    o) Citjoc fho ivlokf kizo uqwts xoob-fi-xoob fbgtqewqqwit, xbijwzoz
+    ciu wtdibe ifhob xoobq yhobo fho ivlokf kizo gtz Cibboqxitzwts
+    Siubko id fho yiba gbo vowts iddoboz fi fho sotobgp xuvpwk gf ti
+    khgbso utzob quvqokfwit 6z.
+
+  A qoxgbgvpo xibfwit id fho ivlokf kizo, yhiqo qiubko kizo wq onkpuzoz
+dbie fho Cibboqxitzwts Siubko gq g Scqfoe Lwvbgbc, tooz tif vo
+wtkpuzoz wt kitjocwts fho ivlokf kizo yiba.
+
+  A "Uqob Pbizukf" wq owfhob (1) g "kitqueob xbizukf", yhwkh eogtq gtc
+fgtswvpo xobqitgp xbixobfc yhwkh wq tibegppc uqoz dib xobqitgp, dgewpc,
+ib hiuqohipz xubxiqoq, ib (2) gtcfhwts zoqwstoz ib qipz dib wtkibxibgfwit
+wtfi g zyoppwts.  It zofobewtwts yhofhob g xbizukf wq g kitqueob xbizukf,
+ziuvfdup kgqoq qhgpp vo boqipjoz wt dgjib id kijobgso.  Fib g xgbfwkupgb
+xbizukf bokowjoz vc g xgbfwkupgb uqob, "tibegppc uqoz" bodobq fi g
+fcxwkgp ib kieeit uqo id fhgf kpgqq id xbizukf, bosgbzpoqq id fho qfgfuq
+id fho xgbfwkupgb uqob ib id fho ygc wt yhwkh fho xgbfwkupgb uqob
+gkfugppc uqoq, ib onxokfq ib wq onxokfoz fi uqo, fho xbizukf.  A xbizukf
+wq g kitqueob xbizukf bosgbzpoqq id yhofhob fho xbizukf hgq quvqfgtfwgp
+kieeobkwgp, wtzuqfbwgp ib tit-kitqueob uqoq, utpoqq qukh uqoq boxboqotf
+fho itpc qwstwdwkgtf eizo id uqo id fho xbizukf.
+
+  "Itqfgppgfwit Itdibegfwit" dib g Uqob Pbizukf eogtq gtc eofhizq,
+xbikozuboq, gufhibwrgfwit aocq, ib ifhob wtdibegfwit bomuwboz fi wtqfgpp
+gtz onokufo eizwdwoz jobqwitq id g kijoboz yiba wt fhgf Uqob Pbizukf dbie
+g eizwdwoz jobqwit id wfq Cibboqxitzwts Siubko.  Tho wtdibegfwit euqf
+quddwko fi otqubo fhgf fho kitfwtuoz dutkfwitwts id fho eizwdwoz ivlokf
+kizo wq wt ti kgqo xbojotfoz ib wtfobdoboz ywfh qipopc vokguqo
+eizwdwkgfwit hgq voot egzo.
+
+  Id ciu kitjoc gt ivlokf kizo yiba utzob fhwq qokfwit wt, ib ywfh, ib
+qxokwdwkgppc dib uqo wt, g Uqob Pbizukf, gtz fho kitjocwts ikkubq gq
+xgbf id g fbgtqgkfwit wt yhwkh fho bwshf id xiqqoqqwit gtz uqo id fho
+Uqob Pbizukf wq fbgtqdobboz fi fho bokwxwotf wt xobxofuwfc ib dib g
+dwnoz fobe (bosgbzpoqq id hiy fho fbgtqgkfwit wq khgbgkfobwroz), fho
+Cibboqxitzwts Siubko kitjocoz utzob fhwq qokfwit euqf vo gkkiexgtwoz
+vc fho Itqfgppgfwit Itdibegfwit.  Buf fhwq bomuwboeotf zioq tif gxxpc
+wd towfhob ciu tib gtc fhwbz xgbfc bofgwtq fho gvwpwfc fi wtqfgpp
+eizwdwoz ivlokf kizo it fho Uqob Pbizukf (dib ongexpo, fho yiba hgq
+voot wtqfgppoz wt ROM).
+
+  Tho bomuwboeotf fi xbijwzo Itqfgppgfwit Itdibegfwit zioq tif wtkpuzo g
+bomuwboeotf fi kitfwtuo fi xbijwzo quxxibf qobjwko, ygbbgtfc, ib uxzgfoq
+dib g yiba fhgf hgq voot eizwdwoz ib wtqfgppoz vc fho bokwxwotf, ib dib
+fho Uqob Pbizukf wt yhwkh wf hgq voot eizwdwoz ib wtqfgppoz.  Akkoqq fi g
+tofyiba egc vo zotwoz yhot fho eizwdwkgfwit wfqopd egfobwgppc gtz
+gzjobqopc gddokfq fho ixobgfwit id fho tofyiba ib jwipgfoq fho bupoq gtz
+xbifikipq dib kieeutwkgfwit gkbiqq fho tofyiba.
+
+  Cibboqxitzwts Siubko kitjocoz, gtz Itqfgppgfwit Itdibegfwit xbijwzoz,
+wt gkkibz ywfh fhwq qokfwit euqf vo wt g dibegf fhgf wq xuvpwkpc
+zikueotfoz (gtz ywfh gt wexpoeotfgfwit gjgwpgvpo fi fho xuvpwk wt
+qiubko kizo dibe), gtz euqf bomuwbo ti qxokwgp xgqqyibz ib aoc dib
+utxgkawts, bogzwts ib kixcwts.
+
+  7. Azzwfwitgp Tobeq.
+
+  "Azzwfwitgp xobewqqwitq" gbo fobeq fhgf quxxpoeotf fho fobeq id fhwq
+Lwkotqo vc egawts onkoxfwitq dbie ito ib eibo id wfq kitzwfwitq.
+Azzwfwitgp xobewqqwitq fhgf gbo gxxpwkgvpo fi fho otfwbo Pbisbge qhgpp
+vo fbogfoz gq fhiush fhoc yobo wtkpuzoz wt fhwq Lwkotqo, fi fho onfotf
+fhgf fhoc gbo jgpwz utzob gxxpwkgvpo pgy.  Id gzzwfwitgp xobewqqwitq
+gxxpc itpc fi xgbf id fho Pbisbge, fhgf xgbf egc vo uqoz qoxgbgfopc
+utzob fhiqo xobewqqwitq, vuf fho otfwbo Pbisbge boegwtq sijobtoz vc
+fhwq Lwkotqo ywfhiuf bosgbz fi fho gzzwfwitgp xobewqqwitq.
+
+  Whot ciu kitjoc g kixc id g kijoboz yiba, ciu egc gf ciub ixfwit
+boeijo gtc gzzwfwitgp xobewqqwitq dbie fhgf kixc, ib dbie gtc xgbf id
+wf.  (Azzwfwitgp xobewqqwitq egc vo ybwffot fi bomuwbo fhowb iyt
+boeijgp wt kobfgwt kgqoq yhot ciu eizwdc fho yiba.)  Yiu egc xpgko
+gzzwfwitgp xobewqqwitq it egfobwgp, gzzoz vc ciu fi g kijoboz yiba,
+dib yhwkh ciu hgjo ib kgt swjo gxxbixbwgfo kixcbwshf xobewqqwit.
+
+  Nifywfhqfgtzwts gtc ifhob xbijwqwit id fhwq Lwkotqo, dib egfobwgp ciu
+gzz fi g kijoboz yiba, ciu egc (wd gufhibwroz vc fho kixcbwshf hipzobq id
+fhgf egfobwgp) quxxpoeotf fho fobeq id fhwq Lwkotqo ywfh fobeq:
+
+    g) Dwqkpgwewts ygbbgtfc ib pwewfwts pwgvwpwfc zwddobotfpc dbie fho
+    fobeq id qokfwitq 15 gtz 16 id fhwq Lwkotqo; ib
+
+    v) Romuwbwts xboqobjgfwit id qxokwdwoz bogqitgvpo posgp tifwkoq ib
+    gufhib gffbwvufwitq wt fhgf egfobwgp ib wt fho Axxbixbwgfo Losgp
+    Nifwkoq zwqxpgcoz vc yibaq kitfgwtwts wf; ib
+
+    k) Pbihwvwfwts ewqboxboqotfgfwit id fho ibwswt id fhgf egfobwgp, ib
+    bomuwbwts fhgf eizwdwoz jobqwitq id qukh egfobwgp vo egbaoz wt
+    bogqitgvpo ygcq gq zwddobotf dbie fho ibwswtgp jobqwit; ib
+
+    z) Lwewfwts fho uqo dib xuvpwkwfc xubxiqoq id tgeoq id pwkotqibq ib
+    gufhibq id fho egfobwgp; ib
+
+    o) Dokpwtwts fi sbgtf bwshfq utzob fbgzoegba pgy dib uqo id qieo
+    fbgzo tgeoq, fbgzoegbaq, ib qobjwko egbaq; ib
+
+    d) Romuwbwts wtzoetwdwkgfwit id pwkotqibq gtz gufhibq id fhgf
+    egfobwgp vc gtcito yhi kitjocq fho egfobwgp (ib eizwdwoz jobqwitq id
+    wf) ywfh kitfbgkfugp gqquexfwitq id pwgvwpwfc fi fho bokwxwotf, dib
+    gtc pwgvwpwfc fhgf fhoqo kitfbgkfugp gqquexfwitq zwbokfpc wexiqo it
+    fhiqo pwkotqibq gtz gufhibq.
+
+  App ifhob tit-xobewqqwjo gzzwfwitgp fobeq gbo kitqwzoboz "dubfhob
+boqfbwkfwitq" ywfhwt fho eogtwts id qokfwit 10.  Id fho Pbisbge gq ciu
+bokowjoz wf, ib gtc xgbf id wf, kitfgwtq g tifwko qfgfwts fhgf wf wq
+sijobtoz vc fhwq Lwkotqo gpits ywfh g fobe fhgf wq g dubfhob
+boqfbwkfwit, ciu egc boeijo fhgf fobe.  Id g pwkotqo zikueotf kitfgwtq
+g dubfhob boqfbwkfwit vuf xobewfq bopwkotqwts ib kitjocwts utzob fhwq
+Lwkotqo, ciu egc gzz fi g kijoboz yiba egfobwgp sijobtoz vc fho fobeq
+id fhgf pwkotqo zikueotf, xbijwzoz fhgf fho dubfhob boqfbwkfwit zioq
+tif qubjwjo qukh bopwkotqwts ib kitjocwts.
+
+  Id ciu gzz fobeq fi g kijoboz yiba wt gkkibz ywfh fhwq qokfwit, ciu
+euqf xpgko, wt fho bopojgtf qiubko dwpoq, g qfgfoeotf id fho
+gzzwfwitgp fobeq fhgf gxxpc fi fhiqo dwpoq, ib g tifwko wtzwkgfwts
+yhobo fi dwtz fho gxxpwkgvpo fobeq.
+
+  Azzwfwitgp fobeq, xobewqqwjo ib tit-xobewqqwjo, egc vo qfgfoz wt fho
+dibe id g qoxgbgfopc ybwffot pwkotqo, ib qfgfoz gq onkoxfwitq;
+fho gvijo bomuwboeotfq gxxpc owfhob ygc.
+
+  8. Tobewtgfwit.
+
+  Yiu egc tif xbixgsgfo ib eizwdc g kijoboz yiba onkoxf gq onxboqqpc
+xbijwzoz utzob fhwq Lwkotqo.  Atc gffoexf ifhobywqo fi xbixgsgfo ib
+eizwdc wf wq jiwz, gtz ywpp gufiegfwkgppc fobewtgfo ciub bwshfq utzob
+fhwq Lwkotqo (wtkpuzwts gtc xgfotf pwkotqoq sbgtfoz utzob fho fhwbz
+xgbgsbgxh id qokfwit 11).
+
+  Hiyojob, wd ciu kogqo gpp jwipgfwit id fhwq Lwkotqo, fhot ciub
+pwkotqo dbie g xgbfwkupgb kixcbwshf hipzob wq bowtqfgfoz (g)
+xbijwqwitgppc, utpoqq gtz utfwp fho kixcbwshf hipzob onxpwkwfpc gtz
+dwtgppc fobewtgfoq ciub pwkotqo, gtz (v) xobegtotfpc, wd fho kixcbwshf
+hipzob dgwpq fi tifwdc ciu id fho jwipgfwit vc qieo bogqitgvpo eogtq
+xbwib fi 60 zgcq gdfob fho koqqgfwit.
+
+  Miboijob, ciub pwkotqo dbie g xgbfwkupgb kixcbwshf hipzob wq
+bowtqfgfoz xobegtotfpc wd fho kixcbwshf hipzob tifwdwoq ciu id fho
+jwipgfwit vc qieo bogqitgvpo eogtq, fhwq wq fho dwbqf fweo ciu hgjo
+bokowjoz tifwko id jwipgfwit id fhwq Lwkotqo (dib gtc yiba) dbie fhgf
+kixcbwshf hipzob, gtz ciu kubo fho jwipgfwit xbwib fi 30 zgcq gdfob
+ciub bokowxf id fho tifwko.
+
+  Tobewtgfwit id ciub bwshfq utzob fhwq qokfwit zioq tif fobewtgfo fho
+pwkotqoq id xgbfwoq yhi hgjo bokowjoz kixwoq ib bwshfq dbie ciu utzob
+fhwq Lwkotqo.  Id ciub bwshfq hgjo voot fobewtgfoz gtz tif xobegtotfpc
+bowtqfgfoz, ciu zi tif mugpwdc fi bokowjo toy pwkotqoq dib fho qgeo
+egfobwgp utzob qokfwit 10.
+
+  9. Akkoxfgtko Nif Romuwboz dib Hgjwts Cixwoq.
+
+  Yiu gbo tif bomuwboz fi gkkoxf fhwq Lwkotqo wt ibzob fi bokowjo ib
+but g kixc id fho Pbisbge.  Atkwppgbc xbixgsgfwit id g kijoboz yiba
+ikkubbwts qipopc gq g kitqomuotko id uqwts xoob-fi-xoob fbgtqewqqwit
+fi bokowjo g kixc pwaoywqo zioq tif bomuwbo gkkoxfgtko.  Hiyojob,
+tifhwts ifhob fhgt fhwq Lwkotqo sbgtfq ciu xobewqqwit fi xbixgsgfo ib
+eizwdc gtc kijoboz yiba.  Thoqo gkfwitq wtdbwtso kixcbwshf wd ciu zi
+tif gkkoxf fhwq Lwkotqo.  Thobodibo, vc eizwdcwts ib xbixgsgfwts g
+kijoboz yiba, ciu wtzwkgfo ciub gkkoxfgtko id fhwq Lwkotqo fi zi qi.
+
+  10. Aufiegfwk Lwkotqwts id Diytqfboge Rokwxwotfq.
+
+  Egkh fweo ciu kitjoc g kijoboz yiba, fho bokwxwotf gufiegfwkgppc
+bokowjoq g pwkotqo dbie fho ibwswtgp pwkotqibq, fi but, eizwdc gtz
+xbixgsgfo fhgf yiba, quvlokf fi fhwq Lwkotqo.  Yiu gbo tif boqxitqwvpo
+dib otdibkwts kiexpwgtko vc fhwbz xgbfwoq ywfh fhwq Lwkotqo.
+
+  At "otfwfc fbgtqgkfwit" wq g fbgtqgkfwit fbgtqdobbwts kitfbip id gt
+ibsgtwrgfwit, ib quvqfgtfwgppc gpp gqqofq id ito, ib quvzwjwzwts gt
+ibsgtwrgfwit, ib eobswts ibsgtwrgfwitq.  Id xbixgsgfwit id g kijoboz
+yiba boqupfq dbie gt otfwfc fbgtqgkfwit, ogkh xgbfc fi fhgf
+fbgtqgkfwit yhi bokowjoq g kixc id fho yiba gpqi bokowjoq yhgfojob
+pwkotqoq fi fho yiba fho xgbfc'q xbozokoqqib wt wtfoboqf hgz ib kiupz
+swjo utzob fho xbojwiuq xgbgsbgxh, xpuq g bwshf fi xiqqoqqwit id fho
+Cibboqxitzwts Siubko id fho yiba dbie fho xbozokoqqib wt wtfoboqf, wd
+fho xbozokoqqib hgq wf ib kgt sof wf ywfh bogqitgvpo oddibfq.
+
+  Yiu egc tif wexiqo gtc dubfhob boqfbwkfwitq it fho onobkwqo id fho
+bwshfq sbgtfoz ib gddwbeoz utzob fhwq Lwkotqo.  Fib ongexpo, ciu egc
+tif wexiqo g pwkotqo doo, bicgpfc, ib ifhob khgbso dib onobkwqo id
+bwshfq sbgtfoz utzob fhwq Lwkotqo, gtz ciu egc tif wtwfwgfo pwfwsgfwit
+(wtkpuzwts g kbiqq-kpgwe ib kiutfobkpgwe wt g pgyquwf) gpposwts fhgf
+gtc xgfotf kpgwe wq wtdbwtsoz vc egawts, uqwts, qoppwts, iddobwts dib
+qgpo, ib wexibfwts fho Pbisbge ib gtc xibfwit id wf.
+
+  11. Pgfotfq.
+
+  A "kitfbwvufib" wq g kixcbwshf hipzob yhi gufhibwroq uqo utzob fhwq
+Lwkotqo id fho Pbisbge ib g yiba it yhwkh fho Pbisbge wq vgqoz.  Tho
+yiba fhuq pwkotqoz wq kgppoz fho kitfbwvufib'q "kitfbwvufib jobqwit".
+
+  A kitfbwvufib'q "oqqotfwgp xgfotf kpgweq" gbo gpp xgfotf kpgweq
+iytoz ib kitfbippoz vc fho kitfbwvufib, yhofhob gpbogzc gkmuwboz ib
+hobogdfob gkmuwboz, fhgf yiupz vo wtdbwtsoz vc qieo egttob, xobewffoz
+vc fhwq Lwkotqo, id egawts, uqwts, ib qoppwts wfq kitfbwvufib jobqwit,
+vuf zi tif wtkpuzo kpgweq fhgf yiupz vo wtdbwtsoz itpc gq g
+kitqomuotko id dubfhob eizwdwkgfwit id fho kitfbwvufib jobqwit.  Fib
+xubxiqoq id fhwq zodwtwfwit, "kitfbip" wtkpuzoq fho bwshf fi sbgtf
+xgfotf quvpwkotqoq wt g egttob kitqwqfotf ywfh fho bomuwboeotfq id
+fhwq Lwkotqo.
+
+  Egkh kitfbwvufib sbgtfq ciu g tit-onkpuqwjo, yibpzywzo, bicgpfc-dboo
+xgfotf pwkotqo utzob fho kitfbwvufib'q oqqotfwgp xgfotf kpgweq, fi
+egao, uqo, qopp, iddob dib qgpo, wexibf gtz ifhobywqo but, eizwdc gtz
+xbixgsgfo fho kitfotfq id wfq kitfbwvufib jobqwit.
+
+  It fho dippiywts fhboo xgbgsbgxhq, g "xgfotf pwkotqo" wq gtc onxboqq
+gsbooeotf ib kieewfeotf, hiyojob zotiewtgfoz, tif fi otdibko g xgfotf
+(qukh gq gt onxboqq xobewqqwit fi xbgkfwko g xgfotf ib kijotgtf tif fi
+quo dib xgfotf wtdbwtsoeotf).  Ti "sbgtf" qukh g xgfotf pwkotqo fi g
+xgbfc eogtq fi egao qukh gt gsbooeotf ib kieewfeotf tif fi otdibko g
+xgfotf gsgwtqf fho xgbfc.
+
+  Id ciu kitjoc g kijoboz yiba, atiywtspc bopcwts it g xgfotf pwkotqo,
+gtz fho Cibboqxitzwts Siubko id fho yiba wq tif gjgwpgvpo dib gtcito
+fi kixc, dboo id khgbso gtz utzob fho fobeq id fhwq Lwkotqo, fhbiush g
+xuvpwkpc gjgwpgvpo tofyiba qobjob ib ifhob bogzwpc gkkoqqwvpo eogtq,
+fhot ciu euqf owfhob (1) kguqo fho Cibboqxitzwts Siubko fi vo qi
+gjgwpgvpo, ib (2) gbbgtso fi zoxbwjo ciubqopd id fho votodwf id fho
+xgfotf pwkotqo dib fhwq xgbfwkupgb yiba, ib (3) gbbgtso, wt g egttob
+kitqwqfotf ywfh fho bomuwboeotfq id fhwq Lwkotqo, fi onfotz fho xgfotf
+pwkotqo fi ziytqfboge bokwxwotfq.  "Ktiywtspc bopcwts" eogtq ciu hgjo
+gkfugp atiypozso fhgf, vuf dib fho xgfotf pwkotqo, ciub kitjocwts fho
+kijoboz yiba wt g kiutfbc, ib ciub bokwxwotf'q uqo id fho kijoboz yiba
+wt g kiutfbc, yiupz wtdbwtso ito ib eibo wzotfwdwgvpo xgfotfq wt fhgf
+kiutfbc fhgf ciu hgjo bogqit fi vopwojo gbo jgpwz.
+
+  Id, xubqugtf fi ib wt kittokfwit ywfh g qwtspo fbgtqgkfwit ib
+gbbgtsoeotf, ciu kitjoc, ib xbixgsgfo vc xbikubwts kitjocgtko id, g
+kijoboz yiba, gtz sbgtf g xgfotf pwkotqo fi qieo id fho xgbfwoq
+bokowjwts fho kijoboz yiba gufhibwrwts fhoe fi uqo, xbixgsgfo, eizwdc
+ib kitjoc g qxokwdwk kixc id fho kijoboz yiba, fhot fho xgfotf pwkotqo
+ciu sbgtf wq gufiegfwkgppc onfotzoz fi gpp bokwxwotfq id fho kijoboz
+yiba gtz yibaq vgqoz it wf.
+
+  A xgfotf pwkotqo wq "zwqkbwewtgfibc" wd wf zioq tif wtkpuzo ywfhwt
+fho qkixo id wfq kijobgso, xbihwvwfq fho onobkwqo id, ib wq
+kitzwfwitoz it fho tit-onobkwqo id ito ib eibo id fho bwshfq fhgf gbo
+qxokwdwkgppc sbgtfoz utzob fhwq Lwkotqo.  Yiu egc tif kitjoc g kijoboz
+yiba wd ciu gbo g xgbfc fi gt gbbgtsoeotf ywfh g fhwbz xgbfc fhgf wq
+wt fho vuqwtoqq id zwqfbwvufwts qidfygbo, utzob yhwkh ciu egao xgceotf
+fi fho fhwbz xgbfc vgqoz it fho onfotf id ciub gkfwjwfc id kitjocwts
+fho yiba, gtz utzob yhwkh fho fhwbz xgbfc sbgtfq, fi gtc id fho
+xgbfwoq yhi yiupz bokowjo fho kijoboz yiba dbie ciu, g zwqkbwewtgfibc
+xgfotf pwkotqo (g) wt kittokfwit ywfh kixwoq id fho kijoboz yiba
+kitjocoz vc ciu (ib kixwoq egzo dbie fhiqo kixwoq), ib (v) xbwegbwpc
+dib gtz wt kittokfwit ywfh qxokwdwk xbizukfq ib kiexwpgfwitq fhgf
+kitfgwt fho kijoboz yiba, utpoqq ciu otfoboz wtfi fhgf gbbgtsoeotf,
+ib fhgf xgfotf pwkotqo ygq sbgtfoz, xbwib fi 28 Mgbkh 2007.
+
+  Nifhwts wt fhwq Lwkotqo qhgpp vo kitqfbuoz gq onkpuzwts ib pwewfwts
+gtc wexpwoz pwkotqo ib ifhob zodotqoq fi wtdbwtsoeotf fhgf egc
+ifhobywqo vo gjgwpgvpo fi ciu utzob gxxpwkgvpo xgfotf pgy.
+
+  12. Ni Subbotzob id Ofhobq' Fboozie.
+
+  Id kitzwfwitq gbo wexiqoz it ciu (yhofhob vc kiubf ibzob, gsbooeotf ib
+ifhobywqo) fhgf kitfbgzwkf fho kitzwfwitq id fhwq Lwkotqo, fhoc zi tif
+onkuqo ciu dbie fho kitzwfwitq id fhwq Lwkotqo.  Id ciu kgttif kitjoc g
+kijoboz yiba qi gq fi qgfwqdc qweupfgtoiuqpc ciub ivpwsgfwitq utzob fhwq
+Lwkotqo gtz gtc ifhob xobfwtotf ivpwsgfwitq, fhot gq g kitqomuotko ciu egc
+tif kitjoc wf gf gpp.  Fib ongexpo, wd ciu gsboo fi fobeq fhgf ivpwsgfo ciu
+fi kippokf g bicgpfc dib dubfhob kitjocwts dbie fhiqo fi yhie ciu kitjoc
+fho Pbisbge, fho itpc ygc ciu kiupz qgfwqdc vifh fhiqo fobeq gtz fhwq
+Lwkotqo yiupz vo fi bodbgwt otfwbopc dbie kitjocwts fho Pbisbge.
+
+  13. Roeifo Nofyiba Itfobgkfwit; Uqo ywfh fho GNU Gotobgp Puvpwk Lwkotqo.
+
+  Nifywfhqfgtzwts gtc ifhob xbijwqwit id fhwq Lwkotqo, wd ciu eizwdc fho
+Pbisbge, ciub eizwdwoz jobqwit euqf xbiewtotfpc iddob gpp uqobq
+wtfobgkfwts ywfh wf boeifopc fhbiush g kiexufob tofyiba (wd ciub jobqwit
+quxxibfq qukh wtfobgkfwit) gt ixxibfutwfc fi bokowjo fho Cibboqxitzwts
+Siubko id ciub jobqwit vc xbijwzwts gkkoqq fi fho Cibboqxitzwts Siubko
+dbie g tofyiba qobjob gf ti khgbso, fhbiush qieo qfgtzgbz ib kuqfiegbc
+eogtq id dgkwpwfgfwts kixcwts id qidfygbo.  Thwq Cibboqxitzwts Siubko
+qhgpp wtkpuzo fho Cibboqxitzwts Siubko dib gtc yiba kijoboz vc jobqwit 3
+id fho GNU Gotobgp Puvpwk Lwkotqo fhgf wq wtkibxibgfoz xubqugtf fi fho
+dippiywts xgbgsbgxh.
+
+  Nifywfhqfgtzwts gtc ifhob xbijwqwit id fhwq Lwkotqo, ciu hgjo
+xobewqqwit fi pwta ib kievwto gtc kijoboz yiba ywfh g yiba pwkotqoz
+utzob jobqwit 3 id fho GNU Gotobgp Puvpwk Lwkotqo wtfi g qwtspo
+kievwtoz yiba, gtz fi kitjoc fho boqupfwts yiba.  Tho fobeq id fhwq
+Lwkotqo ywpp kitfwtuo fi gxxpc fi fho xgbf yhwkh wq fho kijoboz yiba,
+vuf fho yiba ywfh yhwkh wf wq kievwtoz ywpp boegwt sijobtoz vc jobqwit
+3 id fho GNU Gotobgp Puvpwk Lwkotqo.
+
+  14. Rojwqoz Vobqwitq id fhwq Lwkotqo.
+
+  Tho Fboo Sidfygbo Fiutzgfwit egc xuvpwqh bojwqoz gtz/ib toy jobqwitq id
+fho GNU Addobi Gotobgp Puvpwk Lwkotqo dbie fweo fi fweo.  Sukh toy jobqwitq
+ywpp vo qwewpgb wt qxwbwf fi fho xboqotf jobqwit, vuf egc zwddob wt zofgwp fi
+gzzboqq toy xbivpoeq ib kitkobtq.
+
+  Egkh jobqwit wq swjot g zwqfwtsuwqhwts jobqwit tuevob.  Id fho
+Pbisbge qxokwdwoq fhgf g kobfgwt tuevoboz jobqwit id fho GNU Addobi Gotobgp
+Puvpwk Lwkotqo "ib gtc pgfob jobqwit" gxxpwoq fi wf, ciu hgjo fho
+ixfwit id dippiywts fho fobeq gtz kitzwfwitq owfhob id fhgf tuevoboz
+jobqwit ib id gtc pgfob jobqwit xuvpwqhoz vc fho Fboo Sidfygbo
+Fiutzgfwit.  Id fho Pbisbge zioq tif qxokwdc g jobqwit tuevob id fho
+GNU Addobi Gotobgp Puvpwk Lwkotqo, ciu egc khiiqo gtc jobqwit ojob xuvpwqhoz
+vc fho Fboo Sidfygbo Fiutzgfwit.
+
+  Id fho Pbisbge qxokwdwoq fhgf g xbinc kgt zokwzo yhwkh dufubo
+jobqwitq id fho GNU Addobi Gotobgp Puvpwk Lwkotqo kgt vo uqoz, fhgf xbinc'q
+xuvpwk qfgfoeotf id gkkoxfgtko id g jobqwit xobegtotfpc gufhibwroq ciu
+fi khiiqo fhgf jobqwit dib fho Pbisbge.
+
+  Lgfob pwkotqo jobqwitq egc swjo ciu gzzwfwitgp ib zwddobotf
+xobewqqwitq.  Hiyojob, ti gzzwfwitgp ivpwsgfwitq gbo wexiqoz it gtc
+gufhib ib kixcbwshf hipzob gq g boqupf id ciub khiiqwts fi dippiy g
+pgfob jobqwit.
+
+  15. Dwqkpgweob id Wgbbgtfc.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  16. Lwewfgfwit id Lwgvwpwfc.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+  17. Itfobxbofgfwit id Sokfwitq 15 gtz 16.
+
+  Id fho zwqkpgweob id ygbbgtfc gtz pwewfgfwit id pwgvwpwfc xbijwzoz
+gvijo kgttif vo swjot pikgp posgp oddokf gkkibzwts fi fhowb fobeq,
+bojwoywts kiubfq qhgpp gxxpc pikgp pgy fhgf eiqf kpiqopc gxxbinwegfoq
+gt gvqipufo ygwjob id gpp kwjwp pwgvwpwfc wt kittokfwit ywfh fho
+Pbisbge, utpoqq g ygbbgtfc ib gqquexfwit id pwgvwpwfc gkkiexgtwoq g
+kixc id fho Pbisbge wt bofubt dib g doo.
+
+                     END OF TERMS AND CONDITIONS
+
+            Hiy fi Axxpc Thoqo Tobeq fi Yiub Noy Pbisbgeq
+
+  Id ciu zojopix g toy xbisbge, gtz ciu ygtf wf fi vo id fho sbogfoqf
+xiqqwvpo uqo fi fho xuvpwk, fho voqf ygc fi gkhwojo fhwq wq fi egao wf
+dboo qidfygbo yhwkh ojobcito kgt bozwqfbwvufo gtz khgtso utzob fhoqo fobeq.
+
+  Ti zi qi, gffgkh fho dippiywts tifwkoq fi fho xbisbge.  If wq qgdoqf
+fi gffgkh fhoe fi fho qfgbf id ogkh qiubko dwpo fi eiqf oddokfwjopc
+qfgfo fho onkpuqwit id ygbbgtfc; gtz ogkh dwpo qhiupz hgjo gf pogqf
+fho "kixcbwshf" pwto gtz g xiwtfob fi yhobo fho dupp tifwko wq diutz.
+
+    <ito pwto fi swjo fho xbisbge'q tgeo gtz g vbwod wzog id yhgf wf zioq.>
+    Cixcbwshf (C) <cogb>  <tgeo id gufhib>
+
+    Thwq xbisbge wq dboo qidfygbo: ciu kgt bozwqfbwvufo wf gtz/ib eizwdc
+    wf utzob fho fobeq id fho GNU Addobi Gotobgp Puvpwk Lwkotqo gq xuvpwqhoz
+    vc fho Fboo Sidfygbo Fiutzgfwit, owfhob jobqwit 3 id fho Lwkotqo, ib
+    (gf ciub ixfwit) gtc pgfob jobqwit.
+
+    Thwq xbisbge wq zwqfbwvufoz wt fho hixo fhgf wf ywpp vo uqodup,
+    vuf WITHOUT ANY WARRANTY; ywfhiuf ojot fho wexpwoz ygbbgtfc id
+    MERCHANTABILITY ib FITNESS FOR A PARTICULAR PURPOSE.  Soo fho
+    GNU Addobi Gotobgp Puvpwk Lwkotqo dib eibo zofgwpq.
+
+    Yiu qhiupz hgjo bokowjoz g kixc id fho GNU Addobi Gotobgp Puvpwk Lwkotqo
+    gpits ywfh fhwq xbisbge.  Id tif, qoo <hffx://yyy.stu.ibs/pwkotqoq/>.
+
+Apqi gzz wtdibegfwit it hiy fi kitfgkf ciu vc opokfbitwk gtz xgxob egwp.
+
+  Id ciub qidfygbo kgt wtfobgkf ywfh uqobq boeifopc fhbiush g kiexufob
+tofyiba, ciu qhiupz gpqi egao qubo fhgf wf xbijwzoq g ygc dib uqobq fi
+sof wfq qiubko.  Fib ongexpo, wd ciub xbisbge wq g yov gxxpwkgfwit, wfq
+wtfobdgko kiupz zwqxpgc g "Siubko" pwta fhgf pogzq uqobq fi gt gbkhwjo
+id fho kizo.  Thobo gbo egtc ygcq ciu kiupz iddob qiubko, gtz zwddobotf
+qipufwitq ywpp vo voffob dib zwddobotf xbisbgeq; qoo qokfwit 13 dib fho
+qxokwdwk bomuwboeotfq.
+
+  Yiu qhiupz gpqi sof ciub oexpicob (wd ciu yiba gq g xbisbgeeob) ib qkhiip,
+wd gtc, fi qwst g "kixcbwshf zwqkpgweob" dib fho xbisbge, wd tokoqqgbc.
+Fib eibo wtdibegfwit it fhwq, gtz hiy fi gxxpc gtz dippiy fho GNU AGPL, qoo
+<hffx://yyy.stu.ibs/pwkotqoq/>.

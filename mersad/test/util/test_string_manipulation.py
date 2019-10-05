@@ -1,4 +1,4 @@
-# mersad/test/util/test_string_analyzer.py
+# mersad/test/util/test_string_manipulation.py
 #
 # This file is a part of:
 # Azadeh Afzar - Mersad Cryptography Library in Python language (AA-MCLpy).
@@ -43,44 +43,20 @@
 import unittest
 
 # Mersad Library
-from mersad.util import string_analyzer
+from mersad.util.string_manipulation import replace_letter_by_index
+from mersad.util.string_manipulation import shuffle_string
 
 
-class TestFindUniqeLetters(unittest.TestCase):
-    def test(self):
-        unique_letters = string_analyzer.find_unique_letters(
-                "Is it UniQue? Or NoT ?! huh?"
-        )
-        expected_result = {
-            '!', '?', 't', 's', 'h', 'Q',
-            'N', 'u', 'U', 'O', 'T', 'i',
-            'n', 'e', 'o', 'I', ' ', 'r'
-        }
-        self.assertEqual(expected_result, unique_letters)
+class TestStringManipulation(unittest.TestCase):
+    def test_shuffle_string(self):
+        test_string = "this will be shuffled using seed 6."
+        expected_string = ".uf ls6ehhe nd  ssiglebesiul  tifdw"
+        self.assertEqual(expected_string, shuffle_string(test_string, 6))
 
-
-class TestFindLetterIndexes(unittest.TestCase):
-    def test(self):
-        test_index = string_analyzer.find_letter_indexes(
-                "Enumerate is an amazing Python function.", "a"
-        )
-        expected_result = [6, 13, 16, 18]
-        self.assertEqual(expected_result, test_index)
-
-
-class TestMapLettersToIndexes(unittest.TestCase):
-    def test(self):
-        test_indexes = string_analyzer.map_letters_to_indexes(
-                "Hi Martin, I think my TextAnalyzer is working!"
-        )
-        expected_result = {'!': [45], 'z': [31], 'o': [39], 'h': [14], 'y': [20, 30],
-                           'w': [38], ' ': [2, 10, 12, 18, 21, 34, 37], 's': [36],
-                           'i': [1, 7, 15, 35, 42], 'm': [19], 'A': [26], 'H': [0],
-                           't': [6, 13, 25], 'T': [22], 'I': [11], 'a': [4, 28],
-                           'k': [17, 41], 'e': [23, 32], 'n': [8, 16, 27, 43],
-                           'g': [44], 'x': [24], 'r': [5, 33, 40], ',': [9],
-                           'M': [3], 'l': [29]}
-        self.assertEqual(expected_result, test_indexes)
+    def test_replace_letter_by_index(self):
+        test_string = "Are trying to get something out of this string?"
+        expected_string = "ATITe tTITyiTITg tTIT get something out ofTITthis string?"
+        self.assertEqual(expected_string, replace_letter_by_index(test_string, "TIT", [1, 5, 8, 12, 34]))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,661 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Vlyzpvu 3, 19 Nvcltily 2007
+
+ Cvwfypnoa (C) 2007 Fyll Svmadhyl Fvbukhapvu, Iuj. <oaaw://mzm.vyn/>
+ Eclyfvul pz wlytpaalk av jvwf huk kpzaypibal clyihapt jvwplz
+ vm aopz spjluzl kvjbtlua, iba johunpun pa pz uva hssvdlk.
+
+                            Pylhtisl
+
+  Tol GNU Ammlyv Glulyhs Pbispj Lpjluzl pz h myll, jvwfslma spjluzl mvy
+zvmadhyl huk vaoly rpukz vm dvyrz, zwljpmpjhssf klzpnulk av luzbyl
+jvvwlyhapvu dpao aol jvttbupaf pu aol jhzl vm uladvyr zlycly zvmadhyl.
+
+  Tol spjluzlz mvy tvza zvmadhyl huk vaoly wyhjapjhs dvyrz hyl klzpnulk
+av ahrl hdhf fvby myllkvt av zohyl huk johunl aol dvyrz.  Bf jvuayhza,
+vby Glulyhs Pbispj Lpjluzlz hyl pualuklk av nbhyhuall fvby myllkvt av
+zohyl huk johunl hss clyzpvuz vm h wyvnyht--av thrl zbyl pa ylthpuz myll
+zvmadhyl mvy hss paz bzlyz.
+
+  Wolu dl zwlhr vm myll zvmadhyl, dl hyl ylmlyypun av myllkvt, uva
+wypjl.  Oby Glulyhs Pbispj Lpjluzlz hyl klzpnulk av thrl zbyl aoha fvb
+ohcl aol myllkvt av kpzaypibal jvwplz vm myll zvmadhyl (huk johynl mvy
+aolt pm fvb dpzo), aoha fvb yljlpcl zvbyjl jvkl vy jhu nla pa pm fvb
+dhua pa, aoha fvb jhu johunl aol zvmadhyl vy bzl wpljlz vm pa pu uld
+myll wyvnyhtz, huk aoha fvb ruvd fvb jhu kv aolzl aopunz.
+
+  Dlclsvwlyz aoha bzl vby Glulyhs Pbispj Lpjluzlz wyvalja fvby ypnoaz
+dpao adv zalwz: (1) hzzlya jvwfypnoa vu aol zvmadhyl, huk (2) vmmly
+fvb aopz Lpjluzl dopjo npclz fvb slnhs wlytpzzpvu av jvwf, kpzaypibal
+huk/vy tvkpmf aol zvmadhyl.
+
+  A zljvukhyf ilulmpa vm klmlukpun hss bzlyz' myllkvt pz aoha
+ptwyvcltluaz thkl pu hsalyuhal clyzpvuz vm aol wyvnyht, pm aolf
+yljlpcl dpklzwylhk bzl, iljvtl hchpshisl mvy vaoly klclsvwlyz av
+pujvywvyhal.  Mhuf klclsvwlyz vm myll zvmadhyl hyl olhyalulk huk
+lujvbyhnlk if aol ylzbsapun jvvwlyhapvu.  Hvdlcly, pu aol jhzl vm
+zvmadhyl bzlk vu uladvyr zlyclyz, aopz ylzbsa thf mhps av jvtl hivba.
+Tol GNU Glulyhs Pbispj Lpjluzl wlytpaz thrpun h tvkpmplk clyzpvu huk
+slaapun aol wbispj hjjlzz pa vu h zlycly dpaovba lcly ylslhzpun paz
+zvbyjl jvkl av aol wbispj.
+
+  Tol GNU Ammlyv Glulyhs Pbispj Lpjluzl pz klzpnulk zwljpmpjhssf av
+luzbyl aoha, pu zbjo jhzlz, aol tvkpmplk zvbyjl jvkl iljvtlz hchpshisl
+av aol jvttbupaf.  Ia ylxbpylz aol vwlyhavy vm h uladvyr zlycly av
+wyvcpkl aol zvbyjl jvkl vm aol tvkpmplk clyzpvu ybuupun aolyl av aol
+bzlyz vm aoha zlycly.  Tolylmvyl, wbispj bzl vm h tvkpmplk clyzpvu, vu
+h wbispjsf hjjlzzpisl zlycly, npclz aol wbispj hjjlzz av aol zvbyjl
+jvkl vm aol tvkpmplk clyzpvu.
+
+  Au vskly spjluzl, jhsslk aol Ammlyv Glulyhs Pbispj Lpjluzl huk
+wbispzolk if Ammlyv, dhz klzpnulk av hjjvtwspzo zptpshy nvhsz.  Topz pz
+h kpmmlylua spjluzl, uva h clyzpvu vm aol Ammlyv GPL, iba Ammlyv ohz
+ylslhzlk h uld clyzpvu vm aol Ammlyv GPL dopjo wlytpaz ylspjluzpun bukly
+aopz spjluzl.
+
+  Tol wyljpzl alytz huk jvukpapvuz mvy jvwfpun, kpzaypibapvu huk
+tvkpmpjhapvu mvssvd.
+
+                       TERMS AND CONDITIONS
+
+  0. Dlmpupapvuz.
+
+  "Topz Lpjluzl" ylmlyz av clyzpvu 3 vm aol GNU Ammlyv Glulyhs Pbispj Lpjluzl.
+
+  "Cvwfypnoa" hszv tlhuz jvwfypnoa-sprl shdz aoha hwwsf av vaoly rpukz vm
+dvyrz, zbjo hz zltpjvukbjavy thzrz.
+
+  "Tol Pyvnyht" ylmlyz av huf jvwfypnoahisl dvyr spjluzlk bukly aopz
+Lpjluzl.  Ehjo spjluzll pz hkkylzzlk hz "fvb".  "Lpjluzllz" huk
+"yljpwpluaz" thf il pukpcpkbhsz vy vynhupghapvuz.
+
+  Tv "tvkpmf" h dvyr tlhuz av jvwf myvt vy hkhwa hss vy whya vm aol dvyr
+pu h mhzopvu ylxbpypun jvwfypnoa wlytpzzpvu, vaoly aohu aol thrpun vm hu
+lehja jvwf.  Tol ylzbsapun dvyr pz jhsslk h "tvkpmplk clyzpvu" vm aol
+lhysply dvyr vy h dvyr "ihzlk vu" aol lhysply dvyr.
+
+  A "jvclylk dvyr" tlhuz lpaoly aol butvkpmplk Pyvnyht vy h dvyr ihzlk
+vu aol Pyvnyht.
+
+  Tv "wyvwhnhal" h dvyr tlhuz av kv hufaopun dpao pa aoha, dpaovba
+wlytpzzpvu, dvbsk thrl fvb kpyljasf vy zljvukhypsf sphisl mvy
+pumypunltlua bukly hwwspjhisl jvwfypnoa shd, lejlwa leljbapun pa vu h
+jvtwbaly vy tvkpmfpun h wypchal jvwf.  Pyvwhnhapvu pujsbklz jvwfpun,
+kpzaypibapvu (dpao vy dpaovba tvkpmpjhapvu), thrpun hchpshisl av aol
+wbispj, huk pu zvtl jvbuayplz vaoly hjapcpaplz hz dlss.
+
+  Tv "jvuclf" h dvyr tlhuz huf rpuk vm wyvwhnhapvu aoha luhislz vaoly
+whyaplz av thrl vy yljlpcl jvwplz.  Mlyl pualyhjapvu dpao h bzly aoyvbno
+h jvtwbaly uladvyr, dpao uv ayhuzmly vm h jvwf, pz uva jvuclfpun.
+
+  Au pualyhjapcl bzly pualymhjl kpzwshfz "Awwyvwyphal Llnhs Nvapjlz"
+av aol lealua aoha pa pujsbklz h jvucluplua huk wyvtpuluasf cpzpisl
+mlhabyl aoha (1) kpzwshfz hu hwwyvwyphal jvwfypnoa uvapjl, huk (2)
+alssz aol bzly aoha aolyl pz uv dhyyhuaf mvy aol dvyr (lejlwa av aol
+lealua aoha dhyyhuaplz hyl wyvcpklk), aoha spjluzllz thf jvuclf aol
+dvyr bukly aopz Lpjluzl, huk ovd av cpld h jvwf vm aopz Lpjluzl.  Im
+aol pualymhjl wylzluaz h spza vm bzly jvtthukz vy vwapvuz, zbjo hz h
+tlub, h wyvtpulua palt pu aol spza tllaz aopz jypalypvu.
+
+  1. Svbyjl Cvkl.
+
+  Tol "zvbyjl jvkl" mvy h dvyr tlhuz aol wylmlyylk mvyt vm aol dvyr
+mvy thrpun tvkpmpjhapvuz av pa.  "Oiqlja jvkl" tlhuz huf uvu-zvbyjl
+mvyt vm h dvyr.
+
+  A "Sahukhyk Iualymhjl" tlhuz hu pualymhjl aoha lpaoly pz hu vmmpjphs
+zahukhyk klmpulk if h yljvnupglk zahukhykz ivkf, vy, pu aol jhzl vm
+pualymhjlz zwljpmplk mvy h whyapjbshy wyvnyhttpun shunbhnl, vul aoha
+pz dpklsf bzlk htvun klclsvwlyz dvyrpun pu aoha shunbhnl.
+
+  Tol "Sfzalt Lpiyhyplz" vm hu leljbahisl dvyr pujsbkl hufaopun, vaoly
+aohu aol dvyr hz h dovsl, aoha (h) pz pujsbklk pu aol uvyths mvyt vm
+whjrhnpun h Mhqvy Cvtwvulua, iba dopjo pz uva whya vm aoha Mhqvy
+Cvtwvulua, huk (i) zlyclz vusf av luhisl bzl vm aol dvyr dpao aoha
+Mhqvy Cvtwvulua, vy av ptwsltlua h Sahukhyk Iualymhjl mvy dopjo hu
+ptwsltluahapvu pz hchpshisl av aol wbispj pu zvbyjl jvkl mvyt.  A
+"Mhqvy Cvtwvulua", pu aopz jvualea, tlhuz h thqvy lzzluaphs jvtwvulua
+(rlyuls, dpukvd zfzalt, huk zv vu) vm aol zwljpmpj vwlyhapun zfzalt
+(pm huf) vu dopjo aol leljbahisl dvyr ybuz, vy h jvtwpsly bzlk av
+wyvkbjl aol dvyr, vy hu viqlja jvkl pualywylaly bzlk av ybu pa.
+
+  Tol "Cvyylzwvukpun Svbyjl" mvy h dvyr pu viqlja jvkl mvyt tlhuz hss
+aol zvbyjl jvkl ullklk av nlulyhal, puzahss, huk (mvy hu leljbahisl
+dvyr) ybu aol viqlja jvkl huk av tvkpmf aol dvyr, pujsbkpun zjypwaz av
+jvuayvs aovzl hjapcpaplz.  Hvdlcly, pa kvlz uva pujsbkl aol dvyr'z
+Sfzalt Lpiyhyplz, vy nlulyhs-wbywvzl avvsz vy nlulyhssf hchpshisl myll
+wyvnyhtz dopjo hyl bzlk butvkpmplk pu wlymvytpun aovzl hjapcpaplz iba
+dopjo hyl uva whya vm aol dvyr.  Fvy lehtwsl, Cvyylzwvukpun Svbyjl
+pujsbklz pualymhjl klmpupapvu mpslz hzzvjphalk dpao zvbyjl mpslz mvy
+aol dvyr, huk aol zvbyjl jvkl mvy zohylk spiyhyplz huk kfuhtpjhssf
+spurlk zbiwyvnyhtz aoha aol dvyr pz zwljpmpjhssf klzpnulk av ylxbpyl,
+zbjo hz if puapthal khah jvttbupjhapvu vy jvuayvs msvd iladllu aovzl
+zbiwyvnyhtz huk vaoly whyaz vm aol dvyr.
+
+  Tol Cvyylzwvukpun Svbyjl ullk uva pujsbkl hufaopun aoha bzlyz
+jhu ylnlulyhal hbavthapjhssf myvt vaoly whyaz vm aol Cvyylzwvukpun
+Svbyjl.
+
+  Tol Cvyylzwvukpun Svbyjl mvy h dvyr pu zvbyjl jvkl mvyt pz aoha
+zhtl dvyr.
+
+  2. Bhzpj Plytpzzpvuz.
+
+  Ass ypnoaz nyhualk bukly aopz Lpjluzl hyl nyhualk mvy aol alyt vm
+jvwfypnoa vu aol Pyvnyht, huk hyl pyylcvjhisl wyvcpklk aol zahalk
+jvukpapvuz hyl tla.  Topz Lpjluzl lewspjpasf hmmpytz fvby busptpalk
+wlytpzzpvu av ybu aol butvkpmplk Pyvnyht.  Tol vbawba myvt ybuupun h
+jvclylk dvyr pz jvclylk if aopz Lpjluzl vusf pm aol vbawba, npclu paz
+jvualua, jvuzapabalz h jvclylk dvyr.  Topz Lpjluzl hjruvdslknlz fvby
+ypnoaz vm mhpy bzl vy vaoly lxbpchslua, hz wyvcpklk if jvwfypnoa shd.
+
+  Yvb thf thrl, ybu huk wyvwhnhal jvclylk dvyrz aoha fvb kv uva
+jvuclf, dpaovba jvukpapvuz zv svun hz fvby spjluzl vaolydpzl ylthpuz
+pu mvyjl.  Yvb thf jvuclf jvclylk dvyrz av vaolyz mvy aol zvsl wbywvzl
+vm ohcpun aolt thrl tvkpmpjhapvuz lejsbzpclsf mvy fvb, vy wyvcpkl fvb
+dpao mhjpspaplz mvy ybuupun aovzl dvyrz, wyvcpklk aoha fvb jvtwsf dpao
+aol alytz vm aopz Lpjluzl pu jvuclfpun hss thalyphs mvy dopjo fvb kv
+uva jvuayvs jvwfypnoa.  Tovzl aobz thrpun vy ybuupun aol jvclylk dvyrz
+mvy fvb tbza kv zv lejsbzpclsf vu fvby ilohsm, bukly fvby kpyljapvu
+huk jvuayvs, vu alytz aoha wyvopipa aolt myvt thrpun huf jvwplz vm
+fvby jvwfypnoalk thalyphs vbazpkl aolpy ylshapvuzopw dpao fvb.
+
+  Cvuclfpun bukly huf vaoly jpyjbtzahujlz pz wlytpaalk zvslsf bukly
+aol jvukpapvuz zahalk ilsvd.  Sbispjluzpun pz uva hssvdlk; zljapvu 10
+thrlz pa buuljlzzhyf.
+
+  3. Pyvaljapun Uzlyz' Llnhs Rpnoaz Fyvt Auap-Cpyjbtcluapvu Lhd.
+
+  Nv jvclylk dvyr zohss il klltlk whya vm hu lmmljapcl aljouvsvnpjhs
+tlhzbyl bukly huf hwwspjhisl shd mbsmpsspun vispnhapvuz bukly hyapjsl
+11 vm aol WIPO jvwfypnoa aylhaf hkvwalk vu 20 Dljltily 1996, vy
+zptpshy shdz wyvopipapun vy ylzaypjapun jpyjbtcluapvu vm zbjo
+tlhzbylz.
+
+  Wolu fvb jvuclf h jvclylk dvyr, fvb dhpcl huf slnhs wvdly av mvyipk
+jpyjbtcluapvu vm aljouvsvnpjhs tlhzbylz av aol lealua zbjo jpyjbtcluapvu
+pz lmmljalk if lelyjpzpun ypnoaz bukly aopz Lpjluzl dpao ylzwlja av
+aol jvclylk dvyr, huk fvb kpzjshpt huf pualuapvu av sptpa vwlyhapvu vy
+tvkpmpjhapvu vm aol dvyr hz h tlhuz vm lumvyjpun, hnhpuza aol dvyr'z
+bzlyz, fvby vy aopyk whyaplz' slnhs ypnoaz av mvyipk jpyjbtcluapvu vm
+aljouvsvnpjhs tlhzbylz.
+
+  4. Cvuclfpun Vlyihapt Cvwplz.
+
+  Yvb thf jvuclf clyihapt jvwplz vm aol Pyvnyht'z zvbyjl jvkl hz fvb
+yljlpcl pa, pu huf tlkpbt, wyvcpklk aoha fvb jvuzwpjbvbzsf huk
+hwwyvwyphalsf wbispzo vu lhjo jvwf hu hwwyvwyphal jvwfypnoa uvapjl;
+rllw puahja hss uvapjlz zahapun aoha aopz Lpjluzl huk huf
+uvu-wlytpzzpcl alytz hkklk pu hjjvyk dpao zljapvu 7 hwwsf av aol jvkl;
+rllw puahja hss uvapjlz vm aol hizlujl vm huf dhyyhuaf; huk npcl hss
+yljpwpluaz h jvwf vm aopz Lpjluzl hsvun dpao aol Pyvnyht.
+
+  Yvb thf johynl huf wypjl vy uv wypjl mvy lhjo jvwf aoha fvb jvuclf,
+huk fvb thf vmmly zbwwvya vy dhyyhuaf wyvaljapvu mvy h mll.
+
+  5. Cvuclfpun Mvkpmplk Svbyjl Vlyzpvuz.
+
+  Yvb thf jvuclf h dvyr ihzlk vu aol Pyvnyht, vy aol tvkpmpjhapvuz av
+wyvkbjl pa myvt aol Pyvnyht, pu aol mvyt vm zvbyjl jvkl bukly aol
+alytz vm zljapvu 4, wyvcpklk aoha fvb hszv tlla hss vm aolzl jvukpapvuz:
+
+    h) Tol dvyr tbza jhyyf wyvtpulua uvapjlz zahapun aoha fvb tvkpmplk
+    pa, huk npcpun h ylslchua khal.
+
+    i) Tol dvyr tbza jhyyf wyvtpulua uvapjlz zahapun aoha pa pz
+    ylslhzlk bukly aopz Lpjluzl huk huf jvukpapvuz hkklk bukly zljapvu
+    7.  Topz ylxbpyltlua tvkpmplz aol ylxbpyltlua pu zljapvu 4 av
+    "rllw puahja hss uvapjlz".
+
+    j) Yvb tbza spjluzl aol luapyl dvyr, hz h dovsl, bukly aopz
+    Lpjluzl av hufvul dov jvtlz puav wvzzlzzpvu vm h jvwf.  Topz
+    Lpjluzl dpss aolylmvyl hwwsf, hsvun dpao huf hwwspjhisl zljapvu 7
+    hkkpapvuhs alytz, av aol dovsl vm aol dvyr, huk hss paz whyaz,
+    ylnhykslzz vm ovd aolf hyl whjrhnlk.  Topz Lpjluzl npclz uv
+    wlytpzzpvu av spjluzl aol dvyr pu huf vaoly dhf, iba pa kvlz uva
+    puchspkhal zbjo wlytpzzpvu pm fvb ohcl zlwhyhalsf yljlpclk pa.
+
+    k) Im aol dvyr ohz pualyhjapcl bzly pualymhjlz, lhjo tbza kpzwshf
+    Awwyvwyphal Llnhs Nvapjlz; ovdlcly, pm aol Pyvnyht ohz pualyhjapcl
+    pualymhjlz aoha kv uva kpzwshf Awwyvwyphal Llnhs Nvapjlz, fvby
+    dvyr ullk uva thrl aolt kv zv.
+
+  A jvtwpshapvu vm h jvclylk dvyr dpao vaoly zlwhyhal huk puklwluklua
+dvyrz, dopjo hyl uva if aolpy uhabyl lealuzpvuz vm aol jvclylk dvyr,
+huk dopjo hyl uva jvtipulk dpao pa zbjo hz av mvyt h shynly wyvnyht,
+pu vy vu h cvsbtl vm h zavyhnl vy kpzaypibapvu tlkpbt, pz jhsslk hu
+"hnnylnhal" pm aol jvtwpshapvu huk paz ylzbsapun jvwfypnoa hyl uva
+bzlk av sptpa aol hjjlzz vy slnhs ypnoaz vm aol jvtwpshapvu'z bzlyz
+ilfvuk doha aol pukpcpkbhs dvyrz wlytpa.  Iujsbzpvu vm h jvclylk dvyr
+pu hu hnnylnhal kvlz uva jhbzl aopz Lpjluzl av hwwsf av aol vaoly
+whyaz vm aol hnnylnhal.
+
+  6. Cvuclfpun Nvu-Svbyjl Fvytz.
+
+  Yvb thf jvuclf h jvclylk dvyr pu viqlja jvkl mvyt bukly aol alytz
+vm zljapvuz 4 huk 5, wyvcpklk aoha fvb hszv jvuclf aol
+thjopul-ylhkhisl Cvyylzwvukpun Svbyjl bukly aol alytz vm aopz Lpjluzl,
+pu vul vm aolzl dhfz:
+
+    h) Cvuclf aol viqlja jvkl pu, vy ltivkplk pu, h wofzpjhs wyvkbja
+    (pujsbkpun h wofzpjhs kpzaypibapvu tlkpbt), hjjvtwhuplk if aol
+    Cvyylzwvukpun Svbyjl mpelk vu h kbyhisl wofzpjhs tlkpbt
+    jbzavthypsf bzlk mvy zvmadhyl pualyjohunl.
+
+    i) Cvuclf aol viqlja jvkl pu, vy ltivkplk pu, h wofzpjhs wyvkbja
+    (pujsbkpun h wofzpjhs kpzaypibapvu tlkpbt), hjjvtwhuplk if h
+    dypaalu vmmly, chspk mvy ha slhza aoyll flhyz huk chspk mvy hz
+    svun hz fvb vmmly zwhyl whyaz vy jbzavtly zbwwvya mvy aoha wyvkbja
+    tvkls, av npcl hufvul dov wvzzlzzlz aol viqlja jvkl lpaoly (1) h
+    jvwf vm aol Cvyylzwvukpun Svbyjl mvy hss aol zvmadhyl pu aol
+    wyvkbja aoha pz jvclylk if aopz Lpjluzl, vu h kbyhisl wofzpjhs
+    tlkpbt jbzavthypsf bzlk mvy zvmadhyl pualyjohunl, mvy h wypjl uv
+    tvyl aohu fvby ylhzvuhisl jvza vm wofzpjhssf wlymvytpun aopz
+    jvuclfpun vm zvbyjl, vy (2) hjjlzz av jvwf aol
+    Cvyylzwvukpun Svbyjl myvt h uladvyr zlycly ha uv johynl.
+
+    j) Cvuclf pukpcpkbhs jvwplz vm aol viqlja jvkl dpao h jvwf vm aol
+    dypaalu vmmly av wyvcpkl aol Cvyylzwvukpun Svbyjl.  Topz
+    hsalyuhapcl pz hssvdlk vusf vjjhzpvuhssf huk uvujvttlyjphssf, huk
+    vusf pm fvb yljlpclk aol viqlja jvkl dpao zbjo hu vmmly, pu hjjvyk
+    dpao zbizljapvu 6i.
+
+    k) Cvuclf aol viqlja jvkl if vmmlypun hjjlzz myvt h klzpnuhalk
+    wshjl (nyhapz vy mvy h johynl), huk vmmly lxbpchslua hjjlzz av aol
+    Cvyylzwvukpun Svbyjl pu aol zhtl dhf aoyvbno aol zhtl wshjl ha uv
+    mbyaoly johynl.  Yvb ullk uva ylxbpyl yljpwpluaz av jvwf aol
+    Cvyylzwvukpun Svbyjl hsvun dpao aol viqlja jvkl.  Im aol wshjl av
+    jvwf aol viqlja jvkl pz h uladvyr zlycly, aol Cvyylzwvukpun Svbyjl
+    thf il vu h kpmmlylua zlycly (vwlyhalk if fvb vy h aopyk whyaf)
+    aoha zbwwvyaz lxbpchslua jvwfpun mhjpspaplz, wyvcpklk fvb thpuahpu
+    jslhy kpyljapvuz ulea av aol viqlja jvkl zhfpun dolyl av mpuk aol
+    Cvyylzwvukpun Svbyjl.  Rlnhykslzz vm doha zlycly ovzaz aol
+    Cvyylzwvukpun Svbyjl, fvb ylthpu vispnhalk av luzbyl aoha pa pz
+    hchpshisl mvy hz svun hz ullklk av zhapzmf aolzl ylxbpyltluaz.
+
+    l) Cvuclf aol viqlja jvkl bzpun wlly-av-wlly ayhuztpzzpvu, wyvcpklk
+    fvb pumvyt vaoly wllyz dolyl aol viqlja jvkl huk Cvyylzwvukpun
+    Svbyjl vm aol dvyr hyl ilpun vmmlylk av aol nlulyhs wbispj ha uv
+    johynl bukly zbizljapvu 6k.
+
+  A zlwhyhisl wvyapvu vm aol viqlja jvkl, dovzl zvbyjl jvkl pz lejsbklk
+myvt aol Cvyylzwvukpun Svbyjl hz h Sfzalt Lpiyhyf, ullk uva il
+pujsbklk pu jvuclfpun aol viqlja jvkl dvyr.
+
+  A "Uzly Pyvkbja" pz lpaoly (1) h "jvuzbtly wyvkbja", dopjo tlhuz huf
+ahunpisl wlyzvuhs wyvwlyaf dopjo pz uvythssf bzlk mvy wlyzvuhs, mhtpsf,
+vy ovbzlovsk wbywvzlz, vy (2) hufaopun klzpnulk vy zvsk mvy pujvywvyhapvu
+puav h kdlsspun.  Iu klalytpupun dolaoly h wyvkbja pz h jvuzbtly wyvkbja,
+kvbiambs jhzlz zohss il ylzvsclk pu mhcvy vm jvclyhnl.  Fvy h whyapjbshy
+wyvkbja yljlpclk if h whyapjbshy bzly, "uvythssf bzlk" ylmlyz av h
+afwpjhs vy jvttvu bzl vm aoha jshzz vm wyvkbja, ylnhykslzz vm aol zahabz
+vm aol whyapjbshy bzly vy vm aol dhf pu dopjo aol whyapjbshy bzly
+hjabhssf bzlz, vy lewljaz vy pz lewljalk av bzl, aol wyvkbja.  A wyvkbja
+pz h jvuzbtly wyvkbja ylnhykslzz vm dolaoly aol wyvkbja ohz zbizahuaphs
+jvttlyjphs, pukbzayphs vy uvu-jvuzbtly bzlz, buslzz zbjo bzlz ylwylzlua
+aol vusf zpnupmpjhua tvkl vm bzl vm aol wyvkbja.
+
+  "Iuzahsshapvu Iumvythapvu" mvy h Uzly Pyvkbja tlhuz huf tlaovkz,
+wyvjlkbylz, hbaovypghapvu rlfz, vy vaoly pumvythapvu ylxbpylk av puzahss
+huk leljbal tvkpmplk clyzpvuz vm h jvclylk dvyr pu aoha Uzly Pyvkbja myvt
+h tvkpmplk clyzpvu vm paz Cvyylzwvukpun Svbyjl.  Tol pumvythapvu tbza
+zbmmpjl av luzbyl aoha aol jvuapublk mbujapvupun vm aol tvkpmplk viqlja
+jvkl pz pu uv jhzl wylclualk vy pualymlylk dpao zvslsf iljhbzl
+tvkpmpjhapvu ohz illu thkl.
+
+  Im fvb jvuclf hu viqlja jvkl dvyr bukly aopz zljapvu pu, vy dpao, vy
+zwljpmpjhssf mvy bzl pu, h Uzly Pyvkbja, huk aol jvuclfpun vjjbyz hz
+whya vm h ayhuzhjapvu pu dopjo aol ypnoa vm wvzzlzzpvu huk bzl vm aol
+Uzly Pyvkbja pz ayhuzmlyylk av aol yljpwplua pu wlywlabpaf vy mvy h
+mpelk alyt (ylnhykslzz vm ovd aol ayhuzhjapvu pz johyhjalypglk), aol
+Cvyylzwvukpun Svbyjl jvuclflk bukly aopz zljapvu tbza il hjjvtwhuplk
+if aol Iuzahsshapvu Iumvythapvu.  Bba aopz ylxbpyltlua kvlz uva hwwsf
+pm ulpaoly fvb uvy huf aopyk whyaf ylahpuz aol hipspaf av puzahss
+tvkpmplk viqlja jvkl vu aol Uzly Pyvkbja (mvy lehtwsl, aol dvyr ohz
+illu puzahsslk pu ROM).
+
+  Tol ylxbpyltlua av wyvcpkl Iuzahsshapvu Iumvythapvu kvlz uva pujsbkl h
+ylxbpyltlua av jvuapubl av wyvcpkl zbwwvya zlycpjl, dhyyhuaf, vy bwkhalz
+mvy h dvyr aoha ohz illu tvkpmplk vy puzahsslk if aol yljpwplua, vy mvy
+aol Uzly Pyvkbja pu dopjo pa ohz illu tvkpmplk vy puzahsslk.  Ajjlzz av h
+uladvyr thf il kluplk dolu aol tvkpmpjhapvu pazlsm thalyphssf huk
+hkclyzlsf hmmljaz aol vwlyhapvu vm aol uladvyr vy cpvshalz aol ybslz huk
+wyvavjvsz mvy jvttbupjhapvu hjyvzz aol uladvyr.
+
+  Cvyylzwvukpun Svbyjl jvuclflk, huk Iuzahsshapvu Iumvythapvu wyvcpklk,
+pu hjjvyk dpao aopz zljapvu tbza il pu h mvytha aoha pz wbispjsf
+kvjbtlualk (huk dpao hu ptwsltluahapvu hchpshisl av aol wbispj pu
+zvbyjl jvkl mvyt), huk tbza ylxbpyl uv zwljphs whzzdvyk vy rlf mvy
+buwhjrpun, ylhkpun vy jvwfpun.
+
+  7. Akkpapvuhs Tlytz.
+
+  "Akkpapvuhs wlytpzzpvuz" hyl alytz aoha zbwwsltlua aol alytz vm aopz
+Lpjluzl if thrpun lejlwapvuz myvt vul vy tvyl vm paz jvukpapvuz.
+Akkpapvuhs wlytpzzpvuz aoha hyl hwwspjhisl av aol luapyl Pyvnyht zohss
+il aylhalk hz aovbno aolf dlyl pujsbklk pu aopz Lpjluzl, av aol lealua
+aoha aolf hyl chspk bukly hwwspjhisl shd.  Im hkkpapvuhs wlytpzzpvuz
+hwwsf vusf av whya vm aol Pyvnyht, aoha whya thf il bzlk zlwhyhalsf
+bukly aovzl wlytpzzpvuz, iba aol luapyl Pyvnyht ylthpuz nvclyulk if
+aopz Lpjluzl dpaovba ylnhyk av aol hkkpapvuhs wlytpzzpvuz.
+
+  Wolu fvb jvuclf h jvwf vm h jvclylk dvyr, fvb thf ha fvby vwapvu
+yltvcl huf hkkpapvuhs wlytpzzpvuz myvt aoha jvwf, vy myvt huf whya vm
+pa.  (Akkpapvuhs wlytpzzpvuz thf il dypaalu av ylxbpyl aolpy vdu
+yltvchs pu jlyahpu jhzlz dolu fvb tvkpmf aol dvyr.)  Yvb thf wshjl
+hkkpapvuhs wlytpzzpvuz vu thalyphs, hkklk if fvb av h jvclylk dvyr,
+mvy dopjo fvb ohcl vy jhu npcl hwwyvwyphal jvwfypnoa wlytpzzpvu.
+
+  Nvadpaozahukpun huf vaoly wyvcpzpvu vm aopz Lpjluzl, mvy thalyphs fvb
+hkk av h jvclylk dvyr, fvb thf (pm hbaovypglk if aol jvwfypnoa ovsklyz vm
+aoha thalyphs) zbwwsltlua aol alytz vm aopz Lpjluzl dpao alytz:
+
+    h) Dpzjshptpun dhyyhuaf vy sptpapun sphipspaf kpmmlyluasf myvt aol
+    alytz vm zljapvuz 15 huk 16 vm aopz Lpjluzl; vy
+
+    i) Rlxbpypun wylzlychapvu vm zwljpmplk ylhzvuhisl slnhs uvapjlz vy
+    hbaovy haaypibapvuz pu aoha thalyphs vy pu aol Awwyvwyphal Llnhs
+    Nvapjlz kpzwshflk if dvyrz jvuahpupun pa; vy
+
+    j) Pyvopipapun tpzylwylzluahapvu vm aol vypnpu vm aoha thalyphs, vy
+    ylxbpypun aoha tvkpmplk clyzpvuz vm zbjo thalyphs il thyrlk pu
+    ylhzvuhisl dhfz hz kpmmlylua myvt aol vypnpuhs clyzpvu; vy
+
+    k) Lptpapun aol bzl mvy wbispjpaf wbywvzlz vm uhtlz vm spjluzvyz vy
+    hbaovyz vm aol thalyphs; vy
+
+    l) Dljspupun av nyhua ypnoaz bukly ayhklthyr shd mvy bzl vm zvtl
+    ayhkl uhtlz, ayhklthyrz, vy zlycpjl thyrz; vy
+
+    m) Rlxbpypun pukltupmpjhapvu vm spjluzvyz huk hbaovyz vm aoha
+    thalyphs if hufvul dov jvuclfz aol thalyphs (vy tvkpmplk clyzpvuz vm
+    pa) dpao jvuayhjabhs hzzbtwapvuz vm sphipspaf av aol yljpwplua, mvy
+    huf sphipspaf aoha aolzl jvuayhjabhs hzzbtwapvuz kpyljasf ptwvzl vu
+    aovzl spjluzvyz huk hbaovyz.
+
+  Ass vaoly uvu-wlytpzzpcl hkkpapvuhs alytz hyl jvuzpklylk "mbyaoly
+ylzaypjapvuz" dpaopu aol tlhupun vm zljapvu 10.  Im aol Pyvnyht hz fvb
+yljlpclk pa, vy huf whya vm pa, jvuahpuz h uvapjl zahapun aoha pa pz
+nvclyulk if aopz Lpjluzl hsvun dpao h alyt aoha pz h mbyaoly
+ylzaypjapvu, fvb thf yltvcl aoha alyt.  Im h spjluzl kvjbtlua jvuahpuz
+h mbyaoly ylzaypjapvu iba wlytpaz ylspjluzpun vy jvuclfpun bukly aopz
+Lpjluzl, fvb thf hkk av h jvclylk dvyr thalyphs nvclyulk if aol alytz
+vm aoha spjluzl kvjbtlua, wyvcpklk aoha aol mbyaoly ylzaypjapvu kvlz
+uva zbycpcl zbjo ylspjluzpun vy jvuclfpun.
+
+  Im fvb hkk alytz av h jvclylk dvyr pu hjjvyk dpao aopz zljapvu, fvb
+tbza wshjl, pu aol ylslchua zvbyjl mpslz, h zahaltlua vm aol
+hkkpapvuhs alytz aoha hwwsf av aovzl mpslz, vy h uvapjl pukpjhapun
+dolyl av mpuk aol hwwspjhisl alytz.
+
+  Akkpapvuhs alytz, wlytpzzpcl vy uvu-wlytpzzpcl, thf il zahalk pu aol
+mvyt vm h zlwhyhalsf dypaalu spjluzl, vy zahalk hz lejlwapvuz;
+aol hivcl ylxbpyltluaz hwwsf lpaoly dhf.
+
+  8. Tlytpuhapvu.
+
+  Yvb thf uva wyvwhnhal vy tvkpmf h jvclylk dvyr lejlwa hz lewylzzsf
+wyvcpklk bukly aopz Lpjluzl.  Auf haaltwa vaolydpzl av wyvwhnhal vy
+tvkpmf pa pz cvpk, huk dpss hbavthapjhssf alytpuhal fvby ypnoaz bukly
+aopz Lpjluzl (pujsbkpun huf whalua spjluzlz nyhualk bukly aol aopyk
+whyhnyhwo vm zljapvu 11).
+
+  Hvdlcly, pm fvb jlhzl hss cpvshapvu vm aopz Lpjluzl, aolu fvby
+spjluzl myvt h whyapjbshy jvwfypnoa ovskly pz ylpuzahalk (h)
+wyvcpzpvuhssf, buslzz huk buaps aol jvwfypnoa ovskly lewspjpasf huk
+mpuhssf alytpuhalz fvby spjluzl, huk (i) wlythuluasf, pm aol jvwfypnoa
+ovskly mhpsz av uvapmf fvb vm aol cpvshapvu if zvtl ylhzvuhisl tlhuz
+wypvy av 60 khfz hmaly aol jlzzhapvu.
+
+  Mvylvcly, fvby spjluzl myvt h whyapjbshy jvwfypnoa ovskly pz
+ylpuzahalk wlythuluasf pm aol jvwfypnoa ovskly uvapmplz fvb vm aol
+cpvshapvu if zvtl ylhzvuhisl tlhuz, aopz pz aol mpyza aptl fvb ohcl
+yljlpclk uvapjl vm cpvshapvu vm aopz Lpjluzl (mvy huf dvyr) myvt aoha
+jvwfypnoa ovskly, huk fvb jbyl aol cpvshapvu wypvy av 30 khfz hmaly
+fvby yljlpwa vm aol uvapjl.
+
+  Tlytpuhapvu vm fvby ypnoaz bukly aopz zljapvu kvlz uva alytpuhal aol
+spjluzlz vm whyaplz dov ohcl yljlpclk jvwplz vy ypnoaz myvt fvb bukly
+aopz Lpjluzl.  Im fvby ypnoaz ohcl illu alytpuhalk huk uva wlythuluasf
+ylpuzahalk, fvb kv uva xbhspmf av yljlpcl uld spjluzlz mvy aol zhtl
+thalyphs bukly zljapvu 10.
+
+  9. Ajjlwahujl Nva Rlxbpylk mvy Hhcpun Cvwplz.
+
+  Yvb hyl uva ylxbpylk av hjjlwa aopz Lpjluzl pu vykly av yljlpcl vy
+ybu h jvwf vm aol Pyvnyht.  Aujpsshyf wyvwhnhapvu vm h jvclylk dvyr
+vjjbyypun zvslsf hz h jvuzlxblujl vm bzpun wlly-av-wlly ayhuztpzzpvu
+av yljlpcl h jvwf sprldpzl kvlz uva ylxbpyl hjjlwahujl.  Hvdlcly,
+uvaopun vaoly aohu aopz Lpjluzl nyhuaz fvb wlytpzzpvu av wyvwhnhal vy
+tvkpmf huf jvclylk dvyr.  Tolzl hjapvuz pumypunl jvwfypnoa pm fvb kv
+uva hjjlwa aopz Lpjluzl.  Tolylmvyl, if tvkpmfpun vy wyvwhnhapun h
+jvclylk dvyr, fvb pukpjhal fvby hjjlwahujl vm aopz Lpjluzl av kv zv.
+
+  10. Abavthapj Lpjluzpun vm Dvduzaylht Rljpwpluaz.
+
+  Ehjo aptl fvb jvuclf h jvclylk dvyr, aol yljpwplua hbavthapjhssf
+yljlpclz h spjluzl myvt aol vypnpuhs spjluzvyz, av ybu, tvkpmf huk
+wyvwhnhal aoha dvyr, zbiqlja av aopz Lpjluzl.  Yvb hyl uva ylzwvuzpisl
+mvy lumvyjpun jvtwsphujl if aopyk whyaplz dpao aopz Lpjluzl.
+
+  Au "luapaf ayhuzhjapvu" pz h ayhuzhjapvu ayhuzmlyypun jvuayvs vm hu
+vynhupghapvu, vy zbizahuaphssf hss hzzlaz vm vul, vy zbikpcpkpun hu
+vynhupghapvu, vy tlynpun vynhupghapvuz.  Im wyvwhnhapvu vm h jvclylk
+dvyr ylzbsaz myvt hu luapaf ayhuzhjapvu, lhjo whyaf av aoha
+ayhuzhjapvu dov yljlpclz h jvwf vm aol dvyr hszv yljlpclz dohalcly
+spjluzlz av aol dvyr aol whyaf'z wylkljlzzvy pu pualylza ohk vy jvbsk
+npcl bukly aol wylcpvbz whyhnyhwo, wsbz h ypnoa av wvzzlzzpvu vm aol
+Cvyylzwvukpun Svbyjl vm aol dvyr myvt aol wylkljlzzvy pu pualylza, pm
+aol wylkljlzzvy ohz pa vy jhu nla pa dpao ylhzvuhisl lmmvyaz.
+
+  Yvb thf uva ptwvzl huf mbyaoly ylzaypjapvuz vu aol lelyjpzl vm aol
+ypnoaz nyhualk vy hmmpytlk bukly aopz Lpjluzl.  Fvy lehtwsl, fvb thf
+uva ptwvzl h spjluzl mll, yvfhsaf, vy vaoly johynl mvy lelyjpzl vm
+ypnoaz nyhualk bukly aopz Lpjluzl, huk fvb thf uva pupaphal spapnhapvu
+(pujsbkpun h jyvzz-jshpt vy jvbualyjshpt pu h shdzbpa) hsslnpun aoha
+huf whalua jshpt pz pumypunlk if thrpun, bzpun, zlsspun, vmmlypun mvy
+zhsl, vy ptwvyapun aol Pyvnyht vy huf wvyapvu vm pa.
+
+  11. Phaluaz.
+
+  A "jvuaypibavy" pz h jvwfypnoa ovskly dov hbaovypglz bzl bukly aopz
+Lpjluzl vm aol Pyvnyht vy h dvyr vu dopjo aol Pyvnyht pz ihzlk.  Tol
+dvyr aobz spjluzlk pz jhsslk aol jvuaypibavy'z "jvuaypibavy clyzpvu".
+
+  A jvuaypibavy'z "lzzluaphs whalua jshptz" hyl hss whalua jshptz
+vdulk vy jvuayvsslk if aol jvuaypibavy, dolaoly hsylhkf hjxbpylk vy
+olylhmaly hjxbpylk, aoha dvbsk il pumypunlk if zvtl thuuly, wlytpaalk
+if aopz Lpjluzl, vm thrpun, bzpun, vy zlsspun paz jvuaypibavy clyzpvu,
+iba kv uva pujsbkl jshptz aoha dvbsk il pumypunlk vusf hz h
+jvuzlxblujl vm mbyaoly tvkpmpjhapvu vm aol jvuaypibavy clyzpvu.  Fvy
+wbywvzlz vm aopz klmpupapvu, "jvuayvs" pujsbklz aol ypnoa av nyhua
+whalua zbispjluzlz pu h thuuly jvuzpzalua dpao aol ylxbpyltluaz vm
+aopz Lpjluzl.
+
+  Ehjo jvuaypibavy nyhuaz fvb h uvu-lejsbzpcl, dvyskdpkl, yvfhsaf-myll
+whalua spjluzl bukly aol jvuaypibavy'z lzzluaphs whalua jshptz, av
+thrl, bzl, zlss, vmmly mvy zhsl, ptwvya huk vaolydpzl ybu, tvkpmf huk
+wyvwhnhal aol jvualuaz vm paz jvuaypibavy clyzpvu.
+
+  Iu aol mvssvdpun aoyll whyhnyhwoz, h "whalua spjluzl" pz huf lewylzz
+hnylltlua vy jvttpatlua, ovdlcly kluvtpuhalk, uva av lumvyjl h whalua
+(zbjo hz hu lewylzz wlytpzzpvu av wyhjapjl h whalua vy jvcluhua uva av
+zbl mvy whalua pumypunltlua).  Tv "nyhua" zbjo h whalua spjluzl av h
+whyaf tlhuz av thrl zbjo hu hnylltlua vy jvttpatlua uva av lumvyjl h
+whalua hnhpuza aol whyaf.
+
+  Im fvb jvuclf h jvclylk dvyr, ruvdpunsf ylsfpun vu h whalua spjluzl,
+huk aol Cvyylzwvukpun Svbyjl vm aol dvyr pz uva hchpshisl mvy hufvul
+av jvwf, myll vm johynl huk bukly aol alytz vm aopz Lpjluzl, aoyvbno h
+wbispjsf hchpshisl uladvyr zlycly vy vaoly ylhkpsf hjjlzzpisl tlhuz,
+aolu fvb tbza lpaoly (1) jhbzl aol Cvyylzwvukpun Svbyjl av il zv
+hchpshisl, vy (2) hyyhunl av klwypcl fvbyzlsm vm aol ilulmpa vm aol
+whalua spjluzl mvy aopz whyapjbshy dvyr, vy (3) hyyhunl, pu h thuuly
+jvuzpzalua dpao aol ylxbpyltluaz vm aopz Lpjluzl, av lealuk aol whalua
+spjluzl av kvduzaylht yljpwpluaz.  "Kuvdpunsf ylsfpun" tlhuz fvb ohcl
+hjabhs ruvdslknl aoha, iba mvy aol whalua spjluzl, fvby jvuclfpun aol
+jvclylk dvyr pu h jvbuayf, vy fvby yljpwplua'z bzl vm aol jvclylk dvyr
+pu h jvbuayf, dvbsk pumypunl vul vy tvyl pkluapmphisl whaluaz pu aoha
+jvbuayf aoha fvb ohcl ylhzvu av ilsplcl hyl chspk.
+
+  Im, wbyzbhua av vy pu jvuuljapvu dpao h zpunsl ayhuzhjapvu vy
+hyyhunltlua, fvb jvuclf, vy wyvwhnhal if wyvjbypun jvuclfhujl vm, h
+jvclylk dvyr, huk nyhua h whalua spjluzl av zvtl vm aol whyaplz
+yljlpcpun aol jvclylk dvyr hbaovypgpun aolt av bzl, wyvwhnhal, tvkpmf
+vy jvuclf h zwljpmpj jvwf vm aol jvclylk dvyr, aolu aol whalua spjluzl
+fvb nyhua pz hbavthapjhssf lealuklk av hss yljpwpluaz vm aol jvclylk
+dvyr huk dvyrz ihzlk vu pa.
+
+  A whalua spjluzl pz "kpzjyptpuhavyf" pm pa kvlz uva pujsbkl dpaopu
+aol zjvwl vm paz jvclyhnl, wyvopipaz aol lelyjpzl vm, vy pz
+jvukpapvulk vu aol uvu-lelyjpzl vm vul vy tvyl vm aol ypnoaz aoha hyl
+zwljpmpjhssf nyhualk bukly aopz Lpjluzl.  Yvb thf uva jvuclf h jvclylk
+dvyr pm fvb hyl h whyaf av hu hyyhunltlua dpao h aopyk whyaf aoha pz
+pu aol ibzpulzz vm kpzaypibapun zvmadhyl, bukly dopjo fvb thrl whftlua
+av aol aopyk whyaf ihzlk vu aol lealua vm fvby hjapcpaf vm jvuclfpun
+aol dvyr, huk bukly dopjo aol aopyk whyaf nyhuaz, av huf vm aol
+whyaplz dov dvbsk yljlpcl aol jvclylk dvyr myvt fvb, h kpzjyptpuhavyf
+whalua spjluzl (h) pu jvuuljapvu dpao jvwplz vm aol jvclylk dvyr
+jvuclflk if fvb (vy jvwplz thkl myvt aovzl jvwplz), vy (i) wypthypsf
+mvy huk pu jvuuljapvu dpao zwljpmpj wyvkbjaz vy jvtwpshapvuz aoha
+jvuahpu aol jvclylk dvyr, buslzz fvb lualylk puav aoha hyyhunltlua,
+vy aoha whalua spjluzl dhz nyhualk, wypvy av 28 Mhyjo 2007.
+
+  Nvaopun pu aopz Lpjluzl zohss il jvuzayblk hz lejsbkpun vy sptpapun
+huf ptwsplk spjluzl vy vaoly klmluzlz av pumypunltlua aoha thf
+vaolydpzl il hchpshisl av fvb bukly hwwspjhisl whalua shd.
+
+  12. Nv Sbyylukly vm Oaolyz' Fyllkvt.
+
+  Im jvukpapvuz hyl ptwvzlk vu fvb (dolaoly if jvbya vykly, hnylltlua vy
+vaolydpzl) aoha jvuayhkpja aol jvukpapvuz vm aopz Lpjluzl, aolf kv uva
+lejbzl fvb myvt aol jvukpapvuz vm aopz Lpjluzl.  Im fvb jhuuva jvuclf h
+jvclylk dvyr zv hz av zhapzmf zptbsahulvbzsf fvby vispnhapvuz bukly aopz
+Lpjluzl huk huf vaoly wlyapulua vispnhapvuz, aolu hz h jvuzlxblujl fvb thf
+uva jvuclf pa ha hss.  Fvy lehtwsl, pm fvb hnyll av alytz aoha vispnhal fvb
+av jvsslja h yvfhsaf mvy mbyaoly jvuclfpun myvt aovzl av dovt fvb jvuclf
+aol Pyvnyht, aol vusf dhf fvb jvbsk zhapzmf ivao aovzl alytz huk aopz
+Lpjluzl dvbsk il av ylmyhpu luapylsf myvt jvuclfpun aol Pyvnyht.
+
+  13. Rltval Nladvyr Iualyhjapvu; Uzl dpao aol GNU Glulyhs Pbispj Lpjluzl.
+
+  Nvadpaozahukpun huf vaoly wyvcpzpvu vm aopz Lpjluzl, pm fvb tvkpmf aol
+Pyvnyht, fvby tvkpmplk clyzpvu tbza wyvtpuluasf vmmly hss bzlyz
+pualyhjapun dpao pa yltvalsf aoyvbno h jvtwbaly uladvyr (pm fvby clyzpvu
+zbwwvyaz zbjo pualyhjapvu) hu vwwvyabupaf av yljlpcl aol Cvyylzwvukpun
+Svbyjl vm fvby clyzpvu if wyvcpkpun hjjlzz av aol Cvyylzwvukpun Svbyjl
+myvt h uladvyr zlycly ha uv johynl, aoyvbno zvtl zahukhyk vy jbzavthyf
+tlhuz vm mhjpspahapun jvwfpun vm zvmadhyl.  Topz Cvyylzwvukpun Svbyjl
+zohss pujsbkl aol Cvyylzwvukpun Svbyjl mvy huf dvyr jvclylk if clyzpvu 3
+vm aol GNU Glulyhs Pbispj Lpjluzl aoha pz pujvywvyhalk wbyzbhua av aol
+mvssvdpun whyhnyhwo.
+
+  Nvadpaozahukpun huf vaoly wyvcpzpvu vm aopz Lpjluzl, fvb ohcl
+wlytpzzpvu av spur vy jvtipul huf jvclylk dvyr dpao h dvyr spjluzlk
+bukly clyzpvu 3 vm aol GNU Glulyhs Pbispj Lpjluzl puav h zpunsl
+jvtipulk dvyr, huk av jvuclf aol ylzbsapun dvyr.  Tol alytz vm aopz
+Lpjluzl dpss jvuapubl av hwwsf av aol whya dopjo pz aol jvclylk dvyr,
+iba aol dvyr dpao dopjo pa pz jvtipulk dpss ylthpu nvclyulk if clyzpvu
+3 vm aol GNU Glulyhs Pbispj Lpjluzl.
+
+  14. Rlcpzlk Vlyzpvuz vm aopz Lpjluzl.
+
+  Tol Fyll Svmadhyl Fvbukhapvu thf wbispzo ylcpzlk huk/vy uld clyzpvuz vm
+aol GNU Ammlyv Glulyhs Pbispj Lpjluzl myvt aptl av aptl.  Sbjo uld clyzpvuz
+dpss il zptpshy pu zwpypa av aol wylzlua clyzpvu, iba thf kpmmly pu klahps av
+hkkylzz uld wyvisltz vy jvujlyuz.
+
+  Ehjo clyzpvu pz npclu h kpzapunbpzopun clyzpvu ubtily.  Im aol
+Pyvnyht zwljpmplz aoha h jlyahpu ubtilylk clyzpvu vm aol GNU Ammlyv Glulyhs
+Pbispj Lpjluzl "vy huf shaly clyzpvu" hwwsplz av pa, fvb ohcl aol
+vwapvu vm mvssvdpun aol alytz huk jvukpapvuz lpaoly vm aoha ubtilylk
+clyzpvu vy vm huf shaly clyzpvu wbispzolk if aol Fyll Svmadhyl
+Fvbukhapvu.  Im aol Pyvnyht kvlz uva zwljpmf h clyzpvu ubtily vm aol
+GNU Ammlyv Glulyhs Pbispj Lpjluzl, fvb thf jovvzl huf clyzpvu lcly wbispzolk
+if aol Fyll Svmadhyl Fvbukhapvu.
+
+  Im aol Pyvnyht zwljpmplz aoha h wyvef jhu kljpkl dopjo mbabyl
+clyzpvuz vm aol GNU Ammlyv Glulyhs Pbispj Lpjluzl jhu il bzlk, aoha wyvef'z
+wbispj zahaltlua vm hjjlwahujl vm h clyzpvu wlythuluasf hbaovypglz fvb
+av jovvzl aoha clyzpvu mvy aol Pyvnyht.
+
+  Lhaly spjluzl clyzpvuz thf npcl fvb hkkpapvuhs vy kpmmlylua
+wlytpzzpvuz.  Hvdlcly, uv hkkpapvuhs vispnhapvuz hyl ptwvzlk vu huf
+hbaovy vy jvwfypnoa ovskly hz h ylzbsa vm fvby jovvzpun av mvssvd h
+shaly clyzpvu.
+
+  15. Dpzjshptly vm Whyyhuaf.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  16. Lptpahapvu vm Lphipspaf.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+  17. Iualywylahapvu vm Sljapvuz 15 huk 16.
+
+  Im aol kpzjshptly vm dhyyhuaf huk sptpahapvu vm sphipspaf wyvcpklk
+hivcl jhuuva il npclu svjhs slnhs lmmlja hjjvykpun av aolpy alytz,
+ylcpldpun jvbyaz zohss hwwsf svjhs shd aoha tvza jsvzlsf hwwyvepthalz
+hu hizvsbal dhpcly vm hss jpcps sphipspaf pu jvuuljapvu dpao aol
+Pyvnyht, buslzz h dhyyhuaf vy hzzbtwapvu vm sphipspaf hjjvtwhuplz h
+jvwf vm aol Pyvnyht pu ylabyu mvy h mll.
+
+                     END OF TERMS AND CONDITIONS
+
+            Hvd av Awwsf Tolzl Tlytz av Yvby Nld Pyvnyhtz
+
+  Im fvb klclsvw h uld wyvnyht, huk fvb dhua pa av il vm aol nylhalza
+wvzzpisl bzl av aol wbispj, aol ilza dhf av hjoplcl aopz pz av thrl pa
+myll zvmadhyl dopjo lclyfvul jhu ylkpzaypibal huk johunl bukly aolzl alytz.
+
+  Tv kv zv, haahjo aol mvssvdpun uvapjlz av aol wyvnyht.  Ia pz zhmlza
+av haahjo aolt av aol zahya vm lhjo zvbyjl mpsl av tvza lmmljapclsf
+zahal aol lejsbzpvu vm dhyyhuaf; huk lhjo mpsl zovbsk ohcl ha slhza
+aol "jvwfypnoa" spul huk h wvpualy av dolyl aol mbss uvapjl pz mvbuk.
+
+    <vul spul av npcl aol wyvnyht'z uhtl huk h iyplm pklh vm doha pa kvlz.>
+    Cvwfypnoa (C) <flhy>  <uhtl vm hbaovy>
+
+    Topz wyvnyht pz myll zvmadhyl: fvb jhu ylkpzaypibal pa huk/vy tvkpmf
+    pa bukly aol alytz vm aol GNU Ammlyv Glulyhs Pbispj Lpjluzl hz wbispzolk
+    if aol Fyll Svmadhyl Fvbukhapvu, lpaoly clyzpvu 3 vm aol Lpjluzl, vy
+    (ha fvby vwapvu) huf shaly clyzpvu.
+
+    Topz wyvnyht pz kpzaypibalk pu aol ovwl aoha pa dpss il bzlmbs,
+    iba WITHOUT ANY WARRANTY; dpaovba lclu aol ptwsplk dhyyhuaf vm
+    MERCHANTABILITY vy FITNESS FOR A PARTICULAR PURPOSE.  Sll aol
+    GNU Ammlyv Glulyhs Pbispj Lpjluzl mvy tvyl klahpsz.
+
+    Yvb zovbsk ohcl yljlpclk h jvwf vm aol GNU Ammlyv Glulyhs Pbispj Lpjluzl
+    hsvun dpao aopz wyvnyht.  Im uva, zll <oaaw://ddd.nub.vyn/spjluzlz/>.
+
+Aszv hkk pumvythapvu vu ovd av jvuahja fvb if lsljayvupj huk whwly thps.
+
+  Im fvby zvmadhyl jhu pualyhja dpao bzlyz yltvalsf aoyvbno h jvtwbaly
+uladvyr, fvb zovbsk hszv thrl zbyl aoha pa wyvcpklz h dhf mvy bzlyz av
+nla paz zvbyjl.  Fvy lehtwsl, pm fvby wyvnyht pz h dli hwwspjhapvu, paz
+pualymhjl jvbsk kpzwshf h "Svbyjl" spur aoha slhkz bzlyz av hu hyjopcl
+vm aol jvkl.  Tolyl hyl thuf dhfz fvb jvbsk vmmly zvbyjl, huk kpmmlylua
+zvsbapvuz dpss il ilaaly mvy kpmmlylua wyvnyhtz; zll zljapvu 13 mvy aol
+zwljpmpj ylxbpyltluaz.
+
+  Yvb zovbsk hszv nla fvby ltwsvfly (pm fvb dvyr hz h wyvnyhttly) vy zjovvs,
+pm huf, av zpnu h "jvwfypnoa kpzjshptly" mvy aol wyvnyht, pm uljlzzhyf.
+Fvy tvyl pumvythapvu vu aopz, huk ovd av hwwsf huk mvssvd aol GNU AGPL, zll
+<oaaw://ddd.nub.vyn/spjluzlz/>.
