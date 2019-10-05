@@ -68,29 +68,29 @@ def extended_gcd(a: int, b: int) -> Tuple[int, int, int]:
 
     :param a: first number.
     :param b: second number.
-    :return: gcd and Bezout coefficients of a and b.
+    :return: (g, x, y) such that a*x + b*y = g = gcd(a, b)
     :rtype: tuple
     """
-    # type annotations
-    x: int
-    y: int
-    remainder: int
-    last_x: int
-    last_y: int
-    last_remainder: int
-
-    # assignment
-    last_remainder, remainder = abs(a), abs(b)
-    x, last_x, y, last_y = 0, 1, 1, 0
+    # assign variables
+    last_x: int = 0
+    last_y: int = 1
+    x: int = 1
+    y: int = 0
+    last_remainder: int = abs(b)
+    remainder: int = abs(a)
 
     while remainder:
-        last_remainder = remainder
-        quotient, remainder = divmod(last_remainder, remainder)
+        last_remainder, (quotient, remainder) = remainder, divmod(last_remainder,
+                                                                  remainder)
         x, last_x = last_x - quotient * x, x
         y, last_y = last_y - quotient * y, y
 
-    return (last_remainder, last_x * (-1 if a < 0 else 1),
-            last_y * (-1 if b < 0 else 1))
+    # fix signs
+    last_x *= (-1 if a < 0 else 1)
+    last_y *= (-1 if b < 0 else 1)
+
+    # return (g, x, y) such that a*x + b*y = g = gcd(a, b)
+    return last_remainder, last_x, last_y
 
 
 def mod_inverse(a: int, b: int) -> int:
@@ -104,11 +104,11 @@ def mod_inverse(a: int, b: int) -> int:
     :return: mod inverse of a mod b
     :rtype: int
     """
-    # type annotations
-    g: int
-    x: int
+    # calculate extended gcd and get (g, x, y) such that a*x + b*y = g = gcd(a, b)
     results: Tuple[int, int, int] = extended_gcd(a, b)
-    g, x = results[0], results[1]
+    # unpack g and x
+    g: int = results[0]
+    x: int = results[1]
     if g != 1:
         raise ValueError("mersad.util.crypto_math Error: a and b must be co-prime.")
     return x % b
