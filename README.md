@@ -22,15 +22,6 @@
   <a title="Top language" href="#" target="_blank">
     <img src="https://img.shields.io/github/languages/top/azadeh-afzar/Mersad-Cryptography-Library?logo=gitlab&style=flat-square" alt="Top language">
   </a>
-  <a title="GitLab: pipeline status" href="https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/commits/master" target="_blank">
-    <img src="https://img.shields.io/gitlab/pipeline/Cryptography/Mersad-Cryptography-Library?gitlab_url=https%3A%2F%2Fgitlab.com%2FAzadeh-Afzar&logo=gitlab&style=flat-square"  alt="pipeline status" />
-  </a>
-  <a title="Travis CI: build status" href="https://travis-ci.org/azadeh-afzar/Mersad-Cryptography-Library" target="_blank">
-    <img src="https://img.shields.io/travis/azadeh-afzar/Mersad-Cryptography-Library/master?logo=travis&style=flat-square"  alt="travis build status" />
-  </a>
-  <a title="Test Coverage: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library" target="_blank">
-    <img src="https://img.shields.io/codeclimate/coverage/azadeh-afzar/Mersad-Cryptography-Library?logo=code-climate&style=flat-square" alt="CodeClimate"/>
-  </a>
   
   <br>
   
@@ -51,7 +42,19 @@
   </a>
   
   <br>
+
+  <a title="GitLab: pipeline status" href="https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/commits/master" target="_blank">
+    <img src="https://img.shields.io/gitlab/pipeline/Cryptography/Mersad-Cryptography-Library?gitlab_url=https%3A%2F%2Fgitlab.com%2FAzadeh-Afzar&logo=gitlab&style=flat-square"  alt="pipeline status" />
+  </a>
+  <a title="Travis CI: build status" href="https://travis-ci.org/azadeh-afzar/Mersad-Cryptography-Library" target="_blank">
+    <img src="https://img.shields.io/travis/azadeh-afzar/Mersad-Cryptography-Library/master?logo=travis&style=flat-square"  alt="travis build status" />
+  </a>
+  <a title="Test Coverage: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library" target="_blank">
+    <img src="https://img.shields.io/codeclimate/coverage/azadeh-afzar/Mersad-Cryptography-Library?logo=code-climate&style=flat-square" alt="CodeClimate"/>
+  </a>
   
+  <br>
+
   <a title="PyPi: Mersad version" href="https://pypi.org/project/mersad" target="_blank">
     <img src="https://img.shields.io/pypi/v/mersad?logo=pypi&style=flat-square" alt="PyPI version">
   </a>
@@ -177,7 +180,7 @@ print(agent.decrypt("This method is not secure :0 but it is funny."))
 ``` 
 
 for more examples look at
-[snippets](https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/snippets)
+[snippets](https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/snippets).
 
 
 ## Can I use this package in terminal?
@@ -185,7 +188,7 @@ for more examples look at
 Yes! :metal:
 
 Each cipher module have a corresponding cli program with name convention of:
-`mclModule`. For example to run Shift cipher module in terminal just type `mclShift`.
+`mclModuleName`. For example to run Shift cipher module in terminal just type `mclShift`.
 To learn how to work with cli programs type `--help` after program name
 (e.g. `mclShift --help`).
 
