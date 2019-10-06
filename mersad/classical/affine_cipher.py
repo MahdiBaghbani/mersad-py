@@ -70,8 +70,8 @@ from mersad.util.base_class import MersadClassicalBase
 def main() -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
-    description: str = "Azadeh Afzar - Mersad Affine Cipher Program\n" \
-                       + "Encrypt/Decrypt texts with Affine algorithm"
+    description: str = "Azadeh Afzar - Mersad Affine Cipher\n" \
+                       + "Encrypt/Decrypt data with Affine"
     epilog: str = "CIA can still read your messages ..."
 
     # create a parser and parse command line arguments.

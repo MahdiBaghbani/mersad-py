@@ -68,8 +68,8 @@ from mersad.util.base_class import MersadClassicalBase
 def main() -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
-    description: str = "Azadeh Afzar - Mersad Shift Cipher Program\n" \
-                       + "Encrypt/Decrypt texts with Shift (aka Caesar) algorithm"
+    description: str = "Azadeh Afzar - Mersad Shift Cipher\n" \
+                       + "Encrypt/Decrypt data with Shift algorithm"
     epilog: str = "Oh you think it is a safe way to hide your secrets from NSA?"
 
     # create a parser and parse command line arguments.

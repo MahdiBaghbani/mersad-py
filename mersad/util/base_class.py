@@ -374,22 +374,20 @@ class MainFunctionClassical(object):
         # provide a filename or a text for the process.
         source_type = parent_parser.add_mutually_exclusive_group(required=True)
 
-        help_file: str = "read a file and process it"
+        help_file: str = "file path for reading data from it"
         source_type.add_argument("-f", "--file", type=str, help=help_file)
 
-        help_text: str = "read a text from terminal and process it"
+        help_text: str = "read data from terminal"
         source_type.add_argument("-t", "--text", type=str, help=help_text)
 
-        help_output: str = "write out the result into a file"
+        help_output: str = "file path for writing the result into it"
         parent_parser.add_argument("-o", "--output", type=str, help=help_output)
 
-        help_decrypt: str = "decryption switch"
+        help_decrypt: str = "decrypt data"
         parent_parser.add_argument("-d", "--decrypt", action="store_true",
                                    default=False, help=help_decrypt)
 
-        help_letters: str = "alphabet for encryption/decryption, only letters " \
-                            "which are also in this alphabet will be processed " \
-                            "by program"
+        help_letters: str = "alphabet for encryption/decryption"
         parent_parser.add_argument("-l", "--letters", type=str,
                                    default=string.printable, help=help_letters)
 
@@ -397,7 +395,7 @@ class MainFunctionClassical(object):
         parent_parser.add_argument("-sh", "--shuffle", action="store_true",
                                    default=False, help=help_shuffle)
 
-        help_seed: str = "specify random seed for shuffling the alphabet"
+        help_seed: str = "specify random seed for shuffling the alphabet letters"
         parent_parser.add_argument("-s", "--seed", type=int, default=0,
                                    help=help_seed)
 
