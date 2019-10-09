@@ -80,7 +80,7 @@ def main() -> None:
 
 
 class AffineCipher(MersadClassicalBase):
-    """
+    r"""
     Affine cipher algorithm class.
 
     Create an instance like every other python class.

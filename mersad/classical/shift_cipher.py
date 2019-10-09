@@ -78,7 +78,7 @@ def main() -> None:
 
 
 class ShiftCipher(MersadClassicalBase):
-    """
+    r"""
     Shift cipher algorithm class.
 
     Create an instance like every other python class.

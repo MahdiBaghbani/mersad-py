@@ -82,7 +82,7 @@ def main() -> None:
 
 
 class AtbashCipher(MersadClassicalBase):
-    """
+    r"""
     Atbash cipher algorithm class.
 
     Create an instance like every other python class.
