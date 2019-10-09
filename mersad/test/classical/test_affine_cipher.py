@@ -53,13 +53,16 @@ from mersad.classical.affine_cipher import AffineCipher
 
 class TestShiftCipher(unittest.TestCase):
     def setUp(self) -> None:
+        # setup path
+        classical_path = os.path.abspath(os.path.dirname(__file__))
+        test_path = os.path.abspath(os.path.dirname(classical_path))
+        self.base_path = os.path.join(test_path, "asset", "texts")
+        # create a cipher agent
         self.agent = AffineCipher()
-        self.base_path = os.path.dirname(__file__).replace("mersad/test/classical", "mersad/test/asset/texts")
         self.plain_text = ReaderIO.read(os.path.join(self.base_path, "Long License File.txt"), "text")
         self.k125_sh0_s0 = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text")
         self.k173_sh1_s0 = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-k173-sh1-s0.txt"), "text")
-        self.custom_alphabet = ReaderIO.read(
-            os.path.join(self.base_path, "AffineCipher-LLF-alphabet-ascii-lowercase-k396-sh0-s0.txt"), "text")
+        self.custom_alphabet = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-alphabet-ascii-lowercase-k396-sh0-s0.txt"), "text")
 
     def test_encrypt_without_shuffle(self):
         self.agent.config(key=125, shuffle=False, seed=0)
@@ -82,6 +85,11 @@ class TestShiftCipher(unittest.TestCase):
         self.agent.config(key=173, shuffle=True, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.k173_sh1_s0))
 
+    def test_decrypt_with_custom_alphabet(self):
+        alphabet = string.ascii_lowercase
+        self.agent.config(key=396, letter_sequence=alphabet, shuffle=False, seed=0)
+        self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_alphabet))
+
     def test_temporary_key(self):
         # key is 173 which is stored in self.configuration dictionary
         self.agent.config(key=173, shuffle=False, seed=0)
@@ -98,7 +106,7 @@ class TestShiftCipher(unittest.TestCase):
         # verify that key is changed to 125 in self.configuration dictionary
         self.assertEqual(125, self.agent.show_key())
 
-    def test_key_is_lower_than_alphabey_length(self):
+    def test_key_is_lower_than_alphabet_length(self):
         alphabet = string.ascii_lowercase
         self.agent.config(key=25, letter_sequence=alphabet, shuffle=False, seed=0)
 
