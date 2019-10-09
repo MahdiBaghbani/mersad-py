@@ -110,7 +110,7 @@ class AffineCipher(MersadClassicalBase):
     for shuffle and seed.
 
     Default key is set to 0.
-    Default letter sequence is set to "string.printable" .
+    Default letter sequence is set to "string.printable" except "\r".
     Default shuffle is set to False.
     Default seed is set to 0.
 
@@ -248,14 +248,16 @@ def _check_keys(key_a: int, key_b: int, sequence_length: int) -> None:
                 + "Change your key."
         )
 
-    if not (0 <= key_b < sequence_length - 1):
+    if not (0 <= key_b <= sequence_length - 1):
         raise ValueError(
                 "The affine cipher's 'key b' must be in this range: "
-                + "0 <= 'key b' < length of letter sequence. "
+                + "0 <= 'key b' <= length of letter sequence - 1. "
                 + "Change your key."
         )
 
     if gcd(key_a, sequence_length) != 1:
+        print(sequence_length)
+        print(key_a)
         raise ValueError(
                 "The affine cipher's 'key a' and length of 'letter "
                 + "sequence' are not relatively prime. Change your key."
