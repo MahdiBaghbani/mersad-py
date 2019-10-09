@@ -59,35 +59,43 @@ class TestShiftCipher(unittest.TestCase):
         self.base_path = os.path.join(test_path, "asset", "texts")
         # create a cipher agent
         self.agent = AtbashCipher()
-        self.plain_text = ReaderIO.read(os.path.join(self.base_path, "Long License File.txt"), "text")
-        self.sh0_s0 = ReaderIO.read(os.path.join(self.base_path, "AtbashCipher-LLF-sh0-s0.txt"), "text")
-        self.sh1_s0 = ReaderIO.read(os.path.join(self.base_path, "AtbashCipher-LLF-sh1-s0.txt"), "text")
-        self.custom_alphabet = ReaderIO.read(os.path.join(self.base_path, "AtbashCipher-LLF-alphabet-ascii-lowercase-sh0-s0.txt"), "text")
+        self.plain_text = ReaderIO.read(
+                os.path.join(self.base_path, "Long License File.txt"), "text"
+        )
+        self.sh0_s0 = ReaderIO.read(
+                os.path.join(self.base_path, "AtbashCipher-LLF-sh0-s0.txt"), "text"
+        )
+        self.sh1_s0 = ReaderIO.read(
+                os.path.join(self.base_path, "AtbashCipher-LLF-sh1-s0.txt"), "text"
+        )
+        self.custom_alphabet = ReaderIO.read(
+                os.path.join(self.base_path, "AtbashCipher-LLF-alphabet-ascii-lowercase-sh0-s0.txt"), "text"
+        )
 
     def test_encrypt_without_shuffle(self):
-        self.agent.config(key=25, shuffle=False, seed=0)
+        self.agent.config(shuffle=False, seed=0)
         self.assertEqual(self.sh0_s0, self.agent.encrypt(self.plain_text))
 
     def test_encrypt_with_shuffle_without_seed(self):
-        self.agent.config(key=173, shuffle=True, seed=0)
+        self.agent.config(shuffle=True, seed=0)
         self.assertEqual(self.sh1_s0, self.agent.encrypt(self.plain_text))
 
     def test_encrypt_with_custom_alphabet(self):
         alphabet = string.ascii_lowercase
-        self.agent.config(key=85, letter_sequence=alphabet, shuffle=False, seed=0)
+        self.agent.config(letter_sequence=alphabet, shuffle=False, seed=0)
         self.assertEqual(self.custom_alphabet, self.agent.encrypt(self.plain_text))
 
     def test_decryption_without_shuffle(self):
-        self.agent.config(key=25, shuffle=False, seed=0)
+        self.agent.config(shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.sh0_s0))
 
     def test_decrypt_with_shuffle_without_seed(self):
-        self.agent.config(key=173, shuffle=True, seed=0)
+        self.agent.config(shuffle=True, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.sh1_s0))
 
     def test_decrypt_with_custom_alphabet(self):
         alphabet = string.ascii_lowercase
-        self.agent.config(key=85, letter_sequence=alphabet, shuffle=False, seed=0)
+        self.agent.config(letter_sequence=alphabet, shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_alphabet))
 
 

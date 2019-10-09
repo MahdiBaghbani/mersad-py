@@ -59,10 +59,18 @@ class TestShiftCipher(unittest.TestCase):
         self.base_path = os.path.join(test_path, "asset", "texts")
         # create a cipher agent
         self.agent = ShiftCipher()
-        self.plain_text = ReaderIO.read(os.path.join(self.base_path, "Long License File.txt"), "text")
-        self.k25_sh0_s0 = ReaderIO.read(os.path.join(self.base_path, "ShiftCipher-LLF-k25-sh0-s0.txt"), "text")
-        self.k173_sh1_s0 = ReaderIO.read(os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text")
-        self.custom_alphabet = ReaderIO.read(os.path.join(self.base_path, "ShiftCipher-LLF-alphabet-ascii-lowercase-k85-sh0-s0.txt"), "text")
+        self.plain_text = ReaderIO.read(
+                os.path.join(self.base_path, "Long License File.txt"), "text"
+        )
+        self.k25_sh0_s0 = ReaderIO.read(
+                os.path.join(self.base_path, "ShiftCipher-LLF-k25-sh0-s0.txt"), "text"
+        )
+        self.k173_sh1_s0 = ReaderIO.read(
+                os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text"
+        )
+        self.custom_alphabet = ReaderIO.read(
+                os.path.join(self.base_path, "ShiftCipher-LLF-alphabet-ascii-lowercase-k85-sh0-s0.txt"), "text"
+        )
 
     def test_encrypt_without_shuffle(self):
         self.agent.config(key=25, shuffle=False, seed=0)
