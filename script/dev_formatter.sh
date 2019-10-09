@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Usage: script/dev_all.sh
+# Usage: script/dev_formatter.sh
 #
-# runs all dev jobs except tag release.
+# format all imports and re-generate
+# stub files.
 
 # set flag for shell execution
 # -e  Exit immediately if a command exits with a non-zero status.
