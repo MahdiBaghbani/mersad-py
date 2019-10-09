@@ -106,7 +106,7 @@ class TestMainFunctionClassical(unittest.TestCase):
         self.main = MainFunctionClassical(args, agent_class, description, epilog)
 
     def test_parent_parser(self):
-        args = ["23", "--text", "wow, is this a test?", "--output",
+        args = ["--key", "23", "--text", "wow, is this a test?", "--output",
                 "fail.txt", "--decrypt", "--shuffle", "--seed", "12"]
         parent = self.main._argparse_parent()
         args = parent.parse_args(args)
