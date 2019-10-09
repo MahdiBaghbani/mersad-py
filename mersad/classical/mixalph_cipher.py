@@ -227,6 +227,3 @@ def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str
         translated += translated_letter
 
     return translated
-
-if __name__ == "__main__":
-    main()
