@@ -39,6 +39,7 @@
 # 3. This notice may not be removed or altered from any source distribution.
 #
 
+# Python Standard Library
 import os
 
 # 3rd Party Library

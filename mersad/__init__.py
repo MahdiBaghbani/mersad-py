@@ -56,7 +56,8 @@ separated into this sub groups:
 # Python Standard Library
 from typing import List
 
-import _version
+# Mersad Library
+from mersad import _version
 
 # AA-MCL package information
 __author__: str = "Mohammad Mahdi Baghbani Pourvahid"
