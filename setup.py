@@ -39,20 +39,59 @@
 # 3. This notice may not be removed or altered from any source distribution.
 #
 
+import os
+
 # 3rd Party Library
 from setuptools import find_packages
 from setuptools import setup
 
-# read version
-exec(open("mersad/_version.py", "r").read())
+# get path to this file's directory
+base_path = os.path.abspath(os.path.dirname(__file__))
+
+# open _version file
+with open(os.path.join(base_path, "mersad", "_version.py")) as file:
+    version_file = file.readlines()
+
+# set version to None, so if we didn't find
+# a version in _version.py, we can throw an error
+version = None
+
+# find version
+for line in version_file:
+    if "__version_info__: Tuple[int, int, int] = " in line:
+        # find tuple inside _version.py and reformat it to
+        # standard x.y.z version format
+        tuple_left = line.index("(")
+        tuple_right = line.index(")")
+        version = line[tuple_left + 1:tuple_right].replace(",", ".").replace(" ", "")
+
+# throe error if version not found
+if not version:
+    raise ValueError("ERROR: version not found at _version.py.")
+
+# open mersad/__init__.py to retrieve package info
+with open(os.path.join(base_path, "mersad", "__init__.py"), "r") as file:
+    info_file = file.readlines()
+
+
+# define extractor function
+def extract_info(source, name):
+    for line in source:
+        # find the metadata
+        if "__{name}__: str =".format(name=name) in line:
+            # strip from left until ", " is also excluded
+            line = line[line.index('"') + 1:]
+            # return string until "
+            return line[:line.index('"')]
+
 
 # general information about package
 name = "mersad"
 url = "https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library"
-license_name = "AGPLv3"
-author = "Mohammad Mahdi Baghbani Pourvahid"
-author_email = "MahdiBaghbani@protonmail.com"
-description = """Azadeh Afzar - Mersad Cryptographic Library"""
+author = extract_info(info_file, "author")
+author_email = extract_info(info_file, "email")
+license_name = extract_info(info_file, "license")
+description = extract_info(info_file, "description")
 long_description = open("README.md", "r", encoding="utf-8").read()
 classifiers = [
     "Development Status :: 1 - Planning",
@@ -115,10 +154,10 @@ entry_points = {
 
 setup(
         name=name,
-        version=__version__,
+        version=version,
         packages=packages,
         package_data=package_data,
-        entry_points = entry_points,
+        entry_points=entry_points,
         url=url,
         license=license_name,
         author=author,

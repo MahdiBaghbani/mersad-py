@@ -56,6 +56,19 @@ separated into this sub groups:
 # Python Standard Library
 from typing import List
 
+import _version
+
+# AA-MCL package information
+__author__: str = "Mohammad Mahdi Baghbani Pourvahid"
+__description__: str = "Azadeh Afzar - Mersad Cryptographic Library"
+__copyright__: str = "Copyright (C) 2019 Azadeh Afzar - Mersad Cryptography Library"
+__credits__: List[str] = []
+__license__: str = "AGPLv3"
+__version__: str = _version.__version__
+__maintainer__: str = "Mohammad Mahdi Baghbani Pourvahid"
+__email__: str = "MahdiBaghbani@protonmail.com"
+__status__: str = "Prototype"
+
 # please keep alphabetical order
 __all__: List[str] = [
     "classical",
