@@ -40,7 +40,7 @@ print("This program will tag a new release of mersad\n"
       + f"current version is {version}\n\n")
 
 # read and convert to integer.
-print("Version is in X.Y.Z form\n"
+print("Version is in X.Y.Z form.\n"
       "X is version major, Y is version minor, Z id version minor.\n\n")
 new_major = int(input("Enter version major number:\n"))
 new_minor = int(input("Enter version minor  number:\n"))
