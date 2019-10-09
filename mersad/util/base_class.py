@@ -367,9 +367,6 @@ class MainFunctionClassical(object):
         parent_parser.add_argument("-V", "--version", action="version",
                                    version=version)
 
-        help_key: str = "key for encryption/decryption"
-        parent_parser.add_argument("key", type=int, help=help_key)
-
         # create an mutually exclusive group for parser, user should either
         # provide a filename or a text for the process.
         source_type = parent_parser.add_mutually_exclusive_group(required=True)
@@ -382,6 +379,9 @@ class MainFunctionClassical(object):
 
         help_output: str = "file path for writing the result into it"
         parent_parser.add_argument("-o", "--output", type=str, help=help_output)
+
+        help_key: str = "key for encryption/decryption"
+        parent_parser.add_argument("-k", "--key", type=int, help=help_key)
 
         help_decrypt: str = "decrypt data"
         parent_parser.add_argument("-d", "--decrypt", action="store_true",
