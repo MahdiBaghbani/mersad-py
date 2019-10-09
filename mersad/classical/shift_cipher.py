@@ -108,7 +108,7 @@ class ShiftCipher(MersadClassicalBase):
     for shuffle and seed.
 
     Default key is set to 0.
-    Default letter sequence is set to "string.printable" .
+    Default letter sequence is set to "string.printable" except "\r".
     Default shuffle is set to False.
     Default seed is set to 0.
 
