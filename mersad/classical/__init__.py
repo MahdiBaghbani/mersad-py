@@ -57,5 +57,7 @@ from typing import List
 # please keep alphabetical order
 __all__: List[str] = [
     "affine_cipher",
+    "atbash_cipher",
+    "mixalph_cipher",
     "shift_cipher"
 ]
