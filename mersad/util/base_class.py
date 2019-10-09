@@ -91,6 +91,7 @@ class MersadClassicalBase(object):
         ============
         key             : (optional) primary key.
         letter_sequence : (optional) alphabet for using in cipher.
+        sort_key        : (optional) a key for sorting alphabet.
         shuffle         : (optional) randomize letter sequence order.
         seed            : (optional)(requires shuffle) specifies a seed for
                           randomizing, default seed is 0.
@@ -127,6 +128,7 @@ class MersadClassicalBase(object):
         # should not be changed by anyone!
         self._defaults: Dict[str, Any] = dict(
                 key=0, letter_sequence=string.printable.replace("\r", ""),
+                sort_key=string.printable.replace("\r", ""),
                 shuffle=False, seed=0, decrypt=False
         )
         # public configuration dictionary.
@@ -193,6 +195,10 @@ class MersadClassicalBase(object):
         if "letter_sequence" in kwargs:
             type_check.type_guard(kwargs["letter_sequence"], str)
             self.configuration["letter_sequence"] = kwargs["letter_sequence"]
+
+        if "sort_key" in kwargs:
+            type_check.type_guard(kwargs["sort_key"], str)
+            self.configuration["sort_key"] = kwargs["sort_key"]
 
         if "key" in kwargs and kwargs["key"] is not None:
             type_check.type_guard(kwargs["key"], int)
@@ -296,7 +302,9 @@ class MainFunctionClassical(object):
 
     def process(self) -> None:
         """Process program execution based on terminal arguments."""
+        # parse terminal arguments
         args: argparse.Namespace = self.parse_args()
+
         # load text_input from file or terminal.
         # type annotations.
         text_input: str
@@ -310,9 +318,11 @@ class MainFunctionClassical(object):
         agent = self.agent_class(
                 key=args.key,
                 letter_sequence=args.letters,
+                sort_key=args.sort_key,
                 shuffle=args.shuffle,
                 seed=args.seed
         )
+
         # type annotations.
         text_output: str
         if args.decrypt:
@@ -389,7 +399,13 @@ class MainFunctionClassical(object):
 
         help_letters: str = "alphabet for encryption/decryption"
         parent_parser.add_argument("-l", "--letters", type=str,
-                                   default=string.printable, help=help_letters)
+                                   default=string.printable.replace("\r", ""),
+                                   help=help_letters)
+
+        help_sorted_key: str = "alphabet sort order (only affects mclMixalph)"
+        parent_parser.add_argument("-so", "--sort_key", type=str,
+                                   default=string.printable.replace("\r", ""),
+                                   help=help_sorted_key)
 
         help_shuffle: str = "shuffle alphabet letters"
         parent_parser.add_argument("-sh", "--shuffle", action="store_true",

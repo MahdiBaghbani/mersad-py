@@ -1,0 +1,661 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Vbweksd 3, 19 Nsybfxbw 2007
+
+ Csaowkmlr (C) 2007 Fwbb Ssnruzwb Fstdvzrksd, Idc. <lrra://nen.swm/>
+ Eybwosdb ke abwfkrrbv rs csao zdv vkerwkxtrb ybwxzrkf csakbe
+ sn rlke gkcbdeb vsctfbdr, xtr clzdmkdm kr ke dsr zggsubv.
+
+                            Pwbzfxgb
+
+  Tlb GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb ke z nwbb, csaogbnr gkcbdeb nsw
+esnruzwb zdv srlbw hkdve sn uswhe, eabcknkczggo vbekmdbv rs bdetwb
+cssabwzrksd ukrl rlb csfftdkro kd rlb czeb sn dbruswh ebwybw esnruzwb.
+
+  Tlb gkcbdebe nsw fser esnruzwb zdv srlbw awzcrkczg uswhe zwb vbekmdbv
+rs rzhb zuzo ostw nwbbvsf rs elzwb zdv clzdmb rlb uswhe.  Bo csdrwzer,
+stw Gbdbwzg Ptxgkc Lkcbdebe zwb kdrbdvbv rs mtzwzdrbb ostw nwbbvsf rs
+elzwb zdv clzdmb zgg ybweksde sn z awsmwzf--rs fzhb etwb kr wbfzkde nwbb
+esnruzwb nsw zgg kre tebwe.
+
+  Wlbd ub eabzh sn nwbb esnruzwb, ub zwb wbnbwwkdm rs nwbbvsf, dsr
+awkcb.  Otw Gbdbwzg Ptxgkc Lkcbdebe zwb vbekmdbv rs fzhb etwb rlzr ost
+lzyb rlb nwbbvsf rs vkerwkxtrb csakbe sn nwbb esnruzwb (zdv clzwmb nsw
+rlbf kn ost ukel), rlzr ost wbcbkyb estwcb csvb sw czd mbr kr kn ost
+uzdr kr, rlzr ost czd clzdmb rlb esnruzwb sw teb akbcbe sn kr kd dbu
+nwbb awsmwzfe, zdv rlzr ost hdsu ost czd vs rlbeb rlkdme.
+
+  Dbybgsabwe rlzr teb stw Gbdbwzg Ptxgkc Lkcbdebe awsrbcr ostw wkmlre
+ukrl rus erbae: (1) zeebwr csaowkmlr sd rlb esnruzwb, zdv (2) snnbw
+ost rlke Lkcbdeb ulkcl mkybe ost gbmzg abwfkeeksd rs csao, vkerwkxtrb
+zdv/sw fsvkno rlb esnruzwb.
+
+  A ebcsdvzwo xbdbnkr sn vbnbdvkdm zgg tebwe' nwbbvsf ke rlzr
+kfawsybfbdre fzvb kd zgrbwdzrb ybweksde sn rlb awsmwzf, kn rlbo
+wbcbkyb ukvbeawbzv teb, xbcsfb zyzkgzxgb nsw srlbw vbybgsabwe rs
+kdcswaswzrb.  Mzdo vbybgsabwe sn nwbb esnruzwb zwb lbzwrbdbv zdv
+bdcstwzmbv xo rlb wbetgrkdm cssabwzrksd.  Hsubybw, kd rlb czeb sn
+esnruzwb tebv sd dbruswh ebwybwe, rlke wbetgr fzo nzkg rs csfb zxstr.
+Tlb GNU Gbdbwzg Ptxgkc Lkcbdeb abwfkre fzhkdm z fsvknkbv ybweksd zdv
+gbrrkdm rlb atxgkc zccbee kr sd z ebwybw ukrlstr bybw wbgbzekdm kre
+estwcb csvb rs rlb atxgkc.
+
+  Tlb GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb ke vbekmdbv eabcknkczggo rs
+bdetwb rlzr, kd etcl czebe, rlb fsvknkbv estwcb csvb xbcsfbe zyzkgzxgb
+rs rlb csfftdkro.  Ir wbqtkwbe rlb sabwzrsw sn z dbruswh ebwybw rs
+awsykvb rlb estwcb csvb sn rlb fsvknkbv ybweksd wtddkdm rlbwb rs rlb
+tebwe sn rlzr ebwybw.  Tlbwbnswb, atxgkc teb sn z fsvknkbv ybweksd, sd
+z atxgkcgo zccbeekxgb ebwybw, mkybe rlb atxgkc zccbee rs rlb estwcb
+csvb sn rlb fsvknkbv ybweksd.
+
+  Ad sgvbw gkcbdeb, czggbv rlb Annbws Gbdbwzg Ptxgkc Lkcbdeb zdv
+atxgkelbv xo Annbws, uze vbekmdbv rs zccsfagkel ekfkgzw mszge.  Tlke ke
+z vknnbwbdr gkcbdeb, dsr z ybweksd sn rlb Annbws GPL, xtr Annbws lze
+wbgbzebv z dbu ybweksd sn rlb Annbws GPL ulkcl abwfkre wbgkcbdekdm tdvbw
+rlke gkcbdeb.
+
+  Tlb awbckeb rbwfe zdv csdvkrksde nsw csaokdm, vkerwkxtrksd zdv
+fsvknkczrksd nsggsu.
+
+                       TERMS AND CONDITIONS
+
+  0. Dbnkdkrksde.
+
+  "Tlke Lkcbdeb" wbnbwe rs ybweksd 3 sn rlb GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb.
+
+  "Csaowkmlr" zges fbzde csaowkmlr-gkhb gzue rlzr zaago rs srlbw hkdve sn
+uswhe, etcl ze ebfkcsdvtcrsw fzehe.
+
+  "Tlb Pwsmwzf" wbnbwe rs zdo csaowkmlrzxgb uswh gkcbdebv tdvbw rlke
+Lkcbdeb.  Ezcl gkcbdebb ke zvvwbeebv ze "ost".  "Lkcbdebbe" zdv
+"wbckakbdre" fzo xb kdvkykvtzge sw swmzdkpzrksde.
+
+  Ts "fsvkno" z uswh fbzde rs csao nwsf sw zvzar zgg sw azwr sn rlb uswh
+kd z nzelksd wbqtkwkdm csaowkmlr abwfkeeksd, srlbw rlzd rlb fzhkdm sn zd
+bizcr csao.  Tlb wbetgrkdm uswh ke czggbv z "fsvknkbv ybweksd" sn rlb
+bzwgkbw uswh sw z uswh "xzebv sd" rlb bzwgkbw uswh.
+
+  A "csybwbv uswh" fbzde bkrlbw rlb tdfsvknkbv Pwsmwzf sw z uswh xzebv
+sd rlb Pwsmwzf.
+
+  Ts "awsazmzrb" z uswh fbzde rs vs zdorlkdm ukrl kr rlzr, ukrlstr
+abwfkeeksd, ustgv fzhb ost vkwbcrgo sw ebcsdvzwkgo gkzxgb nsw
+kdnwkdmbfbdr tdvbw zaagkczxgb csaowkmlr gzu, bicbar bibctrkdm kr sd z
+csfatrbw sw fsvknokdm z awkyzrb csao.  Pwsazmzrksd kdcgtvbe csaokdm,
+vkerwkxtrksd (ukrl sw ukrlstr fsvknkczrksd), fzhkdm zyzkgzxgb rs rlb
+atxgkc, zdv kd esfb cstdrwkbe srlbw zcrkykrkbe ze ubgg.
+
+  Ts "csdybo" z uswh fbzde zdo hkdv sn awsazmzrksd rlzr bdzxgbe srlbw
+azwrkbe rs fzhb sw wbcbkyb csakbe.  Mbwb kdrbwzcrksd ukrl z tebw rlwstml
+z csfatrbw dbruswh, ukrl ds rwzdenbw sn z csao, ke dsr csdybokdm.
+
+  Ad kdrbwzcrkyb tebw kdrbwnzcb vkeagzoe "Aaawsawkzrb Lbmzg Nsrkcbe"
+rs rlb birbdr rlzr kr kdcgtvbe z csdybdkbdr zdv awsfkdbdrgo ykekxgb
+nbzrtwb rlzr (1) vkeagzoe zd zaawsawkzrb csaowkmlr dsrkcb, zdv (2)
+rbgge rlb tebw rlzr rlbwb ke ds uzwwzdro nsw rlb uswh (bicbar rs rlb
+birbdr rlzr uzwwzdrkbe zwb awsykvbv), rlzr gkcbdebbe fzo csdybo rlb
+uswh tdvbw rlke Lkcbdeb, zdv lsu rs ykbu z csao sn rlke Lkcbdeb.  In
+rlb kdrbwnzcb awbebdre z gker sn tebw csffzdve sw sarksde, etcl ze z
+fbdt, z awsfkdbdr krbf kd rlb gker fbbre rlke cwkrbwksd.
+
+  1. Sstwcb Csvb.
+
+  Tlb "estwcb csvb" nsw z uswh fbzde rlb awbnbwwbv nswf sn rlb uswh
+nsw fzhkdm fsvknkczrksde rs kr.  "Oxjbcr csvb" fbzde zdo dsd-estwcb
+nswf sn z uswh.
+
+  A "Srzdvzwv Idrbwnzcb" fbzde zd kdrbwnzcb rlzr bkrlbw ke zd snnkckzg
+erzdvzwv vbnkdbv xo z wbcsmdkpbv erzdvzwve xsvo, sw, kd rlb czeb sn
+kdrbwnzcbe eabcknkbv nsw z azwrkctgzw awsmwzffkdm gzdmtzmb, sdb rlzr
+ke ukvbgo tebv zfsdm vbybgsabwe uswhkdm kd rlzr gzdmtzmb.
+
+  Tlb "Soerbf Lkxwzwkbe" sn zd bibctrzxgb uswh kdcgtvb zdorlkdm, srlbw
+rlzd rlb uswh ze z ulsgb, rlzr (z) ke kdcgtvbv kd rlb dswfzg nswf sn
+azchzmkdm z Mzjsw Csfasdbdr, xtr ulkcl ke dsr azwr sn rlzr Mzjsw
+Csfasdbdr, zdv (x) ebwybe sdgo rs bdzxgb teb sn rlb uswh ukrl rlzr
+Mzjsw Csfasdbdr, sw rs kfagbfbdr z Srzdvzwv Idrbwnzcb nsw ulkcl zd
+kfagbfbdrzrksd ke zyzkgzxgb rs rlb atxgkc kd estwcb csvb nswf.  A
+"Mzjsw Csfasdbdr", kd rlke csdrbir, fbzde z fzjsw beebdrkzg csfasdbdr
+(hbwdbg, ukdvsu eoerbf, zdv es sd) sn rlb eabcknkc sabwzrkdm eoerbf
+(kn zdo) sd ulkcl rlb bibctrzxgb uswh wtde, sw z csfakgbw tebv rs
+awsvtcb rlb uswh, sw zd sxjbcr csvb kdrbwawbrbw tebv rs wtd kr.
+
+  Tlb "Cswwbeasdvkdm Sstwcb" nsw z uswh kd sxjbcr csvb nswf fbzde zgg
+rlb estwcb csvb dbbvbv rs mbdbwzrb, kderzgg, zdv (nsw zd bibctrzxgb
+uswh) wtd rlb sxjbcr csvb zdv rs fsvkno rlb uswh, kdcgtvkdm ecwkare rs
+csdrwsg rlseb zcrkykrkbe.  Hsubybw, kr vsbe dsr kdcgtvb rlb uswh'e
+Soerbf Lkxwzwkbe, sw mbdbwzg-atwaseb rssge sw mbdbwzggo zyzkgzxgb nwbb
+awsmwzfe ulkcl zwb tebv tdfsvknkbv kd abwnswfkdm rlseb zcrkykrkbe xtr
+ulkcl zwb dsr azwr sn rlb uswh.  Fsw bizfagb, Cswwbeasdvkdm Sstwcb
+kdcgtvbe kdrbwnzcb vbnkdkrksd nkgbe zeesckzrbv ukrl estwcb nkgbe nsw
+rlb uswh, zdv rlb estwcb csvb nsw elzwbv gkxwzwkbe zdv vodzfkczggo
+gkdhbv etxawsmwzfe rlzr rlb uswh ke eabcknkczggo vbekmdbv rs wbqtkwb,
+etcl ze xo kdrkfzrb vzrz csfftdkczrksd sw csdrwsg ngsu xbrubbd rlseb
+etxawsmwzfe zdv srlbw azwre sn rlb uswh.
+
+  Tlb Cswwbeasdvkdm Sstwcb dbbv dsr kdcgtvb zdorlkdm rlzr tebwe
+czd wbmbdbwzrb ztrsfzrkczggo nwsf srlbw azwre sn rlb Cswwbeasdvkdm
+Sstwcb.
+
+  Tlb Cswwbeasdvkdm Sstwcb nsw z uswh kd estwcb csvb nswf ke rlzr
+ezfb uswh.
+
+  2. Bzekc Pbwfkeeksde.
+
+  Agg wkmlre mwzdrbv tdvbw rlke Lkcbdeb zwb mwzdrbv nsw rlb rbwf sn
+csaowkmlr sd rlb Pwsmwzf, zdv zwb kwwbysczxgb awsykvbv rlb erzrbv
+csdvkrksde zwb fbr.  Tlke Lkcbdeb biagkckrgo znnkwfe ostw tdgkfkrbv
+abwfkeeksd rs wtd rlb tdfsvknkbv Pwsmwzf.  Tlb stratr nwsf wtddkdm z
+csybwbv uswh ke csybwbv xo rlke Lkcbdeb sdgo kn rlb stratr, mkybd kre
+csdrbdr, csderkrtrbe z csybwbv uswh.  Tlke Lkcbdeb zchdsugbvmbe ostw
+wkmlre sn nzkw teb sw srlbw bqtkyzgbdr, ze awsykvbv xo csaowkmlr gzu.
+
+  Yst fzo fzhb, wtd zdv awsazmzrb csybwbv uswhe rlzr ost vs dsr
+csdybo, ukrlstr csdvkrksde es gsdm ze ostw gkcbdeb srlbwukeb wbfzkde
+kd nswcb.  Yst fzo csdybo csybwbv uswhe rs srlbwe nsw rlb esgb atwaseb
+sn lzykdm rlbf fzhb fsvknkczrksde bicgtekybgo nsw ost, sw awsykvb ost
+ukrl nzckgkrkbe nsw wtddkdm rlseb uswhe, awsykvbv rlzr ost csfago ukrl
+rlb rbwfe sn rlke Lkcbdeb kd csdybokdm zgg fzrbwkzg nsw ulkcl ost vs
+dsr csdrwsg csaowkmlr.  Tlseb rlte fzhkdm sw wtddkdm rlb csybwbv uswhe
+nsw ost fter vs es bicgtekybgo sd ostw xblzgn, tdvbw ostw vkwbcrksd
+zdv csdrwsg, sd rbwfe rlzr awslkxkr rlbf nwsf fzhkdm zdo csakbe sn
+ostw csaowkmlrbv fzrbwkzg strekvb rlbkw wbgzrksdelka ukrl ost.
+
+  Csdybokdm tdvbw zdo srlbw ckwctferzdcbe ke abwfkrrbv esgbgo tdvbw
+rlb csdvkrksde erzrbv xbgsu.  Stxgkcbdekdm ke dsr zggsubv; ebcrksd 10
+fzhbe kr tddbcbeezwo.
+
+  3. Pwsrbcrkdm Uebwe' Lbmzg Rkmlre Fwsf Adrk-Ckwctfybdrksd Lzu.
+
+  Ns csybwbv uswh elzgg xb vbbfbv azwr sn zd bnnbcrkyb rbcldsgsmkczg
+fbzetwb tdvbw zdo zaagkczxgb gzu ntgnkggkdm sxgkmzrksde tdvbw zwrkcgb
+11 sn rlb WIPO csaowkmlr rwbzro zvsarbv sd 20 Dbcbfxbw 1996, sw
+ekfkgzw gzue awslkxkrkdm sw wberwkcrkdm ckwctfybdrksd sn etcl
+fbzetwbe.
+
+  Wlbd ost csdybo z csybwbv uswh, ost uzkyb zdo gbmzg asubw rs nswxkv
+ckwctfybdrksd sn rbcldsgsmkczg fbzetwbe rs rlb birbdr etcl ckwctfybdrksd
+ke bnnbcrbv xo bibwckekdm wkmlre tdvbw rlke Lkcbdeb ukrl wbeabcr rs
+rlb csybwbv uswh, zdv ost vkecgzkf zdo kdrbdrksd rs gkfkr sabwzrksd sw
+fsvknkczrksd sn rlb uswh ze z fbzde sn bdnswckdm, zmzkder rlb uswh'e
+tebwe, ostw sw rlkwv azwrkbe' gbmzg wkmlre rs nswxkv ckwctfybdrksd sn
+rbcldsgsmkczg fbzetwbe.
+
+  4. Csdybokdm Vbwxzrkf Csakbe.
+
+  Yst fzo csdybo ybwxzrkf csakbe sn rlb Pwsmwzf'e estwcb csvb ze ost
+wbcbkyb kr, kd zdo fbvktf, awsykvbv rlzr ost csdeakctstego zdv
+zaawsawkzrbgo atxgkel sd bzcl csao zd zaawsawkzrb csaowkmlr dsrkcb;
+hbba kdrzcr zgg dsrkcbe erzrkdm rlzr rlke Lkcbdeb zdv zdo
+dsd-abwfkeekyb rbwfe zvvbv kd zccswv ukrl ebcrksd 7 zaago rs rlb csvb;
+hbba kdrzcr zgg dsrkcbe sn rlb zxebdcb sn zdo uzwwzdro; zdv mkyb zgg
+wbckakbdre z csao sn rlke Lkcbdeb zgsdm ukrl rlb Pwsmwzf.
+
+  Yst fzo clzwmb zdo awkcb sw ds awkcb nsw bzcl csao rlzr ost csdybo,
+zdv ost fzo snnbw etaaswr sw uzwwzdro awsrbcrksd nsw z nbb.
+
+  5. Csdybokdm Msvknkbv Sstwcb Vbweksde.
+
+  Yst fzo csdybo z uswh xzebv sd rlb Pwsmwzf, sw rlb fsvknkczrksde rs
+awsvtcb kr nwsf rlb Pwsmwzf, kd rlb nswf sn estwcb csvb tdvbw rlb
+rbwfe sn ebcrksd 4, awsykvbv rlzr ost zges fbbr zgg sn rlbeb csdvkrksde:
+
+    z) Tlb uswh fter czwwo awsfkdbdr dsrkcbe erzrkdm rlzr ost fsvknkbv
+    kr, zdv mkykdm z wbgbyzdr vzrb.
+
+    x) Tlb uswh fter czwwo awsfkdbdr dsrkcbe erzrkdm rlzr kr ke
+    wbgbzebv tdvbw rlke Lkcbdeb zdv zdo csdvkrksde zvvbv tdvbw ebcrksd
+    7.  Tlke wbqtkwbfbdr fsvknkbe rlb wbqtkwbfbdr kd ebcrksd 4 rs
+    "hbba kdrzcr zgg dsrkcbe".
+
+    c) Yst fter gkcbdeb rlb bdrkwb uswh, ze z ulsgb, tdvbw rlke
+    Lkcbdeb rs zdosdb uls csfbe kdrs aseebeeksd sn z csao.  Tlke
+    Lkcbdeb ukgg rlbwbnswb zaago, zgsdm ukrl zdo zaagkczxgb ebcrksd 7
+    zvvkrksdzg rbwfe, rs rlb ulsgb sn rlb uswh, zdv zgg kre azwre,
+    wbmzwvgbee sn lsu rlbo zwb azchzmbv.  Tlke Lkcbdeb mkybe ds
+    abwfkeeksd rs gkcbdeb rlb uswh kd zdo srlbw uzo, xtr kr vsbe dsr
+    kdyzgkvzrb etcl abwfkeeksd kn ost lzyb ebazwzrbgo wbcbkybv kr.
+
+    v) In rlb uswh lze kdrbwzcrkyb tebw kdrbwnzcbe, bzcl fter vkeagzo
+    Aaawsawkzrb Lbmzg Nsrkcbe; lsubybw, kn rlb Pwsmwzf lze kdrbwzcrkyb
+    kdrbwnzcbe rlzr vs dsr vkeagzo Aaawsawkzrb Lbmzg Nsrkcbe, ostw
+    uswh dbbv dsr fzhb rlbf vs es.
+
+  A csfakgzrksd sn z csybwbv uswh ukrl srlbw ebazwzrb zdv kdvbabdvbdr
+uswhe, ulkcl zwb dsr xo rlbkw dzrtwb birbdeksde sn rlb csybwbv uswh,
+zdv ulkcl zwb dsr csfxkdbv ukrl kr etcl ze rs nswf z gzwmbw awsmwzf,
+kd sw sd z ysgtfb sn z erswzmb sw vkerwkxtrksd fbvktf, ke czggbv zd
+"zmmwbmzrb" kn rlb csfakgzrksd zdv kre wbetgrkdm csaowkmlr zwb dsr
+tebv rs gkfkr rlb zccbee sw gbmzg wkmlre sn rlb csfakgzrksd'e tebwe
+xbosdv ulzr rlb kdvkykvtzg uswhe abwfkr.  Idcgteksd sn z csybwbv uswh
+kd zd zmmwbmzrb vsbe dsr czteb rlke Lkcbdeb rs zaago rs rlb srlbw
+azwre sn rlb zmmwbmzrb.
+
+  6. Csdybokdm Nsd-Sstwcb Fswfe.
+
+  Yst fzo csdybo z csybwbv uswh kd sxjbcr csvb nswf tdvbw rlb rbwfe
+sn ebcrksde 4 zdv 5, awsykvbv rlzr ost zges csdybo rlb
+fzclkdb-wbzvzxgb Cswwbeasdvkdm Sstwcb tdvbw rlb rbwfe sn rlke Lkcbdeb,
+kd sdb sn rlbeb uzoe:
+
+    z) Csdybo rlb sxjbcr csvb kd, sw bfxsvkbv kd, z aloekczg awsvtcr
+    (kdcgtvkdm z aloekczg vkerwkxtrksd fbvktf), zccsfazdkbv xo rlb
+    Cswwbeasdvkdm Sstwcb nkibv sd z vtwzxgb aloekczg fbvktf
+    ctersfzwkgo tebv nsw esnruzwb kdrbwclzdmb.
+
+    x) Csdybo rlb sxjbcr csvb kd, sw bfxsvkbv kd, z aloekczg awsvtcr
+    (kdcgtvkdm z aloekczg vkerwkxtrksd fbvktf), zccsfazdkbv xo z
+    uwkrrbd snnbw, yzgkv nsw zr gbzer rlwbb obzwe zdv yzgkv nsw ze
+    gsdm ze ost snnbw eazwb azwre sw ctersfbw etaaswr nsw rlzr awsvtcr
+    fsvbg, rs mkyb zdosdb uls aseebeebe rlb sxjbcr csvb bkrlbw (1) z
+    csao sn rlb Cswwbeasdvkdm Sstwcb nsw zgg rlb esnruzwb kd rlb
+    awsvtcr rlzr ke csybwbv xo rlke Lkcbdeb, sd z vtwzxgb aloekczg
+    fbvktf ctersfzwkgo tebv nsw esnruzwb kdrbwclzdmb, nsw z awkcb ds
+    fswb rlzd ostw wbzesdzxgb cser sn aloekczggo abwnswfkdm rlke
+    csdybokdm sn estwcb, sw (2) zccbee rs csao rlb
+    Cswwbeasdvkdm Sstwcb nwsf z dbruswh ebwybw zr ds clzwmb.
+
+    c) Csdybo kdvkykvtzg csakbe sn rlb sxjbcr csvb ukrl z csao sn rlb
+    uwkrrbd snnbw rs awsykvb rlb Cswwbeasdvkdm Sstwcb.  Tlke
+    zgrbwdzrkyb ke zggsubv sdgo scczeksdzggo zdv dsdcsffbwckzggo, zdv
+    sdgo kn ost wbcbkybv rlb sxjbcr csvb ukrl etcl zd snnbw, kd zccswv
+    ukrl etxebcrksd 6x.
+
+    v) Csdybo rlb sxjbcr csvb xo snnbwkdm zccbee nwsf z vbekmdzrbv
+    agzcb (mwzrke sw nsw z clzwmb), zdv snnbw bqtkyzgbdr zccbee rs rlb
+    Cswwbeasdvkdm Sstwcb kd rlb ezfb uzo rlwstml rlb ezfb agzcb zr ds
+    ntwrlbw clzwmb.  Yst dbbv dsr wbqtkwb wbckakbdre rs csao rlb
+    Cswwbeasdvkdm Sstwcb zgsdm ukrl rlb sxjbcr csvb.  In rlb agzcb rs
+    csao rlb sxjbcr csvb ke z dbruswh ebwybw, rlb Cswwbeasdvkdm Sstwcb
+    fzo xb sd z vknnbwbdr ebwybw (sabwzrbv xo ost sw z rlkwv azwro)
+    rlzr etaaswre bqtkyzgbdr csaokdm nzckgkrkbe, awsykvbv ost fzkdrzkd
+    cgbzw vkwbcrksde dbir rs rlb sxjbcr csvb ezokdm ulbwb rs nkdv rlb
+    Cswwbeasdvkdm Sstwcb.  Rbmzwvgbee sn ulzr ebwybw lsere rlb
+    Cswwbeasdvkdm Sstwcb, ost wbfzkd sxgkmzrbv rs bdetwb rlzr kr ke
+    zyzkgzxgb nsw ze gsdm ze dbbvbv rs ezrkeno rlbeb wbqtkwbfbdre.
+
+    b) Csdybo rlb sxjbcr csvb tekdm abbw-rs-abbw rwzdefkeeksd, awsykvbv
+    ost kdnswf srlbw abbwe ulbwb rlb sxjbcr csvb zdv Cswwbeasdvkdm
+    Sstwcb sn rlb uswh zwb xbkdm snnbwbv rs rlb mbdbwzg atxgkc zr ds
+    clzwmb tdvbw etxebcrksd 6v.
+
+  A ebazwzxgb aswrksd sn rlb sxjbcr csvb, ulseb estwcb csvb ke bicgtvbv
+nwsf rlb Cswwbeasdvkdm Sstwcb ze z Soerbf Lkxwzwo, dbbv dsr xb
+kdcgtvbv kd csdybokdm rlb sxjbcr csvb uswh.
+
+  A "Uebw Pwsvtcr" ke bkrlbw (1) z "csdetfbw awsvtcr", ulkcl fbzde zdo
+rzdmkxgb abwesdzg awsabwro ulkcl ke dswfzggo tebv nsw abwesdzg, nzfkgo,
+sw lsteblsgv atwasebe, sw (2) zdorlkdm vbekmdbv sw esgv nsw kdcswaswzrksd
+kdrs z vubggkdm.  Id vbrbwfkdkdm ulbrlbw z awsvtcr ke z csdetfbw awsvtcr,
+vstxrntg czebe elzgg xb wbesgybv kd nzysw sn csybwzmb.  Fsw z azwrkctgzw
+awsvtcr wbcbkybv xo z azwrkctgzw tebw, "dswfzggo tebv" wbnbwe rs z
+roakczg sw csffsd teb sn rlzr cgzee sn awsvtcr, wbmzwvgbee sn rlb erzrte
+sn rlb azwrkctgzw tebw sw sn rlb uzo kd ulkcl rlb azwrkctgzw tebw
+zcrtzggo tebe, sw biabcre sw ke biabcrbv rs teb, rlb awsvtcr.  A awsvtcr
+ke z csdetfbw awsvtcr wbmzwvgbee sn ulbrlbw rlb awsvtcr lze etxerzdrkzg
+csffbwckzg, kdvterwkzg sw dsd-csdetfbw tebe, tdgbee etcl tebe wbawbebdr
+rlb sdgo ekmdknkczdr fsvb sn teb sn rlb awsvtcr.
+
+  "Iderzggzrksd Idnswfzrksd" nsw z Uebw Pwsvtcr fbzde zdo fbrlsve,
+awscbvtwbe, ztrlswkpzrksd hboe, sw srlbw kdnswfzrksd wbqtkwbv rs kderzgg
+zdv bibctrb fsvknkbv ybweksde sn z csybwbv uswh kd rlzr Uebw Pwsvtcr nwsf
+z fsvknkbv ybweksd sn kre Cswwbeasdvkdm Sstwcb.  Tlb kdnswfzrksd fter
+etnnkcb rs bdetwb rlzr rlb csdrkdtbv ntdcrksdkdm sn rlb fsvknkbv sxjbcr
+csvb ke kd ds czeb awbybdrbv sw kdrbwnbwbv ukrl esgbgo xbczteb
+fsvknkczrksd lze xbbd fzvb.
+
+  In ost csdybo zd sxjbcr csvb uswh tdvbw rlke ebcrksd kd, sw ukrl, sw
+eabcknkczggo nsw teb kd, z Uebw Pwsvtcr, zdv rlb csdybokdm scctwe ze
+azwr sn z rwzdezcrksd kd ulkcl rlb wkmlr sn aseebeeksd zdv teb sn rlb
+Uebw Pwsvtcr ke rwzdenbwwbv rs rlb wbckakbdr kd abwabrtkro sw nsw z
+nkibv rbwf (wbmzwvgbee sn lsu rlb rwzdezcrksd ke clzwzcrbwkpbv), rlb
+Cswwbeasdvkdm Sstwcb csdybobv tdvbw rlke ebcrksd fter xb zccsfazdkbv
+xo rlb Iderzggzrksd Idnswfzrksd.  Btr rlke wbqtkwbfbdr vsbe dsr zaago
+kn dbkrlbw ost dsw zdo rlkwv azwro wbrzkde rlb zxkgkro rs kderzgg
+fsvknkbv sxjbcr csvb sd rlb Uebw Pwsvtcr (nsw bizfagb, rlb uswh lze
+xbbd kderzggbv kd ROM).
+
+  Tlb wbqtkwbfbdr rs awsykvb Iderzggzrksd Idnswfzrksd vsbe dsr kdcgtvb z
+wbqtkwbfbdr rs csdrkdtb rs awsykvb etaaswr ebwykcb, uzwwzdro, sw tavzrbe
+nsw z uswh rlzr lze xbbd fsvknkbv sw kderzggbv xo rlb wbckakbdr, sw nsw
+rlb Uebw Pwsvtcr kd ulkcl kr lze xbbd fsvknkbv sw kderzggbv.  Accbee rs z
+dbruswh fzo xb vbdkbv ulbd rlb fsvknkczrksd krebgn fzrbwkzggo zdv
+zvybwebgo znnbcre rlb sabwzrksd sn rlb dbruswh sw yksgzrbe rlb wtgbe zdv
+awsrscsge nsw csfftdkczrksd zcwsee rlb dbruswh.
+
+  Cswwbeasdvkdm Sstwcb csdybobv, zdv Iderzggzrksd Idnswfzrksd awsykvbv,
+kd zccswv ukrl rlke ebcrksd fter xb kd z nswfzr rlzr ke atxgkcgo
+vsctfbdrbv (zdv ukrl zd kfagbfbdrzrksd zyzkgzxgb rs rlb atxgkc kd
+estwcb csvb nswf), zdv fter wbqtkwb ds eabckzg azeeuswv sw hbo nsw
+tdazchkdm, wbzvkdm sw csaokdm.
+
+  7. Avvkrksdzg Tbwfe.
+
+  "Avvkrksdzg abwfkeeksde" zwb rbwfe rlzr etaagbfbdr rlb rbwfe sn rlke
+Lkcbdeb xo fzhkdm bicbarksde nwsf sdb sw fswb sn kre csdvkrksde.
+Avvkrksdzg abwfkeeksde rlzr zwb zaagkczxgb rs rlb bdrkwb Pwsmwzf elzgg
+xb rwbzrbv ze rlstml rlbo ubwb kdcgtvbv kd rlke Lkcbdeb, rs rlb birbdr
+rlzr rlbo zwb yzgkv tdvbw zaagkczxgb gzu.  In zvvkrksdzg abwfkeeksde
+zaago sdgo rs azwr sn rlb Pwsmwzf, rlzr azwr fzo xb tebv ebazwzrbgo
+tdvbw rlseb abwfkeeksde, xtr rlb bdrkwb Pwsmwzf wbfzkde msybwdbv xo
+rlke Lkcbdeb ukrlstr wbmzwv rs rlb zvvkrksdzg abwfkeeksde.
+
+  Wlbd ost csdybo z csao sn z csybwbv uswh, ost fzo zr ostw sarksd
+wbfsyb zdo zvvkrksdzg abwfkeeksde nwsf rlzr csao, sw nwsf zdo azwr sn
+kr.  (Avvkrksdzg abwfkeeksde fzo xb uwkrrbd rs wbqtkwb rlbkw sud
+wbfsyzg kd cbwrzkd czebe ulbd ost fsvkno rlb uswh.)  Yst fzo agzcb
+zvvkrksdzg abwfkeeksde sd fzrbwkzg, zvvbv xo ost rs z csybwbv uswh,
+nsw ulkcl ost lzyb sw czd mkyb zaawsawkzrb csaowkmlr abwfkeeksd.
+
+  Nsrukrlerzdvkdm zdo srlbw awsykeksd sn rlke Lkcbdeb, nsw fzrbwkzg ost
+zvv rs z csybwbv uswh, ost fzo (kn ztrlswkpbv xo rlb csaowkmlr lsgvbwe sn
+rlzr fzrbwkzg) etaagbfbdr rlb rbwfe sn rlke Lkcbdeb ukrl rbwfe:
+
+    z) Dkecgzkfkdm uzwwzdro sw gkfkrkdm gkzxkgkro vknnbwbdrgo nwsf rlb
+    rbwfe sn ebcrksde 15 zdv 16 sn rlke Lkcbdeb; sw
+
+    x) Rbqtkwkdm awbebwyzrksd sn eabcknkbv wbzesdzxgb gbmzg dsrkcbe sw
+    ztrlsw zrrwkxtrksde kd rlzr fzrbwkzg sw kd rlb Aaawsawkzrb Lbmzg
+    Nsrkcbe vkeagzobv xo uswhe csdrzkdkdm kr; sw
+
+    c) Pwslkxkrkdm fkewbawbebdrzrksd sn rlb swkmkd sn rlzr fzrbwkzg, sw
+    wbqtkwkdm rlzr fsvknkbv ybweksde sn etcl fzrbwkzg xb fzwhbv kd
+    wbzesdzxgb uzoe ze vknnbwbdr nwsf rlb swkmkdzg ybweksd; sw
+
+    v) Lkfkrkdm rlb teb nsw atxgkckro atwasebe sn dzfbe sn gkcbdeswe sw
+    ztrlswe sn rlb fzrbwkzg; sw
+
+    b) Dbcgkdkdm rs mwzdr wkmlre tdvbw rwzvbfzwh gzu nsw teb sn esfb
+    rwzvb dzfbe, rwzvbfzwhe, sw ebwykcb fzwhe; sw
+
+    n) Rbqtkwkdm kdvbfdknkczrksd sn gkcbdeswe zdv ztrlswe sn rlzr
+    fzrbwkzg xo zdosdb uls csdyboe rlb fzrbwkzg (sw fsvknkbv ybweksde sn
+    kr) ukrl csdrwzcrtzg zeetfarksde sn gkzxkgkro rs rlb wbckakbdr, nsw
+    zdo gkzxkgkro rlzr rlbeb csdrwzcrtzg zeetfarksde vkwbcrgo kfaseb sd
+    rlseb gkcbdeswe zdv ztrlswe.
+
+  Agg srlbw dsd-abwfkeekyb zvvkrksdzg rbwfe zwb csdekvbwbv "ntwrlbw
+wberwkcrksde" ukrlkd rlb fbzdkdm sn ebcrksd 10.  In rlb Pwsmwzf ze ost
+wbcbkybv kr, sw zdo azwr sn kr, csdrzkde z dsrkcb erzrkdm rlzr kr ke
+msybwdbv xo rlke Lkcbdeb zgsdm ukrl z rbwf rlzr ke z ntwrlbw
+wberwkcrksd, ost fzo wbfsyb rlzr rbwf.  In z gkcbdeb vsctfbdr csdrzkde
+z ntwrlbw wberwkcrksd xtr abwfkre wbgkcbdekdm sw csdybokdm tdvbw rlke
+Lkcbdeb, ost fzo zvv rs z csybwbv uswh fzrbwkzg msybwdbv xo rlb rbwfe
+sn rlzr gkcbdeb vsctfbdr, awsykvbv rlzr rlb ntwrlbw wberwkcrksd vsbe
+dsr etwykyb etcl wbgkcbdekdm sw csdybokdm.
+
+  In ost zvv rbwfe rs z csybwbv uswh kd zccswv ukrl rlke ebcrksd, ost
+fter agzcb, kd rlb wbgbyzdr estwcb nkgbe, z erzrbfbdr sn rlb
+zvvkrksdzg rbwfe rlzr zaago rs rlseb nkgbe, sw z dsrkcb kdvkczrkdm
+ulbwb rs nkdv rlb zaagkczxgb rbwfe.
+
+  Avvkrksdzg rbwfe, abwfkeekyb sw dsd-abwfkeekyb, fzo xb erzrbv kd rlb
+nswf sn z ebazwzrbgo uwkrrbd gkcbdeb, sw erzrbv ze bicbarksde;
+rlb zxsyb wbqtkwbfbdre zaago bkrlbw uzo.
+
+  8. Tbwfkdzrksd.
+
+  Yst fzo dsr awsazmzrb sw fsvkno z csybwbv uswh bicbar ze biawbeego
+awsykvbv tdvbw rlke Lkcbdeb.  Ado zrrbfar srlbwukeb rs awsazmzrb sw
+fsvkno kr ke yskv, zdv ukgg ztrsfzrkczggo rbwfkdzrb ostw wkmlre tdvbw
+rlke Lkcbdeb (kdcgtvkdm zdo azrbdr gkcbdebe mwzdrbv tdvbw rlb rlkwv
+azwzmwzal sn ebcrksd 11).
+
+  Hsubybw, kn ost cbzeb zgg yksgzrksd sn rlke Lkcbdeb, rlbd ostw
+gkcbdeb nwsf z azwrkctgzw csaowkmlr lsgvbw ke wbkderzrbv (z)
+awsykeksdzggo, tdgbee zdv tdrkg rlb csaowkmlr lsgvbw biagkckrgo zdv
+nkdzggo rbwfkdzrbe ostw gkcbdeb, zdv (x) abwfzdbdrgo, kn rlb csaowkmlr
+lsgvbw nzkge rs dsrkno ost sn rlb yksgzrksd xo esfb wbzesdzxgb fbzde
+awksw rs 60 vzoe znrbw rlb cbeezrksd.
+
+  Mswbsybw, ostw gkcbdeb nwsf z azwrkctgzw csaowkmlr lsgvbw ke
+wbkderzrbv abwfzdbdrgo kn rlb csaowkmlr lsgvbw dsrknkbe ost sn rlb
+yksgzrksd xo esfb wbzesdzxgb fbzde, rlke ke rlb nkwer rkfb ost lzyb
+wbcbkybv dsrkcb sn yksgzrksd sn rlke Lkcbdeb (nsw zdo uswh) nwsf rlzr
+csaowkmlr lsgvbw, zdv ost ctwb rlb yksgzrksd awksw rs 30 vzoe znrbw
+ostw wbcbkar sn rlb dsrkcb.
+
+  Tbwfkdzrksd sn ostw wkmlre tdvbw rlke ebcrksd vsbe dsr rbwfkdzrb rlb
+gkcbdebe sn azwrkbe uls lzyb wbcbkybv csakbe sw wkmlre nwsf ost tdvbw
+rlke Lkcbdeb.  In ostw wkmlre lzyb xbbd rbwfkdzrbv zdv dsr abwfzdbdrgo
+wbkderzrbv, ost vs dsr qtzgkno rs wbcbkyb dbu gkcbdebe nsw rlb ezfb
+fzrbwkzg tdvbw ebcrksd 10.
+
+  9. Accbarzdcb Nsr Rbqtkwbv nsw Hzykdm Csakbe.
+
+  Yst zwb dsr wbqtkwbv rs zccbar rlke Lkcbdeb kd swvbw rs wbcbkyb sw
+wtd z csao sn rlb Pwsmwzf.  Adckggzwo awsazmzrksd sn z csybwbv uswh
+scctwwkdm esgbgo ze z csdebqtbdcb sn tekdm abbw-rs-abbw rwzdefkeeksd
+rs wbcbkyb z csao gkhbukeb vsbe dsr wbqtkwb zccbarzdcb.  Hsubybw,
+dsrlkdm srlbw rlzd rlke Lkcbdeb mwzdre ost abwfkeeksd rs awsazmzrb sw
+fsvkno zdo csybwbv uswh.  Tlbeb zcrksde kdnwkdmb csaowkmlr kn ost vs
+dsr zccbar rlke Lkcbdeb.  Tlbwbnswb, xo fsvknokdm sw awsazmzrkdm z
+csybwbv uswh, ost kdvkczrb ostw zccbarzdcb sn rlke Lkcbdeb rs vs es.
+
+  10. Atrsfzrkc Lkcbdekdm sn Dsuderwbzf Rbckakbdre.
+
+  Ezcl rkfb ost csdybo z csybwbv uswh, rlb wbckakbdr ztrsfzrkczggo
+wbcbkybe z gkcbdeb nwsf rlb swkmkdzg gkcbdeswe, rs wtd, fsvkno zdv
+awsazmzrb rlzr uswh, etxjbcr rs rlke Lkcbdeb.  Yst zwb dsr wbeasdekxgb
+nsw bdnswckdm csfagkzdcb xo rlkwv azwrkbe ukrl rlke Lkcbdeb.
+
+  Ad "bdrkro rwzdezcrksd" ke z rwzdezcrksd rwzdenbwwkdm csdrwsg sn zd
+swmzdkpzrksd, sw etxerzdrkzggo zgg zeebre sn sdb, sw etxvkykvkdm zd
+swmzdkpzrksd, sw fbwmkdm swmzdkpzrksde.  In awsazmzrksd sn z csybwbv
+uswh wbetgre nwsf zd bdrkro rwzdezcrksd, bzcl azwro rs rlzr
+rwzdezcrksd uls wbcbkybe z csao sn rlb uswh zges wbcbkybe ulzrbybw
+gkcbdebe rs rlb uswh rlb azwro'e awbvbcbeesw kd kdrbwber lzv sw cstgv
+mkyb tdvbw rlb awbykste azwzmwzal, agte z wkmlr rs aseebeeksd sn rlb
+Cswwbeasdvkdm Sstwcb sn rlb uswh nwsf rlb awbvbcbeesw kd kdrbwber, kn
+rlb awbvbcbeesw lze kr sw czd mbr kr ukrl wbzesdzxgb bnnswre.
+
+  Yst fzo dsr kfaseb zdo ntwrlbw wberwkcrksde sd rlb bibwckeb sn rlb
+wkmlre mwzdrbv sw znnkwfbv tdvbw rlke Lkcbdeb.  Fsw bizfagb, ost fzo
+dsr kfaseb z gkcbdeb nbb, wsozgro, sw srlbw clzwmb nsw bibwckeb sn
+wkmlre mwzdrbv tdvbw rlke Lkcbdeb, zdv ost fzo dsr kdkrkzrb gkrkmzrksd
+(kdcgtvkdm z cwsee-cgzkf sw cstdrbwcgzkf kd z gzuetkr) zggbmkdm rlzr
+zdo azrbdr cgzkf ke kdnwkdmbv xo fzhkdm, tekdm, ebggkdm, snnbwkdm nsw
+ezgb, sw kfaswrkdm rlb Pwsmwzf sw zdo aswrksd sn kr.
+
+  11. Pzrbdre.
+
+  A "csdrwkxtrsw" ke z csaowkmlr lsgvbw uls ztrlswkpbe teb tdvbw rlke
+Lkcbdeb sn rlb Pwsmwzf sw z uswh sd ulkcl rlb Pwsmwzf ke xzebv.  Tlb
+uswh rlte gkcbdebv ke czggbv rlb csdrwkxtrsw'e "csdrwkxtrsw ybweksd".
+
+  A csdrwkxtrsw'e "beebdrkzg azrbdr cgzkfe" zwb zgg azrbdr cgzkfe
+sudbv sw csdrwsggbv xo rlb csdrwkxtrsw, ulbrlbw zgwbzvo zcqtkwbv sw
+lbwbznrbw zcqtkwbv, rlzr ustgv xb kdnwkdmbv xo esfb fzddbw, abwfkrrbv
+xo rlke Lkcbdeb, sn fzhkdm, tekdm, sw ebggkdm kre csdrwkxtrsw ybweksd,
+xtr vs dsr kdcgtvb cgzkfe rlzr ustgv xb kdnwkdmbv sdgo ze z
+csdebqtbdcb sn ntwrlbw fsvknkczrksd sn rlb csdrwkxtrsw ybweksd.  Fsw
+atwasebe sn rlke vbnkdkrksd, "csdrwsg" kdcgtvbe rlb wkmlr rs mwzdr
+azrbdr etxgkcbdebe kd z fzddbw csdekerbdr ukrl rlb wbqtkwbfbdre sn
+rlke Lkcbdeb.
+
+  Ezcl csdrwkxtrsw mwzdre ost z dsd-bicgtekyb, uswgvukvb, wsozgro-nwbb
+azrbdr gkcbdeb tdvbw rlb csdrwkxtrsw'e beebdrkzg azrbdr cgzkfe, rs
+fzhb, teb, ebgg, snnbw nsw ezgb, kfaswr zdv srlbwukeb wtd, fsvkno zdv
+awsazmzrb rlb csdrbdre sn kre csdrwkxtrsw ybweksd.
+
+  Id rlb nsggsukdm rlwbb azwzmwzale, z "azrbdr gkcbdeb" ke zdo biawbee
+zmwbbfbdr sw csffkrfbdr, lsubybw vbdsfkdzrbv, dsr rs bdnswcb z azrbdr
+(etcl ze zd biawbee abwfkeeksd rs awzcrkcb z azrbdr sw csybdzdr dsr rs
+etb nsw azrbdr kdnwkdmbfbdr).  Ts "mwzdr" etcl z azrbdr gkcbdeb rs z
+azwro fbzde rs fzhb etcl zd zmwbbfbdr sw csffkrfbdr dsr rs bdnswcb z
+azrbdr zmzkder rlb azwro.
+
+  In ost csdybo z csybwbv uswh, hdsukdmgo wbgokdm sd z azrbdr gkcbdeb,
+zdv rlb Cswwbeasdvkdm Sstwcb sn rlb uswh ke dsr zyzkgzxgb nsw zdosdb
+rs csao, nwbb sn clzwmb zdv tdvbw rlb rbwfe sn rlke Lkcbdeb, rlwstml z
+atxgkcgo zyzkgzxgb dbruswh ebwybw sw srlbw wbzvkgo zccbeekxgb fbzde,
+rlbd ost fter bkrlbw (1) czteb rlb Cswwbeasdvkdm Sstwcb rs xb es
+zyzkgzxgb, sw (2) zwwzdmb rs vbawkyb ostwebgn sn rlb xbdbnkr sn rlb
+azrbdr gkcbdeb nsw rlke azwrkctgzw uswh, sw (3) zwwzdmb, kd z fzddbw
+csdekerbdr ukrl rlb wbqtkwbfbdre sn rlke Lkcbdeb, rs birbdv rlb azrbdr
+gkcbdeb rs vsuderwbzf wbckakbdre.  "Kdsukdmgo wbgokdm" fbzde ost lzyb
+zcrtzg hdsugbvmb rlzr, xtr nsw rlb azrbdr gkcbdeb, ostw csdybokdm rlb
+csybwbv uswh kd z cstdrwo, sw ostw wbckakbdr'e teb sn rlb csybwbv uswh
+kd z cstdrwo, ustgv kdnwkdmb sdb sw fswb kvbdrknkzxgb azrbdre kd rlzr
+cstdrwo rlzr ost lzyb wbzesd rs xbgkbyb zwb yzgkv.
+
+  In, atwetzdr rs sw kd csddbcrksd ukrl z ekdmgb rwzdezcrksd sw
+zwwzdmbfbdr, ost csdybo, sw awsazmzrb xo awsctwkdm csdybozdcb sn, z
+csybwbv uswh, zdv mwzdr z azrbdr gkcbdeb rs esfb sn rlb azwrkbe
+wbcbkykdm rlb csybwbv uswh ztrlswkpkdm rlbf rs teb, awsazmzrb, fsvkno
+sw csdybo z eabcknkc csao sn rlb csybwbv uswh, rlbd rlb azrbdr gkcbdeb
+ost mwzdr ke ztrsfzrkczggo birbdvbv rs zgg wbckakbdre sn rlb csybwbv
+uswh zdv uswhe xzebv sd kr.
+
+  A azrbdr gkcbdeb ke "vkecwkfkdzrswo" kn kr vsbe dsr kdcgtvb ukrlkd
+rlb ecsab sn kre csybwzmb, awslkxkre rlb bibwckeb sn, sw ke
+csdvkrksdbv sd rlb dsd-bibwckeb sn sdb sw fswb sn rlb wkmlre rlzr zwb
+eabcknkczggo mwzdrbv tdvbw rlke Lkcbdeb.  Yst fzo dsr csdybo z csybwbv
+uswh kn ost zwb z azwro rs zd zwwzdmbfbdr ukrl z rlkwv azwro rlzr ke
+kd rlb xtekdbee sn vkerwkxtrkdm esnruzwb, tdvbw ulkcl ost fzhb azofbdr
+rs rlb rlkwv azwro xzebv sd rlb birbdr sn ostw zcrkykro sn csdybokdm
+rlb uswh, zdv tdvbw ulkcl rlb rlkwv azwro mwzdre, rs zdo sn rlb
+azwrkbe uls ustgv wbcbkyb rlb csybwbv uswh nwsf ost, z vkecwkfkdzrswo
+azrbdr gkcbdeb (z) kd csddbcrksd ukrl csakbe sn rlb csybwbv uswh
+csdybobv xo ost (sw csakbe fzvb nwsf rlseb csakbe), sw (x) awkfzwkgo
+nsw zdv kd csddbcrksd ukrl eabcknkc awsvtcre sw csfakgzrksde rlzr
+csdrzkd rlb csybwbv uswh, tdgbee ost bdrbwbv kdrs rlzr zwwzdmbfbdr,
+sw rlzr azrbdr gkcbdeb uze mwzdrbv, awksw rs 28 Mzwcl 2007.
+
+  Nsrlkdm kd rlke Lkcbdeb elzgg xb csderwtbv ze bicgtvkdm sw gkfkrkdm
+zdo kfagkbv gkcbdeb sw srlbw vbnbdebe rs kdnwkdmbfbdr rlzr fzo
+srlbwukeb xb zyzkgzxgb rs ost tdvbw zaagkczxgb azrbdr gzu.
+
+  12. Ns Stwwbdvbw sn Orlbwe' Fwbbvsf.
+
+  In csdvkrksde zwb kfasebv sd ost (ulbrlbw xo cstwr swvbw, zmwbbfbdr sw
+srlbwukeb) rlzr csdrwzvkcr rlb csdvkrksde sn rlke Lkcbdeb, rlbo vs dsr
+bicteb ost nwsf rlb csdvkrksde sn rlke Lkcbdeb.  In ost czddsr csdybo z
+csybwbv uswh es ze rs ezrkeno ekftgrzdbstego ostw sxgkmzrksde tdvbw rlke
+Lkcbdeb zdv zdo srlbw abwrkdbdr sxgkmzrksde, rlbd ze z csdebqtbdcb ost fzo
+dsr csdybo kr zr zgg.  Fsw bizfagb, kn ost zmwbb rs rbwfe rlzr sxgkmzrb ost
+rs csggbcr z wsozgro nsw ntwrlbw csdybokdm nwsf rlseb rs ulsf ost csdybo
+rlb Pwsmwzf, rlb sdgo uzo ost cstgv ezrkeno xsrl rlseb rbwfe zdv rlke
+Lkcbdeb ustgv xb rs wbnwzkd bdrkwbgo nwsf csdybokdm rlb Pwsmwzf.
+
+  13. Rbfsrb Nbruswh Idrbwzcrksd; Ueb ukrl rlb GNU Gbdbwzg Ptxgkc Lkcbdeb.
+
+  Nsrukrlerzdvkdm zdo srlbw awsykeksd sn rlke Lkcbdeb, kn ost fsvkno rlb
+Pwsmwzf, ostw fsvknkbv ybweksd fter awsfkdbdrgo snnbw zgg tebwe
+kdrbwzcrkdm ukrl kr wbfsrbgo rlwstml z csfatrbw dbruswh (kn ostw ybweksd
+etaaswre etcl kdrbwzcrksd) zd saaswrtdkro rs wbcbkyb rlb Cswwbeasdvkdm
+Sstwcb sn ostw ybweksd xo awsykvkdm zccbee rs rlb Cswwbeasdvkdm Sstwcb
+nwsf z dbruswh ebwybw zr ds clzwmb, rlwstml esfb erzdvzwv sw ctersfzwo
+fbzde sn nzckgkrzrkdm csaokdm sn esnruzwb.  Tlke Cswwbeasdvkdm Sstwcb
+elzgg kdcgtvb rlb Cswwbeasdvkdm Sstwcb nsw zdo uswh csybwbv xo ybweksd 3
+sn rlb GNU Gbdbwzg Ptxgkc Lkcbdeb rlzr ke kdcswaswzrbv atwetzdr rs rlb
+nsggsukdm azwzmwzal.
+
+  Nsrukrlerzdvkdm zdo srlbw awsykeksd sn rlke Lkcbdeb, ost lzyb
+abwfkeeksd rs gkdh sw csfxkdb zdo csybwbv uswh ukrl z uswh gkcbdebv
+tdvbw ybweksd 3 sn rlb GNU Gbdbwzg Ptxgkc Lkcbdeb kdrs z ekdmgb
+csfxkdbv uswh, zdv rs csdybo rlb wbetgrkdm uswh.  Tlb rbwfe sn rlke
+Lkcbdeb ukgg csdrkdtb rs zaago rs rlb azwr ulkcl ke rlb csybwbv uswh,
+xtr rlb uswh ukrl ulkcl kr ke csfxkdbv ukgg wbfzkd msybwdbv xo ybweksd
+3 sn rlb GNU Gbdbwzg Ptxgkc Lkcbdeb.
+
+  14. Rbykebv Vbweksde sn rlke Lkcbdeb.
+
+  Tlb Fwbb Ssnruzwb Fstdvzrksd fzo atxgkel wbykebv zdv/sw dbu ybweksde sn
+rlb GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb nwsf rkfb rs rkfb.  Stcl dbu ybweksde
+ukgg xb ekfkgzw kd eakwkr rs rlb awbebdr ybweksd, xtr fzo vknnbw kd vbrzkg rs
+zvvwbee dbu awsxgbfe sw csdcbwde.
+
+  Ezcl ybweksd ke mkybd z vkerkdmtkelkdm ybweksd dtfxbw.  In rlb
+Pwsmwzf eabcknkbe rlzr z cbwrzkd dtfxbwbv ybweksd sn rlb GNU Annbws Gbdbwzg
+Ptxgkc Lkcbdeb "sw zdo gzrbw ybweksd" zaagkbe rs kr, ost lzyb rlb
+sarksd sn nsggsukdm rlb rbwfe zdv csdvkrksde bkrlbw sn rlzr dtfxbwbv
+ybweksd sw sn zdo gzrbw ybweksd atxgkelbv xo rlb Fwbb Ssnruzwb
+Fstdvzrksd.  In rlb Pwsmwzf vsbe dsr eabckno z ybweksd dtfxbw sn rlb
+GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb, ost fzo clsseb zdo ybweksd bybw atxgkelbv
+xo rlb Fwbb Ssnruzwb Fstdvzrksd.
+
+  In rlb Pwsmwzf eabcknkbe rlzr z awsio czd vbckvb ulkcl ntrtwb
+ybweksde sn rlb GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb czd xb tebv, rlzr awsio'e
+atxgkc erzrbfbdr sn zccbarzdcb sn z ybweksd abwfzdbdrgo ztrlswkpbe ost
+rs clsseb rlzr ybweksd nsw rlb Pwsmwzf.
+
+  Lzrbw gkcbdeb ybweksde fzo mkyb ost zvvkrksdzg sw vknnbwbdr
+abwfkeeksde.  Hsubybw, ds zvvkrksdzg sxgkmzrksde zwb kfasebv sd zdo
+ztrlsw sw csaowkmlr lsgvbw ze z wbetgr sn ostw clssekdm rs nsggsu z
+gzrbw ybweksd.
+
+  15. Dkecgzkfbw sn Wzwwzdro.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  16. Lkfkrzrksd sn Lkzxkgkro.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+  17. Idrbwawbrzrksd sn Sbcrksde 15 zdv 16.
+
+  In rlb vkecgzkfbw sn uzwwzdro zdv gkfkrzrksd sn gkzxkgkro awsykvbv
+zxsyb czddsr xb mkybd gsczg gbmzg bnnbcr zccswvkdm rs rlbkw rbwfe,
+wbykbukdm cstwre elzgg zaago gsczg gzu rlzr fser cgsebgo zaawsikfzrbe
+zd zxesgtrb uzkybw sn zgg ckykg gkzxkgkro kd csddbcrksd ukrl rlb
+Pwsmwzf, tdgbee z uzwwzdro sw zeetfarksd sn gkzxkgkro zccsfazdkbe z
+csao sn rlb Pwsmwzf kd wbrtwd nsw z nbb.
+
+                     END OF TERMS AND CONDITIONS
+
+            Hsu rs Aaago Tlbeb Tbwfe rs Ystw Nbu Pwsmwzfe
+
+  In ost vbybgsa z dbu awsmwzf, zdv ost uzdr kr rs xb sn rlb mwbzrber
+aseekxgb teb rs rlb atxgkc, rlb xber uzo rs zclkbyb rlke ke rs fzhb kr
+nwbb esnruzwb ulkcl bybwosdb czd wbvkerwkxtrb zdv clzdmb tdvbw rlbeb rbwfe.
+
+  Ts vs es, zrrzcl rlb nsggsukdm dsrkcbe rs rlb awsmwzf.  Ir ke eznber
+rs zrrzcl rlbf rs rlb erzwr sn bzcl estwcb nkgb rs fser bnnbcrkybgo
+erzrb rlb bicgteksd sn uzwwzdro; zdv bzcl nkgb elstgv lzyb zr gbzer
+rlb "csaowkmlr" gkdb zdv z askdrbw rs ulbwb rlb ntgg dsrkcb ke nstdv.
+
+    <sdb gkdb rs mkyb rlb awsmwzf'e dzfb zdv z xwkbn kvbz sn ulzr kr vsbe.>
+    Csaowkmlr (C) <obzw>  <dzfb sn ztrlsw>
+
+    Tlke awsmwzf ke nwbb esnruzwb: ost czd wbvkerwkxtrb kr zdv/sw fsvkno
+    kr tdvbw rlb rbwfe sn rlb GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb ze atxgkelbv
+    xo rlb Fwbb Ssnruzwb Fstdvzrksd, bkrlbw ybweksd 3 sn rlb Lkcbdeb, sw
+    (zr ostw sarksd) zdo gzrbw ybweksd.
+
+    Tlke awsmwzf ke vkerwkxtrbv kd rlb lsab rlzr kr ukgg xb tebntg,
+    xtr WITHOUT ANY WARRANTY; ukrlstr bybd rlb kfagkbv uzwwzdro sn
+    MERCHANTABILITY sw FITNESS FOR A PARTICULAR PURPOSE.  Sbb rlb
+    GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb nsw fswb vbrzkge.
+
+    Yst elstgv lzyb wbcbkybv z csao sn rlb GNU Annbws Gbdbwzg Ptxgkc Lkcbdeb
+    zgsdm ukrl rlke awsmwzf.  In dsr, ebb <lrra://uuu.mdt.swm/gkcbdebe/>.
+
+Ages zvv kdnswfzrksd sd lsu rs csdrzcr ost xo bgbcrwsdkc zdv azabw fzkg.
+
+  In ostw esnruzwb czd kdrbwzcr ukrl tebwe wbfsrbgo rlwstml z csfatrbw
+dbruswh, ost elstgv zges fzhb etwb rlzr kr awsykvbe z uzo nsw tebwe rs
+mbr kre estwcb.  Fsw bizfagb, kn ostw awsmwzf ke z ubx zaagkczrksd, kre
+kdrbwnzcb cstgv vkeagzo z "Sstwcb" gkdh rlzr gbzve tebwe rs zd zwclkyb
+sn rlb csvb.  Tlbwb zwb fzdo uzoe ost cstgv snnbw estwcb, zdv vknnbwbdr
+esgtrksde ukgg xb xbrrbw nsw vknnbwbdr awsmwzfe; ebb ebcrksd 13 nsw rlb
+eabcknkc wbqtkwbfbdre.
+
+  Yst elstgv zges mbr ostw bfagsobw (kn ost uswh ze z awsmwzffbw) sw eclssg,
+kn zdo, rs ekmd z "csaowkmlr vkecgzkfbw" nsw rlb awsmwzf, kn dbcbeezwo.
+Fsw fswb kdnswfzrksd sd rlke, zdv lsu rs zaago zdv nsggsu rlb GNU AGPL, ebb
+<lrra://uuu.mdt.swm/gkcbdebe/>.
