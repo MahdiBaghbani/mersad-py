@@ -11,6 +11,7 @@ the project's success.
 If you haven't already, take a look at the project's [README.md file](README.md).
 
 ### Git repository 
+
 All project's development and discussion takes place on  [GitLab][gitlab repo],
 there is also a mirror on [GitHub][github repo].
 
@@ -108,8 +109,7 @@ For a list of AA-MCL core developers, see the file [CREDITS](CREDITS).
 
 [gitlab flow]: https://docs.gitlab.com/ee/user/project/merge_requests
 
-Preparing Changes
------------------
+## Preparing Changes
 
 Before you begin: if your change will be a significant amount of work
 to write, we highly recommend starting by opening an issue laying out
@@ -150,12 +150,17 @@ Core developers should follow these rules when processing merge requests:
 * Edit the final commit message before merging to conform to the following
   style (we wish to have a clean `git log` output):
   * all commit messages should start with one of these keywords in the subject:
+    - init: for initial commits.
     - add: for adding new feature.
     - fix: for fixing an issue.
-    - update: for changing doc files or comments.
     - modify: for changing existing code for optimization/readability etc.
-    - ci: for DevOps jobs.
+    - update: for changing doc files or comments.
     - remove: for deleting code or file.
+    - build: for updating MakeFiles, etc for build process.
+    - style: for fixing indentation or line breaks, etc.
+    - document: for adding new documentation.
+    - version: for releasing version tags.
+    - ci: for DevOps jobs, like editing `.travis.yml` file.
     - [skip ci]: use this keyword when you change docs to avoid running CI/CD jobs.
   
   * When merging a multi-commit MR make sure that the commit message doesn't
