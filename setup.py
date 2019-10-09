@@ -149,6 +149,7 @@ install_requires = ["ErfanIO"]
 entry_points = {
     "console_scripts": [
         "mclAffine = mersad.classical.affine_cipher:main",
+        "mclAtbash = mersad.classical.atbash_cipher:main",
         "mclShift = mersad.classical.shift_cipher:main"
     ]
 }

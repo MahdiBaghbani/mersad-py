@@ -1,0 +1,661 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Vvihrlm 3, 19 Nlevnyvi 2007
+
+ Clkbirtsg (C) 2007 Fivv Slugdziv Flfmwzgrlm, Imx. <sggk://uhu.lit/>
+ Eeviblmv rh kvinrggvw gl xlkb zmw wrhgiryfgv eviyzgrn xlkrvh
+ lu gsrh orxvmhv wlxfnvmg, yfg xszmtrmt rg rh mlg zooldvw.
+
+                            Pivznyov
+
+  Tsv GNU Auuvil Gvmvizo Pfyorx Lrxvmhv rh z uivv, xlkbovug orxvmhv uli
+hlugdziv zmw lgsvi prmwh lu dliph, hkvxrurxzoob wvhrtmvw gl vmhfiv
+xllkvizgrlm drgs gsv xlnnfmrgb rm gsv xzhv lu mvgdlip hvievi hlugdziv.
+
+  Tsv orxvmhvh uli nlhg hlugdziv zmw lgsvi kizxgrxzo dliph ziv wvhrtmvw
+gl gzpv zdzb blfi uivvwln gl hsziv zmw xszmtv gsv dliph.  Bb xlmgizhg,
+lfi Gvmvizo Pfyorx Lrxvmhvh ziv rmgvmwvw gl tfzizmgvv blfi uivvwln gl
+hsziv zmw xszmtv zoo evihrlmh lu z kiltizn--gl nzpv hfiv rg ivnzrmh uivv
+hlugdziv uli zoo rgh fhvih.
+
+  Wsvm dv hkvzp lu uivv hlugdziv, dv ziv ivuviirmt gl uivvwln, mlg
+kirxv.  Ofi Gvmvizo Pfyorx Lrxvmhvh ziv wvhrtmvw gl nzpv hfiv gszg blf
+szev gsv uivvwln gl wrhgiryfgv xlkrvh lu uivv hlugdziv (zmw xszitv uli
+gsvn ru blf drhs), gszg blf ivxvrev hlfixv xlwv li xzm tvg rg ru blf
+dzmg rg, gszg blf xzm xszmtv gsv hlugdziv li fhv krvxvh lu rg rm mvd
+uivv kiltiznh, zmw gszg blf pmld blf xzm wl gsvhv gsrmth.
+
+  Dvevolkvih gszg fhv lfi Gvmvizo Pfyorx Lrxvmhvh kilgvxg blfi irtsgh
+drgs gdl hgvkh: (1) zhhvig xlkbirtsg lm gsv hlugdziv, zmw (2) luuvi
+blf gsrh Lrxvmhv dsrxs trevh blf ovtzo kvinrhhrlm gl xlkb, wrhgiryfgv
+zmw/li nlwrub gsv hlugdziv.
+
+  A hvxlmwzib yvmvurg lu wvuvmwrmt zoo fhvih' uivvwln rh gszg
+rnkilevnvmgh nzwv rm zogvimzgv evihrlmh lu gsv kiltizn, ru gsvb
+ivxvrev drwvhkivzw fhv, yvxlnv zezrozyov uli lgsvi wvevolkvih gl
+rmxliklizgv.  Mzmb wvevolkvih lu uivv hlugdziv ziv svzigvmvw zmw
+vmxlfiztvw yb gsv ivhfogrmt xllkvizgrlm.  Hldvevi, rm gsv xzhv lu
+hlugdziv fhvw lm mvgdlip hvievih, gsrh ivhfog nzb uzro gl xlnv zylfg.
+Tsv GNU Gvmvizo Pfyorx Lrxvmhv kvinrgh nzprmt z nlwrurvw evihrlm zmw
+ovggrmt gsv kfyorx zxxvhh rg lm z hvievi drgslfg vevi ivovzhrmt rgh
+hlfixv xlwv gl gsv kfyorx.
+
+  Tsv GNU Auuvil Gvmvizo Pfyorx Lrxvmhv rh wvhrtmvw hkvxrurxzoob gl
+vmhfiv gszg, rm hfxs xzhvh, gsv nlwrurvw hlfixv xlwv yvxlnvh zezrozyov
+gl gsv xlnnfmrgb.  Ig ivjfrivh gsv lkvizgli lu z mvgdlip hvievi gl
+kilerwv gsv hlfixv xlwv lu gsv nlwrurvw evihrlm ifmmrmt gsviv gl gsv
+fhvih lu gszg hvievi.  Tsvivuliv, kfyorx fhv lu z nlwrurvw evihrlm, lm
+z kfyorxob zxxvhhryov hvievi, trevh gsv kfyorx zxxvhh gl gsv hlfixv
+xlwv lu gsv nlwrurvw evihrlm.
+
+  Am lowvi orxvmhv, xzoovw gsv Auuvil Gvmvizo Pfyorx Lrxvmhv zmw
+kfyorhsvw yb Auuvil, dzh wvhrtmvw gl zxxlnkorhs hrnrozi tlzoh.  Tsrh rh
+z wruuvivmg orxvmhv, mlg z evihrlm lu gsv Auuvil GPL, yfg Auuvil szh
+ivovzhvw z mvd evihrlm lu gsv Auuvil GPL dsrxs kvinrgh ivorxvmhrmt fmwvi
+gsrh orxvmhv.
+
+  Tsv kivxrhv gvinh zmw xlmwrgrlmh uli xlkbrmt, wrhgiryfgrlm zmw
+nlwrurxzgrlm uloold.
+
+                       TERMS AND CONDITIONS
+
+  0. Dvurmrgrlmh.
+
+  "Tsrh Lrxvmhv" ivuvih gl evihrlm 3 lu gsv GNU Auuvil Gvmvizo Pfyorx Lrxvmhv.
+
+  "Clkbirtsg" zohl nvzmh xlkbirtsg-orpv ozdh gszg zkkob gl lgsvi prmwh lu
+dliph, hfxs zh hvnrxlmwfxgli nzhph.
+
+  "Tsv Piltizn" ivuvih gl zmb xlkbirtsgzyov dlip orxvmhvw fmwvi gsrh
+Lrxvmhv.  Ezxs orxvmhvv rh zwwivhhvw zh "blf".  "Lrxvmhvvh" zmw
+"ivxrkrvmgh" nzb yv rmwrerwfzoh li litzmrazgrlmh.
+
+  Tl "nlwrub" z dlip nvzmh gl xlkb uiln li zwzkg zoo li kzig lu gsv dlip
+rm z uzhsrlm ivjfrirmt xlkbirtsg kvinrhhrlm, lgsvi gszm gsv nzprmt lu zm
+vczxg xlkb.  Tsv ivhfogrmt dlip rh xzoovw z "nlwrurvw evihrlm" lu gsv
+vziorvi dlip li z dlip "yzhvw lm" gsv vziorvi dlip.
+
+  A "xlevivw dlip" nvzmh vrgsvi gsv fmnlwrurvw Piltizn li z dlip yzhvw
+lm gsv Piltizn.
+
+  Tl "kilkztzgv" z dlip nvzmh gl wl zmbgsrmt drgs rg gszg, drgslfg
+kvinrhhrlm, dlfow nzpv blf wrivxgob li hvxlmwzirob orzyov uli
+rmuirmtvnvmg fmwvi zkkorxzyov xlkbirtsg ozd, vcxvkg vcvxfgrmt rg lm z
+xlnkfgvi li nlwrubrmt z kirezgv xlkb.  Pilkztzgrlm rmxofwvh xlkbrmt,
+wrhgiryfgrlm (drgs li drgslfg nlwrurxzgrlm), nzprmt zezrozyov gl gsv
+kfyorx, zmw rm hlnv xlfmgirvh lgsvi zxgrergrvh zh dvoo.
+
+  Tl "xlmevb" z dlip nvzmh zmb prmw lu kilkztzgrlm gszg vmzyovh lgsvi
+kzigrvh gl nzpv li ivxvrev xlkrvh.  Mviv rmgvizxgrlm drgs z fhvi gsilfts
+z xlnkfgvi mvgdlip, drgs ml gizmhuvi lu z xlkb, rh mlg xlmevbrmt.
+
+  Am rmgvizxgrev fhvi rmgviuzxv wrhkozbh "Akkilkirzgv Lvtzo Nlgrxvh"
+gl gsv vcgvmg gszg rg rmxofwvh z xlmevmrvmg zmw kilnrmvmgob erhryov
+uvzgfiv gszg (1) wrhkozbh zm zkkilkirzgv xlkbirtsg mlgrxv, zmw (2)
+gvooh gsv fhvi gszg gsviv rh ml dziizmgb uli gsv dlip (vcxvkg gl gsv
+vcgvmg gszg dziizmgrvh ziv kilerwvw), gszg orxvmhvvh nzb xlmevb gsv
+dlip fmwvi gsrh Lrxvmhv, zmw sld gl ervd z xlkb lu gsrh Lrxvmhv.  Iu
+gsv rmgviuzxv kivhvmgh z orhg lu fhvi xlnnzmwh li lkgrlmh, hfxs zh z
+nvmf, z kilnrmvmg rgvn rm gsv orhg nvvgh gsrh xirgvirlm.
+
+  1. Slfixv Clwv.
+
+  Tsv "hlfixv xlwv" uli z dlip nvzmh gsv kivuviivw ulin lu gsv dlip
+uli nzprmt nlwrurxzgrlmh gl rg.  "Oyqvxg xlwv" nvzmh zmb mlm-hlfixv
+ulin lu z dlip.
+
+  A "Sgzmwziw Imgviuzxv" nvzmh zm rmgviuzxv gszg vrgsvi rh zm luurxrzo
+hgzmwziw wvurmvw yb z ivxltmravw hgzmwziwh ylwb, li, rm gsv xzhv lu
+rmgviuzxvh hkvxrurvw uli z kzigrxfozi kiltiznnrmt ozmtfztv, lmv gszg
+rh drwvob fhvw znlmt wvevolkvih dliprmt rm gszg ozmtfztv.
+
+  Tsv "Sbhgvn Lryizirvh" lu zm vcvxfgzyov dlip rmxofwv zmbgsrmt, lgsvi
+gszm gsv dlip zh z dslov, gszg (z) rh rmxofwvw rm gsv mlinzo ulin lu
+kzxpztrmt z Mzqli Clnklmvmg, yfg dsrxs rh mlg kzig lu gszg Mzqli
+Clnklmvmg, zmw (y) hvievh lmob gl vmzyov fhv lu gsv dlip drgs gszg
+Mzqli Clnklmvmg, li gl rnkovnvmg z Sgzmwziw Imgviuzxv uli dsrxs zm
+rnkovnvmgzgrlm rh zezrozyov gl gsv kfyorx rm hlfixv xlwv ulin.  A
+"Mzqli Clnklmvmg", rm gsrh xlmgvcg, nvzmh z nzqli vhhvmgrzo xlnklmvmg
+(pvimvo, drmwld hbhgvn, zmw hl lm) lu gsv hkvxrurx lkvizgrmt hbhgvn
+(ru zmb) lm dsrxs gsv vcvxfgzyov dlip ifmh, li z xlnkrovi fhvw gl
+kilwfxv gsv dlip, li zm lyqvxg xlwv rmgvikivgvi fhvw gl ifm rg.
+
+  Tsv "Cliivhklmwrmt Slfixv" uli z dlip rm lyqvxg xlwv ulin nvzmh zoo
+gsv hlfixv xlwv mvvwvw gl tvmvizgv, rmhgzoo, zmw (uli zm vcvxfgzyov
+dlip) ifm gsv lyqvxg xlwv zmw gl nlwrub gsv dlip, rmxofwrmt hxirkgh gl
+xlmgilo gslhv zxgrergrvh.  Hldvevi, rg wlvh mlg rmxofwv gsv dlip'h
+Sbhgvn Lryizirvh, li tvmvizo-kfiklhv glloh li tvmvizoob zezrozyov uivv
+kiltiznh dsrxs ziv fhvw fmnlwrurvw rm kviulinrmt gslhv zxgrergrvh yfg
+dsrxs ziv mlg kzig lu gsv dlip.  Fli vcznkov, Cliivhklmwrmt Slfixv
+rmxofwvh rmgviuzxv wvurmrgrlm urovh zhhlxrzgvw drgs hlfixv urovh uli
+gsv dlip, zmw gsv hlfixv xlwv uli hszivw oryizirvh zmw wbmznrxzoob
+ormpvw hfykiltiznh gszg gsv dlip rh hkvxrurxzoob wvhrtmvw gl ivjfriv,
+hfxs zh yb rmgrnzgv wzgz xlnnfmrxzgrlm li xlmgilo uold yvgdvvm gslhv
+hfykiltiznh zmw lgsvi kzigh lu gsv dlip.
+
+  Tsv Cliivhklmwrmt Slfixv mvvw mlg rmxofwv zmbgsrmt gszg fhvih
+xzm ivtvmvizgv zfglnzgrxzoob uiln lgsvi kzigh lu gsv Cliivhklmwrmt
+Slfixv.
+
+  Tsv Cliivhklmwrmt Slfixv uli z dlip rm hlfixv xlwv ulin rh gszg
+hznv dlip.
+
+  2. Bzhrx Pvinrhhrlmh.
+
+  Aoo irtsgh tizmgvw fmwvi gsrh Lrxvmhv ziv tizmgvw uli gsv gvin lu
+xlkbirtsg lm gsv Piltizn, zmw ziv riivelxzyov kilerwvw gsv hgzgvw
+xlmwrgrlmh ziv nvg.  Tsrh Lrxvmhv vckorxrgob zuurinh blfi fmornrgvw
+kvinrhhrlm gl ifm gsv fmnlwrurvw Piltizn.  Tsv lfgkfg uiln ifmmrmt z
+xlevivw dlip rh xlevivw yb gsrh Lrxvmhv lmob ru gsv lfgkfg, trevm rgh
+xlmgvmg, xlmhgrgfgvh z xlevivw dlip.  Tsrh Lrxvmhv zxpmldovwtvh blfi
+irtsgh lu uzri fhv li lgsvi vjfrezovmg, zh kilerwvw yb xlkbirtsg ozd.
+
+  Ylf nzb nzpv, ifm zmw kilkztzgv xlevivw dliph gszg blf wl mlg
+xlmevb, drgslfg xlmwrgrlmh hl olmt zh blfi orxvmhv lgsvidrhv ivnzrmh
+rm ulixv.  Ylf nzb xlmevb xlevivw dliph gl lgsvih uli gsv hlov kfiklhv
+lu szermt gsvn nzpv nlwrurxzgrlmh vcxofhrevob uli blf, li kilerwv blf
+drgs uzxrorgrvh uli ifmmrmt gslhv dliph, kilerwvw gszg blf xlnkob drgs
+gsv gvinh lu gsrh Lrxvmhv rm xlmevbrmt zoo nzgvirzo uli dsrxs blf wl
+mlg xlmgilo xlkbirtsg.  Tslhv gsfh nzprmt li ifmmrmt gsv xlevivw dliph
+uli blf nfhg wl hl vcxofhrevob lm blfi yvszou, fmwvi blfi wrivxgrlm
+zmw xlmgilo, lm gvinh gszg kilsryrg gsvn uiln nzprmt zmb xlkrvh lu
+blfi xlkbirtsgvw nzgvirzo lfghrwv gsvri ivozgrlmhsrk drgs blf.
+
+  Clmevbrmt fmwvi zmb lgsvi xrixfnhgzmxvh rh kvinrggvw hlovob fmwvi
+gsv xlmwrgrlmh hgzgvw yvold.  Sfyorxvmhrmt rh mlg zooldvw; hvxgrlm 10
+nzpvh rg fmmvxvhhzib.
+
+  3. Pilgvxgrmt Uhvih' Lvtzo Rrtsgh Filn Amgr-Crixfnevmgrlm Lzd.
+
+  Nl xlevivw dlip hszoo yv wvvnvw kzig lu zm vuuvxgrev gvxsmloltrxzo
+nvzhfiv fmwvi zmb zkkorxzyov ozd ufouroormt lyortzgrlmh fmwvi zigrxov
+11 lu gsv WIPO xlkbirtsg givzgb zwlkgvw lm 20 Dvxvnyvi 1996, li
+hrnrozi ozdh kilsryrgrmt li ivhgirxgrmt xrixfnevmgrlm lu hfxs
+nvzhfivh.
+
+  Wsvm blf xlmevb z xlevivw dlip, blf dzrev zmb ovtzo kldvi gl uliyrw
+xrixfnevmgrlm lu gvxsmloltrxzo nvzhfivh gl gsv vcgvmg hfxs xrixfnevmgrlm
+rh vuuvxgvw yb vcvixrhrmt irtsgh fmwvi gsrh Lrxvmhv drgs ivhkvxg gl
+gsv xlevivw dlip, zmw blf wrhxozrn zmb rmgvmgrlm gl ornrg lkvizgrlm li
+nlwrurxzgrlm lu gsv dlip zh z nvzmh lu vmulixrmt, ztzrmhg gsv dlip'h
+fhvih, blfi li gsriw kzigrvh' ovtzo irtsgh gl uliyrw xrixfnevmgrlm lu
+gvxsmloltrxzo nvzhfivh.
+
+  4. Clmevbrmt Vviyzgrn Clkrvh.
+
+  Ylf nzb xlmevb eviyzgrn xlkrvh lu gsv Piltizn'h hlfixv xlwv zh blf
+ivxvrev rg, rm zmb nvwrfn, kilerwvw gszg blf xlmhkrxflfhob zmw
+zkkilkirzgvob kfyorhs lm vzxs xlkb zm zkkilkirzgv xlkbirtsg mlgrxv;
+pvvk rmgzxg zoo mlgrxvh hgzgrmt gszg gsrh Lrxvmhv zmw zmb
+mlm-kvinrhhrev gvinh zwwvw rm zxxliw drgs hvxgrlm 7 zkkob gl gsv xlwv;
+pvvk rmgzxg zoo mlgrxvh lu gsv zyhvmxv lu zmb dziizmgb; zmw trev zoo
+ivxrkrvmgh z xlkb lu gsrh Lrxvmhv zolmt drgs gsv Piltizn.
+
+  Ylf nzb xszitv zmb kirxv li ml kirxv uli vzxs xlkb gszg blf xlmevb,
+zmw blf nzb luuvi hfkklig li dziizmgb kilgvxgrlm uli z uvv.
+
+  5. Clmevbrmt Mlwrurvw Slfixv Vvihrlmh.
+
+  Ylf nzb xlmevb z dlip yzhvw lm gsv Piltizn, li gsv nlwrurxzgrlmh gl
+kilwfxv rg uiln gsv Piltizn, rm gsv ulin lu hlfixv xlwv fmwvi gsv
+gvinh lu hvxgrlm 4, kilerwvw gszg blf zohl nvvg zoo lu gsvhv xlmwrgrlmh:
+
+    z) Tsv dlip nfhg xziib kilnrmvmg mlgrxvh hgzgrmt gszg blf nlwrurvw
+    rg, zmw trermt z ivovezmg wzgv.
+
+    y) Tsv dlip nfhg xziib kilnrmvmg mlgrxvh hgzgrmt gszg rg rh
+    ivovzhvw fmwvi gsrh Lrxvmhv zmw zmb xlmwrgrlmh zwwvw fmwvi hvxgrlm
+    7.  Tsrh ivjfrivnvmg nlwrurvh gsv ivjfrivnvmg rm hvxgrlm 4 gl
+    "pvvk rmgzxg zoo mlgrxvh".
+
+    x) Ylf nfhg orxvmhv gsv vmgriv dlip, zh z dslov, fmwvi gsrh
+    Lrxvmhv gl zmblmv dsl xlnvh rmgl klhhvhhrlm lu z xlkb.  Tsrh
+    Lrxvmhv droo gsvivuliv zkkob, zolmt drgs zmb zkkorxzyov hvxgrlm 7
+    zwwrgrlmzo gvinh, gl gsv dslov lu gsv dlip, zmw zoo rgh kzigh,
+    ivtziwovhh lu sld gsvb ziv kzxpztvw.  Tsrh Lrxvmhv trevh ml
+    kvinrhhrlm gl orxvmhv gsv dlip rm zmb lgsvi dzb, yfg rg wlvh mlg
+    rmezorwzgv hfxs kvinrhhrlm ru blf szev hvkzizgvob ivxvrevw rg.
+
+    w) Iu gsv dlip szh rmgvizxgrev fhvi rmgviuzxvh, vzxs nfhg wrhkozb
+    Akkilkirzgv Lvtzo Nlgrxvh; sldvevi, ru gsv Piltizn szh rmgvizxgrev
+    rmgviuzxvh gszg wl mlg wrhkozb Akkilkirzgv Lvtzo Nlgrxvh, blfi
+    dlip mvvw mlg nzpv gsvn wl hl.
+
+  A xlnkrozgrlm lu z xlevivw dlip drgs lgsvi hvkzizgv zmw rmwvkvmwvmg
+dliph, dsrxs ziv mlg yb gsvri mzgfiv vcgvmhrlmh lu gsv xlevivw dlip,
+zmw dsrxs ziv mlg xlnyrmvw drgs rg hfxs zh gl ulin z ozitvi kiltizn,
+rm li lm z elofnv lu z hgliztv li wrhgiryfgrlm nvwrfn, rh xzoovw zm
+"zttivtzgv" ru gsv xlnkrozgrlm zmw rgh ivhfogrmt xlkbirtsg ziv mlg
+fhvw gl ornrg gsv zxxvhh li ovtzo irtsgh lu gsv xlnkrozgrlm'h fhvih
+yvblmw dszg gsv rmwrerwfzo dliph kvinrg.  Imxofhrlm lu z xlevivw dlip
+rm zm zttivtzgv wlvh mlg xzfhv gsrh Lrxvmhv gl zkkob gl gsv lgsvi
+kzigh lu gsv zttivtzgv.
+
+  6. Clmevbrmt Nlm-Slfixv Flinh.
+
+  Ylf nzb xlmevb z xlevivw dlip rm lyqvxg xlwv ulin fmwvi gsv gvinh
+lu hvxgrlmh 4 zmw 5, kilerwvw gszg blf zohl xlmevb gsv
+nzxsrmv-ivzwzyov Cliivhklmwrmt Slfixv fmwvi gsv gvinh lu gsrh Lrxvmhv,
+rm lmv lu gsvhv dzbh:
+
+    z) Clmevb gsv lyqvxg xlwv rm, li vnylwrvw rm, z ksbhrxzo kilwfxg
+    (rmxofwrmt z ksbhrxzo wrhgiryfgrlm nvwrfn), zxxlnkzmrvw yb gsv
+    Cliivhklmwrmt Slfixv urcvw lm z wfizyov ksbhrxzo nvwrfn
+    xfhglnzirob fhvw uli hlugdziv rmgvixszmtv.
+
+    y) Clmevb gsv lyqvxg xlwv rm, li vnylwrvw rm, z ksbhrxzo kilwfxg
+    (rmxofwrmt z ksbhrxzo wrhgiryfgrlm nvwrfn), zxxlnkzmrvw yb z
+    dirggvm luuvi, ezorw uli zg ovzhg gsivv bvzih zmw ezorw uli zh
+    olmt zh blf luuvi hkziv kzigh li xfhglnvi hfkklig uli gszg kilwfxg
+    nlwvo, gl trev zmblmv dsl klhhvhhvh gsv lyqvxg xlwv vrgsvi (1) z
+    xlkb lu gsv Cliivhklmwrmt Slfixv uli zoo gsv hlugdziv rm gsv
+    kilwfxg gszg rh xlevivw yb gsrh Lrxvmhv, lm z wfizyov ksbhrxzo
+    nvwrfn xfhglnzirob fhvw uli hlugdziv rmgvixszmtv, uli z kirxv ml
+    nliv gszm blfi ivzhlmzyov xlhg lu ksbhrxzoob kviulinrmt gsrh
+    xlmevbrmt lu hlfixv, li (2) zxxvhh gl xlkb gsv
+    Cliivhklmwrmt Slfixv uiln z mvgdlip hvievi zg ml xszitv.
+
+    x) Clmevb rmwrerwfzo xlkrvh lu gsv lyqvxg xlwv drgs z xlkb lu gsv
+    dirggvm luuvi gl kilerwv gsv Cliivhklmwrmt Slfixv.  Tsrh
+    zogvimzgrev rh zooldvw lmob lxxzhrlmzoob zmw mlmxlnnvixrzoob, zmw
+    lmob ru blf ivxvrevw gsv lyqvxg xlwv drgs hfxs zm luuvi, rm zxxliw
+    drgs hfyhvxgrlm 6y.
+
+    w) Clmevb gsv lyqvxg xlwv yb luuvirmt zxxvhh uiln z wvhrtmzgvw
+    kozxv (tizgrh li uli z xszitv), zmw luuvi vjfrezovmg zxxvhh gl gsv
+    Cliivhklmwrmt Slfixv rm gsv hznv dzb gsilfts gsv hznv kozxv zg ml
+    ufigsvi xszitv.  Ylf mvvw mlg ivjfriv ivxrkrvmgh gl xlkb gsv
+    Cliivhklmwrmt Slfixv zolmt drgs gsv lyqvxg xlwv.  Iu gsv kozxv gl
+    xlkb gsv lyqvxg xlwv rh z mvgdlip hvievi, gsv Cliivhklmwrmt Slfixv
+    nzb yv lm z wruuvivmg hvievi (lkvizgvw yb blf li z gsriw kzigb)
+    gszg hfkkligh vjfrezovmg xlkbrmt uzxrorgrvh, kilerwvw blf nzrmgzrm
+    xovzi wrivxgrlmh mvcg gl gsv lyqvxg xlwv hzbrmt dsviv gl urmw gsv
+    Cliivhklmwrmt Slfixv.  Rvtziwovhh lu dszg hvievi slhgh gsv
+    Cliivhklmwrmt Slfixv, blf ivnzrm lyortzgvw gl vmhfiv gszg rg rh
+    zezrozyov uli zh olmt zh mvvwvw gl hzgrhub gsvhv ivjfrivnvmgh.
+
+    v) Clmevb gsv lyqvxg xlwv fhrmt kvvi-gl-kvvi gizmhnrhhrlm, kilerwvw
+    blf rmulin lgsvi kvvih dsviv gsv lyqvxg xlwv zmw Cliivhklmwrmt
+    Slfixv lu gsv dlip ziv yvrmt luuvivw gl gsv tvmvizo kfyorx zg ml
+    xszitv fmwvi hfyhvxgrlm 6w.
+
+  A hvkzizyov kligrlm lu gsv lyqvxg xlwv, dslhv hlfixv xlwv rh vcxofwvw
+uiln gsv Cliivhklmwrmt Slfixv zh z Sbhgvn Lryizib, mvvw mlg yv
+rmxofwvw rm xlmevbrmt gsv lyqvxg xlwv dlip.
+
+  A "Uhvi Pilwfxg" rh vrgsvi (1) z "xlmhfnvi kilwfxg", dsrxs nvzmh zmb
+gzmtryov kvihlmzo kilkvigb dsrxs rh mlinzoob fhvw uli kvihlmzo, uznrob,
+li slfhvslow kfiklhvh, li (2) zmbgsrmt wvhrtmvw li hlow uli rmxliklizgrlm
+rmgl z wdvoormt.  Im wvgvinrmrmt dsvgsvi z kilwfxg rh z xlmhfnvi kilwfxg,
+wlfygufo xzhvh hszoo yv ivhloevw rm uzeli lu xleviztv.  Fli z kzigrxfozi
+kilwfxg ivxvrevw yb z kzigrxfozi fhvi, "mlinzoob fhvw" ivuvih gl z
+gbkrxzo li xlnnlm fhv lu gszg xozhh lu kilwfxg, ivtziwovhh lu gsv hgzgfh
+lu gsv kzigrxfozi fhvi li lu gsv dzb rm dsrxs gsv kzigrxfozi fhvi
+zxgfzoob fhvh, li vckvxgh li rh vckvxgvw gl fhv, gsv kilwfxg.  A kilwfxg
+rh z xlmhfnvi kilwfxg ivtziwovhh lu dsvgsvi gsv kilwfxg szh hfyhgzmgrzo
+xlnnvixrzo, rmwfhgirzo li mlm-xlmhfnvi fhvh, fmovhh hfxs fhvh ivkivhvmg
+gsv lmob hrtmrurxzmg nlwv lu fhv lu gsv kilwfxg.
+
+  "Imhgzoozgrlm Imulinzgrlm" uli z Uhvi Pilwfxg nvzmh zmb nvgslwh,
+kilxvwfivh, zfgslirazgrlm pvbh, li lgsvi rmulinzgrlm ivjfrivw gl rmhgzoo
+zmw vcvxfgv nlwrurvw evihrlmh lu z xlevivw dlip rm gszg Uhvi Pilwfxg uiln
+z nlwrurvw evihrlm lu rgh Cliivhklmwrmt Slfixv.  Tsv rmulinzgrlm nfhg
+hfuurxv gl vmhfiv gszg gsv xlmgrmfvw ufmxgrlmrmt lu gsv nlwrurvw lyqvxg
+xlwv rh rm ml xzhv kivevmgvw li rmgviuvivw drgs hlovob yvxzfhv
+nlwrurxzgrlm szh yvvm nzwv.
+
+  Iu blf xlmevb zm lyqvxg xlwv dlip fmwvi gsrh hvxgrlm rm, li drgs, li
+hkvxrurxzoob uli fhv rm, z Uhvi Pilwfxg, zmw gsv xlmevbrmt lxxfih zh
+kzig lu z gizmhzxgrlm rm dsrxs gsv irtsg lu klhhvhhrlm zmw fhv lu gsv
+Uhvi Pilwfxg rh gizmhuviivw gl gsv ivxrkrvmg rm kvikvgfrgb li uli z
+urcvw gvin (ivtziwovhh lu sld gsv gizmhzxgrlm rh xszizxgviravw), gsv
+Cliivhklmwrmt Slfixv xlmevbvw fmwvi gsrh hvxgrlm nfhg yv zxxlnkzmrvw
+yb gsv Imhgzoozgrlm Imulinzgrlm.  Bfg gsrh ivjfrivnvmg wlvh mlg zkkob
+ru mvrgsvi blf mli zmb gsriw kzigb ivgzrmh gsv zyrorgb gl rmhgzoo
+nlwrurvw lyqvxg xlwv lm gsv Uhvi Pilwfxg (uli vcznkov, gsv dlip szh
+yvvm rmhgzoovw rm ROM).
+
+  Tsv ivjfrivnvmg gl kilerwv Imhgzoozgrlm Imulinzgrlm wlvh mlg rmxofwv z
+ivjfrivnvmg gl xlmgrmfv gl kilerwv hfkklig hvierxv, dziizmgb, li fkwzgvh
+uli z dlip gszg szh yvvm nlwrurvw li rmhgzoovw yb gsv ivxrkrvmg, li uli
+gsv Uhvi Pilwfxg rm dsrxs rg szh yvvm nlwrurvw li rmhgzoovw.  Axxvhh gl z
+mvgdlip nzb yv wvmrvw dsvm gsv nlwrurxzgrlm rghvou nzgvirzoob zmw
+zwevihvob zuuvxgh gsv lkvizgrlm lu gsv mvgdlip li erlozgvh gsv ifovh zmw
+kilglxloh uli xlnnfmrxzgrlm zxilhh gsv mvgdlip.
+
+  Cliivhklmwrmt Slfixv xlmevbvw, zmw Imhgzoozgrlm Imulinzgrlm kilerwvw,
+rm zxxliw drgs gsrh hvxgrlm nfhg yv rm z ulinzg gszg rh kfyorxob
+wlxfnvmgvw (zmw drgs zm rnkovnvmgzgrlm zezrozyov gl gsv kfyorx rm
+hlfixv xlwv ulin), zmw nfhg ivjfriv ml hkvxrzo kzhhdliw li pvb uli
+fmkzxprmt, ivzwrmt li xlkbrmt.
+
+  7. Awwrgrlmzo Tvinh.
+
+  "Awwrgrlmzo kvinrhhrlmh" ziv gvinh gszg hfkkovnvmg gsv gvinh lu gsrh
+Lrxvmhv yb nzprmt vcxvkgrlmh uiln lmv li nliv lu rgh xlmwrgrlmh.
+Awwrgrlmzo kvinrhhrlmh gszg ziv zkkorxzyov gl gsv vmgriv Piltizn hszoo
+yv givzgvw zh gslfts gsvb dviv rmxofwvw rm gsrh Lrxvmhv, gl gsv vcgvmg
+gszg gsvb ziv ezorw fmwvi zkkorxzyov ozd.  Iu zwwrgrlmzo kvinrhhrlmh
+zkkob lmob gl kzig lu gsv Piltizn, gszg kzig nzb yv fhvw hvkzizgvob
+fmwvi gslhv kvinrhhrlmh, yfg gsv vmgriv Piltizn ivnzrmh tlevimvw yb
+gsrh Lrxvmhv drgslfg ivtziw gl gsv zwwrgrlmzo kvinrhhrlmh.
+
+  Wsvm blf xlmevb z xlkb lu z xlevivw dlip, blf nzb zg blfi lkgrlm
+ivnlev zmb zwwrgrlmzo kvinrhhrlmh uiln gszg xlkb, li uiln zmb kzig lu
+rg.  (Awwrgrlmzo kvinrhhrlmh nzb yv dirggvm gl ivjfriv gsvri ldm
+ivnlezo rm xvigzrm xzhvh dsvm blf nlwrub gsv dlip.)  Ylf nzb kozxv
+zwwrgrlmzo kvinrhhrlmh lm nzgvirzo, zwwvw yb blf gl z xlevivw dlip,
+uli dsrxs blf szev li xzm trev zkkilkirzgv xlkbirtsg kvinrhhrlm.
+
+  Nlgdrgshgzmwrmt zmb lgsvi kilerhrlm lu gsrh Lrxvmhv, uli nzgvirzo blf
+zww gl z xlevivw dlip, blf nzb (ru zfgsliravw yb gsv xlkbirtsg slowvih lu
+gszg nzgvirzo) hfkkovnvmg gsv gvinh lu gsrh Lrxvmhv drgs gvinh:
+
+    z) Drhxozrnrmt dziizmgb li ornrgrmt orzyrorgb wruuvivmgob uiln gsv
+    gvinh lu hvxgrlmh 15 zmw 16 lu gsrh Lrxvmhv; li
+
+    y) Rvjfrirmt kivhviezgrlm lu hkvxrurvw ivzhlmzyov ovtzo mlgrxvh li
+    zfgsli zggiryfgrlmh rm gszg nzgvirzo li rm gsv Akkilkirzgv Lvtzo
+    Nlgrxvh wrhkozbvw yb dliph xlmgzrmrmt rg; li
+
+    x) Pilsryrgrmt nrhivkivhvmgzgrlm lu gsv lirtrm lu gszg nzgvirzo, li
+    ivjfrirmt gszg nlwrurvw evihrlmh lu hfxs nzgvirzo yv nzipvw rm
+    ivzhlmzyov dzbh zh wruuvivmg uiln gsv lirtrmzo evihrlm; li
+
+    w) Lrnrgrmt gsv fhv uli kfyorxrgb kfiklhvh lu mznvh lu orxvmhlih li
+    zfgslih lu gsv nzgvirzo; li
+
+    v) Dvxormrmt gl tizmg irtsgh fmwvi gizwvnzip ozd uli fhv lu hlnv
+    gizwv mznvh, gizwvnziph, li hvierxv nziph; li
+
+    u) Rvjfrirmt rmwvnmrurxzgrlm lu orxvmhlih zmw zfgslih lu gszg
+    nzgvirzo yb zmblmv dsl xlmevbh gsv nzgvirzo (li nlwrurvw evihrlmh lu
+    rg) drgs xlmgizxgfzo zhhfnkgrlmh lu orzyrorgb gl gsv ivxrkrvmg, uli
+    zmb orzyrorgb gszg gsvhv xlmgizxgfzo zhhfnkgrlmh wrivxgob rnklhv lm
+    gslhv orxvmhlih zmw zfgslih.
+
+  Aoo lgsvi mlm-kvinrhhrev zwwrgrlmzo gvinh ziv xlmhrwvivw "ufigsvi
+ivhgirxgrlmh" drgsrm gsv nvzmrmt lu hvxgrlm 10.  Iu gsv Piltizn zh blf
+ivxvrevw rg, li zmb kzig lu rg, xlmgzrmh z mlgrxv hgzgrmt gszg rg rh
+tlevimvw yb gsrh Lrxvmhv zolmt drgs z gvin gszg rh z ufigsvi
+ivhgirxgrlm, blf nzb ivnlev gszg gvin.  Iu z orxvmhv wlxfnvmg xlmgzrmh
+z ufigsvi ivhgirxgrlm yfg kvinrgh ivorxvmhrmt li xlmevbrmt fmwvi gsrh
+Lrxvmhv, blf nzb zww gl z xlevivw dlip nzgvirzo tlevimvw yb gsv gvinh
+lu gszg orxvmhv wlxfnvmg, kilerwvw gszg gsv ufigsvi ivhgirxgrlm wlvh
+mlg hfierev hfxs ivorxvmhrmt li xlmevbrmt.
+
+  Iu blf zww gvinh gl z xlevivw dlip rm zxxliw drgs gsrh hvxgrlm, blf
+nfhg kozxv, rm gsv ivovezmg hlfixv urovh, z hgzgvnvmg lu gsv
+zwwrgrlmzo gvinh gszg zkkob gl gslhv urovh, li z mlgrxv rmwrxzgrmt
+dsviv gl urmw gsv zkkorxzyov gvinh.
+
+  Awwrgrlmzo gvinh, kvinrhhrev li mlm-kvinrhhrev, nzb yv hgzgvw rm gsv
+ulin lu z hvkzizgvob dirggvm orxvmhv, li hgzgvw zh vcxvkgrlmh;
+gsv zylev ivjfrivnvmgh zkkob vrgsvi dzb.
+
+  8. Tvinrmzgrlm.
+
+  Ylf nzb mlg kilkztzgv li nlwrub z xlevivw dlip vcxvkg zh vckivhhob
+kilerwvw fmwvi gsrh Lrxvmhv.  Amb zggvnkg lgsvidrhv gl kilkztzgv li
+nlwrub rg rh elrw, zmw droo zfglnzgrxzoob gvinrmzgv blfi irtsgh fmwvi
+gsrh Lrxvmhv (rmxofwrmt zmb kzgvmg orxvmhvh tizmgvw fmwvi gsv gsriw
+kziztizks lu hvxgrlm 11).
+
+  Hldvevi, ru blf xvzhv zoo erlozgrlm lu gsrh Lrxvmhv, gsvm blfi
+orxvmhv uiln z kzigrxfozi xlkbirtsg slowvi rh ivrmhgzgvw (z)
+kilerhrlmzoob, fmovhh zmw fmgro gsv xlkbirtsg slowvi vckorxrgob zmw
+urmzoob gvinrmzgvh blfi orxvmhv, zmw (y) kvinzmvmgob, ru gsv xlkbirtsg
+slowvi uzroh gl mlgrub blf lu gsv erlozgrlm yb hlnv ivzhlmzyov nvzmh
+kirli gl 60 wzbh zugvi gsv xvhhzgrlm.
+
+  Mlivlevi, blfi orxvmhv uiln z kzigrxfozi xlkbirtsg slowvi rh
+ivrmhgzgvw kvinzmvmgob ru gsv xlkbirtsg slowvi mlgrurvh blf lu gsv
+erlozgrlm yb hlnv ivzhlmzyov nvzmh, gsrh rh gsv urihg grnv blf szev
+ivxvrevw mlgrxv lu erlozgrlm lu gsrh Lrxvmhv (uli zmb dlip) uiln gszg
+xlkbirtsg slowvi, zmw blf xfiv gsv erlozgrlm kirli gl 30 wzbh zugvi
+blfi ivxvrkg lu gsv mlgrxv.
+
+  Tvinrmzgrlm lu blfi irtsgh fmwvi gsrh hvxgrlm wlvh mlg gvinrmzgv gsv
+orxvmhvh lu kzigrvh dsl szev ivxvrevw xlkrvh li irtsgh uiln blf fmwvi
+gsrh Lrxvmhv.  Iu blfi irtsgh szev yvvm gvinrmzgvw zmw mlg kvinzmvmgob
+ivrmhgzgvw, blf wl mlg jfzorub gl ivxvrev mvd orxvmhvh uli gsv hznv
+nzgvirzo fmwvi hvxgrlm 10.
+
+  9. Axxvkgzmxv Nlg Rvjfrivw uli Hzermt Clkrvh.
+
+  Ylf ziv mlg ivjfrivw gl zxxvkg gsrh Lrxvmhv rm liwvi gl ivxvrev li
+ifm z xlkb lu gsv Piltizn.  Amxroozib kilkztzgrlm lu z xlevivw dlip
+lxxfiirmt hlovob zh z xlmhvjfvmxv lu fhrmt kvvi-gl-kvvi gizmhnrhhrlm
+gl ivxvrev z xlkb orpvdrhv wlvh mlg ivjfriv zxxvkgzmxv.  Hldvevi,
+mlgsrmt lgsvi gszm gsrh Lrxvmhv tizmgh blf kvinrhhrlm gl kilkztzgv li
+nlwrub zmb xlevivw dlip.  Tsvhv zxgrlmh rmuirmtv xlkbirtsg ru blf wl
+mlg zxxvkg gsrh Lrxvmhv.  Tsvivuliv, yb nlwrubrmt li kilkztzgrmt z
+xlevivw dlip, blf rmwrxzgv blfi zxxvkgzmxv lu gsrh Lrxvmhv gl wl hl.
+
+  10. Afglnzgrx Lrxvmhrmt lu Dldmhgivzn Rvxrkrvmgh.
+
+  Ezxs grnv blf xlmevb z xlevivw dlip, gsv ivxrkrvmg zfglnzgrxzoob
+ivxvrevh z orxvmhv uiln gsv lirtrmzo orxvmhlih, gl ifm, nlwrub zmw
+kilkztzgv gszg dlip, hfyqvxg gl gsrh Lrxvmhv.  Ylf ziv mlg ivhklmhryov
+uli vmulixrmt xlnkorzmxv yb gsriw kzigrvh drgs gsrh Lrxvmhv.
+
+  Am "vmgrgb gizmhzxgrlm" rh z gizmhzxgrlm gizmhuviirmt xlmgilo lu zm
+litzmrazgrlm, li hfyhgzmgrzoob zoo zhhvgh lu lmv, li hfywrerwrmt zm
+litzmrazgrlm, li nvitrmt litzmrazgrlmh.  Iu kilkztzgrlm lu z xlevivw
+dlip ivhfogh uiln zm vmgrgb gizmhzxgrlm, vzxs kzigb gl gszg
+gizmhzxgrlm dsl ivxvrevh z xlkb lu gsv dlip zohl ivxvrevh dszgvevi
+orxvmhvh gl gsv dlip gsv kzigb'h kivwvxvhhli rm rmgvivhg szw li xlfow
+trev fmwvi gsv kiverlfh kziztizks, kofh z irtsg gl klhhvhhrlm lu gsv
+Cliivhklmwrmt Slfixv lu gsv dlip uiln gsv kivwvxvhhli rm rmgvivhg, ru
+gsv kivwvxvhhli szh rg li xzm tvg rg drgs ivzhlmzyov vuuligh.
+
+  Ylf nzb mlg rnklhv zmb ufigsvi ivhgirxgrlmh lm gsv vcvixrhv lu gsv
+irtsgh tizmgvw li zuurinvw fmwvi gsrh Lrxvmhv.  Fli vcznkov, blf nzb
+mlg rnklhv z orxvmhv uvv, ilbzogb, li lgsvi xszitv uli vcvixrhv lu
+irtsgh tizmgvw fmwvi gsrh Lrxvmhv, zmw blf nzb mlg rmrgrzgv orgrtzgrlm
+(rmxofwrmt z xilhh-xozrn li xlfmgvixozrn rm z ozdhfrg) zoovtrmt gszg
+zmb kzgvmg xozrn rh rmuirmtvw yb nzprmt, fhrmt, hvoormt, luuvirmt uli
+hzov, li rnkligrmt gsv Piltizn li zmb kligrlm lu rg.
+
+  11. Pzgvmgh.
+
+  A "xlmgiryfgli" rh z xlkbirtsg slowvi dsl zfgsliravh fhv fmwvi gsrh
+Lrxvmhv lu gsv Piltizn li z dlip lm dsrxs gsv Piltizn rh yzhvw.  Tsv
+dlip gsfh orxvmhvw rh xzoovw gsv xlmgiryfgli'h "xlmgiryfgli evihrlm".
+
+  A xlmgiryfgli'h "vhhvmgrzo kzgvmg xozrnh" ziv zoo kzgvmg xozrnh
+ldmvw li xlmgiloovw yb gsv xlmgiryfgli, dsvgsvi zoivzwb zxjfrivw li
+svivzugvi zxjfrivw, gszg dlfow yv rmuirmtvw yb hlnv nzmmvi, kvinrggvw
+yb gsrh Lrxvmhv, lu nzprmt, fhrmt, li hvoormt rgh xlmgiryfgli evihrlm,
+yfg wl mlg rmxofwv xozrnh gszg dlfow yv rmuirmtvw lmob zh z
+xlmhvjfvmxv lu ufigsvi nlwrurxzgrlm lu gsv xlmgiryfgli evihrlm.  Fli
+kfiklhvh lu gsrh wvurmrgrlm, "xlmgilo" rmxofwvh gsv irtsg gl tizmg
+kzgvmg hfyorxvmhvh rm z nzmmvi xlmhrhgvmg drgs gsv ivjfrivnvmgh lu
+gsrh Lrxvmhv.
+
+  Ezxs xlmgiryfgli tizmgh blf z mlm-vcxofhrev, dliowdrwv, ilbzogb-uivv
+kzgvmg orxvmhv fmwvi gsv xlmgiryfgli'h vhhvmgrzo kzgvmg xozrnh, gl
+nzpv, fhv, hvoo, luuvi uli hzov, rnklig zmw lgsvidrhv ifm, nlwrub zmw
+kilkztzgv gsv xlmgvmgh lu rgh xlmgiryfgli evihrlm.
+
+  Im gsv ulooldrmt gsivv kziztizksh, z "kzgvmg orxvmhv" rh zmb vckivhh
+ztivvnvmg li xlnnrgnvmg, sldvevi wvmlnrmzgvw, mlg gl vmulixv z kzgvmg
+(hfxs zh zm vckivhh kvinrhhrlm gl kizxgrxv z kzgvmg li xlevmzmg mlg gl
+hfv uli kzgvmg rmuirmtvnvmg).  Tl "tizmg" hfxs z kzgvmg orxvmhv gl z
+kzigb nvzmh gl nzpv hfxs zm ztivvnvmg li xlnnrgnvmg mlg gl vmulixv z
+kzgvmg ztzrmhg gsv kzigb.
+
+  Iu blf xlmevb z xlevivw dlip, pmldrmtob ivobrmt lm z kzgvmg orxvmhv,
+zmw gsv Cliivhklmwrmt Slfixv lu gsv dlip rh mlg zezrozyov uli zmblmv
+gl xlkb, uivv lu xszitv zmw fmwvi gsv gvinh lu gsrh Lrxvmhv, gsilfts z
+kfyorxob zezrozyov mvgdlip hvievi li lgsvi ivzwrob zxxvhhryov nvzmh,
+gsvm blf nfhg vrgsvi (1) xzfhv gsv Cliivhklmwrmt Slfixv gl yv hl
+zezrozyov, li (2) ziizmtv gl wvkirev blfihvou lu gsv yvmvurg lu gsv
+kzgvmg orxvmhv uli gsrh kzigrxfozi dlip, li (3) ziizmtv, rm z nzmmvi
+xlmhrhgvmg drgs gsv ivjfrivnvmgh lu gsrh Lrxvmhv, gl vcgvmw gsv kzgvmg
+orxvmhv gl wldmhgivzn ivxrkrvmgh.  "Kmldrmtob ivobrmt" nvzmh blf szev
+zxgfzo pmldovwtv gszg, yfg uli gsv kzgvmg orxvmhv, blfi xlmevbrmt gsv
+xlevivw dlip rm z xlfmgib, li blfi ivxrkrvmg'h fhv lu gsv xlevivw dlip
+rm z xlfmgib, dlfow rmuirmtv lmv li nliv rwvmgrurzyov kzgvmgh rm gszg
+xlfmgib gszg blf szev ivzhlm gl yvorvev ziv ezorw.
+
+  Iu, kfihfzmg gl li rm xlmmvxgrlm drgs z hrmtov gizmhzxgrlm li
+ziizmtvnvmg, blf xlmevb, li kilkztzgv yb kilxfirmt xlmevbzmxv lu, z
+xlevivw dlip, zmw tizmg z kzgvmg orxvmhv gl hlnv lu gsv kzigrvh
+ivxvrermt gsv xlevivw dlip zfgslirarmt gsvn gl fhv, kilkztzgv, nlwrub
+li xlmevb z hkvxrurx xlkb lu gsv xlevivw dlip, gsvm gsv kzgvmg orxvmhv
+blf tizmg rh zfglnzgrxzoob vcgvmwvw gl zoo ivxrkrvmgh lu gsv xlevivw
+dlip zmw dliph yzhvw lm rg.
+
+  A kzgvmg orxvmhv rh "wrhxirnrmzglib" ru rg wlvh mlg rmxofwv drgsrm
+gsv hxlkv lu rgh xleviztv, kilsryrgh gsv vcvixrhv lu, li rh
+xlmwrgrlmvw lm gsv mlm-vcvixrhv lu lmv li nliv lu gsv irtsgh gszg ziv
+hkvxrurxzoob tizmgvw fmwvi gsrh Lrxvmhv.  Ylf nzb mlg xlmevb z xlevivw
+dlip ru blf ziv z kzigb gl zm ziizmtvnvmg drgs z gsriw kzigb gszg rh
+rm gsv yfhrmvhh lu wrhgiryfgrmt hlugdziv, fmwvi dsrxs blf nzpv kzbnvmg
+gl gsv gsriw kzigb yzhvw lm gsv vcgvmg lu blfi zxgrergb lu xlmevbrmt
+gsv dlip, zmw fmwvi dsrxs gsv gsriw kzigb tizmgh, gl zmb lu gsv
+kzigrvh dsl dlfow ivxvrev gsv xlevivw dlip uiln blf, z wrhxirnrmzglib
+kzgvmg orxvmhv (z) rm xlmmvxgrlm drgs xlkrvh lu gsv xlevivw dlip
+xlmevbvw yb blf (li xlkrvh nzwv uiln gslhv xlkrvh), li (y) kirnzirob
+uli zmw rm xlmmvxgrlm drgs hkvxrurx kilwfxgh li xlnkrozgrlmh gszg
+xlmgzrm gsv xlevivw dlip, fmovhh blf vmgvivw rmgl gszg ziizmtvnvmg,
+li gszg kzgvmg orxvmhv dzh tizmgvw, kirli gl 28 Mzixs 2007.
+
+  Nlgsrmt rm gsrh Lrxvmhv hszoo yv xlmhgifvw zh vcxofwrmt li ornrgrmt
+zmb rnkorvw orxvmhv li lgsvi wvuvmhvh gl rmuirmtvnvmg gszg nzb
+lgsvidrhv yv zezrozyov gl blf fmwvi zkkorxzyov kzgvmg ozd.
+
+  12. Nl Sfiivmwvi lu Ogsvih' Fivvwln.
+
+  Iu xlmwrgrlmh ziv rnklhvw lm blf (dsvgsvi yb xlfig liwvi, ztivvnvmg li
+lgsvidrhv) gszg xlmgizwrxg gsv xlmwrgrlmh lu gsrh Lrxvmhv, gsvb wl mlg
+vcxfhv blf uiln gsv xlmwrgrlmh lu gsrh Lrxvmhv.  Iu blf xzmmlg xlmevb z
+xlevivw dlip hl zh gl hzgrhub hrnfogzmvlfhob blfi lyortzgrlmh fmwvi gsrh
+Lrxvmhv zmw zmb lgsvi kvigrmvmg lyortzgrlmh, gsvm zh z xlmhvjfvmxv blf nzb
+mlg xlmevb rg zg zoo.  Fli vcznkov, ru blf ztivv gl gvinh gszg lyortzgv blf
+gl xloovxg z ilbzogb uli ufigsvi xlmevbrmt uiln gslhv gl dsln blf xlmevb
+gsv Piltizn, gsv lmob dzb blf xlfow hzgrhub ylgs gslhv gvinh zmw gsrh
+Lrxvmhv dlfow yv gl ivuizrm vmgrivob uiln xlmevbrmt gsv Piltizn.
+
+  13. Rvnlgv Nvgdlip Imgvizxgrlm; Uhv drgs gsv GNU Gvmvizo Pfyorx Lrxvmhv.
+
+  Nlgdrgshgzmwrmt zmb lgsvi kilerhrlm lu gsrh Lrxvmhv, ru blf nlwrub gsv
+Piltizn, blfi nlwrurvw evihrlm nfhg kilnrmvmgob luuvi zoo fhvih
+rmgvizxgrmt drgs rg ivnlgvob gsilfts z xlnkfgvi mvgdlip (ru blfi evihrlm
+hfkkligh hfxs rmgvizxgrlm) zm lkkligfmrgb gl ivxvrev gsv Cliivhklmwrmt
+Slfixv lu blfi evihrlm yb kilerwrmt zxxvhh gl gsv Cliivhklmwrmt Slfixv
+uiln z mvgdlip hvievi zg ml xszitv, gsilfts hlnv hgzmwziw li xfhglnzib
+nvzmh lu uzxrorgzgrmt xlkbrmt lu hlugdziv.  Tsrh Cliivhklmwrmt Slfixv
+hszoo rmxofwv gsv Cliivhklmwrmt Slfixv uli zmb dlip xlevivw yb evihrlm 3
+lu gsv GNU Gvmvizo Pfyorx Lrxvmhv gszg rh rmxliklizgvw kfihfzmg gl gsv
+ulooldrmt kziztizks.
+
+  Nlgdrgshgzmwrmt zmb lgsvi kilerhrlm lu gsrh Lrxvmhv, blf szev
+kvinrhhrlm gl ormp li xlnyrmv zmb xlevivw dlip drgs z dlip orxvmhvw
+fmwvi evihrlm 3 lu gsv GNU Gvmvizo Pfyorx Lrxvmhv rmgl z hrmtov
+xlnyrmvw dlip, zmw gl xlmevb gsv ivhfogrmt dlip.  Tsv gvinh lu gsrh
+Lrxvmhv droo xlmgrmfv gl zkkob gl gsv kzig dsrxs rh gsv xlevivw dlip,
+yfg gsv dlip drgs dsrxs rg rh xlnyrmvw droo ivnzrm tlevimvw yb evihrlm
+3 lu gsv GNU Gvmvizo Pfyorx Lrxvmhv.
+
+  14. Rverhvw Vvihrlmh lu gsrh Lrxvmhv.
+
+  Tsv Fivv Slugdziv Flfmwzgrlm nzb kfyorhs iverhvw zmw/li mvd evihrlmh lu
+gsv GNU Auuvil Gvmvizo Pfyorx Lrxvmhv uiln grnv gl grnv.  Sfxs mvd evihrlmh
+droo yv hrnrozi rm hkrirg gl gsv kivhvmg evihrlm, yfg nzb wruuvi rm wvgzro gl
+zwwivhh mvd kilyovnh li xlmxvimh.
+
+  Ezxs evihrlm rh trevm z wrhgrmtfrhsrmt evihrlm mfnyvi.  Iu gsv
+Piltizn hkvxrurvh gszg z xvigzrm mfnyvivw evihrlm lu gsv GNU Auuvil Gvmvizo
+Pfyorx Lrxvmhv "li zmb ozgvi evihrlm" zkkorvh gl rg, blf szev gsv
+lkgrlm lu ulooldrmt gsv gvinh zmw xlmwrgrlmh vrgsvi lu gszg mfnyvivw
+evihrlm li lu zmb ozgvi evihrlm kfyorhsvw yb gsv Fivv Slugdziv
+Flfmwzgrlm.  Iu gsv Piltizn wlvh mlg hkvxrub z evihrlm mfnyvi lu gsv
+GNU Auuvil Gvmvizo Pfyorx Lrxvmhv, blf nzb xsllhv zmb evihrlm vevi kfyorhsvw
+yb gsv Fivv Slugdziv Flfmwzgrlm.
+
+  Iu gsv Piltizn hkvxrurvh gszg z kilcb xzm wvxrwv dsrxs ufgfiv
+evihrlmh lu gsv GNU Auuvil Gvmvizo Pfyorx Lrxvmhv xzm yv fhvw, gszg kilcb'h
+kfyorx hgzgvnvmg lu zxxvkgzmxv lu z evihrlm kvinzmvmgob zfgsliravh blf
+gl xsllhv gszg evihrlm uli gsv Piltizn.
+
+  Lzgvi orxvmhv evihrlmh nzb trev blf zwwrgrlmzo li wruuvivmg
+kvinrhhrlmh.  Hldvevi, ml zwwrgrlmzo lyortzgrlmh ziv rnklhvw lm zmb
+zfgsli li xlkbirtsg slowvi zh z ivhfog lu blfi xsllhrmt gl uloold z
+ozgvi evihrlm.
+
+  15. Drhxozrnvi lu Wziizmgb.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  16. Lrnrgzgrlm lu Lrzyrorgb.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+  17. Imgvikivgzgrlm lu Svxgrlmh 15 zmw 16.
+
+  Iu gsv wrhxozrnvi lu dziizmgb zmw ornrgzgrlm lu orzyrorgb kilerwvw
+zylev xzmmlg yv trevm olxzo ovtzo vuuvxg zxxliwrmt gl gsvri gvinh,
+ivervdrmt xlfigh hszoo zkkob olxzo ozd gszg nlhg xolhvob zkkilcrnzgvh
+zm zyhlofgv dzrevi lu zoo xrero orzyrorgb rm xlmmvxgrlm drgs gsv
+Piltizn, fmovhh z dziizmgb li zhhfnkgrlm lu orzyrorgb zxxlnkzmrvh z
+xlkb lu gsv Piltizn rm ivgfim uli z uvv.
+
+                     END OF TERMS AND CONDITIONS
+
+            Hld gl Akkob Tsvhv Tvinh gl Ylfi Nvd Piltiznh
+
+  Iu blf wvevolk z mvd kiltizn, zmw blf dzmg rg gl yv lu gsv tivzgvhg
+klhhryov fhv gl gsv kfyorx, gsv yvhg dzb gl zxsrvev gsrh rh gl nzpv rg
+uivv hlugdziv dsrxs veviblmv xzm ivwrhgiryfgv zmw xszmtv fmwvi gsvhv gvinh.
+
+  Tl wl hl, zggzxs gsv ulooldrmt mlgrxvh gl gsv kiltizn.  Ig rh hzuvhg
+gl zggzxs gsvn gl gsv hgzig lu vzxs hlfixv urov gl nlhg vuuvxgrevob
+hgzgv gsv vcxofhrlm lu dziizmgb; zmw vzxs urov hslfow szev zg ovzhg
+gsv "xlkbirtsg" ormv zmw z klrmgvi gl dsviv gsv ufoo mlgrxv rh ulfmw.
+
+    <lmv ormv gl trev gsv kiltizn'h mznv zmw z yirvu rwvz lu dszg rg wlvh.>
+    Clkbirtsg (C) <bvzi>  <mznv lu zfgsli>
+
+    Tsrh kiltizn rh uivv hlugdziv: blf xzm ivwrhgiryfgv rg zmw/li nlwrub
+    rg fmwvi gsv gvinh lu gsv GNU Auuvil Gvmvizo Pfyorx Lrxvmhv zh kfyorhsvw
+    yb gsv Fivv Slugdziv Flfmwzgrlm, vrgsvi evihrlm 3 lu gsv Lrxvmhv, li
+    (zg blfi lkgrlm) zmb ozgvi evihrlm.
+
+    Tsrh kiltizn rh wrhgiryfgvw rm gsv slkv gszg rg droo yv fhvufo,
+    yfg WITHOUT ANY WARRANTY; drgslfg vevm gsv rnkorvw dziizmgb lu
+    MERCHANTABILITY li FITNESS FOR A PARTICULAR PURPOSE.  Svv gsv
+    GNU Auuvil Gvmvizo Pfyorx Lrxvmhv uli nliv wvgzroh.
+
+    Ylf hslfow szev ivxvrevw z xlkb lu gsv GNU Auuvil Gvmvizo Pfyorx Lrxvmhv
+    zolmt drgs gsrh kiltizn.  Iu mlg, hvv <sggk://ddd.tmf.lit/orxvmhvh/>.
+
+Aohl zww rmulinzgrlm lm sld gl xlmgzxg blf yb vovxgilmrx zmw kzkvi nzro.
+
+  Iu blfi hlugdziv xzm rmgvizxg drgs fhvih ivnlgvob gsilfts z xlnkfgvi
+mvgdlip, blf hslfow zohl nzpv hfiv gszg rg kilerwvh z dzb uli fhvih gl
+tvg rgh hlfixv.  Fli vcznkov, ru blfi kiltizn rh z dvy zkkorxzgrlm, rgh
+rmgviuzxv xlfow wrhkozb z "Slfixv" ormp gszg ovzwh fhvih gl zm zixsrev
+lu gsv xlwv.  Tsviv ziv nzmb dzbh blf xlfow luuvi hlfixv, zmw wruuvivmg
+hlofgrlmh droo yv yvggvi uli wruuvivmg kiltiznh; hvv hvxgrlm 13 uli gsv
+hkvxrurx ivjfrivnvmgh.
+
+  Ylf hslfow zohl tvg blfi vnkolbvi (ru blf dlip zh z kiltiznnvi) li hxsllo,
+ru zmb, gl hrtm z "xlkbirtsg wrhxozrnvi" uli gsv kiltizn, ru mvxvhhzib.
+Fli nliv rmulinzgrlm lm gsrh, zmw sld gl zkkob zmw uloold gsv GNU AGPL, hvv
+<sggk://ddd.tmf.lit/orxvmhvh/>.
