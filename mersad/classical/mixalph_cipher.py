@@ -61,6 +61,7 @@ from typing import Union
 
 # Mersad Library
 from mersad.util import string_manipulation
+from mersad.util import type_check
 from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
 
@@ -84,13 +85,10 @@ class MixalphCipher(MersadClassicalBase):
 
     Create an instance like every other python class.
 
-    Mixed Alphabet is key-less cipher so if you provide it with key,
-    key won't affect the result.
-
     Example:
     ==================================
 
-    >>> agent = MixalphCipher(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop")
+    >>> agent = MixalphCipher(key="zxcvbnmlkjhgfdsaqwertyuiop")
     >>> # encrypt a string
     >>> agent.encrypt("Hail Julius Caesar.")
     "Hzkg Jtgkte Czbezw."
@@ -129,13 +127,27 @@ class MixalphCipher(MersadClassicalBase):
     >>> # default values for all the settings.
     >>> agent = MixalphCipher()
     >>> # override defaults.
-    >>> agent.config(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop")
+    >>> agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop")
     >>> # encrypt a string
     >>> agent.encrypt("Hail Julius Caesar.")
     "Hzkg Jtgkte Czbezw."
 
     ==================================
     """
+
+    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
+        """
+        Assign values to self.configuration dictionary.
+
+        :raise ValueError: if type of a dictionary value is wrong.
+        """
+        if "key" in kwargs and kwargs["key"] is not None:
+            type_check.type_guard(kwargs["key"], str)
+            self.configuration["key"] = kwargs["key"]
+
+        if "sort_key" in kwargs:
+            type_check.type_guard(kwargs["sort_key"], str)
+            self.configuration["sort_key"] = kwargs["sort_key"]
 
     @staticmethod
     def _translator(text: str, **kwargs: Union[int, str, bool]) -> str:
@@ -153,12 +165,34 @@ def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str
     """
     Translate a string with Mixed Alphabet cipher algorithm.
 
-    This cipher doesn't need a key.
+    This cipher uses a key sequence for encryption, this key can be in any order
+    for example plmkoijnbhuygvtfcrdxeszwaq and cipher encrypts message by
+    simple substitution of this key with the ordered string from the letter of
+    this key, the default ordered string from the letters of this key will be
+    abcdefghijklmnopqrstuvwxyz and the mixedalph will replace letter like this:
+    a -> p, b -> l, c -> m ...
+
+    The final mapping is like:
+    abcdefghijklmnopqrstuvwxyz (ordered string from letters of key)
+    TO
+    plmkoijnbhuygvtfcrdxeszwaq (key)
+
+    You can also use a custom ordering apart of default one by giving the sort_key
+    argument to the function, example:
+
+    sort_key="mnopqrstuvwxyzabcdefghijkl"
+
+    In this case mapping will be like:
+    mnopqrstuvwxyzabcdefghijkl (custom order key)
+    TO
+    plmkoijnbhuygvtfcrdxeszwaq (key)
+
+    Note: sort_key must contain ALL of letters which are in key, if it doesn't the
+    program :raises ValueError:
 
     :param text                             : string to be translated.
     :param kwargs:
-        letter_sequence                     : the letter sequence which will be
-                                              used for shifting letters.
+        key_sequence                        : the letter sequence for substitution.
         sort_key (optional)                 : a key for sorting alphabet.
         shuffle (optional)(default = False) : randomize letter sequence order.
         seed (optional)(requires shuffle)   : specify a seed for randomizing,
@@ -169,7 +203,9 @@ def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str
     """
     # for sake of readability and prettifying below code
     # I will assign aliases for key, values inside kwargs.
-    sequence: str = kwargs["letter_sequence"]
+    key_sequence: str = kwargs["key"]
+    if key_sequence is None:
+        raise ValueError("ERROR: key isn't found, use config method to define a key")
     # default sort key to "string.printable" except "\r".
     default_sort_key: str = string.printable.replace("\r", "")
     sort_key: str = kwargs["sort_key"] if "sort_key" in kwargs else default_sort_key
@@ -185,45 +221,53 @@ def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str
     # blank string.
     translated: str = ""
 
-    # shuffle letter sequence with respect to seed if shuffle is set to True.
+    # shuffle  key sequence with respect to seed if shuffle is set to True.
     if shuffle:
         # shuffle sequence.
-        sequence = string_manipulation.shuffle_string(sequence, seed)
+        key_sequence = string_manipulation.shuffle_string(key_sequence, seed)
 
     # create sorted cipher alphabet from letter sequence
-    # define the sorting function
+    # first: check if every letter in key sequence is also in sort key
+    for letter in key_sequence:
+        if letter not in sort_key:
+            raise ValueError("ERROR: sort key must contain all the letters in key.")
+
+    # second: define the sorting function
     def _sort_key(x: str) -> int:
         """Sort key function."""
+        # returns the index of a letter in sort_key string,
+        # letters with lower indexes come closer to the left of final sorted string.
         return sort_key.index(x)
-    # sort sequence with the sorted() builtin function and custom _sort_key function
-    cipher_alphabet: str = "".join(sorted(sequence, key=_sort_key))
+
+    # third: sort sequence with the sorted() builtin function
+    # and custom _sort_key function
+    plain_alphabet: str = "".join(sorted(key_sequence, key=_sort_key))
 
     # create a table mapping that maps every letter in sequence to
     # it's equivalent new letter.
     if decrypt:
+        # when decrypting map sequence letters to key plain alphabet
         translated_sequence = {
-            i: cipher_alphabet[sequence.index(i)] for i in sequence
+            i: plain_alphabet[key_sequence.index(i)] for i in key_sequence
         }
     else:
+        # when encrypting map plain alphabet letters to key sequence letters
         translated_sequence = {
-            i: sequence[cipher_alphabet.index(i)] for i in cipher_alphabet
+            i: key_sequence[plain_alphabet.index(i)] for i in plain_alphabet
         }
 
     # type annotations
     translated_letter: str
 
     # select each letter in the text and only if it is also provided in sequence
-    # from user and replace it with new letter selected by shift method.
+    # from user and replace it with new letter.
     for letter in text:
-        if letter in sequence:
-            # below code is steps 6 to 8 all together which is actually executed
-            # in initializing the translated_sequence dictionary.
+        if letter in key_sequence:
             # get the translated letter for this letter from mapping
             translated_letter = translated_sequence[letter]
         else:
             # if the letter in the text isn't in sequence, it remains unchanged.
             translated_letter = letter
-        # step 9
         # add new letter to translated string.
         translated += translated_letter
 

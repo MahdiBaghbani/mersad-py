@@ -85,8 +85,6 @@ class MersadClassicalBase(object):
 
         >>> agent = MersadClassicalBase(key=53, letter_sequence="abcdefghrstuvwxyz")
 
-        AffineCipher takes keyword arguments when initializing new instance.
-
         Valid kwargs
         ============
         key             : (optional) primary key.
@@ -96,12 +94,16 @@ class MersadClassicalBase(object):
         seed            : (optional)(requires shuffle) specifies a seed for
                           randomizing, default seed is 0.
 
+        Note: not all options are required by ciphers, ciphers may doesn't need
+        one or a couple of this arguments, for example Atbash cipher doesn't
+        need a key.
+
         Agent uses predefined default values for each of above arguments if
         it isn't provided by the user, for above example the key and letter sequence
         are provided by user but not shuffle and seed, agent will use default values
         for shuffle and seed.
 
-        Default key is set to 0.
+        Default key is set to None.
         Default letter sequence is set to "string.printable" except \r character.
         Default shuffle is set to False.
         Default seed is set to 0.
@@ -127,7 +129,7 @@ class MersadClassicalBase(object):
         # private configuration dictionary that holds default values.
         # should not be changed by anyone!
         self._defaults: Dict[str, Any] = dict(
-                key=0, letter_sequence=string.printable.replace("\r", ""),
+                key=None, letter_sequence=string.printable.replace("\r", ""),
                 sort_key=string.printable.replace("\r", ""),
                 shuffle=False, seed=0, decrypt=False
         )
@@ -196,14 +198,6 @@ class MersadClassicalBase(object):
             type_check.type_guard(kwargs["letter_sequence"], str)
             self.configuration["letter_sequence"] = kwargs["letter_sequence"]
 
-        if "sort_key" in kwargs:
-            type_check.type_guard(kwargs["sort_key"], str)
-            self.configuration["sort_key"] = kwargs["sort_key"]
-
-        if "key" in kwargs and kwargs["key"] is not None:
-            type_check.type_guard(kwargs["key"], int)
-            self.configuration["key"] = kwargs["key"]
-
         if "seed" in kwargs:
             type_check.type_guard(kwargs["seed"], int)
             self.configuration["seed"] = kwargs["seed"]
@@ -215,6 +209,9 @@ class MersadClassicalBase(object):
         if "decrypt" in kwargs:
             type_check.type_guard(kwargs["decrypt"], bool)
             self.configuration["decrypt"] = kwargs["decrypt"]
+
+        # do sub routines
+        self._config_subroutines(**kwargs)
 
     def reset(self) -> None:
         """Reset all configurations to defaults."""
@@ -270,6 +267,25 @@ class MersadClassicalBase(object):
         # configuration dictionary as arguments.
         return self._translator(text, **configuration)
 
+    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
+        """
+        Define sub routines in config() method for sub classes.
+
+        Some ciphers would use arguments that aren't coded in config()
+        method (due to keep flexibility of this class), those ciphers have
+        to override this method to add their specific routines for config().
+
+        This method does same job as config() but it's implementation depends
+        on the cipher, for example Affine cipher requires an integer key while
+        Atbash cipher doesn't require a key at all or Columnar cipher requires
+        a string key. these cipher can implement this method to do the right job
+        for their key assignment whenever config() is called.
+
+        Assign values to self.configuration dictionary.
+
+        :raise ValueError: if type of a dictionary value is wrong.
+        """
+
     @staticmethod
     def _translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         """
@@ -281,7 +297,6 @@ class MersadClassicalBase(object):
         :return     : translated text.
         :rtype      : str
         """
-        return "Not Implemented in this class!"
 
 
 class MainFunctionClassical(object):

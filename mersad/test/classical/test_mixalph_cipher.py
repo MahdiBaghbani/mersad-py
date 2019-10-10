@@ -72,33 +72,33 @@ class TestShiftCipher(unittest.TestCase):
         )
 
     def test_encrypt_without_shuffle(self):
-        self.agent.config(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop",
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
                           shuffle=False, seed=0)
         self.assertEqual(self.sh0_s0, self.agent.encrypt(self.plain_text))
 
     def test_encrypt_with_shuffle_without_seed(self):
-        self.agent.config(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop",
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
                           shuffle=True, seed=0)
         self.assertEqual(self.sh1_s0, self.agent.encrypt(self.plain_text))
 
     def test_encrypt_with_custom_sort_key(self):
-        self.agent.config(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop",
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
                           sort_key="plmnkoijbhuygvcftrdxzsewaq",
                           shuffle=False, seed=0)
         self.assertEqual(self.custom_sort_key, self.agent.encrypt(self.plain_text))
 
     def test_decryption_without_shuffle(self):
-        self.agent.config(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop",
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
                           shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.sh0_s0))
 
     def test_decrypt_with_shuffle_without_seed(self):
-        self.agent.config(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop",
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
                           shuffle=True, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.sh1_s0))
 
     def test_decrypt_with_custom_alphabet(self):
-        self.agent.config(letter_sequence="zxcvbnmlkjhgfdsaqwertyuiop",
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
                           sort_key="plmnkoijbhuygvcftrdxzsewaq",
                           shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_sort_key))

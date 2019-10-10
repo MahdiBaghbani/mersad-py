@@ -120,6 +120,10 @@ class TestShiftCipher(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.agent.encrypt(self.plain_text)
 
+    def test_return_key(self):
+        self.agent.config(key=12)
+        self.assertEqual(12, self.agent.show_key())
+
 
 if __name__ == '__main__':
     unittest.main()

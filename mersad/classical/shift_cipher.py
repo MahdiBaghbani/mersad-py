@@ -61,6 +61,7 @@ from typing import Union
 
 # Mersad Library
 from mersad.util import string_manipulation
+from mersad.util import type_check
 from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
 
@@ -133,6 +134,16 @@ class ShiftCipher(MersadClassicalBase):
     ==================================
     """
 
+    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
+        """
+        Assign values to self.configuration dictionary.
+
+        :raise ValueError: if type of a dictionary value is wrong.
+        """
+        if "key" in kwargs and kwargs["key"] is not None:
+            type_check.type_guard(kwargs["key"], int)
+            self.configuration["key"] = kwargs["key"]
+
     @staticmethod
     def _translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         """
@@ -166,8 +177,7 @@ def shift_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     :param text                             : string to be translated.
     :param kwargs:
         key                                 : key for encrypt/decrypt.
-        letter_sequence                     : the letter sequence which will be
-                                              used for shifting letters.
+        letter_sequence                     : alphabet for encryption/decryption.
         shuffle (optional)(default = False) : randomize letter sequence order.
         seed (optional)(requires shuffle)   : specify a seed for randomizing,
                                               default seed is 0.
@@ -179,6 +189,8 @@ def shift_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     # I will assign aliases for key, values inside kwargs.
     sequence: str = kwargs["letter_sequence"]
     key: int = kwargs["key"]
+    if key is None:
+        raise ValueError("ERROR: key isn't found, use config method to define a key")
     # length of sequence is needed for mathematical calculations.
     key_size: int = len(sequence)
     # default shuffle to False if no shuffle is defined in kwargs.
@@ -212,7 +224,7 @@ def shift_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     translated_letter: str
 
     # select each letter in the text and only if it is also provided in sequence
-    # from user and replace it with new letter selected by shift method.
+    # from user and replace it with new letter.
     for letter in text:
         if letter in sequence:
             # below code is steps 6 to 8 all together which is actually executed

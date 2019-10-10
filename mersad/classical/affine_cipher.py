@@ -63,6 +63,7 @@ from typing import Union
 # Mersad Library
 from mersad.util import crypto_math
 from mersad.util import string_manipulation
+from mersad.util import type_check
 from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
 
@@ -133,11 +134,17 @@ class AffineCipher(MersadClassicalBase):
     '<"t#QR"t!NJUU(tVX!Nt"NL$!Nt#QJWt"QRO#tLRYQN!h'
 
     ==================================
-
-    Warning:
-    always provide a key to when initializing AffineCipher, because the default key
-    will raise ValueError.
     """
+
+    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
+        """
+        Assign values to self.configuration dictionary.
+
+        :raise ValueError: if type of a dictionary value is wrong.
+        """
+        if "key" in kwargs and kwargs["key"] is not None:
+            type_check.type_guard(kwargs["key"], int)
+            self.configuration["key"] = kwargs["key"]
 
     @staticmethod
     def _translator(text: str, **kwargs: Union[int, str, bool]) -> str:
@@ -158,8 +165,7 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     :param text                             : string to be translated.
     :param kwargs:
         key                                 : key for encrypt/decrypt.
-        letter_sequence                     : the letter sequence which will be
-                                              used for shifting letters.
+        letter_sequence                     : alphabet for encryption/decryption.
         shuffle (optional)(default = False) : randomize letter sequence order.
         seed (optional)(requires shuffle)   : specify a seed for randomizing,
                                               default seed is 0.
@@ -174,6 +180,9 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     sequence_length: int = len(sequence)
     # key alias.
     key: int = kwargs["key"]
+    # check key is not None
+    if key is None:
+        raise ValueError("ERROR: key isn't found, use config method to define a key")
     # type annotations
     key_a: int
     key_b: int
@@ -218,7 +227,7 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         }
 
     # select each letter in the text and only if it is also provided in sequence
-    # from user and replace it with new letter selected by affine method.
+    # from user and replace it with new letter.
     for letter in text:
         if letter in sequence:
             # get the translated letter for this letter from mapping.
@@ -256,8 +265,6 @@ def _check_keys(key_a: int, key_b: int, sequence_length: int) -> None:
         )
 
     if gcd(key_a, sequence_length) != 1:
-        print(sequence_length)
-        print(key_a)
         raise ValueError(
                 "The affine cipher's 'key a' and length of 'letter "
                 + "sequence' are not relatively prime. Change your key."

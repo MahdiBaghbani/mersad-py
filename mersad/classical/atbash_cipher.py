@@ -161,8 +161,7 @@ def atbash_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
 
     :param text                             : string to be translated.
     :param kwargs:
-        letter_sequence                     : the letter sequence which will be
-                                              used for shifting letters.
+        letter_sequence                     : alphabet for encryption/decryption.
         shuffle (optional)(default = False) : randomize letter sequence order.
         seed (optional)(requires shuffle)   : specify a seed for randomizing,
                                               default seed is 0.
@@ -200,17 +199,14 @@ def atbash_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     translated_letter: str
 
     # select each letter in the text and only if it is also provided in sequence
-    # from user and replace it with new letter selected by shift method.
+    # from user and replace it with new letter .
     for letter in text:
         if letter in sequence:
-            # below code is steps 6 to 8 all together which is actually executed
-            # in initializing the translated_sequence dictionary.
             # get the translated letter for this letter from mapping
             translated_letter = translated_sequence[letter]
         else:
             # if the letter in the text isn't in sequence, it remains unchanged.
             translated_letter = letter
-        # step 9
         # add new letter to translated string.
         translated += translated_letter
 

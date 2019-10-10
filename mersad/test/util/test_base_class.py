@@ -53,8 +53,8 @@ class TestMersadClassicalBase(unittest.TestCase):
         self.BaseClass = MersadClassicalBase()
 
     def test_config(self):
-        self.BaseClass.config(key=12, shuffle=True, seed=23, decrypt=True)
-        self.assertEqual(12, self.BaseClass.configuration["key"])
+        self.BaseClass.config(shuffle=True, seed=23, decrypt=True)
+        self.assertEqual(None, self.BaseClass.configuration["key"])
         self.assertEqual(string.printable.replace("\r", ""),
                          self.BaseClass.configuration["letter_sequence"])
         self.assertEqual(23, self.BaseClass.configuration["seed"])
@@ -64,28 +64,16 @@ class TestMersadClassicalBase(unittest.TestCase):
     def test_config_reset(self):
         self.BaseClass.config(shuffle=True, seed=23, decrypt=True)
         self.BaseClass.reset()
-        self.assertEqual(0, self.BaseClass.configuration["key"])
+        self.assertEqual(None, self.BaseClass.configuration["key"])
         self.assertEqual(string.printable.replace("\r", ""),
                          self.BaseClass.configuration["letter_sequence"])
         self.assertEqual(False, self.BaseClass.configuration["shuffle"])
         self.assertEqual(0, self.BaseClass.configuration["seed"])
         self.assertEqual(False, self.BaseClass.configuration["decrypt"])
 
-    def test_process_replace_manual_key(self):
-        self.BaseClass.config(key=12)
-        self.BaseClass.encrypt("It's a dummy text!", key=16, replace_key=True)
-        self.assertEqual(16, self.BaseClass.configuration["key"])
-
-    def test_return_key(self):
-        self.BaseClass.config(key=12)
-        self.assertEqual(12, self.BaseClass.show_key())
-
     def test_config_bad_type(self):
         with self.assertRaises(TypeError):
             self.BaseClass.config(letter_sequence=12)
-
-        with self.assertRaises(TypeError):
-            self.BaseClass.config(key="Hello There!")
 
         with self.assertRaises(TypeError):
             self.BaseClass.config(seed=True)
