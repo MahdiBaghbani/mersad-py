@@ -57,7 +57,7 @@ separated into this sub groups:
 from typing import List
 
 # Mersad Library
-from mersad import _version
+from mersad._version import __version__ as version
 
 # AA-MCL package information
 __author__: str = "Mohammad Mahdi Baghbani Pourvahid"
@@ -65,7 +65,7 @@ __description__: str = "Azadeh Afzar - Mersad Cryptographic Library"
 __copyright__: str = "Copyright (C) 2019 Azadeh Afzar - Mersad Cryptography Library"
 __credits__: List[str] = []
 __license__: str = "AGPLv3"
-__version__: str = _version.__version__
+__version__: str = version
 __maintainer__: str = "Mohammad Mahdi Baghbani Pourvahid"
 __email__: str = "MahdiBaghbani@protonmail.com"
 __status__: str = "Prototype"

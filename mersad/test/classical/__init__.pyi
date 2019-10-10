@@ -4,4 +4,6 @@
 
 # Names in __all__ with no definition:
 #   test_affine_cipher
+#   test_atbash_cipher
+#   test_mixalph_cipher
 #   test_shift_cipher
