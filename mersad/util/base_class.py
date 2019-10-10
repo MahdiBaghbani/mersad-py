@@ -130,11 +130,12 @@ class MersadClassicalBase(object):
         # should not be changed by anyone!
         self._defaults: Dict[str, Any] = dict(
                 key=None, letter_sequence=string.printable.replace("\r", ""),
-                sort_key=string.printable.replace("\r", ""),
                 shuffle=False, seed=0, decrypt=False
         )
         # public configuration dictionary.
         self.configuration: Dict[str, Any] = dict()
+        # do subclass specific init subroutines
+        self._init_subroutines()
         # set self.configuration to default values (default_configuration).
         self.reset()
         # process kwargs and update self.configuration values.
@@ -210,7 +211,7 @@ class MersadClassicalBase(object):
             type_check.type_guard(kwargs["decrypt"], bool)
             self.configuration["decrypt"] = kwargs["decrypt"]
 
-        # do sub routines
+        # do subroutines
         self._config_subroutines(**kwargs)
 
     def reset(self) -> None:
@@ -227,6 +228,35 @@ class MersadClassicalBase(object):
         :rtype  : int
         """
         return self.configuration["key"]
+
+    def _init_subroutines(self) -> None:
+        """
+        Manage subclass specific init routines.
+
+        This method should be implemented in subclasses if they wish
+        to extend __init__ routines without overriding the __init__ itself.
+
+        It can be used to declare new class properties or modify _defaults.
+        """
+
+    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
+        """
+        Define subroutines in config() method for subclasses.
+
+        Some ciphers would use arguments that aren't coded in config()
+        method (due to keep flexibility of this class), those ciphers have
+        to override this method to add their specific routines for config().
+
+        This method does same job as config() but it's implementation depends
+        on the cipher, for example Affine cipher requires an integer key while
+        Atbash cipher doesn't require a key at all or Columnar cipher requires
+        a string key. these cipher can implement this method to do the right job
+        for their key assignment whenever config() is called.
+
+        Assign values to self.configuration dictionary.
+
+        :raise ValueError: if type of a dictionary value is wrong.
+        """
 
     def _process(self, text: str, key: Optional[int], replace_key: bool,
                  decrypt: bool) -> str:
@@ -267,31 +297,12 @@ class MersadClassicalBase(object):
         # configuration dictionary as arguments.
         return self._translator(text, **configuration)
 
-    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
-        """
-        Define sub routines in config() method for sub classes.
-
-        Some ciphers would use arguments that aren't coded in config()
-        method (due to keep flexibility of this class), those ciphers have
-        to override this method to add their specific routines for config().
-
-        This method does same job as config() but it's implementation depends
-        on the cipher, for example Affine cipher requires an integer key while
-        Atbash cipher doesn't require a key at all or Columnar cipher requires
-        a string key. these cipher can implement this method to do the right job
-        for their key assignment whenever config() is called.
-
-        Assign values to self.configuration dictionary.
-
-        :raise ValueError: if type of a dictionary value is wrong.
-        """
-
     @staticmethod
     def _translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         """
         Wrap the actual encryption/decryption function for class.
 
-        This method should be implemented in sub classes.
+        This method should be implemented in subclasses.
 
         :param text : string to be translated.
         :return     : translated text.
