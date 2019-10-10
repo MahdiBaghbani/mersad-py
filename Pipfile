@@ -11,7 +11,7 @@ pep8-naming = "*"
 flake8-docstrings = "*"
 mccabe = "*"
 pylint = "*"
-mypy = "==0.720"
+mypy = "*"
 isort = "*"
 coverage = "*"
 Cython = "*"
@@ -21,3 +21,6 @@ ErfanIO = ">=0.0.7"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
