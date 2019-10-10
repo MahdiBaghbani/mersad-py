@@ -191,14 +191,15 @@ def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str
         sequence = string_manipulation.shuffle_string(sequence, seed)
 
     # create sorted cipher alphabet from letter sequence
+    # define the sorting function
     def _sort_key(x: str) -> int:
         """Sort key function."""
         return sort_key.index(x)
-
+    # sort sequence with the sorted() builtin function and custom _sort_key function
     cipher_alphabet: str = "".join(sorted(sequence, key=_sort_key))
 
     # create a table mapping that maps every letter in sequence to
-    # it's equivalent new letter with respect to the key and size of sequence.
+    # it's equivalent new letter.
     if decrypt:
         translated_sequence = {
             i: cipher_alphabet[sequence.index(i)] for i in sequence
