@@ -135,6 +135,19 @@ class MixalphCipher(MersadClassicalBase):
     ==================================
     """
 
+    def show_sort_key(self) -> int:
+        """
+        Return the current sort key in self.configuration dictionary.
+
+        :return : current sort key in use.
+        :rtype  : int
+        """
+        return self.configuration["sort_key"]
+
+    def _init_subroutines(self) -> None:
+        """Extend _defaults dictionary with default value for sort_key."""
+        self._defaults["sort_key"] = string.printable.replace("\r", "")
+
     def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
         """
         Assign values to self.configuration dictionary.

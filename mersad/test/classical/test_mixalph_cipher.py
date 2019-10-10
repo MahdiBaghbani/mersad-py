@@ -103,6 +103,32 @@ class TestShiftCipher(unittest.TestCase):
                           shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_sort_key))
 
+    def test_show_sort_key(self):
+        sort_key = "plmnkoijbhuygvcftrdxzsewaq"
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
+                          sort_key=sort_key,
+                          shuffle=False, seed=0)
+        self.assertEqual(sort_key, self.agent.show_sort_key())
+
+    def test_none_key(self):
+        self.agent.config(shuffle=False, seed=0)
+        with self.assertRaises(ValueError):
+            self.agent.encrypt(self.plain_text)
+
+    def test_sort_key_doesnt_have_all_key_letters(self):
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
+                          sort_key="plmnkoijb",
+                          shuffle=False, seed=0)
+        with self.assertRaises(ValueError):
+            self.agent.encrypt(self.plain_text)
+
+    def test_sort_key_have_more_letters_than_key(self):
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
+                          sort_key="plmnkoijbhuygvcftrdxzsewaqABCDEFGHIJKLMNOP",
+                          shuffle=False, seed=0)
+        self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_sort_key))
+
+
 
 if __name__ == '__main__':
     unittest.main()
