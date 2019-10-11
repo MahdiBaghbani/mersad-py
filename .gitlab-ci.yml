@@ -1,5 +1,5 @@
 default:
-  image: azdehafzar/mersad:latest
+  image: azadehafzarhub/mersad:gitlab-ci-pipeline
 
 stages:
   - test
