@@ -3,9 +3,8 @@ python:
   - "3.6"
 # install dependencies
 install:
-  - pipenv install --skip-lock
-  - pipenv install --dev --skip-lock
+  - pipenv install --dev
 
 # run tests
 script:
-  - script/ci_test.sh
+  - script/test.sh
