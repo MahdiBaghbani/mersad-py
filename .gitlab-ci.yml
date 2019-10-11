@@ -1,5 +1,5 @@
 default:
-  image: azadehafzar/mersad:latest
+  image: azdehafzar/mersad:latest
 
 stages:
   - test
