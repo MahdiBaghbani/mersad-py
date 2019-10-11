@@ -10,7 +10,7 @@ RUN apt-get install -y python3 python3-dev python3-pip
 RUN curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > /usr/bin/cc-test-reporter
 RUN chmod +x /usr/bin/cc-test-reporter
 
-# install python ackages
+# install python packages
 RUN pip3 install --upgrade setuptools wheel
 RUN pip3 install --upgrade pipenv
 RUN pip3 install --upgrade twine
