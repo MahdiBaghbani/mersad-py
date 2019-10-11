@@ -74,7 +74,7 @@ def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     # module descriptions.
     description: str = "Azadeh Afzar - Mersad Mixed Alphabet Cipher\n" \
                        + "Encrypt/Decrypt data with Atbash algorithm"
-    epilog: str = "American Airlines saved $40,000 in 1987 when they eliminated" \
+    epilog: str = "American Airlines saved $40,000 in 1987 when they eliminated " \
                   + "one olive from each salad served in first class."
 
     # create a parser and parse command line arguments.
