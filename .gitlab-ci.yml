@@ -1,4 +1,5 @@
 default:
+  # pull custom docker file
   image: azadehafzarhub/mersad:gitlab-ci-pipeline
 
 stages:
