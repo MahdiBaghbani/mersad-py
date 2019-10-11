@@ -7,7 +7,7 @@ RUN apt-get install -y curl
 RUN apt-get install -y python3 python3-dev python3-pip
 
 # install codeclimate's code coverage reporter
-RUN curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-lates$
+RUN curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > /usr/bin/cc-test-reporter
 RUN chmod +x /usr/bin/cc-test-reporter
 
 # install python ackages
