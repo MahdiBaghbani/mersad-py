@@ -49,6 +49,7 @@ from ErfanIO import ReaderIO
 
 # Mersad Library
 from mersad.classical.shift_cipher import ShiftCipher
+from mersad.classical.shift_cipher import main as shift_main
 
 
 class TestShiftCipher(unittest.TestCase):
@@ -113,6 +114,33 @@ class TestShiftCipher(unittest.TestCase):
         self.assertEqual(self.plain_text, self.agent.decrypt(self.k25_sh0_s0, key=25, replace_key=True))
         # verify that key is changed to 25 in self.configuration dictionary
         self.assertEqual(25, self.agent.show_key())
+
+    def test_none_key(self):
+        self.agent.config(shuffle=False, seed=0)
+
+        with self.assertRaises(ValueError):
+            self.agent.encrypt(self.plain_text)
+
+    def test_terminal_application(self):
+        # mock up terminal arguments
+        args = [
+            "--file",
+            "{}".format(os.path.join(self.base_path, "Long License File.txt")),
+            "--output",
+            "{}".format(os.path.join(self.base_path, "Test Shift Terminal.txt")),
+            "--key",
+            "173",
+            "--shuffle"
+        ]
+
+        # run main function
+        shift_main(args)
+
+        # test if it's ok
+        result = ReaderIO.read(
+                os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text"
+        )
+        self.assertEqual(self.k173_sh1_s0, result)
 
 
 if __name__ == '__main__':

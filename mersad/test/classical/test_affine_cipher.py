@@ -49,6 +49,7 @@ from ErfanIO import ReaderIO
 
 # Mersad Library
 from mersad.classical.affine_cipher import AffineCipher
+from mersad.classical.affine_cipher import main as affine_main
 
 
 class TestShiftCipher(unittest.TestCase):
@@ -59,10 +60,18 @@ class TestShiftCipher(unittest.TestCase):
         self.base_path = os.path.join(test_path, "asset", "texts")
         # create a cipher agent
         self.agent = AffineCipher()
-        self.plain_text = ReaderIO.read(os.path.join(self.base_path, "Long License File.txt"), "text")
-        self.k125_sh0_s0 = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text")
-        self.k173_sh1_s0 = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-k173-sh1-s0.txt"), "text")
-        self.custom_alphabet = ReaderIO.read(os.path.join(self.base_path, "AffineCipher-LLF-alphabet-ascii-lowercase-k396-sh0-s0.txt"), "text")
+        self.plain_text = ReaderIO.read(
+                os.path.join(self.base_path, "Long License File.txt"), "text"
+        )
+        self.k125_sh0_s0 = ReaderIO.read(
+                os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text"
+        )
+        self.k173_sh1_s0 = ReaderIO.read(
+                os.path.join(self.base_path, "AffineCipher-LLF-k173-sh1-s0.txt"), "text"
+        )
+        self.custom_alphabet = ReaderIO.read(
+                os.path.join(self.base_path, "AffineCipher-LLF-alphabet-ascii-lowercase-k396-sh0-s0.txt"), "text"
+        )
 
     def test_encrypt_without_shuffle(self):
         self.agent.config(key=125, shuffle=False, seed=0)
@@ -89,6 +98,10 @@ class TestShiftCipher(unittest.TestCase):
         alphabet = string.ascii_lowercase
         self.agent.config(key=396, letter_sequence=alphabet, shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_alphabet))
+
+    def test_return_key(self):
+        self.agent.config(key=12)
+        self.assertEqual(12, self.agent.show_key())
 
     def test_temporary_key(self):
         # key is 173 which is stored in self.configuration dictionary
@@ -120,9 +133,31 @@ class TestShiftCipher(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.agent.encrypt(self.plain_text)
 
-    def test_return_key(self):
-        self.agent.config(key=12)
-        self.assertEqual(12, self.agent.show_key())
+    def test_none_key(self):
+        self.agent.config(shuffle=False, seed=0)
+
+        with self.assertRaises(ValueError):
+            self.agent.encrypt(self.plain_text)
+
+    def test_terminal_application(self):
+        # mock up terminal arguments
+        args = [
+            "--file",
+            "{}".format(os.path.join(self.base_path, "Long License File.txt")),
+            "--output",
+            "{}".format(os.path.join(self.base_path, "Test Affine Terminal.txt")),
+            "--key",
+            "125",
+        ]
+
+        # run main function
+        affine_main(args)
+
+        # test if it's ok
+        result = ReaderIO.read(
+                os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text"
+        )
+        self.assertEqual(self.k125_sh0_s0, result)
 
 
 if __name__ == '__main__':

@@ -49,6 +49,7 @@ from ErfanIO import ReaderIO
 
 # Mersad Library
 from mersad.classical.atbash_cipher import AtbashCipher
+from mersad.classical.atbash_cipher import main as atbash_main
 
 
 class TestShiftCipher(unittest.TestCase):
@@ -97,6 +98,25 @@ class TestShiftCipher(unittest.TestCase):
         alphabet = string.ascii_lowercase
         self.agent.config(letter_sequence=alphabet, shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_alphabet))
+
+    def test_terminal_application(self):
+        # mock up terminal arguments
+        args = [
+            "--file",
+            "{}".format(os.path.join(self.base_path, "Long License File.txt")),
+            "--output",
+            "{}".format(os.path.join(self.base_path, "Test Atbash Terminal.txt")),
+            "--shuffle",
+        ]
+
+        # run main function
+        atbash_main(args)
+
+        # test if it's ok
+        result = ReaderIO.read(
+                os.path.join(self.base_path, "AtbashCipher-LLF-sh1-s0.txt"), "text"
+        )
+        self.assertEqual(self.sh1_s0, result)
 
 
 if __name__ == '__main__':

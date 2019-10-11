@@ -44,7 +44,6 @@ import string
 import unittest
 
 # Mersad Library
-from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
 
 
@@ -71,6 +70,14 @@ class TestMersadClassicalBase(unittest.TestCase):
         self.assertEqual(0, self.BaseClass.configuration["seed"])
         self.assertEqual(False, self.BaseClass.configuration["decrypt"])
 
+    def test_print_instance(self):
+        self.BaseClass.config(letter_sequence="abc", shuffle=True, seed=23,
+                              decrypt=True)
+        expected = "{0}: {1}.\n{2}: {3}.\n{4}: {5}.\n{6}: {7}.".format(
+                "key", None, "letter_sequence", "abc", "shuffle", True, "seed", 23
+        )
+        self.assertEqual(expected, self.BaseClass.__str__())
+
     def test_config_bad_type(self):
         with self.assertRaises(TypeError):
             self.BaseClass.config(letter_sequence=12)
@@ -83,27 +90,6 @@ class TestMersadClassicalBase(unittest.TestCase):
 
         with self.assertRaises(TypeError):
             self.BaseClass.config(decrypt="False")
-
-
-class TestMainFunctionClassical(unittest.TestCase):
-    def setUp(self) -> None:
-        args = ["10", "--text", "Yup, not funny"]
-        agent_class = MersadClassicalBase
-        description = "Dummy Dummy Test."
-        epilog = "Oh shit here we go again ..."
-        self.main = MainFunctionClassical(args, agent_class, description, epilog)
-
-    def test_parent_parser(self):
-        args = ["--key", "23", "--text", "wow, is this a test?", "--output",
-                "fail.txt", "--decrypt", "--shuffle", "--seed", "12"]
-        parent = self.main._argparse_parent()
-        args = parent.parse_args(args)
-        self.assertEqual(23, args.key)
-        self.assertEqual("wow, is this a test?", args.text)
-        self.assertEqual("fail.txt", args.output)
-        self.assertEqual(True, args.decrypt)
-        self.assertEqual(True, args.shuffle)
-        self.assertEqual(12, args.seed)
 
 
 if __name__ == '__main__':

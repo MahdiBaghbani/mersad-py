@@ -55,5 +55,9 @@ from typing import List
 
 # please keep alphabetical order
 __all__: List[str] = [
-    "test_string_analyzer"
+    "test_base_class",
+    "test_crypto_math",
+    "test_string_analyzer",
+    "test_string_manipulation",
+    "test_type_check"
 ]

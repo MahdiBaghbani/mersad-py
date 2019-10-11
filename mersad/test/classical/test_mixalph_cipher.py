@@ -48,6 +48,7 @@ from ErfanIO import ReaderIO
 
 # Mersad Library
 from mersad.classical.mixalph_cipher import MixalphCipher
+from mersad.classical.mixalph_cipher import main as mixalph_main
 
 
 class TestShiftCipher(unittest.TestCase):
@@ -128,6 +129,25 @@ class TestShiftCipher(unittest.TestCase):
                           shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_sort_key))
 
+    def test_terminal_application(self):
+        # mock up terminal arguments
+        args = [
+            "--file",
+            "{}".format(os.path.join(self.base_path, "Long License File.txt")),
+            "--output",
+            "{}".format(os.path.join(self.base_path, "Test Mixalph Terminal.txt")),
+            "--key",
+            "zxcvbnmlkjhgfdsaqwertyuiop"
+        ]
+
+        # run main function
+        mixalph_main(args)
+
+        # test if it's ok
+        result = ReaderIO.read(
+                os.path.join(self.base_path, "MixalphCipher-LLF-sh0-s0.txt"), "text"
+        )
+        self.assertEqual(self.sh0_s0, result)
 
 
 if __name__ == '__main__':
