@@ -318,8 +318,8 @@ class MixalphCipherMainFunction(MainFunctionClassical):
         help_key: str = "key sequence for encryption/decryption"
         parser.add_argument("-k", "--key", type=str, required=True, help=help_key)
 
-        help_sorted_key: str = "alphabet sort order"
-        parser.add_argument("-so", "--sort_key", type=str,
+        help_sorted_key: str = "key for sorting --key (alphabet) "
+        parser.add_argument("-sk", "--sort_key", type=str,
                             default=string.printable.replace("\r", ""),
                             help=help_sorted_key)
 
