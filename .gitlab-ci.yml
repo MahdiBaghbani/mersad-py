@@ -1,33 +1,28 @@
 default:
-  image: python:3.6.8
-  # before_script:
+  image: azadehafzar/mersad:latest
 
 stages:
   - test
   - release
 
 # job for testing package on master branch
-# and send tet coverage to codeclimate.
+# and send test coverage result to codeclimate.
 test_master:
   stage: test
   # install dependencies.
   before_script:
-    # install codeclimate coverage reported.
-    - script/ci_install_curl.sh
-    - script/ci_install_codeclimate.sh
     # run code climate test reporter agent.
-    - ./cc-test-reporter before-build
+    - cc-test-reporter before-build
     # install pipenv.
     - pip3 install pipenv
-    # install pipfile.
-    - pipenv install --skip-lock
-    - pipenv install --dev --skip-lock
+    # install dependencies from the pipfile.
+    - pipenv install --dev
   # run tests.
   script:
-    - script/ci_test.sh
-  # send results to codeclimate.
+    - script/test.sh
+  # send test coverage result to codeclimate.
   after_script:
-    - ./cc-test-reporter after-build --coverage-input-type coverage.py
+    - cc-test-reporter after-build --coverage-input-type coverage.py
   only:
     - master
 
@@ -39,31 +34,28 @@ test_branches:
   before_script:
     # install pipenv.
     - pip3 install pipenv
-    # install pipfile.
-    - pipenv install --skip-lock
-    - pipenv install --dev --skip-lock
+    # install dependencies from the pipfile.
+    - pipenv install --dev
   # run tests.
   script:
-    - script/ci_test.sh
-  # run on branches and merge request.
+    - script/test.sh
+  # run on branches and merge requests.
   only:
     - branches
     - merge_requests
-  # don't run on master.
+  # don't run on master branch.
   except:
     - master
 
-# deploy package to pypi whenever a tag released.
+# deploy package to pypi whenever a tag is released.
 release_pypi:
   stage: release
   # install dependencies.
   before_script:
-    - pip install twine
     - python3 setup.py sdist
   script:
     - twine upload dist/*
-  # only run for new tag
+  # only run for new tags.
   only:
     - tags
   when: manual
-
