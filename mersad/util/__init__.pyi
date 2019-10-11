@@ -7,4 +7,5 @@
 #   crypto_math
 #   string_analyzer
 #   string_manipulation
+#   terminal_app_tools
 #   type_check

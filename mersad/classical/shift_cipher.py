@@ -55,18 +55,21 @@ fixed number of positions down the alphabet.
 """
 
 # Python Standard Library
+import argparse
 import sys
 from typing import Dict
+from typing import Tuple
 from typing import Union
 
 # Mersad Library
 from mersad.util import string_manipulation
 from mersad.util import type_check
-from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
+from mersad.util.terminal_app_tools import MainFunctionClassical
+from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 
 
-def main() -> None:
+def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
     description: str = "Azadeh Afzar - Mersad Shift Cipher\n" \
@@ -74,7 +77,8 @@ def main() -> None:
     epilog: str = "Oh you think it is a safe way to hide your secrets from NSA?"
 
     # create a parser and parse command line arguments.
-    program = MainFunctionClassical(sys.argv[1:], ShiftCipher, description, epilog)
+    program = ShiftCipherMainFunction(list(argv), ShiftCipher, description, epilog,
+                                      monoalphabetic_common_parser())
     program.process()
 
 
@@ -239,3 +243,33 @@ def shift_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         translated += translated_letter
 
     return translated
+
+
+class ShiftCipherMainFunction(MainFunctionClassical):
+    """Manage Shift cipher programs execution from terminal."""
+
+    def _config_agent(self, agent, args: argparse.Namespace) -> None:
+        """Config the agent parameters in process method."""
+        agent.config(
+                key=args.key,
+                letter_sequence=args.letters,
+                shuffle=args.shuffle,
+                seed=args.seed
+        )
+
+    def _custom_arguments(self) -> argparse.ArgumentParser:
+        """
+        Extend _base_parser method with subclass specific arguments.
+
+        :return: parser
+        :rtype: argparse.ArgumentParser
+        """
+        # create the parser.
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(
+                add_help=False
+        )
+
+        help_key: str = "key for encryption/decryption"
+        parser.add_argument("-k", "--key", type=int, required=True, help=help_key)
+
+        return parser

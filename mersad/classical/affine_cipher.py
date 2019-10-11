@@ -55,20 +55,23 @@ function, and converted back to a letter.
 """
 
 # Python Standard Library
+import argparse
 import sys
 from math import gcd
 from typing import Dict
+from typing import Tuple
 from typing import Union
 
 # Mersad Library
 from mersad.util import crypto_math
 from mersad.util import string_manipulation
 from mersad.util import type_check
-from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
+from mersad.util.terminal_app_tools import MainFunctionClassical
+from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 
 
-def main() -> None:
+def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
     description: str = "Azadeh Afzar - Mersad Affine Cipher\n" \
@@ -76,7 +79,8 @@ def main() -> None:
     epilog: str = "CIA can still read your messages ..."
 
     # create a parser and parse command line arguments.
-    program = MainFunctionClassical(sys.argv[1:], AffineCipher, description, epilog)
+    program = AffineCipherMainFunction(list(argv), AffineCipher, description, epilog,
+                                       monoalphabetic_common_parser())
     program.process()
 
 
@@ -257,15 +261,38 @@ def _check_keys(key_a: int, key_b: int, sequence_length: int) -> None:
                 + "Change your key."
         )
 
-    if not (0 <= key_b <= sequence_length - 1):
-        raise ValueError(
-                "The affine cipher's 'key b' must be in this range: "
-                + "0 <= 'key b' <= length of letter sequence - 1. "
-                + "Change your key."
-        )
-
     if gcd(key_a, sequence_length) != 1:
         raise ValueError(
                 "The affine cipher's 'key a' and length of 'letter "
                 + "sequence' are not relatively prime. Change your key."
         )
+
+
+class AffineCipherMainFunction(MainFunctionClassical):
+    """Manage Affine cipher programs execution from terminal."""
+
+    def _config_agent(self, agent, args: argparse.Namespace) -> None:
+        """Config the agent parameters in process method."""
+        agent.config(
+                key=args.key,
+                letter_sequence=args.letters,
+                shuffle=args.shuffle,
+                seed=args.seed
+        )
+
+    def _custom_arguments(self) -> argparse.ArgumentParser:
+        """
+        Extend _base_parser method with subclass specific arguments.
+
+        :return: parser
+        :rtype: argparse.ArgumentParser
+        """
+        # create the parser.
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(
+                add_help=False
+        )
+
+        help_key: str = "key for encryption/decryption"
+        parser.add_argument("-k", "--key", type=int, required=True, help=help_key)
+
+        return parser

@@ -51,16 +51,13 @@ Mersad's cipher classes.
 """
 
 # Python Standard Library
-import argparse
 import string
 from typing import Any
 from typing import Dict
-from typing import List
 from typing import Optional
 from typing import Union
 
 # Mersad Library
-from mersad._version import __version__
 from mersad.util import type_check
 
 
@@ -152,9 +149,9 @@ class MersadClassicalBase(object):
         letter_sequence: str = self.configuration["letter_sequence"]
         shuffle: bool = self.configuration["shuffle"]
         seed: int = self.configuration["seed"]
-        return "{0}: {1}.\n{2}: {3}.\n{4}: {5}.\n{6}: {7}.\n{8}: {9}.".format(
-                "Agent type", type(self), "key", key, "letter_sequence",
-                letter_sequence, "shuffle", shuffle, "seed", seed
+        return "{0}: {1}.\n{2}: {3}.\n{4}: {5}.\n{6}: {7}.".format(
+                "key", key, "letter_sequence", letter_sequence, "shuffle", shuffle,
+                "seed", seed
         )
 
     def encrypt(self, plain_text: str, key: Optional[int] = None,
@@ -308,137 +305,3 @@ class MersadClassicalBase(object):
         :return     : translated text.
         :rtype      : str
         """
-
-
-class MainFunctionClassical(object):
-    """
-    Manage classical cipher programs execution from terminal.
-
-    This class has a parser and a process function that controls
-    all thw procedures needed for running classical ciphers from terminal.
-    """
-
-    def __init__(self, args: List[Any], agent_class, description: str, epilog: str) \
-            -> None:
-        """Initialize instance with needed data."""
-        self.args: List[Any] = args
-        self.agent_class = agent_class
-        self.description: str = description
-        self.epilog: str = epilog
-
-    def process(self) -> None:
-        """Process program execution based on terminal arguments."""
-        # parse terminal arguments
-        args: argparse.Namespace = self.parse_args()
-
-        # load text_input from file or terminal.
-        # type annotations.
-        text_input: str
-        if args.file:
-            with open(args.file, "r") as file:
-                text_input = file.read()
-        else:
-            text_input = args.text
-
-        # construct a shift cipher agent with parsed arguments.
-        agent = self.agent_class(
-                key=args.key,
-                letter_sequence=args.letters,
-                sort_key=args.sort_key,
-                shuffle=args.shuffle,
-                seed=args.seed
-        )
-
-        # type annotations.
-        text_output: str
-        if args.decrypt:
-            text_output = agent.decrypt(text_input)
-        else:
-            text_output = agent.encrypt(text_input)
-
-        # write output to a file or show on terminal.
-        if args.output:
-            with open(args.output, "w+") as file:
-                file.write(text_output)
-        else:
-            print(text_output)
-
-    def parse_args(self) -> argparse.Namespace:
-        """
-        Start parsing terminal arguments.
-
-        :return: terminal argument namespace.
-        :rtype: argparse.Namespace
-        """
-        # create a parser with given arguments
-        parser: argparse.ArgumentParser = argparse.ArgumentParser(
-                parents=[self._argparse_parent()],
-                description=self.description,
-                epilog=self.epilog,
-                formatter_class=argparse.RawDescriptionHelpFormatter
-        )
-
-        # parse args and create a dictionary like namespace object.
-        return parser.parse_args(args=self.args)
-
-    @staticmethod
-    def _argparse_parent() -> argparse.ArgumentParser:
-        """
-        Create base parser object.
-
-        This function creates and returns a base parser
-        for all classical ciphers.
-
-        :return: parser
-        :rtype: argparse.ArgumentParser
-        """
-        # create the parent parser, the base parser for creating
-        # various other program specific parsers at the top of it.
-        parent_parser: argparse.ArgumentParser = argparse.ArgumentParser(
-                add_help=False
-        )
-
-        # display version
-        version: str = f"Azadeh Afzar - Mersad Cryptography Library v{__version__}"
-        parent_parser.add_argument("-V", "--version", action="version",
-                                   version=version)
-
-        # create an mutually exclusive group for parser, user should either
-        # provide a filename or a text for the process.
-        source_type = parent_parser.add_mutually_exclusive_group(required=True)
-
-        help_file: str = "file path for reading data from it"
-        source_type.add_argument("-f", "--file", type=str, help=help_file)
-
-        help_text: str = "read data from terminal"
-        source_type.add_argument("-t", "--text", type=str, help=help_text)
-
-        help_output: str = "file path for writing the result into it"
-        parent_parser.add_argument("-o", "--output", type=str, help=help_output)
-
-        help_key: str = "key for encryption/decryption"
-        parent_parser.add_argument("-k", "--key", type=int, help=help_key)
-
-        help_decrypt: str = "decrypt data"
-        parent_parser.add_argument("-d", "--decrypt", action="store_true",
-                                   default=False, help=help_decrypt)
-
-        help_letters: str = "alphabet for encryption/decryption"
-        parent_parser.add_argument("-l", "--letters", type=str,
-                                   default=string.printable.replace("\r", ""),
-                                   help=help_letters)
-
-        help_sorted_key: str = "alphabet sort order (only affects mclMixalph)"
-        parent_parser.add_argument("-so", "--sort_key", type=str,
-                                   default=string.printable.replace("\r", ""),
-                                   help=help_sorted_key)
-
-        help_shuffle: str = "shuffle alphabet letters"
-        parent_parser.add_argument("-sh", "--shuffle", action="store_true",
-                                   default=False, help=help_shuffle)
-
-        help_seed: str = "specify random seed for shuffling the alphabet letters"
-        parent_parser.add_argument("-s", "--seed", type=int, default=0,
-                                   help=help_seed)
-
-        return parent_parser

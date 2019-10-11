@@ -58,17 +58,20 @@ last letter, and so on.
 """
 
 # Python Standard Library
+import argparse
 import sys
 from typing import Dict
+from typing import Tuple
 from typing import Union
 
 # Mersad Library
 from mersad.util import string_manipulation
-from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
+from mersad.util.terminal_app_tools import MainFunctionClassical
+from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 
 
-def main() -> None:
+def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
     description: str = "Azadeh Afzar - Mersad Atbash Cipher\n" \
@@ -77,7 +80,8 @@ def main() -> None:
                   "transplanted into humans."
 
     # create a parser and parse command line arguments.
-    program = MainFunctionClassical(sys.argv[1:], AtbashCipher, description, epilog)
+    program = AtbashCipherMainFunction(list(argv), AtbashCipher, description, epilog,
+                                       monoalphabetic_common_parser())
     program.process()
 
 
@@ -211,3 +215,15 @@ def atbash_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
         translated += translated_letter
 
     return translated
+
+
+class AtbashCipherMainFunction(MainFunctionClassical):
+    """Manage Atbash cipher programs execution from terminal."""
+
+    def _config_agent(self, agent, args: argparse.Namespace) -> None:
+        """Config the agent parameters in process method."""
+        agent.config(
+                letter_sequence=args.letters,
+                shuffle=args.shuffle,
+                seed=args.seed
+        )

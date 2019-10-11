@@ -54,28 +54,32 @@ alphabet with letters from a cipher alphabet.
 """
 
 # Python Standard Library
+import argparse
 import string
 import sys
 from typing import Dict
+from typing import Tuple
 from typing import Union
 
 # Mersad Library
 from mersad.util import string_manipulation
 from mersad.util import type_check
-from mersad.util.base_class import MainFunctionClassical
 from mersad.util.base_class import MersadClassicalBase
+from mersad.util.terminal_app_tools import MainFunctionClassical
+from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 
 
-def main() -> None:
+def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
     description: str = "Azadeh Afzar - Mersad Mixed Alphabet Cipher\n" \
                        + "Encrypt/Decrypt data with Atbash algorithm"
-    epilog: str = "American Airlines saved $40,000 in 1987 when they eliminated " \
+    epilog: str = "American Airlines saved $40,000 in 1987 when they eliminated" \
                   + "one olive from each salad served in first class."
 
     # create a parser and parse command line arguments.
-    program = MainFunctionClassical(sys.argv[1:], MixalphCipher, description, epilog)
+    program = MixalphCipherMainFunction(list(argv), MixalphCipher, description,
+                                        epilog, monoalphabetic_common_parser())
     program.process()
 
 
@@ -285,3 +289,38 @@ def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str
         translated += translated_letter
 
     return translated
+
+
+class MixalphCipherMainFunction(MainFunctionClassical):
+    """Manage Mixalph cipher programs execution from terminal."""
+
+    def _config_agent(self, agent, args: argparse.Namespace) -> None:
+        """Config the agent parameters in process method."""
+        agent.config(
+                key=args.key,
+                sort_key=args.sort_key,
+                shuffle=args.shuffle,
+                seed=args.seed
+        )
+
+    def _custom_arguments(self) -> argparse.ArgumentParser:
+        """
+        Extend _base_parser method with subclass specific arguments.
+
+        :return: parser
+        :rtype: argparse.ArgumentParser
+        """
+        # create the parser.
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(
+                add_help=False
+        )
+
+        help_key: str = "key sequence for encryption/decryption"
+        parser.add_argument("-k", "--key", type=str, required=True, help=help_key)
+
+        help_sorted_key: str = "alphabet sort order"
+        parser.add_argument("-so", "--sort_key", type=str,
+                            default=string.printable.replace("\r", ""),
+                            help=help_sorted_key)
+
+        return parser
