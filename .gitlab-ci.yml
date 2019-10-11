@@ -13,8 +13,6 @@ test_master:
   before_script:
     # run code climate test reporter agent.
     - cc-test-reporter before-build
-    # install pipenv.
-    - pip3 install pipenv
     # install dependencies from the pipfile.
     - pipenv install --dev
   # run tests.
@@ -32,8 +30,6 @@ test_branches:
   stage: test
   # install dependencies.
   before_script:
-    # install pipenv.
-    - pip3 install pipenv
     # install dependencies from the pipfile.
     - pipenv install --dev
   # run tests.
