@@ -47,7 +47,7 @@ mersad.util.string_analyzer module.
 ===================================
 
 This module provides functions to extract data
-about a string.
+from a string.
 
 """
 

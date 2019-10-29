@@ -45,7 +45,7 @@ Azadeh Afzar - Mersad Cryptography Library.
 mersad.test package.
 ====================
 
-This package contains tests for all modules
+This package contains tests for modules
 in Mersad library.
 
 """
