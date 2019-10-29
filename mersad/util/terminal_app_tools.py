@@ -55,10 +55,15 @@ import argparse
 import string
 from typing import Any
 from typing import List
+from typing import Type
+from typing import TypeVar
 
 # Mersad Library
 from mersad._version import __version__
 from mersad.util.base_class import MersadClassicalBase
+
+# define a new type hint.
+MCLCryptClass = TypeVar('MCLCryptClass', bound=MersadClassicalBase)
 
 
 class MainFunctionClassical(object):
@@ -69,7 +74,8 @@ class MainFunctionClassical(object):
     all the procedures needed for running classical ciphers from terminal.
     """
 
-    def __init__(self, args: List[Any], agent_class, description: str, epilog: str,
+    def __init__(self, args: List[Any], agent_class: Type[MCLCryptClass],
+                 description: str, epilog: str,
                  predefined_parser: argparse.ArgumentParser) -> None:
         """
         Initialize instance with needed data.
@@ -81,7 +87,7 @@ class MainFunctionClassical(object):
         :param predefined_parser: an existing external arg parser to be used.
         """
         self.args: List[Any] = args
-        self.agent_class: MersadClassicalBase = agent_class
+        self.agent_class: Type[MCLCryptClass] = agent_class
         self.description: str = description
         self.epilog: str = epilog
         self.predefined_parser: argparse.ArgumentParser = predefined_parser
@@ -120,7 +126,8 @@ class MainFunctionClassical(object):
         else:
             print(text_output)
 
-    def _config_agent(self, agent, args: argparse.Namespace) -> None:
+    def _config_agent(self, agent: Type[MCLCryptClass],
+                      args: argparse.Namespace) -> None:
         """
         Config the agent parameters in process method.
 
