@@ -222,7 +222,7 @@ def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str
     # I will assign aliases for key, values inside kwargs.
     key_sequence: str = kwargs["key"]
     if key_sequence is None:
-        raise ValueError("ERROR: key isn't found, use config method to define a key")
+        raise ValueError("ERROR: key not found, use config method to define a key.")
     # default sort key to "string.printable" except "\r".
     default_sort_key: str = string.printable.replace("\r", "")
     sort_key: str = kwargs["sort_key"] if "sort_key" in kwargs else default_sort_key

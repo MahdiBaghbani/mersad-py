@@ -194,7 +194,7 @@ def shift_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     sequence: str = kwargs["letter_sequence"]
     key: int = kwargs["key"]
     if key is None:
-        raise ValueError("ERROR: key isn't found, use config method to define a key")
+        raise ValueError("ERROR: key not found, use config method to define a key.")
     # length of sequence is needed for mathematical calculations.
     key_size: int = len(sequence)
     # default shuffle to False if no shuffle is defined in kwargs.

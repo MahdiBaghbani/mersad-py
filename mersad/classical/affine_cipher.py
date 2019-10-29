@@ -186,7 +186,7 @@ def affine_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
     key: int = kwargs["key"]
     # check key is not None
     if key is None:
-        raise ValueError("ERROR: key isn't found, use config method to define a key")
+        raise ValueError("ERROR: key not found, use config method to define a key.")
     # type annotations
     key_a: int
     key_b: int
