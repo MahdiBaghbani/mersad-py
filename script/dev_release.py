@@ -30,7 +30,7 @@ for line in version_file:
         # notice that x, y , z must be converted to integer
         version_info = [int(number) for number in version.split(".")]
 
-# throe error if version not found
+# throw error if version not found
 if not version or not version_info:
     raise ValueError("ERROR: version not found at _version.py.")
 
@@ -41,7 +41,7 @@ print("This program will tag a new release of mersad\n"
 
 # read and convert to integer.
 print("Version is in X.Y.Z form.\n"
-      "X is version major, Y is version minor, Z id version minor.\n\n")
+      "X is version major, Y is version minor, Z is version minor.\n\n")
 new_major = int(input("Enter version major number:\n"))
 new_minor = int(input("Enter version minor  number:\n"))
 new_patch = int(input("Enter version patch number:\n"))
