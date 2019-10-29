@@ -148,7 +148,7 @@ class MainFunctionClassical(object):
         custom_arguments: argparse.ArgumentParser = self._custom_arguments()
 
         # create a parser list
-        parent_parser_list: List[argparse.ArgumentParser] = []
+        parent_parser_list: List[argparse.ArgumentParser] = list()
         # add parsers to parser list if they aren't None
         if custom_arguments:
             parent_parser_list.append(custom_arguments)
