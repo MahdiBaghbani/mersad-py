@@ -54,11 +54,15 @@ Mersad's cipher classes.
 import string
 from typing import Any
 from typing import Dict
+from typing import List
 from typing import Optional
 from typing import Union
 
 # Mersad Library
 from mersad.util import type_check
+
+# define type aliases.
+KWARGS_TYPE = Union[int, str, bool, List[int]]
 
 
 class MersadClassicalBase(object):
@@ -73,7 +77,7 @@ class MersadClassicalBase(object):
     as they want.
     """
 
-    def __init__(self, **kwargs: Union[int, str, bool]) -> None:
+    def __init__(self, **kwargs: KWARGS_TYPE) -> None:
         r"""
         Create an instance of the class.
 
@@ -125,12 +129,12 @@ class MersadClassicalBase(object):
         """
         # private configuration dictionary that holds default values.
         # should not be changed by anyone!
-        self._defaults: Dict[str, Any] = dict(
+        self._defaults: Dict[str, KWARGS_TYPE] = dict(
                 key=None, letter_sequence=string.printable.replace("\r", ""),
                 shuffle=False, seed=0, decrypt=False
         )
         # public configuration dictionary.
-        self.configuration: Dict[str, Any] = dict()
+        self.configuration: Dict[str, KWARGS_TYPE] = dict()
         # do subclass specific init subroutines
         self._init_subroutines()
         # set self.configuration to default values (default_configuration).
@@ -186,7 +190,7 @@ class MersadClassicalBase(object):
         """
         return self._process(cipher_text, key, replace_key=replace_key, decrypt=True)
 
-    def config(self, **kwargs: Union[int, str, bool]) -> None:
+    def config(self, **kwargs: KWARGS_TYPE) -> None:
         """
         Assign values to self.configuration dictionary.
 
@@ -236,7 +240,7 @@ class MersadClassicalBase(object):
         It can be used to declare new class properties or modify _defaults.
         """
 
-    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
+    def _config_subroutines(self, **kwargs: KWARGS_TYPE) -> None:
         """
         Define subroutines in config() method for subclasses.
 
@@ -295,7 +299,7 @@ class MersadClassicalBase(object):
         return self._translator(text, **configuration)
 
     @staticmethod
-    def _translator(text: str, **kwargs: Union[int, str, bool]) -> str:
+    def _translator(text: str, **kwargs: KWARGS_TYPE) -> str:
         """
         Wrap the actual encryption/decryption function for class.
 

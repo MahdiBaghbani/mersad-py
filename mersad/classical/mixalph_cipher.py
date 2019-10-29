@@ -64,6 +64,7 @@ from typing import Union
 # Mersad Library
 from mersad.util import string_manipulation
 from mersad.util import type_check
+from mersad.util.base_class import KWARGS_TYPE
 from mersad.util.base_class import MersadClassicalBase
 from mersad.util.terminal_app_tools import MainFunctionClassical
 from mersad.util.terminal_app_tools import monoalphabetic_common_parser
@@ -152,7 +153,7 @@ class MixalphCipher(MersadClassicalBase):
         """Extend _defaults dictionary with default value for sort_key."""
         self._defaults["sort_key"] = string.printable.replace("\r", "")
 
-    def _config_subroutines(self, **kwargs: Union[int, str, bool]) -> None:
+    def _config_subroutines(self, **kwargs: KWARGS_TYPE) -> None:
         """
         Assign values to self.configuration dictionary.
 
@@ -167,7 +168,7 @@ class MixalphCipher(MersadClassicalBase):
             self.configuration["sort_key"] = kwargs["sort_key"]
 
     @staticmethod
-    def _translator(text: str, **kwargs: Union[int, str, bool]) -> str:
+    def _translator(text: str, **kwargs: KWARGS_TYPE) -> str:
         """
         Wrap the actual encryption/decryption function for class.
 
@@ -178,7 +179,7 @@ class MixalphCipher(MersadClassicalBase):
         return mixalph_cipher_translator(text, **kwargs)
 
 
-def mixalph_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str:
+def mixalph_cipher_translator(text: str, **kwargs: KWARGS_TYPE) -> str:
     """
     Translate a string with Mixed Alphabet cipher algorithm.
 

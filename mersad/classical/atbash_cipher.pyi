@@ -6,9 +6,9 @@
 import argparse
 from typing import Any
 from typing import Tuple
-from typing import Union
 
 # Mersad Library
+from mersad.util.base_class import KWARGS_TYPE
 from mersad.util.base_class import MersadClassicalBase
 from mersad.util.terminal_app_tools import MainFunctionClassical
 
@@ -16,9 +16,9 @@ def main(argv: Tuple[str]=...) -> None: ...
 
 class AtbashCipher(MersadClassicalBase):
     @staticmethod
-    def _translator(text: str, **kwargs: Union[int, str, bool]) -> str: ...
+    def _translator(text: str, **kwargs: KWARGS_TYPE) -> str: ...
 
-def atbash_cipher_translator(text: str, **kwargs: Union[int, str, bool]) -> str: ...
+def atbash_cipher_translator(text: str, **kwargs: KWARGS_TYPE) -> str: ...
 
 class AtbashCipherMainFunction(MainFunctionClassical):
     def _config_agent(self, agent: Any, args: argparse.Namespace) -> None: ...
