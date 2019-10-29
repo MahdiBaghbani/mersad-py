@@ -194,7 +194,7 @@ def affine_cipher_translator(text: str, **kwargs: KWARGS_TYPE) -> str:
     # generate partial keys.
     key_a, key_b = divmod(key, sequence_length)
     # validate keys.
-    _check_keys(key_a, key_b, sequence_length)
+    _check_keys(key_a, sequence_length)
     # default shuffle to False if no shuffle is defined in kwargs.
     shuffle: bool = kwargs["shuffle"] if "shuffle" in kwargs else False
     # default seed to 0 if no seed is defined in kwargs.
@@ -246,12 +246,11 @@ def affine_cipher_translator(text: str, **kwargs: KWARGS_TYPE) -> str:
     return translated
 
 
-def _check_keys(key_a: int, key_b: int, sequence_length: int) -> None:
+def _check_keys(key_a: int, sequence_length: int) -> None:
     """
     Check if keys are in correct range.
 
     :param key_a            : first key.
-    :param key_b            : second key.
     :param sequence_length  : length of letter sequence.
     :raise ValueError       : if keys are incorrect.
     """
