@@ -18,5 +18,5 @@ RUN pip3 install --upgrade twine
 # set environment variables
 # LC_ALL and LANG are set to UTF-8 to
 # prevent pipenv runtime error
-ENV LC_ALL="C.UTF-8"
-ENV LANG="C.UTF-8"
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
