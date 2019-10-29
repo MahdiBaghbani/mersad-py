@@ -62,7 +62,6 @@ import argparse
 import sys
 from typing import Dict
 from typing import Tuple
-from typing import Union
 
 # Mersad Library
 from mersad.util import string_manipulation

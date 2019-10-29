@@ -60,7 +60,6 @@ import sys
 from math import gcd
 from typing import Dict
 from typing import Tuple
-from typing import Union
 
 # Mersad Library
 from mersad.util import crypto_math

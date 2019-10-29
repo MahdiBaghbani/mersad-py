@@ -52,7 +52,6 @@ Mersad's cipher classes.
 
 # Python Standard Library
 import string
-from typing import Any
 from typing import Dict
 from typing import List
 from typing import Optional
