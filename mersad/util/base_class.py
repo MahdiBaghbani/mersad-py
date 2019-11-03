@@ -134,7 +134,7 @@ class MersadClassicalBase(object):
         )
         # public configuration dictionary.
         self.configuration: Dict[str, KWARGS_TYPE] = dict()
-        # do subclass specific init subroutines
+        # do subclass specific init subroutines.
         self._init_subroutines()
         # set self.configuration to default values (default_configuration).
         self.reset()
@@ -158,7 +158,7 @@ class MersadClassicalBase(object):
         )
 
     def encrypt(self, plain_text: str, key: Optional[int] = None,
-                replace_key: bool = False) -> str:
+                replace_key: bool = False, **kwargs: KWARGS_TYPE) -> str:
         """
         Encrypt a string.
 
@@ -171,10 +171,10 @@ class MersadClassicalBase(object):
         :return             :   encrypted string.
         :rtype              :   str
         """
-        return self._process(plain_text, key, replace_key=replace_key, decrypt=False)
+        return self._process(plain_text, key, replace_key, False, **kwargs)
 
     def decrypt(self, cipher_text: str, key: Optional[int] = None,
-                replace_key: bool = False) -> str:
+                replace_key: bool = False, **kwargs: KWARGS_TYPE) -> str:
         """
         Decrypt a string.
 
@@ -187,7 +187,7 @@ class MersadClassicalBase(object):
         :return             :   decrypted string.
         :rtype              :   str
         """
-        return self._process(cipher_text, key, replace_key=replace_key, decrypt=True)
+        return self._process(cipher_text, key, replace_key, True, **kwargs)
 
     def config(self, **kwargs: KWARGS_TYPE) -> None:
         """
@@ -211,7 +211,7 @@ class MersadClassicalBase(object):
             type_check.type_guard(kwargs["decrypt"], bool)
             self.configuration["decrypt"] = kwargs["decrypt"]
 
-        # do subroutines
+        # do subroutines.
         self._config_subroutines(**kwargs)
 
     def reset(self) -> None:
@@ -229,39 +229,14 @@ class MersadClassicalBase(object):
         """
         return self.configuration["key"]
 
-    def _init_subroutines(self) -> None:
-        """
-        Manage subclass specific init routines.
-
-        This method should be implemented in subclasses if they wish
-        to extend __init__ routines without overriding the __init__ itself.
-
-        It can be used to declare new class properties or modify _defaults.
-        """
-
-    def _config_subroutines(self, **kwargs: KWARGS_TYPE) -> None:
-        """
-        Define subroutines in config() method for subclasses.
-
-        Some ciphers would use arguments that aren't coded in config()
-        method (due to keep flexibility of this class), those ciphers have
-        to override this method to add their specific routines for config().
-
-        This method does same job as config() but it's implementation depends
-        on the cipher, for example Affine cipher requires an integer key while
-        Atbash cipher doesn't require a key at all or Columnar cipher requires
-        a string key. these cipher can implement this method to do the right job
-        for their key assignment whenever config() is called.
-
-        Assign values to self.configuration dictionary.
-
-        :raise ValueError: if type of a dictionary value is wrong.
-        """
-
     def _process(self, text: str, key: Optional[int], replace_key: bool,
-                 decrypt: bool) -> str:
+                 decrypt: bool, **kwargs: KWARGS_TYPE) -> str:
         """
         Handle the process for both encryption and decryption.
+
+        This method main job is to fetch configurations and
+        modify them if necessary and then feed it into the
+        translator method.
 
         :param text         : string to be processed.
         :param key          : key for encryption/decryption.
@@ -278,6 +253,9 @@ class MersadClassicalBase(object):
         if replace_key:
             self.config(key=key)
 
+        # type annotate.
+        configuration: Dict[str, KWARGS_TYPE]
+        # fetch configurations based on key and replace key states.
         if key and not replace_key:
             # deep copy self.configuration dictionary into new dictionary to be used.
             configuration = {i: j for (i, j) in self.configuration.items()}
@@ -292,10 +270,58 @@ class MersadClassicalBase(object):
             # and is just a pointer to self.configuration
             configuration = self.configuration
 
-        # return a call to affine_cipher_translator function with
-        # string and unpacked (prepended "**" is used to unpack the dictionary)
+        # do sub-process on configuration.
+        configuration = self._process_subroutines(configuration, **kwargs)
+
+        # return a call to cipher translator function with
         # configuration dictionary as arguments.
         return self._translator(text, **configuration)
+
+    def _init_subroutines(self) -> None:
+        """
+        Manage subclass specific init routines.
+
+        This method should be implemented in subclasses if they wish
+        to extend __init__ routines without overriding the __init__ itself.
+
+        It can be used to declare new class properties or modify _defaults.
+        """
+
+    def _config_subroutines(self, **kwargs: KWARGS_TYPE) -> None:
+        """
+        Manage subroutines in config() method for subclasses.
+
+        Some ciphers would use arguments that aren't coded in config()
+        method (due to keep flexibility of this class), those ciphers have
+        to override this method to add their specific routines for config().
+
+        This method does same job as config() but it's implementation depends
+        on the cipher, for example Affine cipher requires an integer key while
+        Atbash cipher doesn't require a key at all or Columnar cipher requires
+        a string key. these cipher can implement this method to do the right job
+        for their key assignment whenever config() is called.
+
+        Assign values to self.configuration dictionary.
+
+        :raise ValueError: if type of a dictionary value is wrong.
+        """
+
+    def _process_subroutines(self, configurations: Dict[str, KWARGS_TYPE],
+                             **kwargs: KWARGS_TYPE) -> Dict[str, KWARGS_TYPE]:
+        """
+        Manage subroutines in _process() method for subclasses.
+
+        Some ciphers would use arguments that aren't coded in encrypt() or
+        decrypt() methods (due to keep flexibility of this class), those
+        ciphers have to override this method to add their specific routines
+        for _process().
+
+        :raise ValueError: if type of a dictionary value is wrong.
+        """
+        # to avoid of breaking _process in case of the child class doesn't
+        # implement this subroutine, this method will return configuration
+        # by default.
+        return configurations
 
     @staticmethod
     def _translator(text: str, **kwargs: KWARGS_TYPE) -> str:
