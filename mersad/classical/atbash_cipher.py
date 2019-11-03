@@ -98,7 +98,7 @@ class AtbashCipher(MersadClassicalBase):
     ==================================
 
     >>> agent = AtbashCipher(letter_sequence="abcdefghijklmnopqrstuvwxyz")
-    >>> # encrypt a string
+    >>> # encrypt a string.
     >>> agent.encrypt("Hail Julius Caesar.")
     "Hzro Jforfh Czvhzi."
 
@@ -135,7 +135,7 @@ class AtbashCipher(MersadClassicalBase):
     >>> agent = AtbashCipher()
     >>> # override defaults.
     >>> agent.config(letter_sequence="abcdefghijklmnopqrstuvwxyz")
-    >>> # encrypt a string
+    >>> # encrypt a string.
     >>> agent.encrypt("Hail Julius Caesar.")
     "Hzro Jforfh Czvhzi."
 

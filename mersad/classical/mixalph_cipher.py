@@ -73,7 +73,7 @@ def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
     description: str = "Azadeh Afzar - Mersad Mixed Alphabet Cipher\n" \
-                       + "Encrypt/Decrypt data with Atbash algorithm"
+                       + "Encrypt/Decrypt data with MixAlph algorithm"
     epilog: str = "American Airlines saved $40,000 in 1987 when they eliminated " \
                   + "one olive from each salad served in first class."
 
@@ -93,7 +93,7 @@ class MixalphCipher(MersadClassicalBase):
     ==================================
 
     >>> agent = MixalphCipher(key="zxcvbnmlkjhgfdsaqwertyuiop")
-    >>> # encrypt a string
+    >>> # encrypt a string.
     >>> agent.encrypt("Hail Julius Caesar.")
     "Hzkg Jtgkte Czbezw."
 
@@ -107,11 +107,6 @@ class MixalphCipher(MersadClassicalBase):
         - shuffle         : (optional) randomize letter sequence order.
         - seed            : (optional)(requires shuffle) specifies a seed
                             for randomizing, default seed is 0.
-
-    Agent uses predefined default values for each of above arguments if
-    it isn't provided by the user, for above example the letter sequence
-    is provided by user but not shuffle and seed, agent will use default values
-    for shuffle and seed.
 
     Default letter sequence is set to "string.printable" except "\r".
     Default sort key is set to "string.printable" except "\r".

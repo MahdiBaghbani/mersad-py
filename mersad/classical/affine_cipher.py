@@ -75,7 +75,7 @@ def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
     description: str = "Azadeh Afzar - Mersad Affine Cipher\n" \
-                       + "Encrypt/Decrypt data with Affine"
+                       + "Encrypt/Decrypt data with Affine algorithm"
     epilog: str = "CIA can still read your messages ..."
 
     # create a parser and parse command line arguments.
@@ -94,7 +94,7 @@ class AffineCipher(MersadClassicalBase):
     ==================================
 
     >>> agent = AffineCipher(key=235, letter_sequence="abcdefghijklmnopqrstuvwxyz")
-    >>> # encrypt a string
+    >>> # encrypt a string.
     >>> agent.encrypt("Is this really more secure than shift cipher?")
     'Ih qmvh ylbwwj fxyl hltzyl qmbo hmvuq tvgmly?'
 
@@ -114,7 +114,8 @@ class AffineCipher(MersadClassicalBase):
     are provided by user but not shuffle and seed, agent will use default values
     for shuffle and seed.
 
-    Default key is set to 0.
+    Default key is set to None. it will cause error on encrypt/decrypt
+    if you don't config it via config() method.
     Default letter sequence is set to "string.printable" except "\r".
     Default shuffle is set to False.
     Default seed is set to 0.
@@ -133,7 +134,7 @@ class AffineCipher(MersadClassicalBase):
     >>> agent = AffineCipher()
     >>> # override defaults.
     >>> agent.config(key=135)
-    >>> # encrypt a string
+    >>> # encrypt a string.
     >>> agent.encrypt("Is this really more secure than shift cipher?")
     '<"t#QR"t!NJUU(tVX!Nt"NL$!Nt#QJWt"QRO#tLRYQN!h'
 

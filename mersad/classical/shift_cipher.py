@@ -92,7 +92,7 @@ class ShiftCipher(MersadClassicalBase):
     ==================================
 
     >>> agent = ShiftCipher(key=3453, letter_sequence="abcdefghijklmnopqrstuvwxyz")
-    >>> # encrypt a string
+    >>> # encrypt a string.
     >>> agent.encrypt("Hail Julius Caesar.")
     "Hvdg Jpgdpn Cvznvm."
 
@@ -112,7 +112,8 @@ class ShiftCipher(MersadClassicalBase):
     are provided by user but not shuffle and seed, agent will use default values
     for shuffle and seed.
 
-    Default key is set to 0.
+    Default key is set to None. it will cause error on encrypt/decrypt
+    if you don't config it via config() method.
     Default letter sequence is set to "string.printable" except "\r".
     Default shuffle is set to False.
     Default seed is set to 0.
@@ -131,7 +132,7 @@ class ShiftCipher(MersadClassicalBase):
     >>> agent = ShiftCipher()
     >>> # override defaults.
     >>> agent.config(key=3453, letter_sequence="abcdefghijklmnopqrstuvwxyz")
-    >>> # encrypt a string
+    >>> # encrypt a string.
     >>> agent.encrypt("Hail Julius Caesar.")
     "Hvdg Jpgdpn Cvznvm."
 
