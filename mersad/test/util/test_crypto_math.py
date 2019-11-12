@@ -66,5 +66,5 @@ class TestCryptoMath(unittest.TestCase):
         self.assertEqual(expected_result_2, test_mod_inverse_2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

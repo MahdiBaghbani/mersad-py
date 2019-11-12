@@ -56,8 +56,11 @@ class TestStringManipulation(unittest.TestCase):
     def test_replace_letter_by_index(self):
         test_string = "Are trying to get something out of this string?"
         expected_string = "ATITe tTITyiTITg tTIT get something out ofTITthis string?"
-        self.assertEqual(expected_string, replace_letter_by_index(test_string, "TIT", [1, 5, 8, 12, 34]))
+        self.assertEqual(
+            expected_string,
+            replace_letter_by_index(test_string, "TIT", [1, 5, 8, 12, 34]),
+        )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

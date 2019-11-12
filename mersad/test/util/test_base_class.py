@@ -54,8 +54,10 @@ class TestMersadClassicalBase(unittest.TestCase):
     def test_config(self):
         self.BaseClass.config(shuffle=True, seed=23, decrypt=True)
         self.assertEqual(None, self.BaseClass.configuration["key"])
-        self.assertEqual(string.printable.replace("\r", ""),
-                         self.BaseClass.configuration["letter_sequence"])
+        self.assertEqual(
+            string.printable.replace("\r", ""),
+            self.BaseClass.configuration["letter_sequence"],
+        )
         self.assertEqual(23, self.BaseClass.configuration["seed"])
         self.assertEqual(True, self.BaseClass.configuration["shuffle"])
         self.assertEqual(True, self.BaseClass.configuration["decrypt"])
@@ -64,17 +66,20 @@ class TestMersadClassicalBase(unittest.TestCase):
         self.BaseClass.config(shuffle=True, seed=23, decrypt=True)
         self.BaseClass.reset()
         self.assertEqual(None, self.BaseClass.configuration["key"])
-        self.assertEqual(string.printable.replace("\r", ""),
-                         self.BaseClass.configuration["letter_sequence"])
+        self.assertEqual(
+            string.printable.replace("\r", ""),
+            self.BaseClass.configuration["letter_sequence"],
+        )
         self.assertEqual(False, self.BaseClass.configuration["shuffle"])
         self.assertEqual(0, self.BaseClass.configuration["seed"])
         self.assertEqual(False, self.BaseClass.configuration["decrypt"])
 
     def test_print_instance(self):
-        self.BaseClass.config(letter_sequence="abc", shuffle=True, seed=23,
-                              decrypt=True)
+        self.BaseClass.config(
+            letter_sequence="abc", shuffle=True, seed=23, decrypt=True
+        )
         expected = "{0}: {1}.\n{2}: {3}.\n{4}: {5}.\n{6}: {7}.".format(
-                "key", None, "letter_sequence", "abc", "shuffle", True, "seed", 23
+            "key", None, "letter_sequence", "abc", "shuffle", True, "seed", 23
         )
         self.assertEqual(expected, self.BaseClass.__str__())
 
@@ -92,5 +97,5 @@ class TestMersadClassicalBase(unittest.TestCase):
             self.BaseClass.config(decrypt="False")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

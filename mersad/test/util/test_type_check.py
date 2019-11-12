@@ -54,5 +54,5 @@ class TestTypeCheck(unittest.TestCase):
             type_guard(2, float)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

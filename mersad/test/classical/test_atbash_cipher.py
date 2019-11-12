@@ -61,16 +61,20 @@ class TestShiftCipher(unittest.TestCase):
         # create a cipher agent
         self.agent = AtbashCipher()
         self.plain_text = ReaderIO.read(
-                os.path.join(self.base_path, "Long License File.txt"), "text"
+            os.path.join(self.base_path, "Long License File.txt"), "text"
         )
         self.sh0_s0 = ReaderIO.read(
-                os.path.join(self.base_path, "AtbashCipher-LLF-sh0-s0.txt"), "text"
+            os.path.join(self.base_path, "AtbashCipher-LLF-sh0-s0.txt"), "text"
         )
         self.sh1_s0 = ReaderIO.read(
-                os.path.join(self.base_path, "AtbashCipher-LLF-sh1-s0.txt"), "text"
+            os.path.join(self.base_path, "AtbashCipher-LLF-sh1-s0.txt"), "text"
         )
         self.custom_alphabet = ReaderIO.read(
-                os.path.join(self.base_path, "AtbashCipher-LLF-alphabet-ascii-lowercase-sh0-s0.txt"), "text"
+            os.path.join(
+                self.base_path,
+                "AtbashCipher-LLF-alphabet-ascii-lowercase-sh0-s0.txt",
+            ),
+            "text",
         )
 
     def test_encrypt_without_shuffle(self):
@@ -110,14 +114,14 @@ class TestShiftCipher(unittest.TestCase):
         ]
 
         # run main function
-        atbash_main(args)
+        atbash_main(tuple(args))
 
         # test if it's ok
         result = ReaderIO.read(
-                os.path.join(self.base_path, "AtbashCipher-LLF-sh1-s0.txt"), "text"
+            os.path.join(self.base_path, "AtbashCipher-LLF-sh1-s0.txt"), "text"
         )
         self.assertEqual(self.sh1_s0, result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

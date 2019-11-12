@@ -53,9 +53,5 @@ in Mersad library.
 # Python Standard Library
 from typing import List
 
-# please keep alphabetical order
-__all__: List[str] = [
-    "asset",
-    "classical",
-    "util"
-]
+# please keep alphabetical order.
+__all__: List[str] = ["asset", "classical", "util"]

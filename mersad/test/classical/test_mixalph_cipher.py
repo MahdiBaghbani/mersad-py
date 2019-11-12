@@ -60,55 +60,64 @@ class TestShiftCipher(unittest.TestCase):
         # create a cipher agent
         self.agent = MixalphCipher()
         self.plain_text = ReaderIO.read(
-                os.path.join(self.base_path, "Long License File.txt"), "text"
+            os.path.join(self.base_path, "Long License File.txt"), "text"
         )
         self.sh0_s0 = ReaderIO.read(
-                os.path.join(self.base_path, "MixalphCipher-LLF-sh0-s0.txt"), "text"
+            os.path.join(self.base_path, "MixalphCipher-LLF-sh0-s0.txt"), "text"
         )
-        self.sh1_s0 = ReaderIO.read(os.path.join(
-                self.base_path, "MixalphCipher-LLF-sh1-s0.txt"), "text"
+        self.sh1_s0 = ReaderIO.read(
+            os.path.join(self.base_path, "MixalphCipher-LLF-sh1-s0.txt"), "text"
         )
         self.custom_sort_key = ReaderIO.read(
-                os.path.join(self.base_path, "MixalphCipher-LLF-sortkey-plmnkoijbhuygvcftrdxzsewaq-sh0-s0.txt"), "text"
+            os.path.join(
+                self.base_path,
+                "MixalphCipher-LLF-sortkey-plmnkoijbhuygvcftrdxzsewaq-sh0-s0.txt",
+            ),
+            "text",
         )
 
     def test_encrypt_without_shuffle(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          shuffle=False, seed=0)
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop", shuffle=False, seed=0)
         self.assertEqual(self.sh0_s0, self.agent.encrypt(self.plain_text))
 
     def test_encrypt_with_shuffle_without_seed(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          shuffle=True, seed=0)
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop", shuffle=True, seed=0)
         self.assertEqual(self.sh1_s0, self.agent.encrypt(self.plain_text))
 
     def test_encrypt_with_custom_sort_key(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          sort_key="plmnkoijbhuygvcftrdxzsewaq",
-                          shuffle=False, seed=0)
+        self.agent.config(
+            key="zxcvbnmlkjhgfdsaqwertyuiop",
+            sort_key="plmnkoijbhuygvcftrdxzsewaq",
+            shuffle=False,
+            seed=0,
+        )
         self.assertEqual(self.custom_sort_key, self.agent.encrypt(self.plain_text))
 
     def test_decryption_without_shuffle(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          shuffle=False, seed=0)
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop", shuffle=False, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.sh0_s0))
 
     def test_decrypt_with_shuffle_without_seed(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          shuffle=True, seed=0)
+        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop", shuffle=True, seed=0)
         self.assertEqual(self.plain_text, self.agent.decrypt(self.sh1_s0))
 
     def test_decrypt_with_custom_alphabet(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          sort_key="plmnkoijbhuygvcftrdxzsewaq",
-                          shuffle=False, seed=0)
+        self.agent.config(
+            key="zxcvbnmlkjhgfdsaqwertyuiop",
+            sort_key="plmnkoijbhuygvcftrdxzsewaq",
+            shuffle=False,
+            seed=0,
+        )
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_sort_key))
 
     def test_show_sort_key(self):
         sort_key = "plmnkoijbhuygvcftrdxzsewaq"
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          sort_key=sort_key,
-                          shuffle=False, seed=0)
+        self.agent.config(
+            key="zxcvbnmlkjhgfdsaqwertyuiop",
+            sort_key=sort_key,
+            shuffle=False,
+            seed=0,
+        )
         self.assertEqual(sort_key, self.agent.show_sort_key())
 
     def test_none_key(self):
@@ -117,16 +126,22 @@ class TestShiftCipher(unittest.TestCase):
             self.agent.encrypt(self.plain_text)
 
     def test_sort_key_doesnt_have_all_key_letters(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          sort_key="plmnkoijb",
-                          shuffle=False, seed=0)
+        self.agent.config(
+            key="zxcvbnmlkjhgfdsaqwertyuiop",
+            sort_key="plmnkoijb",
+            shuffle=False,
+            seed=0,
+        )
         with self.assertRaises(ValueError):
             self.agent.encrypt(self.plain_text)
 
     def test_sort_key_have_more_letters_than_key(self):
-        self.agent.config(key="zxcvbnmlkjhgfdsaqwertyuiop",
-                          sort_key="plmnkoijbhuygvcftrdxzsewaqABCDEFGHIJKLMNOP",
-                          shuffle=False, seed=0)
+        self.agent.config(
+            key="zxcvbnmlkjhgfdsaqwertyuiop",
+            sort_key="plmnkoijbhuygvcftrdxzsewaqABCDEFGHIJKLMNOP",
+            shuffle=False,
+            seed=0,
+        )
         self.assertEqual(self.plain_text, self.agent.decrypt(self.custom_sort_key))
 
     def test_terminal_application(self):
@@ -137,18 +152,18 @@ class TestShiftCipher(unittest.TestCase):
             "--output",
             "{}".format(os.path.join(self.base_path, "Test Mixalph Terminal.txt")),
             "--key",
-            "zxcvbnmlkjhgfdsaqwertyuiop"
+            "zxcvbnmlkjhgfdsaqwertyuiop",
         ]
 
         # run main function
-        mixalph_main(args)
+        mixalph_main(tuple(args))
 
         # test if it's ok
         result = ReaderIO.read(
-                os.path.join(self.base_path, "MixalphCipher-LLF-sh0-s0.txt"), "text"
+            os.path.join(self.base_path, "MixalphCipher-LLF-sh0-s0.txt"), "text"
         )
         self.assertEqual(self.sh0_s0, result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

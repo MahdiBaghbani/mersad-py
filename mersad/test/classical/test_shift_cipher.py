@@ -61,16 +61,20 @@ class TestShiftCipher(unittest.TestCase):
         # create a cipher agent
         self.agent = ShiftCipher()
         self.plain_text = ReaderIO.read(
-                os.path.join(self.base_path, "Long License File.txt"), "text"
+            os.path.join(self.base_path, "Long License File.txt"), "text"
         )
         self.k25_sh0_s0 = ReaderIO.read(
-                os.path.join(self.base_path, "ShiftCipher-LLF-k25-sh0-s0.txt"), "text"
+            os.path.join(self.base_path, "ShiftCipher-LLF-k25-sh0-s0.txt"), "text"
         )
         self.k173_sh1_s0 = ReaderIO.read(
-                os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text"
+            os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text"
         )
         self.custom_alphabet = ReaderIO.read(
-                os.path.join(self.base_path, "ShiftCipher-LLF-alphabet-ascii-lowercase-k85-sh0-s0.txt"), "text"
+            os.path.join(
+                self.base_path,
+                "ShiftCipher-LLF-alphabet-ascii-lowercase-k85-sh0-s0.txt",
+            ),
+            "text",
         )
 
     def test_encrypt_without_shuffle(self):
@@ -103,7 +107,9 @@ class TestShiftCipher(unittest.TestCase):
         # key is 173 which is stored in self.configuration dictionary
         self.agent.config(key=173, shuffle=False, seed=0)
         # use a temporary one time key (25) when encrypting/decrypting
-        self.assertEqual(self.plain_text, self.agent.decrypt(self.k25_sh0_s0, key=25))
+        self.assertEqual(
+            self.plain_text, self.agent.decrypt(self.k25_sh0_s0, key=25)
+        )
         # verify that key is still 173 in self.configuration dictionary
         self.assertEqual(173, self.agent.show_key())
 
@@ -111,7 +117,10 @@ class TestShiftCipher(unittest.TestCase):
         # key is 173 which is stored in self.configuration dictionary
         self.agent.config(key=173, shuffle=False, seed=0)
         # use a new key (25) when encrypting/decrypting and make it permanent
-        self.assertEqual(self.plain_text, self.agent.decrypt(self.k25_sh0_s0, key=25, replace_key=True))
+        self.assertEqual(
+            self.plain_text,
+            self.agent.decrypt(self.k25_sh0_s0, key=25, replace_key=True),
+        )
         # verify that key is changed to 25 in self.configuration dictionary
         self.assertEqual(25, self.agent.show_key())
 
@@ -130,18 +139,18 @@ class TestShiftCipher(unittest.TestCase):
             "{}".format(os.path.join(self.base_path, "Test Shift Terminal.txt")),
             "--key",
             "173",
-            "--shuffle"
+            "--shuffle",
         ]
 
         # run main function
-        shift_main(args)
+        shift_main(tuple(args))
 
         # test if it's ok
         result = ReaderIO.read(
-                os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text"
+            os.path.join(self.base_path, "ShiftCipher-LLF-k173-sh1-s0.txt"), "text"
         )
         self.assertEqual(self.k173_sh1_s0, result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

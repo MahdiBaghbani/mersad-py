@@ -59,7 +59,7 @@ from typing import List
 # Mersad Library
 from mersad._version import __version__ as version
 
-# AA-MCL package information
+# AA-MCL package information.
 __author__: str = "Mohammad Mahdi Baghbani Pourvahid"
 __description__: str = "Azadeh Afzar - Mersad Cryptographic Library"
 __copyright__: str = "Copyright (C) 2019 Azadeh Afzar - Mersad Cryptography Library"
@@ -70,10 +70,5 @@ __maintainer__: str = "Mohammad Mahdi Baghbani Pourvahid"
 __email__: str = "MahdiBaghbani@protonmail.com"
 __status__: str = "Prototype"
 
-# please keep alphabetical order
-__all__: List[str] = [
-    "classical",
-    "test",
-    "util",
-    "_version"
-]
+# please keep alphabetical order.
+__all__: List[str] = ["classical", "test", "util", "_version"]

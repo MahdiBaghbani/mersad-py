@@ -72,13 +72,14 @@ from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
-    description: str = "Azadeh Afzar - Mersad Shift Cipher\n" \
-                       + "Encrypt/Decrypt data with Shift algorithm"
+    description: str = "Azadeh Afzar - Mersad Shift Cipher\n"
+    description += "Encrypt/Decrypt data with Shift algorithm."
     epilog: str = "Oh you think it is a safe way to hide your secrets from NSA?"
 
     # create a parser and parse command line arguments.
-    program = ShiftCipherMainFunction(list(argv), ShiftCipher, description, epilog,
-                                      monoalphabetic_common_parser())
+    program = ShiftCipherMainFunction(
+        list(argv), ShiftCipher, description, epilog, monoalphabetic_common_parser()
+    )
     program.process()
 
 
@@ -252,10 +253,10 @@ class ShiftCipherMainFunction(MainFunctionClassical):
     def _config_agent(self, agent, args: argparse.Namespace) -> None:
         """Config the agent parameters in process method."""
         agent.config(
-                key=args.key,
-                letter_sequence=args.letters,
-                shuffle=args.shuffle,
-                seed=args.seed
+            key=args.key,
+            letter_sequence=args.letters,
+            shuffle=args.shuffle,
+            seed=args.seed,
         )
 
     def _custom_arguments(self) -> argparse.ArgumentParser:
@@ -266,9 +267,7 @@ class ShiftCipherMainFunction(MainFunctionClassical):
         :rtype: argparse.ArgumentParser
         """
         # create the parser.
-        parser: argparse.ArgumentParser = argparse.ArgumentParser(
-                add_help=False
-        )
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(add_help=False)
 
         help_key: str = "key for encryption/decryption"
         parser.add_argument("-k", "--key", type=int, required=True, help=help_key)

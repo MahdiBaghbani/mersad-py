@@ -63,7 +63,7 @@ from mersad._version import __version__
 from mersad.util.base_class import MersadClassicalBase
 
 # define a new type hint.
-MCLCryptClass = TypeVar('MCLCryptClass', bound=MersadClassicalBase)
+MCLCryptClass = TypeVar("MCLCryptClass", bound=MersadClassicalBase)
 
 
 class MainFunctionClassical(object):
@@ -74,9 +74,14 @@ class MainFunctionClassical(object):
     all the procedures needed for running classical ciphers from terminal.
     """
 
-    def __init__(self, args: List[Any], agent_class: Type[MCLCryptClass],
-                 description: str, epilog: str,
-                 predefined_parser: argparse.ArgumentParser) -> None:
+    def __init__(
+        self,
+        args: List[Any],
+        agent_class: Type[MCLCryptClass],
+        description: str,
+        epilog: str,
+        predefined_parser: argparse.ArgumentParser,
+    ) -> None:
         """
         Initialize instance with needed data.
 
@@ -109,7 +114,7 @@ class MainFunctionClassical(object):
         # construct a shift cipher agent with parsed arguments.
         agent = self.agent_class()
 
-        # config agent
+        # config agent.
         self._config_agent(agent, args)
 
         # type annotations.
@@ -126,8 +131,9 @@ class MainFunctionClassical(object):
         else:
             print(text_output)
 
-    def _config_agent(self, agent: Type[MCLCryptClass],
-                      args: argparse.Namespace) -> None:
+    def _config_agent(
+        self, agent: Type[MCLCryptClass], args: argparse.Namespace
+    ) -> None:
         """
         Config the agent parameters in process method.
 
@@ -143,13 +149,13 @@ class MainFunctionClassical(object):
         """
         # create parent parsers for the final parser
         # this includes the main parent and the custom
-        # subclass specific arguments
+        # subclass specific arguments.
         base_parser: argparse.ArgumentParser = self._base_parser()
         custom_arguments: argparse.ArgumentParser = self._custom_arguments()
 
-        # create a parser list
+        # create a parser list.
         parent_parser_list: List[argparse.ArgumentParser] = list()
-        # add parsers to parser list if they aren't None
+        # add parsers to parser list if they aren't None.
         if custom_arguments:
             parent_parser_list.append(custom_arguments)
         if self.predefined_parser:
@@ -157,12 +163,12 @@ class MainFunctionClassical(object):
         if base_parser:
             parent_parser_list.append(base_parser)
 
-        # create a parser with given arguments
+        # create a parser with given arguments.
         parser: argparse.ArgumentParser = argparse.ArgumentParser(
-                parents=parent_parser_list,
-                description=self.description,
-                epilog=self.epilog,
-                formatter_class=argparse.RawDescriptionHelpFormatter
+            parents=parent_parser_list,
+            description=self.description,
+            epilog=self.epilog,
+            formatter_class=argparse.RawDescriptionHelpFormatter,
         )
 
         # parse args and create a dictionary like namespace object.
@@ -192,9 +198,7 @@ class MainFunctionClassical(object):
         """
         # create the parent parser, the base parser for creating
         # various other program specific parsers at the top of it.
-        parser: argparse.ArgumentParser = argparse.ArgumentParser(
-                add_help=False
-        )
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(add_help=False)
 
         # create an mutually exclusive group for parser, user should either
         # provide a filename or a text for the process.
@@ -210,10 +214,11 @@ class MainFunctionClassical(object):
         parser.add_argument("-o", "--output", type=str, help=help_output)
 
         help_decrypt: str = "decrypt data"
-        parser.add_argument("-d", "--decrypt", action="store_true", default=False,
-                            help=help_decrypt)
+        parser.add_argument(
+            "-d", "--decrypt", action="store_true", default=False, help=help_decrypt
+        )
 
-        # display version
+        # display version.
         version: str = f"Azadeh Afzar - Mersad Cryptography Library v{__version__}"
         parser.add_argument("-V", "--version", action="version", version=version)
 
@@ -232,18 +237,21 @@ def monoalphabetic_common_parser() -> argparse.ArgumentParser:
     """
     # create the parent parser, the base parser for creating
     # various other program specific parsers at the top of it.
-    parser: argparse.ArgumentParser = argparse.ArgumentParser(
-            add_help=False
-    )
+    parser: argparse.ArgumentParser = argparse.ArgumentParser(add_help=False)
 
     help_letters: str = "alphabet for encryption/decryption"
-    parser.add_argument("-l", "--letters", type=str,
-                        default=string.printable.replace("\r", ""),
-                        help=help_letters)
+    parser.add_argument(
+        "-l",
+        "--letters",
+        type=str,
+        default=string.printable.replace("\r", ""),
+        help=help_letters,
+    )
 
     help_shuffle: str = "shuffle alphabet letters"
-    parser.add_argument("-sh", "--shuffle", action="store_true", default=False,
-                        help=help_shuffle)
+    parser.add_argument(
+        "-sh", "--shuffle", action="store_true", default=False, help=help_shuffle
+    )
 
     help_seed: str = "specify random seed for shuffling the alphabet letters"
     parser.add_argument("-s", "--seed", type=int, default=0, help=help_seed)

@@ -69,7 +69,7 @@ def shuffle_string(text: str, seed: int) -> str:
     random.seed(seed)
     letter_list: List[str] = list(text)
     random.shuffle(letter_list)
-    return ''.join(letter_list)
+    return "".join(letter_list)
 
 
 def replace_letter_by_index(text: str, letter: str, indexes: List[int]) -> str:
@@ -86,4 +86,4 @@ def replace_letter_by_index(text: str, letter: str, indexes: List[int]) -> str:
     letter_list: List[str] = list(text)
     for index in indexes:
         letter_list[index] = letter
-    return ''.join(letter_list)
+    return "".join(letter_list)

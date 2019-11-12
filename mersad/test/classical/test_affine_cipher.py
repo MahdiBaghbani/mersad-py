@@ -61,16 +61,20 @@ class TestShiftCipher(unittest.TestCase):
         # create a cipher agent
         self.agent = AffineCipher()
         self.plain_text = ReaderIO.read(
-                os.path.join(self.base_path, "Long License File.txt"), "text"
+            os.path.join(self.base_path, "Long License File.txt"), "text"
         )
         self.k125_sh0_s0 = ReaderIO.read(
-                os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text"
+            os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text"
         )
         self.k173_sh1_s0 = ReaderIO.read(
-                os.path.join(self.base_path, "AffineCipher-LLF-k173-sh1-s0.txt"), "text"
+            os.path.join(self.base_path, "AffineCipher-LLF-k173-sh1-s0.txt"), "text"
         )
         self.custom_alphabet = ReaderIO.read(
-                os.path.join(self.base_path, "AffineCipher-LLF-alphabet-ascii-lowercase-k396-sh0-s0.txt"), "text"
+            os.path.join(
+                self.base_path,
+                "AffineCipher-LLF-alphabet-ascii-lowercase-k396-sh0-s0.txt",
+            ),
+            "text",
         )
 
     def test_encrypt_without_shuffle(self):
@@ -107,7 +111,9 @@ class TestShiftCipher(unittest.TestCase):
         # key is 173 which is stored in self.configuration dictionary
         self.agent.config(key=173, shuffle=False, seed=0)
         # use a temporary one time key (125) when encrypting/decrypting
-        self.assertEqual(self.plain_text, self.agent.decrypt(self.k125_sh0_s0, key=125))
+        self.assertEqual(
+            self.plain_text, self.agent.decrypt(self.k125_sh0_s0, key=125)
+        )
         # verify that key is still 173 in self.configuration dictionary
         self.assertEqual(173, self.agent.show_key())
 
@@ -115,7 +121,10 @@ class TestShiftCipher(unittest.TestCase):
         # key is 173 which is stored in self.configuration dictionary
         self.agent.config(key=173, shuffle=False, seed=0)
         # use a new key (125) when encrypting/decrypting and make it permanent
-        self.assertEqual(self.plain_text, self.agent.decrypt(self.k125_sh0_s0, key=125, replace_key=True))
+        self.assertEqual(
+            self.plain_text,
+            self.agent.decrypt(self.k125_sh0_s0, key=125, replace_key=True),
+        )
         # verify that key is changed to 125 in self.configuration dictionary
         self.assertEqual(125, self.agent.show_key())
 
@@ -151,14 +160,14 @@ class TestShiftCipher(unittest.TestCase):
         ]
 
         # run main function
-        affine_main(args)
+        affine_main(tuple(args))
 
         # test if it's ok
         result = ReaderIO.read(
-                os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text"
+            os.path.join(self.base_path, "AffineCipher-LLF-k125-sh0-s0.txt"), "text"
         )
         self.assertEqual(self.k125_sh0_s0, result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

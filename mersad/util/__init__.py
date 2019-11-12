@@ -53,12 +53,12 @@ inside Mersad package.
 # Python Standard Library
 from typing import List
 
-# please keep alphabetical order
+# please keep alphabetical order.
 __all__: List[str] = [
     "base_class",
     "crypto_math",
     "string_analyzer",
     "string_manipulation",
     "terminal_app_tools",
-    "type_check"
+    "type_check",
 ]

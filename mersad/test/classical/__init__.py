@@ -53,10 +53,10 @@ for classical package of Mersad library.
 # Python Standard Library
 from typing import List
 
-# please keep alphabetical order
+# please keep alphabetical order.
 __all__: List[str] = [
     "test_affine_cipher",
     "test_atbash_cipher",
     "test_mixalph_cipher",
-    "test_shift_cipher"
+    "test_shift_cipher",
 ]

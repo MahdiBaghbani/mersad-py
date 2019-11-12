@@ -74,13 +74,14 @@ from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
-    description: str = "Azadeh Afzar - Mersad Route Cipher\n" \
-                       + "Encrypt/Decrypt data with Route algorithm."
+    description: str = "Azadeh Afzar - Mersad Route Cipher\n"
+    description += "Encrypt/Decrypt data with Route algorithm."
     epilog: str = "This one is really a funny one! very good cipher. NOT SAFE!"
 
     # create a parser and parse command line arguments.
-    program = RouteCipherMainFunction(list(argv), RouteCipher, description, epilog,
-                                      monoalphabetic_common_parser())
+    program = RouteCipherMainFunction(
+        list(argv), RouteCipher, description, epilog, monoalphabetic_common_parser()
+    )
     program.process()
 
 
@@ -157,8 +158,9 @@ class RouteCipher(MersadClassicalBase):
             type_check.type_guard(kwargs["route"], list)
             self.configuration["route"] = kwargs["route"]
 
-    def _process_subroutines(self, configurations: Dict[str, KWARGS_TYPE],
-                             **kwargs: KWARGS_TYPE) -> Dict[str, KWARGS_TYPE]:
+    def _process_subroutines(
+        self, configurations: Dict[str, KWARGS_TYPE], **kwargs: KWARGS_TYPE
+    ) -> Dict[str, KWARGS_TYPE]:
         """
         Extend functionality of encrypt and decrypt to accept route lists.
 
@@ -310,9 +312,7 @@ class RouteCipherMainFunction(MainFunctionClassical):
     def _config_agent(self, agent, args: argparse.Namespace) -> None:
         """Config the agent parameters in process method."""
         agent.config(
-            key=args.key,
-            fill=args.fill,
-            route=args.route,
+            key=args.key, fill=args.fill, route=args.route,
         )
 
     def _custom_arguments(self) -> argparse.ArgumentParser:
@@ -323,9 +323,7 @@ class RouteCipherMainFunction(MainFunctionClassical):
         :rtype: argparse.ArgumentParser
         """
         # create the parser.
-        parser: argparse.ArgumentParser = argparse.ArgumentParser(
-            add_help=False
-        )
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(add_help=False)
         # add command line options.
         help_key: str = "key for encryption/decryption"
         parser.add_argument("-k", "--key", type=int, required=True, help=help_key)
@@ -334,7 +332,8 @@ class RouteCipherMainFunction(MainFunctionClassical):
         parser.add_argument("-fi", "--fill", type=str, default="X", help=help_fill)
 
         help_route: str = "route for encryption/decryption"
-        parser.add_argument("-r", "--route", nargs="+", type=int, required=True,
-                            help=help_route)
+        parser.add_argument(
+            "-r", "--route", nargs="+", type=int, required=True, help=help_route
+        )
 
         return parser

@@ -52,5 +52,5 @@ This package contains texts for tests.
 # Python Standard Library
 from typing import List
 
-# please keep alphabetical order
+# please keep alphabetical order.
 __all__: List[str] = []

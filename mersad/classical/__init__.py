@@ -59,5 +59,6 @@ __all__: List[str] = [
     "affine_cipher",
     "atbash_cipher",
     "mixalph_cipher",
-    "shift_cipher"
+    "route_cipher",
+    "shift_cipher",
 ]

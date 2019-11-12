@@ -68,9 +68,9 @@ def find_unique_letters(text: str) -> Set[str]:
     :return: a set of all unique letters in the string
     :rtype: set
     """
-    # check types
+    # check types.
     type_check.type_guard(text, str)
-    # create and return set
+    # create and return set.
     return set(text)
 
 
@@ -86,13 +86,11 @@ def find_letter_indexes(text: str, letter: str) -> List[int]:
     :return: list containing letters occurrence indexes
     :rtype: list
     """
-    # check types
+    # check types.
     type_check.type_guard(text, str)
     type_check.type_guard(letter, str)
-    # return index list
-    return [
-        index for index, character in enumerate(text) if character == letter
-    ]
+    # return index list.
+    return [index for index, character in enumerate(text) if character == letter]
 
 
 def map_letters_to_indexes(text: str) -> Dict[str, List[int]]:
@@ -106,10 +104,10 @@ def map_letters_to_indexes(text: str) -> Dict[str, List[int]]:
     :return: a dictionary with letter as key and a list of indexes as value.
     :rtype: dict
     """
-    # check types
+    # check types.
     type_check.type_guard(text, str)
 
-    # return a dictionary with letter as key and a list of indexes as value
+    # return a dictionary with letter as key and a list of indexes as value.
     return {
         letter: find_letter_indexes(text, letter)
         for letter in find_unique_letters(text)

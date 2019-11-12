@@ -74,13 +74,14 @@ from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
-    description: str = "Azadeh Afzar - Mersad Affine Cipher\n" \
-                       + "Encrypt/Decrypt data with Affine algorithm"
+    description: str = "Azadeh Afzar - Mersad Affine Cipher\n"
+    description += "Encrypt/Decrypt data with Affine algorithm."
     epilog: str = "CIA can still read your messages ..."
 
     # create a parser and parse command line arguments.
-    program = AffineCipherMainFunction(list(argv), AffineCipher, description, epilog,
-                                       monoalphabetic_common_parser())
+    program = AffineCipherMainFunction(
+        list(argv), AffineCipher, description, epilog, monoalphabetic_common_parser()
+    )
     program.process()
 
 
@@ -221,7 +222,7 @@ def affine_cipher_translator(text: str, **kwargs: KWARGS_TYPE) -> str:
         translated_sequence = {
             i: sequence[
                 ((sequence.index(i) - key_b) * key_a_mode_inverse) % sequence_length
-                ]
+            ]
             for i in sequence
         }
     else:
@@ -257,14 +258,14 @@ def _check_keys(key_a: int, sequence_length: int) -> None:
     # test for invalid key range
     if key_a <= 0:
         raise ValueError(
-                "The affine cipher's 'key a' must be greater than 0. "
-                + "Change your key."
+            "The affine cipher's 'key a' must be greater than 0. "
+            + "Change your key."
         )
 
     if gcd(key_a, sequence_length) != 1:
         raise ValueError(
-                "The affine cipher's 'key a' and length of 'letter "
-                + "sequence' are not relatively prime. Change your key."
+            "The affine cipher's 'key a' and length of 'letter "
+            + "sequence' are not relatively prime. Change your key."
         )
 
 
@@ -274,10 +275,10 @@ class AffineCipherMainFunction(MainFunctionClassical):
     def _config_agent(self, agent, args: argparse.Namespace) -> None:
         """Config the agent parameters in process method."""
         agent.config(
-                key=args.key,
-                letter_sequence=args.letters,
-                shuffle=args.shuffle,
-                seed=args.seed
+            key=args.key,
+            letter_sequence=args.letters,
+            shuffle=args.shuffle,
+            seed=args.seed,
         )
 
     def _custom_arguments(self) -> argparse.ArgumentParser:
@@ -288,9 +289,7 @@ class AffineCipherMainFunction(MainFunctionClassical):
         :rtype: argparse.ArgumentParser
         """
         # create the parser.
-        parser: argparse.ArgumentParser = argparse.ArgumentParser(
-                add_help=False
-        )
+        parser: argparse.ArgumentParser = argparse.ArgumentParser(add_help=False)
 
         help_key: str = "key for encryption/decryption"
         parser.add_argument("-k", "--key", type=int, required=True, help=help_key)

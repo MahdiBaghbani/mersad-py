@@ -74,14 +74,15 @@ from mersad.util.terminal_app_tools import monoalphabetic_common_parser
 def main(argv: Tuple[str] = tuple(sys.argv[1:])) -> None:
     """Execute program in terminal (cli application)."""
     # module descriptions.
-    description: str = "Azadeh Afzar - Mersad Atbash Cipher\n" \
-                       + "Encrypt/Decrypt data with Atbash algorithm"
-    epilog: str = "Many pig organs can be temporarily or sometimes permanently " \
-                  "transplanted into humans."
+    description: str = "Azadeh Afzar - Mersad Atbash Cipher\n"
+    description += "Encrypt/Decrypt data with Atbash algorithm."
+    epilog: str = "Many pig organs can be temporarily or sometimes permanently "
+    epilog += "transplanted into humans."
 
     # create a parser and parse command line arguments.
-    program = AtbashCipherMainFunction(list(argv), AtbashCipher, description, epilog,
-                                       monoalphabetic_common_parser())
+    program = AtbashCipherMainFunction(
+        list(argv), AtbashCipher, description, epilog, monoalphabetic_common_parser()
+    )
     program.process()
 
 
@@ -223,7 +224,5 @@ class AtbashCipherMainFunction(MainFunctionClassical):
     def _config_agent(self, agent, args: argparse.Namespace) -> None:
         """Config the agent parameters in process method."""
         agent.config(
-                letter_sequence=args.letters,
-                shuffle=args.shuffle,
-                seed=args.seed
+            letter_sequence=args.letters, shuffle=args.shuffle, seed=args.seed
         )

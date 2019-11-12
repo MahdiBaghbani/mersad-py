@@ -129,8 +129,11 @@ class MersadClassicalBase(object):
         # private configuration dictionary that holds default values.
         # should not be changed by anyone!
         self._defaults: Dict[str, KWARGS_TYPE] = dict(
-                key=None, letter_sequence=string.printable.replace("\r", ""),
-                shuffle=False, seed=0, decrypt=False
+            key=None,
+            letter_sequence=string.printable.replace("\r", ""),
+            shuffle=False,
+            seed=0,
+            decrypt=False,
         )
         # public configuration dictionary.
         self.configuration: Dict[str, KWARGS_TYPE] = dict()
@@ -153,12 +156,23 @@ class MersadClassicalBase(object):
         shuffle: bool = self.configuration["shuffle"]
         seed: int = self.configuration["seed"]
         return "{0}: {1}.\n{2}: {3}.\n{4}: {5}.\n{6}: {7}.".format(
-                "key", key, "letter_sequence", letter_sequence, "shuffle", shuffle,
-                "seed", seed
+            "key",
+            key,
+            "letter_sequence",
+            letter_sequence,
+            "shuffle",
+            shuffle,
+            "seed",
+            seed,
         )
 
-    def encrypt(self, plain_text: str, key: Optional[int] = None,
-                replace_key: bool = False, **kwargs: KWARGS_TYPE) -> str:
+    def encrypt(
+        self,
+        plain_text: str,
+        key: Optional[int] = None,
+        replace_key: bool = False,
+        **kwargs: KWARGS_TYPE,
+    ) -> str:
         """
         Encrypt a string.
 
@@ -173,8 +187,13 @@ class MersadClassicalBase(object):
         """
         return self._process(plain_text, key, replace_key, False, **kwargs)
 
-    def decrypt(self, cipher_text: str, key: Optional[int] = None,
-                replace_key: bool = False, **kwargs: KWARGS_TYPE) -> str:
+    def decrypt(
+        self,
+        cipher_text: str,
+        key: Optional[int] = None,
+        replace_key: bool = False,
+        **kwargs: KWARGS_TYPE,
+    ) -> str:
         """
         Decrypt a string.
 
@@ -229,8 +248,14 @@ class MersadClassicalBase(object):
         """
         return self.configuration["key"]
 
-    def _process(self, text: str, key: Optional[int], replace_key: bool,
-                 decrypt: bool, **kwargs: KWARGS_TYPE) -> str:
+    def _process(
+        self,
+        text: str,
+        key: Optional[int],
+        replace_key: bool,
+        decrypt: bool,
+        **kwargs: KWARGS_TYPE,
+    ) -> str:
         """
         Handle the process for both encryption and decryption.
 
@@ -305,8 +330,9 @@ class MersadClassicalBase(object):
         :raise ValueError: if type of a dictionary value is wrong.
         """
 
-    def _process_subroutines(self, configurations: Dict[str, KWARGS_TYPE],
-                             **kwargs: KWARGS_TYPE) -> Dict[str, KWARGS_TYPE]:
+    def _process_subroutines(
+        self, configurations: Dict[str, KWARGS_TYPE], **kwargs: KWARGS_TYPE
+    ) -> Dict[str, KWARGS_TYPE]:
         """
         Manage subroutines in _process() method for subclasses.
 

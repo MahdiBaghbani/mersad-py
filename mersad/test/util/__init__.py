@@ -59,5 +59,5 @@ __all__: List[str] = [
     "test_crypto_math",
     "test_string_analyzer",
     "test_string_manipulation",
-    "test_type_check"
+    "test_type_check",
 ]

@@ -12,7 +12,7 @@ from mersad.util.base_class import KWARGS_TYPE
 from mersad.util.base_class import MersadClassicalBase
 from mersad.util.terminal_app_tools import MainFunctionClassical
 
-def main(argv: Tuple[str]=...) -> None: ...
+def main(argv: Tuple[str] = ...) -> None: ...
 
 class AtbashCipher(MersadClassicalBase):
     @staticmethod
