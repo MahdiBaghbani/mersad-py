@@ -151,6 +151,7 @@ entry_points = {
         "mclAffine = mersad.classical.affine_cipher:main",
         "mclAtbash = mersad.classical.atbash_cipher:main",
         "mclMixalph = mersad.classical.mixalph_cipher:main",
+        "mclRoute = mersad.classical.route_cipher:main",
         "mclShift = mersad.classical.shift_cipher:main"
     ]
 }
