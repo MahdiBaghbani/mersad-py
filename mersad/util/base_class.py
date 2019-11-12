@@ -249,26 +249,25 @@ class MersadClassicalBase(object):
         # explicitly switch mode to encryption/decryption.
         self.config(decrypt=decrypt)
 
-        # replace the old key in self.configuration with new key
-        if replace_key:
-            self.config(key=key)
-
         # type annotate.
         configuration: Dict[str, KWARGS_TYPE]
-        # fetch configurations based on key and replace key states.
-        if key and not replace_key:
-            # deep copy self.configuration dictionary into new dictionary to be used.
-            configuration = {i: j for (i, j) in self.configuration.items()}
+        # deep copy self.configuration dictionary into new dictionary to be used.
+        configuration = {i: j for (i, j) in self.configuration.items()}
+
+        if key:
             # check key type to be compatible.
             type_check.type_guard(key, int)
+
+        # fetch configurations based on key and replace key states.
+        if key and replace_key:
+            # change key in self.configuration.
+            self.config(key=key)
             # change the key in the copied dictionary,
-            # self.configuration key will remain unchanged.
             configuration["key"] = key
-        else:
-            # alias self.configuration dictionary to configuration
-            # in this case configuration dictionary isn't a copy
-            # and is just a pointer to self.configuration
-            configuration = self.configuration
+        elif key and not replace_key:
+            # self.configuration key will remain unchanged.
+            # change the key in the copied dictionary.
+            configuration["key"] = key
 
         # do sub-process on configuration.
         configuration = self._process_subroutines(configuration, **kwargs)
