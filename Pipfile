@@ -15,6 +15,7 @@ mypy = "*"
 isort = "*"
 coverage = "*"
 Cython = "*"
+black = "*"
 
 [packages]
 ErfanIO = ">=0.0.7"
