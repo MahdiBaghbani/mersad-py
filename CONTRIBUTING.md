@@ -53,7 +53,7 @@ pipenve install --dev --skip-lock
 
 
 [gitlab repo]: https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library
-[github repo]: https://gitlab.com/Azadeh-Afzar/Mersad-Cryptography-Library
+[github repo]: https://github.com/azadeh-afzar/Mersad-Cryptography-Library
 
 ## Discussion
 
@@ -84,7 +84,7 @@ helping improve AA-MCL, there are several ways to get started:
 * Write tests for existing modules.
 * Add new cryptography or cryptanalysis algorithms to the project.
 
-[project documentation]: https://gitlab.com/python/Mersad-Cryptography-Library/labels/documentation
+[project documentation]: https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/labels/documentation
 
 ## Submitting Changes
 
