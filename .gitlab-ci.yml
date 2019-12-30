@@ -1,6 +1,6 @@
 default:
   # pull custom docker file
-  image: azadehafzarhub/mersad:gitlab-ci-pipeline
+  image: azadehafzarhub/gitlab-ci-python-build
 
 stages:
   - test
@@ -10,7 +10,6 @@ stages:
 # and send test coverage result to codeclimate.
 test_master:
   stage: test
-  # install dependencies.
   before_script:
     # run code climate test reporter agent.
     - cc-test-reporter before-build
