@@ -1,22 +1,27 @@
-default:
-  # pull custom docker file
-  image: azadehafzarhub/gitlab-ci-python-build
-
+# stages of gitlab ci.
 stages:
   - test
   - release
 
-# job for testing package on master branch
-# and send test coverage result to codeclimate.
-test_master:
+# default settings for all ci jobs.
+default:
+  image: azadehafzarhub/gitlab-ci-ruby-build:latest
+
+# job for testing package against python version 3.6
+# on master branch and send test coverage result to
+# codeclimate.
+test main branch:
   stage: test
   before_script:
     # run code climate test reporter agent.
     - cc-test-reporter before-build
+    # create virtual environment.
+    - pipenv --python 3.6.9
     # install dependencies from the pipfile.
     - pipenv install --dev
   # run tests.
   script:
+    - python -V
     - script/test.sh
   # send test coverage result to codeclimate.
   after_script:
@@ -24,32 +29,61 @@ test_master:
   only:
     - master
 
-# job for testing package on other branches
-# and merge requests.
-test_branches:
+# job for testing package on other branches than master
+# and merge requests against 3.6 version.
+test python 3.6.9:
   stage: test
-  # install dependencies.
   before_script:
+    # create virtual environment.
+    - pipenv --python 3.6.9
     # install dependencies from the pipfile.
     - pipenv install --dev
   # run tests.
   script:
+    - python -V
     - script/test.sh
-  # run on branches and merge requests.
   only:
     - branches
     - merge_requests
-  # don't run on master branch.
   except:
     - master
 
-# deploy package to pypi whenever a tag is released.
-release_pypi:
-  stage: release
-  # install dependencies.
+test python 3.7.5:
+  stage: test
   before_script:
+    # create virtual environment.
+    - pipenv --python 3.7.5
+    # install dependencies from the pipfile.
+    - pipenv install --dev
+  # run tests.
+  script:
+    - python -V
+    - script/test.sh
+  except:
+    - tags
+
+test python 3.8.0:
+  stage: test
+  before_script:
+    # create virtual environment.
+    - pipenv --python 3.8.0
+    # install dependencies from the pipfile.
+    - pipenv install --dev
+  # run tests.
+  script:
+    - python -V
+    - script/test.sh
+  except:
+    - tags
+
+# deploy package to pypi whenever a tag is released.
+release to pypi:
+  stage: release
+  before_script:
+    # create a source list.
     - python3 setup.py sdist
   script:
+    # upload to pypi.
     - twine upload dist/*
   # only run for new tags.
   only:
