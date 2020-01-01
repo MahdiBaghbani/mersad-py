@@ -5,7 +5,7 @@ stages:
 
 # default settings for all ci jobs.
 default:
-  image: azadehafzarhub/gitlab-ci-ruby-build:latest
+  image: azadehafzarhub/gitlab-ci-ruby-build:ready
 
 # job for testing package against python version 3.6
 # on master branch and send test coverage result to
