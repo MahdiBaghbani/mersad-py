@@ -43,7 +43,7 @@ test python 3.6.9:
     - pipenv install --dev
   # run tests.
   script:
-    - python -V
+    - python3 -V
     - script/test.sh
   only:
     - branches
@@ -54,6 +54,7 @@ test python 3.6.9:
 test python 3.7.5:
   stage: test
   before_script:
+    - source ~/.bash_profile
     - pyenv global
     - python3 -V
     - pyenv global 3.7.5
@@ -64,7 +65,7 @@ test python 3.7.5:
     - pipenv install --dev
   # run tests.
   script:
-    - python -V
+    - python3 -V
     - script/test.sh
   except:
     - tags
@@ -72,13 +73,14 @@ test python 3.7.5:
 test python 3.8.0:
   stage: test
   before_script:
+    - source ~/.bash_profile
     # create virtual environment.
     - pipenv --python 3.8.0
     # install dependencies from the pipfile.
     - pipenv install --dev
   # run tests.
   script:
-    - python -V
+    - python3 -V
     - script/test.sh
   except:
     - tags
