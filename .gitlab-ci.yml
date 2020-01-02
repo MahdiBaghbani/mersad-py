@@ -25,7 +25,9 @@ test main branch:
     - pipenv install --dev
   # run tests.
   script:
-    - python -V
+    - python3 -V
+    - pipenv shell
+    - python3 -V
     - script/test.sh
   # send test coverage result to codeclimate.
   after_script:
