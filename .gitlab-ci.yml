@@ -15,18 +15,15 @@ test main branch:
   before_script:
     # run code climate test reporter agent.
     - cc-test-reporter before-build
-    - whereis pipenv
-    - ls -lsa /usr
-    - ls -lsa /usr/local
-    - ls -lsa /usr/local/bin
     # create virtual environment.
     - pipenv --python 3.6.9
     # install dependencies from the pipfile.
     - pipenv install --dev
   # run tests.
   script:
+    - pyenv global
     - python3 -V
-    - pipenv shell
+    - pyenv global 3.6.9
     - python3 -V
     - script/test.sh
   # send test coverage result to codeclimate.
@@ -57,6 +54,10 @@ test python 3.6.9:
 test python 3.7.5:
   stage: test
   before_script:
+    - pyenv global
+    - python3 -V
+    - pyenv global 3.7.5
+    - python3 -V
     # create virtual environment.
     - pipenv --python 3.7.5
     # install dependencies from the pipfile.
