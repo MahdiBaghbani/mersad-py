@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">Mersad Cryptography Library</h1>
-<h3 align="center">A side project of a Telecommunication student who loves ciphers.</h3>
+<h3 align="center">A side project of a (bad) Telecommunication student who loves ciphers.</h3>
 <p align="center">
 
 <p align="center">
@@ -30,9 +30,6 @@
   </a>
   <a title="Code Quality: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library/maintainability" target="_blank">
     <img src="https://img.shields.io/codeclimate/maintainability/azadeh-afzar/Mersad-Cryptography-Library?logo=code-climate&style=flat-square" alt="CodeClimate rating"/>
-  </a>
-  <a title="Code Quality: Scrutinizer-ci.com" href="https://scrutinizer-ci.com/g/azadeh-afzar/Mersad-Cryptography-Library/?branch=master" target="_blank">
-    <img src="https://img.shields.io/scrutinizer/quality/g/azadeh-afzar/Mersad-Cryptography-Library/master?logo=scrutinizer&style=flat-square" alt="Scrutinizer-ci rating"/>
   </a>
   <a title="Code Technical Debt: CodeClimate.com" href="https://codeclimate.com/github/azadeh-afzar/Mersad-Cryptography-Library/maintainability" target="_blank">
     <img src="https://img.shields.io/codeclimate/tech-debt/azadeh-afzar/Mersad-Cryptography-Library?logo=code-climate&style=flat-square" alt="CodeClimate technical debt"/>
@@ -63,12 +60,18 @@
   </a>
 </p>
 
-> If you want to do any serious jobs :poop: with this tool, prepare yourself to get fired :fire:! 
+>Despite the fancy name "Cryptography Library"! this Project isn't anything close to real industry
+>(ehem ... I mean military) level cryptography library.
 
-## Why is Gamora?
+## Mersad? what does it mean?
+
+In Persian (and Arabic) language, "Mersad" means "Hidden", which makes it a perfect choice
+for my cryptography library. 
+
+## Why is Gamora (yes, I'm a Marvel fan)?
 
 In summer 2019 I had decided to practice Python and DevOps tasks like: continuous 
-integration and automated releasing software to packaging sources like pypi, I don't 
+integration and automated releasing software to packaging sources like PYPI, I don't 
 know how I ended up here writing this for you!
 (even like if there is any "you" out there looking at this little side project of mine.)
 
@@ -77,41 +80,39 @@ without using pen and paper, Mersad can help you. (but seriously, :joy: unbreaka
 
 Oh and I :heart: codes and ciphers!
 
-
 ## Quick start
 
 I'm sure you have worked with Python before and you are familiar with how to download
-and install packages using pip, so here is how to install this totally (not at all)
+and install packages using pip, so here is how to install this totally (not at all :poop:)
 secure package:
 
 ```bash
 # 1. if you are an uncivilised savage living in a hell of dependency conflicts who doesn't 
 # even heard of virtual environments and always install packages in sudo mode, here you go:
 sudo -H pip3 install mersad
-# or just use a little bit better non-sudo thing
+
+# 2. another option is a non-sudo thing like:
 pip3 install --user mersad
 
 # 2. if you are a man of culture, activate your virtual environment and type this:
 pip3 install mersad
-# pipenv is also a good thing to use (only heroes use it
+
+# 3. pipenv is also a good thing to manage virtual environments and packages to use (I prefer this :smiley:):
 pipenv install mersad
 ```
 
 ## Wait a second, What's Cryptography?
 
-Honestly? I don't know either ... :grimacing:. smart guys gather together to invent
-a way for communicating with their lovers in secret and other (literally) more smart
-guys will try to find a way to break their code and read their love messages 
-(they succeed), but they are enough stupid to tell everyone about it, so first group 
-will try to find new encryption algorithms for their messages. This never ending 
-cycle continues until today.
+Honestly? I don't know either ... :grimacing:. seems a group of smart guys are inventing
+ways (or what they call them "algorithms") to hide messages from others, and those "others"
+somehow are finding ways to break their algorithms and read their messages.
 
 Apparently people are calling the work of first group (designing encryption algorithms)
 "Cryptography" and the work of second group (breaking those stupid ciphers) "Cryptanalysis".
 
 ## How does this package work?
 
-Good question, it doesn't. 
+Good question, it doesn't.
 
 But if you are so smart and managed to make it work for you, here is some 
 explanation about the mess that is going on:
@@ -124,8 +125,9 @@ to break ciphers.
 
 Each cipher has a class and a translator function, you can use any of them or both of 
 them together.
-the translator function is no memory and requires every argument in 
-each call but class have memory and can store key, alphabet and etc.
+
+the translator function has no memory and requires every argument in 
+each call but class have memory and can store key, alphabet sequence and etc.
 
 ### Example
 
@@ -138,6 +140,8 @@ MESSAGE = "Hail Caesar!"
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 KEY = 4
 
+# example 1: using translator function:
+
 CIPHER = shift_cipher_translator(MESSAGE, key=KEY, letter_sequence=ALPHABET)
 print(CIPHER)
 # Out: Hemp Ceiwev!
@@ -145,6 +149,7 @@ print(CIPHER)
 # with translator function you need to pass all arguments
 # in each call again and again.
 
+# example 2: using cipher class.
 # now the  second way of using shift cipher is using the class instead of function.
 
 # create object without any keyword arguments so agent will use
@@ -160,23 +165,24 @@ agent.config(key=3453, letter_sequence=ALPHABET)
 # config usage is to override any existing properties with 
 # new values at any time after creating the object.
 
-# encrypt a string.
+# encrypt a string:
 print(agent.encrypt("Hail Julius Caesar."))
 # Out:  'Hvdg Jpgdpn Cvznvm.'
 
 # with this object approach you don't need to pass every thing in each call to
 # encrypt or decrypt.
-# another one
+
+# another one:
 print(agent.encrypt("This method is not secure :0 but it is funny."))
 # Out: Tcdn hzocjy dn ijo nzxpmz :0 wpo do dn apiit.
 
-# for decryption simply call decrypt method on agent
-print(agent.decrypt("This method is not secure :0 but it is funny."))
-# Out: Tcdn hzocjy dn ijo nzxpmz :0 wpo do dn apiit.
+# for decryption simply call decrypt method on agent:
+print(agent.decrypt("Tcdn hzocjy dn ijo nzxpmz :0 wpo do dn apiit."))
+# Out: This method is not secure :0 but it is funny.
 
 ``` 
 
-for more examples look at
+for more examples look at:
 [snippets](https://gitlab.com/Azadeh-Afzar/Cryptography/Mersad-Cryptography-Library/snippets).
 
 
@@ -185,7 +191,7 @@ for more examples look at
 Yes! :metal:
 
 Each cipher module have a corresponding cli program with name convention of:
-`mclModuleName`. For example to run Shift cipher module in terminal just type `mclShift`.
+`mcl`+`ModuleName`. For example to run Shift cipher module in terminal just type `mclShift`.
 To learn how to work with cli programs type `--help` after program name
 (e.g. `mclShift --help`).
 
@@ -211,5 +217,5 @@ Licensed under the [AGPLv3](LICENSE).
 - Books: [Cracking Codes with Python](https://inventwithpython.com/cracking) and 
          [Understanding Cryptography](https://www.springer.com/gp/book/9783642041006)
 - Code ideas: [PyCryptodome](https://www.pycryptodome.org)
-- Mersad Logo: Designed with [OpenMoji](https://openmoji.org/)
 - Online resources: [Crypto Corner](https://crypto.interactive-maths.com)
+- Mersad Logo: Designed with [OpenMoji](https://openmoji.org/)
